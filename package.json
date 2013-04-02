@@ -1,0 +1,35 @@
+{
+  "name": "blakeembrey.com",
+  "subdomain": "blakeembrey-blog",
+  "domains": [
+    "blakeembrey.com",
+    "www.blakeembrey.com"
+  ],
+  "version": "0.0.1-4",
+  "description": "Personal blog",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "predeploy": "wintersmith build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/blakeembrey/blakeembrey.com.git"
+  },
+  "keywords": [
+    "blog",
+    "personal",
+    "Blake",
+    "Embrey"
+  ],
+  "author": "Blake Embrey",
+  "license": "MIT",
+  "dependencies": {
+    "connect": "~2.7.4"
+  },
+  "engines": {
+    "node": "0.8.x"
+  }
+}

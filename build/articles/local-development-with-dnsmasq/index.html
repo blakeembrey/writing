@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Simplify Local Development with DnsmasqBlake Embrey
+    </title>
+    <link rel="alternate" href="http://localhost:8080/feed.xml" type="application/rss+xml" title="">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,800italic,400,800">
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="container cf">
+        <ul class="links">
+          <li><a href="/">home</a></li>
+          <li><a href="http://twitter.com/blakeembrey">twitter</a></li>
+          <li><a href="http://github.com/blakeembrey">github</a></li>
+        </ul>
+      </div>
+    </nav>
+    <main id="main" class="container">
+      <div class="content">
+        <header class="title">
+          <h1>Simplify Local Development with Dnsmasq</h1>
+        </header>
+        <article class="article"><p>Ever wanted to be able to set up your local domains instantly and never have to worry about your <code>/etc/hosts</code> again? Me too! A bit of looking around and I discovered a wealth of information about a small <em>DNS Forwarder</em> called DNSMASQ.
+
+</p>
+<p>So, this is great. We have our solution - it&apos;s a tiny program barely taking 700KB of RAM, and it&apos;s a cinch to set up. By the end of this post, you will have a working TLD for use with your local development applications. No more playing with your <code>/etc/hosts</code> file every time you want to add a new domain.
+
+</p>
+<p>In this tutorial, I will be focusing on Mac as it is the OS I use, however, the instructions should be fairly similar on linux. It has been tested in Mountain Lion and should work without a hiccup all the way down to Leopard (probably lower).
+
+</p>
+<p>First of all, if you haven&apos;t installed it already, we will install <strong>homebrew</strong> - the missing package manager for OS X. To install, just follow the instructions available on <a href="http://mxcl.github.com/homebrew/">the homepage</a> or just copy and paste this snippet into terminal:
+
+</p>
+<pre><code>/usr/bin/ruby -e "$(/usr/bin/curl -fksSL https://raw.github.com/mxcl/homebrew/master/Library/Contributions/install_homebrew.rb)"</code></pre>
+<p>Once brew is installed, we&apos;ll install dnsmasq using <code>brew install dnsmasq</code>
+
+</p>
+<p>Next, let&apos;s activate dnsmasq. Homebrew should have output some hints on how to get started, but in case you missed it  should be something along these lines.
+
+</p>
+<pre><code>cp /usr/local/Cellar/dnsmasq/2.57/dnsmasq.conf.example /usr/local/etc/dnsmasq.conf
+sudo cp /usr/local/Cellar/dnsmasq/2.57/homebrew.mxcl.dnsmasq.plist /Library/LaunchDaemons
+sudo launchctl load -w /Library/LaunchDaemons/homebrew.mxcl.dnsmasq.plist</code></pre>
+<p>Brilliant, now let&apos;s modify our configuration file at <code>/usr/local/etc/dnsmasq.conf</code>:
+
+</p>
+<p>We&apos;ll add two rules. The first is the address, or TLD, we will listen to. In this case we will use <code>.dev</code>, but you can use anything (except <code>.local</code> - <a href="http://www.justincarmony.com/blog/2011/07/27/mac-os-x-lion-etc-hosts-bugs-and-dns-resolution/">not a good idea</a>)
+
+</p>
+<pre><code>address=/dev/127.0.0.1
+listen-address=127.0.0.1</code></pre>
+<p>To start and stop dnsmasq, simply use
+
+</p>
+<pre><code>sudo launchctl stop homebrew.mxcl.dnsmasq &amp;&amp; sudo launchctl start homebrew.mxcl.dnsmasq</code></pre>
+<p>However, I found it even easier to just kill the script in the Activity Monitor. For the final step, add <code>127.0.0.1</code> as a name server in <code>System Preferences -&gt; Network -&gt; Advanced -&gt; DNS</code>. You can add it along with some other DNS records, just make sure it&apos;s at the top. For example, I use Google&apos;s Public DNS - <code>8.8.8.8</code> and <code>8.8.4.4</code>.
+
+</p>
+<p>Now in whichever language you are writing in, you should be able to easily set up your virtual hosts for use on the <code>.dev</code> TLD. You should be even able to see your name server setup using <code>scutil --dns</code>.
+
+</p>
+<p>References:
+
+</p>
+<ul>
+<li><a href="http://serverfault.com/a/164215">ServerFault Question</a></li>
+<li><a href="http://blog.philippklaus.de/2012/02/install-dnsmasq-locally-on-mac-os-x-via-homebrew/">Install DNSmasq locally on Mac OS X via Homebrew</a></li>
+</ul>
+</article>
+        <footer class="footer">- Blake Embrey</footer>
+      </div>
+    </main>
+  </body>
+</html>

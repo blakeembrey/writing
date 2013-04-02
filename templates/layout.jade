@@ -1,0 +1,24 @@
+!!! 5
+html(lang='en')
+  head
+    block head
+      meta(charset='utf-8')
+      title
+        block title
+          = locals.name
+      link(rel='alternate', href=locals.url+'/feed.xml', type='application/rss+xml', title=locals.description)
+      link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,800italic,400,800')
+      link(rel='stylesheet', href='/css/main.css')
+  body
+    nav.nav
+      div.container.cf
+        ul.links
+          li
+            a(href='/')= 'home'
+          li
+            a(href='http://twitter.com/blakeembrey')= 'twitter'
+          li
+            a(href='http://github.com/blakeembrey')= 'github'
+    main.container#main
+      div.content
+        block content

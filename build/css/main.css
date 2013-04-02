@@ -1,0 +1,384 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  min-width: 20em;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 100%;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  color: #fff;
+  background-color: #f20;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px dotted #fff;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 1em;
+  max-width: 40em;
+}
+
+.content ul {
+  padding-left: 1em;
+}
+
+@media (min-width: 42em) {
+  .content ul {
+    padding-left: 0;
+  }
+}
+
+.content .title {
+  padding: 1em 0;
+  border-bottom: 6px solid #fff;
+}
+
+.content .title h1 {
+  font-size: 2.5em;
+  line-height: 0.95;
+}
+
+@media (min-width: 34em) {
+  .content .title h1 {
+    font-size: 3em;
+  }
+}
+
+.content {
+  font-size: 1.5em;
+  line-height: 1.6;
+}
+
+.content img {
+  width: auto;
+  height: auto;
+  border: 0;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.content blockquote {
+  font-size: 1.25em;
+  font-style: italic;
+  font-weight: 800;
+  line-height: 1.1;
+  margin: 1em 0.5em;
+}
+
+.footer {
+  padding: 1em 0;
+  font-size: 1.2em;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.archive {
+  font-size: 0.75em;
+}
+
+.archive ul {
+  padding: 0;
+  list-style: none;
+}
+
+.archive .post {
+  margin: 15px 0;
+  line-height: 1.2;
+}
+
+.archive .post a {
+  border-bottom: 0;
+}
+
+.archive .date {
+  float: left;
+  width: 8.6em;
+  display: none;
+}
+
+@media (min-width: 28em) {
+  .archive .date {
+    display: block;
+  }
+}
+
+.nav {
+  border-bottom: 1px solid #c7c7c7;
+  background-color: #edf0f2;
+}
+
+.nav,
+.nav a {
+  color: #000;
+}
+
+.nav .links {
+  float: right;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-transform: lowercase;
+}
+
+.nav .links li {
+  float: left;
+  padding: 0.4em 0.2em;
+  font-size: 1.3em;
+}
+
+.nav .links a {
+  border-bottom: 0;
+  -webkit-transition: color .3s linear;
+  -moz-transition: color .3s linear;
+  -ms-transition: color .3s linear;
+  -o-transition: color .3s linear;
+  transition: color .3s linear;
+}
+
+.nav .links a:hover {
+  color: #f20f20;
+}
+
+.nav .links a:after,
+.nav .links a:before {
+  content: "{";
+  color: #000;
+  padding: 0 1px;
+  opacity: 0;
+}
+
+.nav .links a:after {
+  content: "}";
+}
+
+.nav .links a:hover:after,
+.nav .links a:hover:before {
+  opacity: 1;
+}
+
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+/* Extracted from fundamentum type styles */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: inherit;
+  margin: 0.25em 0;
+  font-family: inherit;
+  font-weight: 800;
+  text-rendering: optimizeLegibility;
+}
+h1 {
+  font-size: 2.57em;
+  line-height: 1.11;
+}
+h2 {
+  font-size: 2.14em;
+  line-height: 1.33;
+}
+h3 {
+  font-size: 1.71em;
+  line-height: 1.66;
+}
+h4 {
+  font-size: 1.28em;
+  line-height: 1.11;
+}
+h5 {
+  font-size: 1em;
+  line-height: 1.42;
+}
+h6 {
+  font-size: 0.857em;
+  line-height: 1.66;
+}
+
+/* End fundamentum extract */
+
+/* Extract from code-block */
+
+code,
+pre {
+  color: #333;
+  padding: 0 0.2em 0.15em;
+  overflow: auto;
+  font-size: 85%;
+  font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+code {
+  color: #c7254e;
+  font-size: 85%;
+  padding: 0.2em 0.3em;
+  background-color: #f9f2f4;
+}
+pre {
+  margin: 0 0 0.75em;
+  padding: 1em;
+  display: block;
+  line-height: 1.5;
+  white-space: pre;
+  border: 1px solid #ccc;
+  border-left-width: 6px;
+  background: #f5f5f5;
+}
+pre code {
+  color: inherit;
+  border: 0;
+  padding: 0;
+  font-size: 100%;
+  background: none;
+  white-space: pre;
+}
+.pre-scrollable {
+  max-height: 15.5em;
+  overflow-y: scroll;
+}
+
+/* End extract from code-block */
+
+/* github.com style (c) Vasily Polovnyov <vast@whiteants.net> */
+
+pre .comment,
+pre .template_comment,
+pre .diff .header,
+pre .javadoc {
+  color: #998;
+  font-style: italic
+}
+
+pre .keyword,
+pre .css .rule .keyword,
+pre .winutils,
+pre .javascript .title,
+pre .lisp .title,
+pre .subst {
+  color: #000;
+  font-weight: bold
+}
+
+pre .number,
+pre .hexcolor {
+  color: #40a070
+}
+
+pre .string,
+pre .tag .value,
+pre .phpdoc,
+pre .tex .formula {
+  color: #d14
+}
+
+pre .title,
+pre .id {
+  color: #900;
+  font-weight: bold
+}
+
+pre .javascript .title,
+pre .lisp .title,
+pre .subst {
+  font-weight: normal
+}
+
+pre .class .title,
+pre .haskell .label,
+pre .tex .command {
+  color: #458;
+  font-weight: bold
+}
+
+pre .tag,
+pre .tag .title,
+pre .rules .property,
+pre .django .tag .keyword {
+  color: #000080;
+  font-weight: normal
+}
+
+pre .attribute,
+pre .variable,
+pre .instancevar,
+pre .lisp .body {
+  color: #008080
+}
+
+pre .regexp {
+  color: #009926
+}
+
+pre .class {
+  color: #458;
+  font-weight: bold
+}
+
+pre .symbol,
+pre .ruby .symbol .string,
+pre .ruby .symbol .keyword,
+pre .ruby .symbol .keymethods,
+pre .lisp .keyword,
+pre .tex .special,
+pre .input_number {
+  color: #990073
+}
+
+pre .builtin,
+pre .built_in,
+pre .lisp .title {
+  color: #0086b3
+}
+
+pre .preprocessor,
+pre .pi,
+pre .doctype,
+pre .shebang,
+pre .cdata {
+  color: #999;
+  font-weight: bold
+}
+
+pre .deletion {
+  background: #fdd
+}
+
+pre .addition {
+  background: #dfd
+}
+
+pre .diff .change {
+  background: #0086b3
+}
+
+pre .chunk {
+  color: #aaa
+}
+
+pre .tex .formula {
+  opacity: 0.5;
+}
+
+/* End github.com style */

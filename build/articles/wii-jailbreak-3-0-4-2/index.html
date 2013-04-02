@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Jailbreak Wii (Softmod) 3.0 – 4.2Blake Embrey
+    </title>
+    <link rel="alternate" href="http://localhost:8080/feed.xml" type="application/rss+xml" title="">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,800italic,400,800">
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="container cf">
+        <ul class="links">
+          <li><a href="/">home</a></li>
+          <li><a href="http://twitter.com/blakeembrey">twitter</a></li>
+          <li><a href="http://github.com/blakeembrey">github</a></li>
+        </ul>
+      </div>
+    </nav>
+    <main id="main" class="container">
+      <div class="content">
+        <header class="title">
+          <h1>Jailbreak Wii (Softmod) 3.0 – 4.2</h1>
+        </header>
+        <article class="article"><p><img src="http://d.pr/i/SvZy+" alt="Homebrew Channel">
+
+</p>
+<p><strong>IMPORTANT: This information is for research and academic purposes only! This info is not to be abused! I am not responsible for any damage that you may create!</strong>
+
+</p>
+<p>Although I did successfully complete this guide on my own Wii console, it does not mean that this same process will successfully jailbreak your Wii console. Make sure you read and complete all steps appropriately.
+
+</p>
+<p><strong>Prerequisites</strong>
+
+
+</p>
+<ul>
+<li>Check your Wii version. This can be done by going to <code>Wii Settings -&gt; Top Right Corner -&gt; Your Wii&apos;s Firmware &amp; Region</code></li>
+<li>Jailbreak file [3.0-4.1] – <a href="http://www.mediafire.com/?rv3w0le0nrf7mm1">Mediafire</a> (Password is <code>wiihacks</code>)</li>
+<li>Jailbreak file [4.2] – <a href="http://www.mediafire.com/?9ulaa2elqvu7z4z">Mediafire</a> (Password is <code>wiihacks</code>)</li>
+<li>SD card with 1GB or more.</li>
+</ul>
+<p><strong>Preparation</strong>
+
+</p>
+<ol>
+<li>Format your SD card to FAT32 or FAT16</li>
+<li>Make Sure WiiConnect 24 is OFF</li>
+<li>Unzip the previously downloaded jailbreak pack and place the files/folders onto the root of your SD card.</li>
+<li>Always launch md5summer.exe to verify that the files have been downloaded properly and they are not corrupted.</li>
+</ol>
+<p><strong>Step 1 – Installing Homebrew Channel and Bootmii</strong>
+
+</p>
+<p><strong>[3.0-4.1]</strong> Go to Wii Options, then go to <code>Data Management -&gt; Channels -&gt; SD Card</code>, click on <code>Bannerbomb channel</code>, you will get a message saying &quot;Load boot.elf/dol?&quot;, select &apos;Yes&apos; and the Hackmii installer will run.
+
+</p>
+<p><strong>[4.2]</strong> Click the SD Card Icon on the Wii Menu – &quot;Load boot.elf/dol?&quot;, select &apos;Yes&apos; and the Hackmii installer will run.
+
+</p>
+<p>In the Hackmii Installer, make sure to install the Homebrew Channel. If you can, also install Bootmii as boot2. When installing bootmii select prepare SD card, then install. &quot;Bootmii as IOS&quot; is installed automatically.
+
+</p>
+<p>(If you receive an error stating “No vulnerable IOS”, <a href="http://www.wiihacks.com/recommended-faqs-guides-tutorials-only/29080-hackmii-fix-no-vulnerable-ios-black-screen-scam-freeze.html">complete these steps</a>.
+
+</p>
+<p><strong>Step 2 – Backup Your Wii&apos;s NAND (required)</strong>
+
+</p>
+<p>It is highly recommended to make a NAND Backup with bootmii as it can save you from 99% of bricks. That is, if you can install bootmii as boot2. You&apos;ll need a SD Card with at least 550 MB free on it. Also, note bootmii can be picky about SD Cards so its best to avoid generic ones. The 2GB Sandisk SD Card is recommended.
+
+</p>
+<p><strong>a)</strong> Place the SD Card into your wii and power it on. If bootmii was installed as boot2, the bootmii screen should automatically appear, if it was installed as an IOS, then you&apos;ll have to go to homebrew channel, press &quot;home&quot; on your wiimote then select &quot;Launch Bootmii&quot;
+
+</p>
+<p><strong>b)</strong> Navigate using the power/reset buttons on the front of your console and select the icon with the gears on it. If the console buttons don&apos;t work, you&apos;ll have to use a gamecube controller.
+
+</p>
+<p>Power = Browse
+Reset = Select
+
+</p>
+<p><strong>c)</strong> Now select the icon that has the Green arrow pointing to a SD Card but from the chip. Then follow the on-screen instructions to backup your NAND.
+
+</p>
+<p><strong>d)</strong> In 10 – 15 minutes, the NAND Backup should be complete. You may get a few bad blocks but any number of bad blocks under 80 is normal and fine. Once all is done, you can exit bootmii.
+
+</p>
+<p><strong>e)</strong> Remove the SD Card from your wii and insert into your PC, backup the &apos;bootmii&apos; folder, the &apos;NAND.bin&apos; file and &apos;key.bin&apos; file from your sd card onto a safe place on your PC. Once these files/folders are on your PC, delete them from your SD Card. If you do not and bootmii as boot2 is installed, it will load everytime!
+
+</p>
+<p><strong>DO NOT LOSE YOUR NAND.BIN OR KEYS.BIN</strong>
+
+</p>
+<p>If you were to ever fully brick the wii, just copy the bootmii folder and &apos;NAND.bin&apos; from your PC onto the root of your SD Card. Then repeat parts <code>a</code>, <code>b</code> &amp; <code>c</code> but this time selecting the icon that points to the chip. While <code>bootmii</code>/<code>boot2</code> can save you from full bricks, <code>bootmii</code>/<code>IOS</code> cannot! It is not recommended to use <code>bootmii</code> as an <code>IOS</code> to restore your NAND! If you can only install as an <code>IOS</code>, your nand backup is still useful, keep it safe.
+
+</p>
+<p><strong>Step 3 – Modding your Wii (the jailbreak)</strong>
+
+</p>
+<p><strong>[3.0-4.1 Only]</strong>
+
+</p>
+<p><strong>a)</strong> Put the SD card into the Wii
+
+</p>
+<p><strong>b)</strong> Open The Homebrew channel and select Multi-Mod Manager. Go to <code>Install &amp; Patch iOS36 -&gt; Express Install</code> - When completed press <code>B</code> to go back into main menu go to the bottom choice <code>Load Another IOS</code> and select <code>IOS236</code> (this should already be selected).
+
+</p>
+<p>In Multi-Mod Manager go into <code>Wad Manager</code>, it should display these wads.
+
+</p>
+<p>(These are to softmod your Wii)
+
+</p>
+<p>  iOS60-[6174]-Patched.wad
+  cIOS249[56]-rev20.wad
+  cIOS250[57]-rev65535.wad
+  cIOS223[37+38]-rev4.wad
+  cIOS222[38]-rev4.wad
+
+</p>
+<p>(These are to install the extra IOS files)
+
+</p>
+<p>  iOS53-64-v5663.wad
+  iOS55-64-v5663.wad
+  iOS56-64-v5662.wad
+  iOS57-64-v5919.wad
+  iOS58-64-v6176.wad
+
+</p>
+<p><strong>c)</strong> Press 1 on Wiimote to install all these wads at once, Press A to confirm. If you get an error do not exit until they all install correctly. Retry installing
+
+</p>
+<p>After it installs correctly press the HOME button on Wiimote until you&apos;re back in main Multi-Mod Manager Menu.
+
+</p>
+<p><strong>[4.2 Only]</strong>
+
+</p>
+<p><strong>a)</strong> SD card in the Wii
+<strong>b)</strong> Open The Homebrew channel and select Multi-Mod Manager. Go to <code>Install &amp; Patch iOS36 -&gt; Express Install</code> - Once completed press B to go back into main menu go to the bottom choice <code>Load Another IOS</code> and select <code>IOS236</code> (this should already be selected).
+
+</p>
+<p>In Multi-Mod Manager go into Wad Manager, it should display these wads.
+
+</p>
+<p>(These are to softmod your wii)
+
+</p>
+<p>  iOS70-[6687]-Patched.wad
+  cIOS249[56]-rev20.wad
+  cIOS250[57]-rev65535.wad
+  cIOS222[38]-rev4.wad
+  cIOS223[37+38]-rev4.wad
+
+</p>
+<p>(These are the IOS your Wii needs)
+
+</p>
+<p>  iOS56-64-v5662.wad
+  iOS57-64-v5919.wad
+  iOS58-64-v6176.wad
+
+</p>
+<p><strong>c)</strong> Press 1 on wiimote to install all these wads at once, Press A to confirm. If you get an error do not exit until they install correctly. Retry installing.
+
+</p>
+<p>After they have all installed correctly press the B button on Wiimote until you&apos;re back in main Multi-Mod Manager Menu.
+
+</p>
+<p><strong>Step 4 – Installing Priiloader</strong>
+
+</p>
+<p><code>HBC -&gt; Load up MMM</code>. Make sure where it says Load another ios [IOS236 is Selected]
+
+</p>
+<p><strong>a)</strong> <code>Multi-Mod Manager -&gt; App Manager -&gt; Select Priiloader</code>
+
+</p>
+<p><strong>b)</strong> It Should Load up Press + to Install
+
+</p>
+<p><strong>c)</strong> Your Wii should reboot into Homebrew Channel after the installation. Press the HOME button and power off your Wii. Hold reset on the console while turning it on to boot into Priiloader. Go to System Menu Hacks and enable &apos;Block Disc Updates&apos; &amp; &apos;Block Online Updates&apos;, select &apos;Save Settings&apos; when finished. Press B on the Wiimote to go back to the main menu, next go to Settings and use the d-pad to set Autoboot: System Menu. Then select Save Settings. Press B to go back to the main menu.
+
+</p>
+<p><strong>d)</strong> In the main menu in priiloader, select Launch Title and select the HomeBrew Channel to check if its working properly.
+
+</p>
+<p><strong>Step 5 – Getting HBC to use iOS58 for USB2 Support</strong>
+
+</p>
+<p>From the Homebrew channel load up the hackmii installer and reinstall the Homebrew channel. This will make it use ios58 for USB2 Support.To check your HBC is using iOS58 press the home button when in HBC and it should tell you in top right corner.
+
+</p>
+<p><strong>Step 6 – Install more apps</strong>
+
+</p>
+<p>This is what the whole jailbreak process was for, installing custom apps. Here is a list of some awesome apps, starting at my favourite.
+
+</p>
+<ul>
+<li><a href="http://www.wiimc.org/downloads/">WiiMC</a> – Wii Media Center</li>
+<li><a href="http://www.wiihacks.com/other-faq-guides-tutorials/68251-guide-homebrew-browser.html">Homebrew Browser</a> - Wii Homebrew App Store</li>
+<li>Update the <a href="http://www.wiihacks.com/general-homebrew-hack-issues/67034-update-shopping-channel-v20-guide.html">Wii Shopping Channel</a> to v20</li>
+<li><a href="http://www.wiihacks.com/recommended-faqs-guides-tutorials-only/47802-play-gamecube-backups-your-wii.html">Play Gamecube games</a> on your Wii</li>
+<li><a href="http://www.wiihacks.com/emulators-downloads/">Emulators</a></li>
+<li><a href="http://www.wiihacks.com/other-faq-guides-tutorials/66235-ftpii-guide.html">Wii FTP</a></li>
+</ul>
+<p><strong>And you are done!</strong>
+
+</p>
+<p>Special thanks to author, <em>Cile</em>, for the original guide over at <a href="http://www.wiihacks.com/recommended-faqs-guides-tutorials-only/69690-softmod-3-0-4-2-e-u-j-wiis.html">WiiHacks</a>.</p>
+</article>
+        <footer class="footer">- Blake Embrey</footer>
+      </div>
+    </main>
+  </body>
+</html>
