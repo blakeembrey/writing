@@ -5,7 +5,7 @@
     "blakeembrey.com",
     "www.blakeembrey.com"
   ],
-  "version": "0.0.1-4",
+  "version": "0.0.1-13",
   "description": "Personal blog",
   "private": true,
   "main": "index.js",
