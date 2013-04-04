@@ -74,6 +74,8 @@ git checkout media-query-colon
 git rebase -i master # Interactively rebase
 ```
 
+![Rebase process](http://f.cl.ly/items/1k3N1Q1I282p3Y3J233L/CapturFiles_6.png)
+
 A rebase will rewrite your commit history, so you can squash commits together into a single commit and clean up all the changes you have made. It'll also move the commits to be the lastest in the commit log. Because the history will be rewritten, next time you push you'll probably need to use the force push flag which overrides the remote commit (`git push -f`).
 
 Luckily, with the way GitHub works, any commits in the branch - new or old -  will be appended to your pull request. This makes is simple to quickly iterate on any issues raised by fellow developers or the project owner.
