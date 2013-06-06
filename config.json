@@ -1,8 +1,26 @@
 {
   "locals": {
-    "url": "http://localhost:8080",
+    "url": "http://blakeembrey.com/",
     "name": "Blake Embrey",
     "owner": "Blake Embrey",
-    "description": ""
+    "description": "My thoughts materialised into a blog"
+  },
+  "plugins": [
+    "./plugins/paginator.coffee"
+  ],
+  "require": {
+    "_": "underscore",
+    "moment": "moment",
+    "typogr": "typogr"
+  },
+  "jade": {
+    "pretty": true
+  },
+  "markdown": {
+    "smartLists": true,
+    "smartypants": true
+  },
+  "paginator": {
+    "perPage": 10
   }
 }

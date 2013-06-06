@@ -1,20 +1,28 @@
 extends layout
 
 block content
-  != page.html
-  - var archive = _.chain(contents.articles._.directories).map(function(item) {
-  -   return item.index
-  - }).compact().sortBy(function(item) {
-  -   return -item.date
-  - }).value()
-  - var map = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
+  include author
+  each article in articles
+    article.article.intro
+      header
+        p.date
+          span= moment(article.date).format('DD. MMMM YYYY')
+        h2
+          a(href=article.url)= article.title
+      section.content
+        !{ typogr(article.intro).typogrify() }
+        if article.hasMore
+          p.more
+            a(href=article.url) more
 
-  section.archive
-    ul.posts
-      each article in archive
-        li.post.cf
-          a(href=article.url)
-            time.date(datetime=article.date.toISOString())
-              = article.date.getFullYear()
-              strong= ' ' + map[article.date.getMonth()]
-            = article.title
+block prepend footer
+  div.nav
+    if prevPage
+      a(href=prevPage.url) « Newer
+    else
+      a(href='/archive.html') « Archives
+    if nextPage
+      a(href=nextPage.url) Next page »
+
+
+

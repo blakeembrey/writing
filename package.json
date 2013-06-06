@@ -5,31 +5,18 @@
     "blakeembrey.com",
     "www.blakeembrey.com"
   ],
-  "version": "0.0.1-14",
+  "version": "0.1.0",
   "description": "Personal blog",
   "private": true,
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-    "predeploy": "wintersmith build"
+  "dependencies": {
+    "moment": "2.x",
+    "underscore": "1.4.x",
+    "typogr": "0.5.x"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/blakeembrey/blakeembrey.com.git"
   },
-  "keywords": [
-    "blog",
-    "personal",
-    "Blake",
-    "Embrey"
-  ],
   "author": "Blake Embrey",
-  "license": "MIT",
-  "dependencies": {
-    "connect": "~2.7.4"
-  },
-  "engines": {
-    "node": "0.8.x"
-  }
+  "license": "MIT"
 }
