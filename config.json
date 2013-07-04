@@ -10,8 +10,7 @@
   ],
   "require": {
     "_": "underscore",
-    "moment": "moment",
-    "typogr": "typogr"
+    "moment": "moment"
   },
   "jade": {
     "pretty": true
@@ -21,6 +20,6 @@
     "smartypants": true
   },
   "paginator": {
-    "perPage": 10
+    "perPage": 4
   }
 }

@@ -1,28 +1,21 @@
 extends layout
 
 block content
-  include author
   each article in articles
-    article.article.intro
-      header
-        p.date
-          span= moment(article.date).format('DD. MMMM YYYY')
-        h2
+    - var content = article.html.replace(/<[^>]+>/g, '')
+    article.content-article
+      header.content-header
+        small.header-metadata
+          span.timestamp= moment(article.date).format('MMMM D, YYYY')
+        h2.content-title
           a(href=article.url)= article.title
-      section.content
-        !{ typogr(article.intro).typogrify() }
-        if article.hasMore
-          p.more
-            a(href=article.url) more
-
-block prepend footer
-  div.nav
+      section.content!= content.substr(0, 250 + content.substr(250).search(/\s/)) + '...'
+  nav.navigation.cf
     if prevPage
-      a(href=prevPage.url) « Newer
-    else
-      a(href='/archive.html') « Archives
+      a.btn.navigation-next(href=prevPage.url)
+        | Newer&nbsp;&nbsp;
+        i.icon-right-dir
     if nextPage
-      a(href=nextPage.url) Next page »
-
-
-
+      a.btn.navigation-prev(href=nextPage.url)
+        i.icon-left-dir
+        | &nbsp;&nbsp;Older

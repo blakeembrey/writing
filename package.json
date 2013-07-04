@@ -1,17 +1,14 @@
 {
   "name": "blakeembrey.com",
-  "subdomain": "blakeembrey-blog",
-  "domains": [
-    "blakeembrey.com",
-    "www.blakeembrey.com"
-  ],
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Personal blog",
   "private": true,
   "dependencies": {
     "moment": "2.x",
-    "underscore": "1.4.x",
-    "typogr": "0.5.x"
+    "underscore": "1.4.x"
+  },
+  "scripts": {
+    "deploy": "make deploy"
   },
   "repository": {
     "type": "git",

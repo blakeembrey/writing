@@ -55,7 +55,7 @@ After running the test script, I usually find it useful to whip up a new test ba
 
 > In lieu of a formal styleguide, take care to maintain the existing coding style.
 
-When contributing to someone elses library, you'll want to make sure your coding style is matching the code which already exists. This is an important concept to understand, as it makes future commits easier to read through when all the code is consistent. [All code in any code-base should look like a single person typed it, no matter how many people contributed.](https://github.com/rwldrn/idiomatic.js/#all-code-in-any-code-base-should-look-like-a-single-person-typed-it-no-matter-how-many-people-contributed). You may find that some projects also include a [CONTRIBUTING.md](https://github.com/twitter/bootstrap/blob/master/CONTRIBUTING.md) file.
+When contributing to someone elses library, you'll want to make sure your coding style is matching the code which already exists. This is an important concept to understand, as it makes future commits easier to read through when all the code is consistent. [All code in any code-base should look like a single person typed it, no matter how many people contributed](https://github.com/rwldrn/idiomatic.js/#all-code-in-any-code-base-should-look-like-a-single-person-typed-it-no-matter-how-many-people-contributed). You may find that some projects also include a [CONTRIBUTING.md](https://github.com/twitter/bootstrap/blob/master/CONTRIBUTING.md) file.
 
 Somewhere during this time you'll want to commit your changes. Next, we'll want to push our changes back to the remote repository we cloned from earlier (`git push -u origin media-query-colon`). This will create a new branch on the remote repo to track from. Once the code is pushed back up to GitHub, you can create a pull request from your repo back to the original (`upstream`).
 
@@ -82,4 +82,4 @@ Luckily, with the way GitHub works, any commits in the branch - new or old -  wi
 
 ## Completion
 
-Now you are likely done. Depending on the repo and repo owner(s), it could take anywhere from a few minutes to a few weeks for your pull request to be reviewed. It won't always be perfect, and it may be denied. In the case of your pull request being denied, check out the feedback - it'll usually be really useful and maybe even give you an idea of where to go from there. If not, there are always more repos in need of contributors.
+Now you are likely done. Depending on the repo and repo owner(s), it could take anywhere from a few minutes to a few months for your pull request to be reviewed. It won't always be perfect, and it may be denied. In the case of your pull request being denied, check out the feedback - it'll usually be really useful and maybe even give you an idea of where to go from there. If not, there are always more repos in need of contributors.
