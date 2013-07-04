@@ -4,7 +4,7 @@ block append vars
   - bodyclass = 'article'
 
 block prepend title
-  | #{ page.title + " - "}
+  | #{ page.title + " • "}
 
 block prepend header
   a.home.icon-home.back-to-home(href='/', title=locals.name)
