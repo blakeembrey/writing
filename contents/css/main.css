@@ -34,6 +34,12 @@ blockquote {
   margin: 0 0 1.5em;
 }
 
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 ul {
   padding: 0 0 0 1.5em;
 }
@@ -138,7 +144,8 @@ code {
   padding: 0 0.3em;
   max-width: 100%;
   overflow-x: auto;
-  vertical-align: middle;
+  vertical-align: top;
+  border-color: #ccc;
 }
 
 pre > code {
