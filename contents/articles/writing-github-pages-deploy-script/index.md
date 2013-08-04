@@ -7,7 +7,7 @@ template: article.jade
 
 Lately I have found myself creating more and more sites of the static kind and deploying them Github Pages. Regularly, this would involve having a `public` directory which contains all the assets before I build them (think preprocessor - SASS, Less, Stylus, Jade, Browserify, Requirejs) and another `build` directory where these assets are compiled to during development, testing and deployment. I found myself doing this so often, I figured I'd better make a little Makefile script for me to easily deploy any directory to Github Pages.
 
-```sh
+```bash
 deploy:
   @grunt build
   @cd ./build && git init . && git add . && git commit -m \"Deploy\" && \
