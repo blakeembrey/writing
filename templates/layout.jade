@@ -1,7 +1,7 @@
 !!! 5
 block vars
   - var bodyclass = 'index';
-html(lang='en')
+html.no-js(lang='en')
   head
     block head
       meta(charset='utf-8')
@@ -16,6 +16,8 @@ html(lang='en')
       link(rel='stylesheet', href='/css/normalize.css')
       link(rel='stylesheet', href='/css/main.css')
       link(rel='stylesheet', href='/css/fontello.css')
+      script.
+        (function(d){d.className=d.className.replace(/\bno-js\b/,'js');})(document.documentElement);
       //if lt IE 9
         script(src='//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js')
   body(class=bodyclass)
