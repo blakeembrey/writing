@@ -9,7 +9,7 @@ block content
           span.timestamp= moment(article.date).format('MMMM D, YYYY')
         h2.content-title
           a(href=article.url)= article.title
-      section.content!= content.substr(0, 250 + content.substr(250).search(/\s/)) + '...'
+      section.content!= content.substr(0, 250 + content.substr(250).search(/\W/)) + '...'
   nav.navigation.cf
     if prevPage
       a.btn.navigation-next(href=prevPage.url)
