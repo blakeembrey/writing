@@ -7,7 +7,7 @@ template: article.jade
 
 Prompted by the many preference file posts recently, I have finally gotten around to posting my config with a few inline comments.
 
-```json
+```js
 {
   // Makes folders stand out from files
   "bold_folder_labels": true,
