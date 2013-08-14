@@ -7,7 +7,7 @@ template: article.jade
 
 Prompted by the many preference file posts recently, I have finally gotten around to posting my config with a few inline comments.
 
-```js
+```javascript
 {
   // Makes folders stand out from files
   "bold_folder_labels": true,
@@ -17,9 +17,8 @@ Prompted by the many preference file posts recently, I have finally gotten aroun
   "draw_white_space": "selection",
   // Always adds a trailing newline character
   "ensure_newline_at_eof_on_save": true,
-  // Exlude the defaults, plus any third-party module directories
-  "folder_exclude_patterns":
-  [
+  // Exludes directories from showing up in the sidebar and search
+  "folder_exclude_patterns": [
     ".svn",
     ".git",
     ".hg",
@@ -36,13 +35,11 @@ Prompted by the many preference file posts recently, I have finally gotten aroun
   // Make it obvious when I haven't saved something
   "highlight_modified_tabs": true,
   // Ignore VIM mode, it plays havoc with some of my other preferred shortcuts
-  "ignored_packages":
-  [
+  "ignored_packages": [
     "Vintage"
   ],
   // Draw all indent guides, but also draw the carets indent guide in a different color
-  "indent_guide_options":
-  [
+  "indent_guide_options": [
     "draw_active",
     "draw_normal"
   ],
@@ -50,8 +47,7 @@ Prompted by the many preference file posts recently, I have finally gotten aroun
   "line_padding_bottom": -1,
   "line_padding_top": -1,
   // Render a vertical ruler at the 80 character mark, tries to keep me considerate
-  "rulers":
-  [
+  "rulers": [
     80
   ],
   // Saving everytime I lose focus causes all sorts of conflicts
