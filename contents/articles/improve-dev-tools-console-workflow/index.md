@@ -29,7 +29,7 @@ However, this added formatting convenience can sometimes be a pain. This is espe
 
 We've all been there - playing with a DOM node in the elements tab, but now we need to use JavaScript on it. We could do a regular DOM traversal to find it, but then we have to remember the ID or tag name, maybe even some obscure combination involving classes. If you switch to the Console tab on the Developer Tools, you can always grab the latest node you had selected using the `$0` variable shortcut. In Chrome, this can even be expanded upon up to `$4` - that's the latest five elements you had selected.
 
-`$0` - `$4` are direct references to the DOM nodes, so you can start manipulating it directly by grabbing the inner text (`$0.innerText`) or passing it to jQuery for manipulation (`$($0)`). While on the subject, did you know Chrome also provides an alias to `document.querySelectorAll` under `$$` and `document.querySelector` under `$` (if jQuery hasn't overwriten it of course).
+`$0` - `$4` are direct references to the DOM nodes, so you can start manipulating it directly by grabbing the inner text (`$0.innerText`) or passing it to jQuery for manipulation (`$($0)`). While on the subject, did you know Chrome also provides an alias to `document.querySelectorAll` under `$$` and `document.querySelector` under `$` (if jQuery hasn't overwritten it of course).
 
 ## Other Useful Console Functions
 
