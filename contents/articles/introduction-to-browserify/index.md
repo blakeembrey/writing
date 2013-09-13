@@ -7,7 +7,7 @@ template: article.jade
 
 > require('modules') in the browser.
 
-[Browserify](https://github.com/substack/node-browserify) is a development tool that allows us to write node.js-style modules that compile for use in the browser. Just like node, we write our modules in seperate files, exporting external methods and properties using the `module.exports` and `exports` variables. We can even require other modules using the `require` function, and if we omit the relative path it'll resolve to the module in the `node_modules` directory.
+[Browserify](https://github.com/substack/node-browserify) is a development tool that allows us to write node.js-style modules that compile for use in the browser. Just like node, we write our modules in separate files, exporting external methods and properties using the `module.exports` and `exports` variables. We can even require other modules using the `require` function, and if we omit the relative path it'll resolve to the module in the `node_modules` directory.
 
 ## Getting Started
 
@@ -93,7 +93,7 @@ With the `-s <name>` option, we can create a bundle for public API consumption w
 
 ### External
 
-In a production website environment, you'll probably want to cut down on duplicate code being included by different modules. This can be done by using the `-x` flag, which specifies a module that should not be bundled directly with the build and instead required from the page itself. Combine this with the `-r` flag to explicitly require modules into a bundle, we can factor out common module dependencies and create a seperate bundle.
+In a production website environment, you'll probably want to cut down on duplicate code being included by different modules. This can be done by using the `-x` flag, which specifies a module that should not be bundled directly with the build and instead required from the page itself. Combine this with the `-r` flag to explicitly require modules into a bundle, we can factor out common module dependencies and create a separate bundle.
 
 ### Browserify Shim
 
