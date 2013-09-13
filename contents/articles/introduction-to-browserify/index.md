@@ -77,9 +77,9 @@ The most immediately obvious core modules that are useful on the client-side are
 
 ## Transforms
 
-The most powerful feature in Browserify are [source transforms](https://github.com/substack/node-browserify#list-of-source-transforms). Source transforms are stream between the resolved module file and when it is actually required inside the module. A simple use case for this is compiling CoffeeScript using [coffeeify](https://github.com/substack/coffeeify). There is no longer any need for a precompilation step, it just works.
+The most powerful feature in Browserify are [source transforms](https://github.com/substack/node-browserify#list-of-source-transforms). A source transform is a stream injected between the resolved module and the content that is returned. A simple use case for using a transform is compiling CoffeeScript using [coffeeify](https://github.com/substack/coffeeify). Using Coffeeify there is no longer a need for precompilation steps, it just works.
 
-There are loads more transforms and you can easily write your own. Some transforms I find myself consistently using are [brfs](https://github.com/substack/brfs) (inlines file contents), [hbsfy](https://github.com/epeli/node-hbsfy) (precompile Handlebars templates, *better performance and smaller footprint*), [uglifyify](https://github.com/hughsk/uglifyify) (uglify bundled modules with UglifyJS2) and [envify](https://github.com/hughsk/envify) (use environment variables within modules).
+There are loads more transforms and you can easily write your own. Some transforms I find myself using regularly are [brfs](https://github.com/substack/brfs) (inlines file contents), [hbsfy](https://github.com/epeli/node-hbsfy) (precompile Handlebars templates, *better performance and smaller footprint*), [uglifyify](https://github.com/hughsk/uglifyify) (uglify bundled modules with UglifyJS2) and [envify](https://github.com/hughsk/envify) (use environment variables within modules).
 
 ## Advanced Options
 
