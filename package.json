@@ -4,10 +4,12 @@
   "description": "Personal blog",
   "private": true,
   "dependencies": {
-    "moment": "2.x",
-    "underscore": "1.4.x"
+    "moment": "~2.5.0",
+    "underscore": "~1.4.4",
+    "wintersmith": "~2.0.9"
   },
   "scripts": {
+    "preview": "wintersmith preview",
     "deploy": "rm -rf ./build; wintersmith build; cd ./build && git init . && git add . && git commit -m \"Deploy\"; git push \"git@github.com:blakeembrey/blakeembrey.com.git\" master:gh-pages --force && rm -rf .git"
   },
   "repository": {

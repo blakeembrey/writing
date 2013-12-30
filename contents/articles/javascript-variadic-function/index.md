@@ -1,0 +1,76 @@
+---
+title: JavaScript Variadic Utility
+date: 2013-12-29 23:00
+author: Blake Embrey
+template: article.jade
+---
+
+A variadic function is a type of function which accepts a variable number of arguments. In JavaScript, it's common to see snippets of code using `Array.prototype.slice.call(arguments, 1)` to get a number of trailing arguments back as an array. It's even common to slice all the arguments as an array for simpler manipulation and concatination.
+
+What would make this easier though, is the ability to create variadic functions natively. That is [coming with ES6](http://ariya.ofilabs.com/2013/03/es6-and-rest-parameter.html). For the next few years though, we are stuck typing this out manually. To speed the process up though, we can write ourselves a [little helper function](https://github.com/blakeembrey/node-variadic).
+
+```javascript
+var __slice = Array.prototype.slice;
+
+/**
+ * Generate a function that accepts a variable number of arguments as the last
+ * function argument.
+ *
+ * @param  {Function} fn
+ * @return {Function}
+ */
+var variadic = function (fn) {
+  var count = Math.max(fn.length - 1, 0);
+
+  return function () {
+    var args = __slice.call(arguments, 0, count);
+
+    // Enforce the array length, in case we don't have enough array padding.
+    args.length = count;
+    args.push(__slice.call(arguments, count));
+
+    return fn.apply(this, args);
+  };
+};
+```
+
+The snippet above accepts a single function as its argument and returns a new function that will pass in every additional argument as an array to the last parameter.
+
+```javascript
+var fn = variadic(function (args) {
+  return args;
+});
+
+fn(); //=> []
+fn('a'); //=> ['a']
+fn('a', 'b') //=> ['a', 'b'];
+
+var fn = variadic(function (a, b, args) {
+  return { a: a, b: b, args: args };
+});
+
+fn(); //=> { a: undefined, b: undefined, args: [] }
+fn('a'); //=> { a: 'a', b: undefined, args: [] }
+fn('a', 'b', 'c', 'd', 'e'); //=> { a: 'a', b: 'b', args: ['c', 'd', 'e'] }
+```
+
+When might you use this in practice though? One example is the Backbone.js event triggering mechanism which accepts a variable number of arguments.
+
+```javascript
+trigger: function(name) {
+  if (!this._events) return this;
+  var args = slice.call(arguments, 1);
+  // Trigger some events with the args.
+  return this;
+},
+```
+
+Could be rewritten to simply be:
+
+```javascript
+trigger: variadic(function (name, args) {
+  if (!this._events) return this;
+  // Trigger some events with the args.
+  return this;
+}),
+```
