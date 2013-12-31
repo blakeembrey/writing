@@ -8,7 +8,6 @@ html,
 body {
   width: 100%;
   height: 100%;
-  min-width: 20em;
   margin: 0;
   padding: 0;
 }
@@ -361,6 +360,40 @@ table tr:hover td {
   display: none;
 }
 
+.ir {
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+}
+
+.fork-me {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 0;
+  width: 149px;
+  height: 149px;
+  background-size: 100%;
+  background-image: url("/img/right-graphite.png");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min--moz-device-pixel-ratio: 2),
+  only screen and (-o-min-device-pixel-ratio: 2/1),
+  only screen and (min-device-pixel-ratio: 2),
+  only screen and (min-resolution: 192dpi),
+  only screen and (min-resolution: 2dppx) {
+    .fork-me {
+      background-image: url("/img/right-graphite@2x.png");
+    }
+}
+
+@media (max-width: 37.5em) {
+  .fork-me {
+    display: none;
+  }
+}
+
 @media print {
   html {
     border: none;
@@ -378,6 +411,8 @@ table tr:hover td {
     margin-bottom: 0.75em;
   }
 
+  .footer,
+  .fork-me,
   .back-to-home {
     display: none;
   }
@@ -389,11 +424,7 @@ table tr:hover td {
 
   .header {
     padding-top: 0;
-  }
-
-  .footer {
-    padding-top: 1em;
-    padding-bottom: 0;
+    padding-bottom: 1em;
   }
 
   #disqus_thread {
