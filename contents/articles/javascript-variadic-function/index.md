@@ -1,5 +1,5 @@
 ---
-title: JavaScript Variadic Utility
+title: Implementing a Variadic Utility in JavaScript
 date: 2013-12-29 23:00
 author: Blake Embrey
 template: article.jade
