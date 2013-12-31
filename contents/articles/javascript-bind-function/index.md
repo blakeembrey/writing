@@ -42,7 +42,7 @@ greet('Hello'); //=> "Hello undefined"
 
 var boundGreet = bind(greet, { user: 'Bob' });
 
-greet('Hello'); //=> "Hello Bob"
+boundGreet('Hello'); //=> "Hello Bob"
 ```
 
 We also have another useful feature built into `bind` - partial application. Partial application is essentially the act of pre-filling function arguments. Any future arguments are then appended to the arguments we have already defined.
