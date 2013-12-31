@@ -1,5 +1,5 @@
 ---
-title: Implementing the JavaScript Bind Function
+title: The JavaScript Bind Function
 date: 2013-12-31 01:00
 author: Blake Embrey
 template: article.jade
