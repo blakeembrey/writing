@@ -14,9 +14,9 @@ body {
 
 html {
   color: #333;
-  font-size: 115%;
+  font-size: 110%;
   font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
-  line-height: 1.5;
+  line-height: 1.4;
   border-top: 4px solid #f20;
   background-color: #fefefe;
 }
@@ -117,15 +117,14 @@ hr {
 pre,
 code {
   font-family: "Source Code Pro", monospace;
-  -webkit-font-smoothing: subpixel-antialiased;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;
   -o-border-radius: 3px;
+  border-radius: 3px;
   color: #111;
   border: 1px solid #ccc;
   font-size: 0.9em;
-  border-radius: 3px;
   background-color: #fafafa;
 }
 
@@ -140,6 +139,7 @@ code {
   display: inline;
   padding: 0 0.3em;
   max-width: 100%;
+  word-wrap: break-word;
   vertical-align: middle;
   overflow-x: auto;
   border-color: #ccc;
@@ -149,6 +149,7 @@ pre > code {
   border: none;
   padding: 0;
   font-size: 100%;
+  word-wrap: normal;
   background-color: transparent;
 }
 
@@ -253,7 +254,7 @@ table tr:hover td {
 
 .container {
   margin: 0 auto;
-  padding: 0 2em;
+  padding: 0 1.5em;
   max-width: 46em;
 }
 
@@ -285,14 +286,12 @@ table tr:hover td {
 .header-title,
 .content-title {
   margin: 0;
+  line-height: 1.2;
 }
 
-.header-title {
-  color: #111;
-}
-
+.header-title,
 .header-title a {
-  color: inherit;
+  color: #111;
 }
 
 .header-metadata {
@@ -301,8 +300,8 @@ table tr:hover td {
 
 .header,
 .footer {
-  padding-top: 2em;
-  padding-bottom: 2em;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
   text-align: center;
 }
 
@@ -311,14 +310,13 @@ table tr:hover td {
 }
 
 .content-header {
-  padding-top: 1em;
-  padding-bottom: 1em;
+  margin-bottom: 1em;
 }
 
 .navigation,
 .content-article,
 #disqus_thread {
-  margin-bottom: 3em;
+  margin-bottom: 2em;
 }
 
 .navigation .btn {
