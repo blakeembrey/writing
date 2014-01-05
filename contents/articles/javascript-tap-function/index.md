@@ -1,6 +1,6 @@
 ---
 title: The Tap Utility in JavaScript
-date: 2014-01-04 20:00
+date: 2014-01-04 20:30
 author: Blake Embrey
 template: article.jade
 ---
@@ -19,7 +19,7 @@ The code above clearly depicts the ease of using the utility function, but when 
 ```javascript
 // Pop a value of the end of an array, in reality we'd probably make a pop utility.
 tap([1, 2, 3, 4], function (array) {
-  return array.pop(); // Pop always returns the popped value.
+  return array.pop(); // Pop returns the value removed from the end of the array.
 });
 //=> [1, 2, 3]
 ```
