@@ -15,7 +15,7 @@ var compose = function () {
 
   return function (result) {
     for (var i = fns.length - 1; i > -1; i--) {
-      result = fns[i](result);
+      result = fns[i].call(this, result);
     }
 
     return result;
@@ -41,7 +41,7 @@ var sequence = function () {
 
   return function (result) {
     for (var i = 0; i < fns.length; i++) {
-      result = fns[i](result);
+      result = fns[i].call(this, result);
     }
 
     return result;
