@@ -26,7 +26,7 @@ One thing I find myself doing is checking what arguments were passed to a certai
 var after = function (fn, after) {
   return function () {
     var result = fn.apply(this, arguments);
-    after.apply(this, arguments);
+    after.call(this, result);
     return result;
   };
 };
