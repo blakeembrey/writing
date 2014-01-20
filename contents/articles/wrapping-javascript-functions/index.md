@@ -81,7 +81,7 @@ var after = function (fn /*, ...after */) {
     var result = fn.apply(this, arguments);
 
     for (var i = 0; i < after.length; i++) {
-      after.apply(this, arguments);
+      after.call(this, result);
     }
 
     return result;
