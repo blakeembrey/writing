@@ -17,9 +17,10 @@ var tap = function (value, fn) {
 The code above depicts the simplicity of the function, but when would we ever use it? It's really only useful when we want to chain the value between calls. You can pass in any function and you will always receive the passed in value as the return, regardless of the function return value.
 
 ```javascript
-// Pop a value of the end of an array, in reality we'd probably make a pop utility.
+// Pop a value of the end of an array, in reality we'd use an `invoke` utility.
 tap([1, 2, 3, 4], function (array) {
-  return array.pop(); // Pop returns the value removed from the end of the array.
+  // Pop always returns the value it removed from the end of the array.
+  return array.pop();
 });
 //=> [1, 2, 3]
 ```
