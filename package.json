@@ -5,7 +5,7 @@
   "private": true,
   "dependencies": {
     "moment": "~2.5.0",
-    "underscore": "~1.4.4",
+    "underscore": "~1.5.2",
     "wintersmith": "~2.0.9"
   },
   "scripts": {
