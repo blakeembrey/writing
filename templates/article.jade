@@ -1,7 +1,8 @@
 extends layout
 
 block append vars
-  - bodyclass = 'article'
+  - var bodyclass = 'article'
+  - var fullUrl = locals.url + page.url
 
 block prepend title
   | #{ page.title + " • "}
@@ -17,7 +18,20 @@ block header
 
 block content
   article.content-article!= page.html
+  div.content-share
+    a.twitter-follow-button(href="https://twitter.com/" + locals.twitter, data-show-count="false")
+      | Follow @#{ locals.twitter }
+    a.twitter-share-button(href="https://twitter.com/share", data-url=fullUrl, data-text=page.title, data-via=locals.twitter)
+      | Tweet
+
   div#disqus_thread
+
+  script.
+    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+
+  script.
+    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+
   script.
     var disqus_shortname = 'blakeembrey';
     //- Disqus code snippet

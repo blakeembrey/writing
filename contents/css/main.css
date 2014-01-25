@@ -313,8 +313,17 @@ table tr:hover td {
   margin-bottom: 1em;
 }
 
+.content-share {
+  text-align: center;
+}
+
+.content-share > * {
+  margin: 0 0.3em;
+}
+
 .navigation,
 .content-article,
+.content-share,
 #disqus_thread {
   margin-bottom: 2em;
 }

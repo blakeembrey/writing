@@ -1,8 +1,9 @@
 {
   "locals": {
-    "url": "http://blakeembrey.com/",
+    "url": "http://blakeembrey.com",
     "name": "Blake Embrey",
     "owner": "Blake Embrey",
+    "twitter": "blakeembrey",
     "description": "My thoughts materialised into a blog"
   },
   "plugins": [
