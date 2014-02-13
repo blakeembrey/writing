@@ -98,4 +98,4 @@ it('should respond with "success"', function* () {
 });
 ```
 
-It's important to note that generators are only available in node 0.11 and currently need to be enabled using the `--harmony-generators` flag.
+It's important to note that generators are only available in node 0.11 and needs to be enabled using the `--harmony-generators` flag.
