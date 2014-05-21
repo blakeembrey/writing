@@ -32,7 +32,7 @@ app.directive('appType', function () {
       // Custom number validation logic.
       if (attrs.appType === 'number') {
         return ctrl.$parsers.push(function (value) {
-          var valid = value == null || !isNaN(value);
+          var valid = value == null || isFinite(value);
 
           ctrl.$setValidity('number', valid);
 
