@@ -49,8 +49,8 @@ var validAdd = before(function () {
 We can also put these two functions together and create a new utility. This one allows us to pass both a function before and after our core functionality. E.g. `around(logger, add, logger)`.
 
 ```javascript
-var around = function (under, fn, over) {
-  return before(under, after(fn, over));
+var around = function (over, fn, under) {
+  return before(over, after(fn, under));
 };
 ```
 
@@ -63,7 +63,7 @@ var __slice = Array.prototype.slice;
 
 var before = function (/* ...before, fn */) {
   var fn     = arguments[arguments.length - 1];
-  var before = __slice.call(arguments, -1);
+  var before = __slice.call(arguments, 0, -1);
 
   return function () {
     for (var i = 0; i < before.length; i++) {
@@ -81,7 +81,7 @@ var after = function (fn /*, ...after */) {
     var result = fn.apply(this, arguments);
 
     for (var i = 0; i < after.length; i++) {
-      after.call(this, result);
+      after[i].call(this, result);
     }
 
     return result;
