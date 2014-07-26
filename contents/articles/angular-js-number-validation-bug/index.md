@@ -40,9 +40,6 @@ app.directive('appType', function () {
         });
       }
     }
-
-    // Fallback to setting the default `type` attribute.
-    return elem.attr('type', attrs.appType);
   };
 });
 ~~~
@@ -100,7 +97,7 @@ it('...', function () {
 
     var $element = $compile(
       '<form name="form">' +
-        '<input name="num" ng-model="model.value" ap-type="number">' +
+      '  <input name="num" ng-model="model.value" app-type="number">' +
       '</form>'
     )($scope);
 
