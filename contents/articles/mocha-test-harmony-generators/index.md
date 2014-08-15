@@ -5,6 +5,8 @@ author: Blake Embrey
 template: article.jade
 ---
 
+**Update:** It's on [npm](http://npmjs.org/package/co-mocha). Just `npm install co-mocha` and `--require co-mocha` in your mocha script to test using generators.
+
 For the last week, I've been working on a new project that uses node 0.11 and generators. Aside from the numerous benefits with generators in the application, I also integrated generators into my test suite. By using [mocha](http://visionmedia.github.io/mocha/) and [co](https://github.com/visionmedia/co), you can also enable support for generator functions in your test suite.
 
 ```javascript
