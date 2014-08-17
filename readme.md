@@ -1,5 +1,7 @@
 # Blake Embrey
 
+[![Gittip][gittip-image]][gittip-url]
+
 This is the personal blog of Blake Embrey, but feel free to fork and reuse the design and implementation for your own blog. The blog is statically generated and deployed to Github pages using Wintersmith.
 
 ## Preview
@@ -21,3 +23,6 @@ npm run deploy
 ## License
 
 MIT
+
+[gittip-image]: https://img.shields.io/gittip/blakeembrey.svg?style=flat
+[gittip-url]: https://www.gittip.com/blakeembrey
