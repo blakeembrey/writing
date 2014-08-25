@@ -5,6 +5,8 @@ author: Blake Embrey
 template: article.jade
 ---
 
+**Update:** Now available on [github](https://github.com/blakeembrey/invoke) and [npm](https://www.npmjs.org/package/util-invoke).
+
 Under certain functional JavaScript toolbelts, we can find a utility that is used purely for invoking a method on a passed in object. The utility is a really simple snippet that can be used in a number of different circumstances.
 
 ```javascript
