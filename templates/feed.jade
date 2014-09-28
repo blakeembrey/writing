@@ -5,21 +5,18 @@ rss(version='2.0',
     xmlns:dc='http://purl.org/dc/elements/1.1/'
     xmlns:atom='http://www.w3.org/2005/Atom')
   channel
-    - var articles = env.helpers.getArticles(contents);
-    title= locals.name
-    atom:link(href=locals.url + '/feed.xml', rel='self', type='application/rss+xml')
-    link= locals.url
-    description= locals.description
-    pubDate= articles[0].rfc822date
-    generator Wintersmith - https://github.com/jnordberg/wintersmith
+    title= blog.title
+    atom:link(href=blog.uri + '/feed.xml', rel='self', type='application/rss+xml')
+    link= blog.uri
+    description= blog.description
+    pubDate= moment(date).format('ddd, DD MMM YYYY HH:mm:ss ZZ')
     language en
-    for article in articles
-      - var permalink = locals.url + article.url
+    for article in collections.articles
+      - var permalink = blog.uri + '/' + article.path
       item
         title= article.title
         link= permalink
-        pubDate= article.rfc822date
+        pubDate= moment(article.date).format('ddd, DD MMM YYYY HH:mm:ss ZZ')
         guid(isPermaLink='true')= permalink
         author= article.author
-        //- passing locals.url resolves all relative urls to absolute
-        description= article.getHtml(locals.url)
+        description= article.snippet

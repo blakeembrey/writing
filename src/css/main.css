@@ -1,6 +1,4 @@
 * {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -18,6 +16,10 @@ html {
   font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
   line-height: 1.4;
   border-top: 4px solid #f20;
+  background-color: #edf0f2; /* Footer colour for when page is too short */
+}
+
+.wrapper {
   background-color: #fefefe;
 }
 
@@ -40,15 +42,7 @@ ul {
 a,
 .btn {
   text-decoration: none;
-  -webkit-transition-property: color, background-color;
-  -moz-transition-property: color, background-color;
-  -ms-transition-property: color, background-color;
-  -o-transition-property: color, background-color;
   transition-property: color, background-color;
-  -webkit-transition-duration: 0.1s;
-  -moz-transition-duration: 0.1s;
-  -ms-transition-duration: 0.1s;
-  -o-transition-duration: 0.1s;
   transition-duration: 0.1s;
 }
 
@@ -65,10 +59,6 @@ a:hover {
   padding: 0.3em 0.8em;
   color: #fff;
   background-color: #aaa;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -ms-border-radius: 3px;
-  -o-border-radius: 3px;
   border-radius: 3px;
 }
 
@@ -117,10 +107,6 @@ hr {
 pre,
 code {
   font-family: "Source Code Pro", monospace;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -ms-border-radius: 3px;
-  -o-border-radius: 3px;
   border-radius: 3px;
   color: #111;
   border: 1px solid #ccc;
@@ -152,67 +138,67 @@ pre > code {
   background-color: transparent;
 }
 
-pre .title,
-pre .comment {
+pre .hljs-title,
+pre .hljs-comment {
   color: #8e908c;
 }
 
-pre .variable,
-pre .attribute,
-pre .tag,
-pre .regexp,
-pre .ruby .constant,
-pre .xml .tag .title,
-pre .xml .pi,
-pre .xml .doctype,
-pre .html .doctype,
-pre .css .id,
-pre .css .class,
-pre .css .pseudo {
+pre .hljs-variable,
+pre .hljs-attribute,
+pre .hljs-tag,
+pre .hljs-regexp,
+pre .lang-ruby .hljs-constant,
+pre .lang-xml .hljs-tag .hljs-title,
+pre .lang-xml .hljs-pi,
+pre .lang-xml .hljs-doctype,
+pre .lang-html .hljs-doctype,
+pre .lang-css .hljs-id,
+pre .lang-css .hljs-class,
+pre .lang-css .hljs-pseudo {
   color: #c82829;
 }
 
-pre .number,
-pre .preprocessor,
-pre .built_in,
-pre .literal,
-pre .params,
-pre .constant {
+pre .hljs-number,
+pre .hljs-preprocessor,
+pre .hljs-built_in,
+pre .hljs-literal,
+pre .hljs-params,
+pre .hljs-constant {
   color: #f5871f;
 }
 
-pre .class,
-pre .ruby .class .title,
-pre .css .rules .attribute {
+pre .hljs-class,
+pre .lang-ruby .hljs-class .hljs-title,
+pre .lang-css .hljs-rules .hljs-attribute {
   color: #eab700;
 }
 
-pre .string,
-pre .value,
-pre .inheritance,
-pre .header,
-pre .ruby .symbol,
-pre .xml .cdata {
+pre .hljs-string,
+pre .hljs-value,
+pre .hljs-inheritance,
+pre .hljs-header,
+pre .lang-ruby .hljs-symbol,
+pre .lang-xml .hljs-cdata {
   color: #718c00;
 }
 
-pre .css .hexcolor {
+pre .lang-css .hljs-hexcolor {
   color: #3e999f;
 }
 
-pre .function,
-pre .python .decorator,
-pre .python .title,
-pre .ruby .function .title,
-pre .ruby .title .keyword,
-pre .perl .sub,
-pre .javascript .title,
-pre .coffeescript .title {
+pre .hljs-function,
+pre .lang-python .hljs-decorator,
+pre .lang-python .hljs-title,
+pre .lang-ruby .hljs-function .hljs-title,
+pre .lang-ruby .hljs-title .hljs-keyword,
+pre .lang-perl .hljs-sub,
+pre .lang-javascript .hljs-title,
+pre .lang-coffeescript .hljs-title {
   color: #4271ae;
 }
 
-pre .keyword,
-pre .javascript .function {
+pre .lang-keyword,
+pre .lang-javascript .hljs-function {
   color: #8959a8;
 }
 
@@ -266,10 +252,6 @@ table tr:hover td {
   text-align: center;
   line-height: 2;
   border: 1px solid #bbb;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
   border-radius: 50%;
   background-color: #fff;
 }
@@ -342,7 +324,6 @@ table tr:hover td {
 .footer {
   position: relative;
   border-top: 1px dashed #aaa;
-  background-color: #edf0f2;
 }
 
 .footer .back-to-home {

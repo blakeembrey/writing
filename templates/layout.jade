@@ -9,9 +9,9 @@ html.no-js(lang='en')
       meta(name='viewport', content='width=device-width')
       title
         block title
-          = locals.name
+          = blog.title
       link(rel='author', href='https://plus.google.com/118101720568210469158/posts')
-      link(rel='alternate', href='/feed.xml', type='application/rss+xml', title=locals.description)
+      link(rel='alternate', href='/feed.xml', type='application/rss+xml', title=blog.description)
       link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic|Source+Code+Pro')
       link(rel='stylesheet', href='/css/normalize.css')
       link(rel='stylesheet', href='/css/main.css')
@@ -21,18 +21,17 @@ html.no-js(lang='en')
       //if lt IE 9
         script(src='//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js')
   body(class=bodyclass)
-    block header
-      header.header.container
-        h1.header-title
-          a(href='/', title=locals.name)= locals.name
-    main.content.container(role='main')
-      block content
+    div.wrapper.cf
+      block header
+        header.header.container
+          h1.header-title
+            a(href='/', title=blog.title)= blog.title
+      main.content.container(role='main')
+        block content
     footer.footer(role='contentinfo')
-      a.icon-home.back-to-home(href='/', title=locals.name)
+      a.icon-home.back-to-home(href='/', title=blog.title)
       block footer
         p.container
-          | &copy; #{ new Date().getFullYear() }&nbsp;
-          a(href='http://blakeembrey.me')= locals.owner
-          | &nbsp;&mdash; powered by&nbsp;
-          a(href='https://github.com/jnordberg/wintersmith') Wintersmith
+          | #{new Date().getFullYear()}&nbsp;&copy;&nbsp;
+          a(href=owner.uri)= owner.name
     a.fork-me.ir(href='https://github.com/blakeembrey/blakeembrey.com') Fork me on Github

@@ -5,11 +5,11 @@ author: Blake Embrey
 template: article.jade
 ---
 
-![Chrome is broken :/](http://d.pr/i/Ap8y+)
+![Chrome is broken :/](warning.png)
 
 About two days ago, I received a warning from Google saying my website has been exploited and hacked. Of course, the emails they sent I never received, so I didn’t realise I had an issue until about an hour ago. My first reaction was OMG, WTF! I knew it most likely had something to do with the recent TimThumb exploit, but I didn’t even know my theme had TimThumb included. I also looked at the Google diagnostic repost which it linked me to, which I found the malware related to `counter-wordpress.com`.
 
-First of all, I would advise running the script found at [Sucuri](http://blog.sucuri.net/2011/08/timthumb-php-security-vulnerability-just-the-tip-of-the-iceberg.html). Then, scan your site using the [Sucuri Site Scanner](http://sitecheck.sucuri.net/scanner/) to find out which pages they have exploited and how. This is the best little site I have found for this, and I would definitely bookmark it for future refernce as well if I were you.
+First of all, I would advise running the script found at [Sucuri](http://blog.sucuri.net/2011/08/timthumb-php-security-vulnerability-just-the-tip-of-the-iceberg.html). Then, scan your site using the [Sucuri Site Scanner](http://sitecheck.sucuri.net/scanner/) to find out which pages they have exploited and how. This is the best little site I have found for this, and I would definitely bookmark it for future reference as well if I were you.
 
 Extremely quickly, I jumped to action. This is the exact steps I took and you can take too, to remove the exploits from your code:
 

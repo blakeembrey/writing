@@ -2,26 +2,26 @@ extends layout
 
 block append vars
   - var bodyclass = 'article'
-  - var fullUrl = locals.url + page.url
+  - var fullUri = blog.uri + path
 
 block prepend title
-  | #{ page.title + " • "}
+  | #{title + " • "}
 
 block prepend header
-  a.home.icon-home.back-to-home(href='/', title=locals.name)
+  a.home.icon-home.back-to-home(href='/', title=blog.title)
 
 block header
   header.header.container
     small.header-metadata
-      span.timestamp= moment(page.date).format('MMMM D, YYYY')
-    h1.header-title= page.title
+      span.timestamp= moment(date).format('MMMM D, YYYY')
+    h1.header-title= title
 
 block content
-  article.content-article!= page.html
+  article.content-article!= contents
   div.content-share
-    a.twitter-follow-button(href="https://twitter.com/" + locals.twitter, data-show-count="false")
-      | Follow @#{ locals.twitter }
-    a.twitter-share-button(href="https://twitter.com/share", data-url=fullUrl, data-text=page.title, data-via=locals.twitter)
+    a.twitter-follow-button(href="https://twitter.com/" + integrations.twitter, data-show-count="false")
+      | Follow @#{integrations.twitter}
+    a.twitter-share-button(href="https://twitter.com/share", data-url=fullUri, data-text=title, data-via=integrations.twitter)
       | Tweet
 
   div#disqus_thread
@@ -33,10 +33,9 @@ block content
     !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
 
   script.
-    var disqus_shortname = 'blakeembrey';
     //- Disqus code snippet
     (function() {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      dsq.src = '//#{integrations.disqus}.disqus.com/embed.js';
       (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     })();

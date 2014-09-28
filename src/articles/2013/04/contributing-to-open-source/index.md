@@ -5,8 +5,7 @@ author: Blake Embrey
 template: article.jade
 ---
 
-> “Software is like sex; it's better when it's free.”
-> - Linus Torvalds
+> “Software is like sex; it's better when it's free.” - Linus Torvalds
 
 Being able to contribute to open source is an awesome feeling. The feeling of having code which thousands, if not millions, of people will run everyday is enough to make you cringe. Surprisingly though, few people realize how empowering, yet simple, contributing to an open source project can be.
 

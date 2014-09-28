@@ -1,21 +1,20 @@
 extends layout
 
 block content
-  each article in articles
-    - var content = article.html.replace(/<[^>]+>/g, '')
+  each file in paginate.files
     article.content-article
       header.content-header
         small.header-metadata
-          span.timestamp= moment(article.date).format('MMMM D, YYYY')
+          span.timestamp= moment(file.date).format('MMMM D, YYYY')
         h2.content-title
-          a(href=article.url)= article.title
-      section.content!= content.substr(0, 250 + content.substr(250).search(/\W/)) + ' ...'
+          a(href='/' + file.path)= file.title
+      section.content!= file.snippet
   nav.navigation.cf
-    if prevPage
-      a.btn.navigation-next(href=prevPage.url)
+    if paginate.previous
+      a.btn.navigation-next(href='/' + paginate.previous.path)
         | Newer&nbsp;&nbsp;
         i.icon-right-dir
-    if nextPage
-      a.btn.navigation-prev(href=nextPage.url)
+    if paginate.next
+      a.btn.navigation-prev(href='/' + paginate.next.path)
         i.icon-left-dir
         | &nbsp;&nbsp;Older

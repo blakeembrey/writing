@@ -5,7 +5,7 @@ author: Blake Embrey
 template: article.jade
 ---
 
-![Homebrew Channel](http://d.pr/i/SvZy+)
+![Homebrew Channel](channel.png)
 
 __IMPORTANT: This information is for research and academic purposes only! This info is not to be abused! I am not responsible for any damage that you may create!__
 
