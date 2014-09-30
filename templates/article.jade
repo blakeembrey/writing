@@ -18,24 +18,23 @@ block header
 
 block content
   article.content-article!= contents
-  div.content-share
-    a.twitter-follow-button(href="https://twitter.com/" + integrations.twitter, data-show-count="false")
-      | Follow @#{integrations.twitter}
-    a.twitter-share-button(href="https://twitter.com/share", data-url=fullUri, data-text=title, data-via=integrations.twitter)
-      | Tweet
+  if integrations.twitter
+    div.content-share
+      a.twitter-follow-button(href='https://twitter.com/' + integrations.twitter, data-show-count="false")
+        | Follow @#{integrations.twitter}
+      a.twitter-share-button(href='https://twitter.com/share', data-url=fullUri, data-text=title, data-via=integrations.twitter)
+        | Tweet
 
-  div#disqus_thread
+    script.
+      !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
 
-  script.
-    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+  if integrations.disqus
+    div#disqus_thread
 
-  script.
-    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
-
-  script.
-    //- Disqus code snippet
-    (function() {
-      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-      dsq.src = '//#{integrations.disqus}.disqus.com/embed.js';
-      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
+    script.
+      //- Disqus code snippet
+      (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//#{integrations.disqus}.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();

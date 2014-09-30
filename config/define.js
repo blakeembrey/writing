@@ -6,7 +6,8 @@ module.exports = {
   },
   integrations: {
     twitter: 'blakeembrey',
-    disqus: 'blakeembrey'
+    disqus: 'blakeembrey',
+    analytics: 'UA-22855713-2'
   },
   owner: {
     uri: 'http://blakeembrey.me',
