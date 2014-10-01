@@ -15,12 +15,17 @@ html {
   font-size: 110%;
   font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
   line-height: 1.4;
-  border-top: 4px solid #f20;
   background-color: #edf0f2; /* Footer colour for when page is too short */
 }
 
 .wrapper {
+  position: relative;
+  overflow: hidden;
   background-color: #fefefe;
+}
+
+.wrapper-border {
+  border-top: 4px solid #f20;
 }
 
 p,
@@ -43,7 +48,7 @@ a,
 .btn {
   text-decoration: none;
   transition-property: color, background-color;
-  transition-duration: 0.1s;
+  transition-duration: 0.2s;
 }
 
 a {
@@ -371,6 +376,10 @@ table tr:hover td {
   border: 1px dashed #aaa;
   transform: rotate(45deg);
   transform-origin: 50% 50%;
+}
+
+.header-github:hover {
+  background-color: #e5e8eb;
 }
 
 @media (max-width: 37.5em) {

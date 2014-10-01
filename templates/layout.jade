@@ -23,19 +23,25 @@ html.no-js(lang='en')
         script(src='//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js')
   body(class=bodyclass)
     div.wrapper.cf
+      div.wrapper-border
+
       block header
         header.header.container
           h1.header-title
             a(href='/', title=blog.title)= blog.title
+
       main.content.container(role='main')
         block content
+
+      a.header-github(href='https://github.com/blakeembrey/blakeembrey.com') Star on Github
+
     footer.footer(role='contentinfo')
       a.icon-home.back-to-home(href='/', title=blog.title)
       block footer
         p.container
           | #{new Date().getFullYear()}&nbsp;&copy;&nbsp;
           a(href=owner.uri)= owner.name
-    a.header-github(href='https://github.com/blakeembrey/blakeembrey.com') Star on Github
+
 
     if integrations.analytics
       script.
