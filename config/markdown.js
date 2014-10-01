@@ -13,6 +13,6 @@ module.exports = {
       return highlight.highlight(lang, code).value;
     }
 
-    return highlight.highlightAuto(code).value;
+    return code;
   }
 };
