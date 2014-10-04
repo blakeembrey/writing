@@ -2,7 +2,7 @@ extends layout
 
 block append vars
   - var bodyclass = 'article'
-  - var fullUri = blog.uri + path
+  - var fullUri = blog.uri + '/' + path
 
 block prepend title
   | #{title + " • "}
