@@ -10,9 +10,13 @@ module.exports = {
   tables: true,
   highlight: function (code, lang) {
     if (lang) {
-      return highlight.highlight(lang, code).value;
+      return code;
     }
 
-    return code;
+    try {
+      return highlight.highlight(lang, code).value;
+    } catch (e) {
+      return code;
+    }
   }
 };
