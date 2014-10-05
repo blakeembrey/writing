@@ -117,7 +117,7 @@ code {
   border: 1px solid #ccc;
   font-size: 0.9em;
   white-space: pre;
-  background-color: #fafafa;
+  background-color: #f3f3f3;
 }
 
 pre {
@@ -206,6 +206,16 @@ pre .lang-keyword,
 pre .lang-javascript .hljs-function {
   color: #8959a8;
 }
+
+/* Diff Blog Posts */
+pre .line-added {
+  background-color: #beffbe;
+}
+
+pre .line-removed {
+  background-color: #f8cbcb;
+}
+/* End Diff Blog Posts */
 
 table {
   display: block;
@@ -346,16 +356,6 @@ table tr:hover td {
 
 .cf:after {
   clear: both;
-}
-
-.no-js #disqus_thread {
-  display: none;
-}
-
-.ir {
-  overflow: hidden;
-  text-indent: 100%;
-  white-space: nowrap;
 }
 
 .header-github {
