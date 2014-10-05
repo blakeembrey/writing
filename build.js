@@ -27,7 +27,6 @@ metalsmith(__dirname)
   .destination('build')
   .build(function (err) {
     if (err) {
-      console.error(err.stack);
-      process.exit(1);
+      throw err;
     }
   });
