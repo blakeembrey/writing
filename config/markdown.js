@@ -9,7 +9,7 @@ module.exports = {
   gfm: true,
   tables: true,
   highlight: function (code, lang) {
-    if (lang) {
+    if (!lang) {
       return code;
     }
 
