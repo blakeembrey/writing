@@ -2,7 +2,7 @@ module.exports = {
   blog: {
     uri: 'http://blakeembrey.com',
     title: 'Blake Embrey',
-    description: 'Avid software engineer who sometimes finds time to author a few words.'
+    description: 'Avid software engineer who occasionally finds time to compose a few words.'
   },
   integrations: {
     twitter: 'blakeembrey',
