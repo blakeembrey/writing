@@ -12,7 +12,7 @@ body {
 
 html {
   color: #333;
-  font-size: 110%;
+  font-size: 125%;
   font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
   line-height: 1.4;
   background-color: #edf0f2; /* Footer colour for when page is too short */
@@ -255,7 +255,7 @@ table tr:hover td {
 .container {
   margin: 0 auto;
   padding: 0 1.5em;
-  max-width: 46em;
+  max-width: 40em;
 }
 
 .back-to-home {
