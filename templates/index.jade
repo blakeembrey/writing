@@ -2,13 +2,13 @@ extends layout
 
 block content
   each file in paginate.files
-    article.content-article
+    article.content
       header.content-header
         small.header-metadata
           span.timestamp= moment(file.date).format('MMMM D, YYYY')
         h2.content-title
           a(href='/' + file.path)= file.title
-      section.content!= file.snippet
+      section.content-article!= file.snippet
   nav.navigation.cf
     if paginate.previous
       a.btn.navigation-next(href='/' + paginate.previous.path)

@@ -14,7 +14,7 @@ html {
   color: #333;
   font-size: 125%;
   font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
-  line-height: 1.4;
+  line-height: 1.5;
   background-color: #edf0f2; /* Footer colour for when page is too short */
 }
 
@@ -99,7 +99,12 @@ mark {
 blockquote {
   padding-left: 1em;
   font-size: 1.5em;
-  border-left: 4px solid #f20;
+  font-style: italic;
+  border-left: 6px solid #f20;
+}
+
+.content-article blockquote {
+  margin-left: -6px;
 }
 
 hr {
@@ -116,7 +121,6 @@ code {
   color: #111;
   border: 1px solid #ccc;
   font-size: 0.9em;
-  white-space: pre;
   background-color: #f3f3f3;
 }
 
@@ -131,7 +135,7 @@ code {
   padding: 0 0.3em;
   max-width: 100%;
   word-wrap: break-word;
-  overflow-x: auto;
+  white-space: pre-line;
   border-color: #ccc;
 }
 
@@ -140,6 +144,7 @@ pre > code {
   padding: 0;
   font-size: 100%;
   word-wrap: normal;
+  white-space: pre;
   background-color: transparent;
 }
 
@@ -322,6 +327,10 @@ table tr:hover td {
 .content-share,
 #disqus_thread {
   margin-bottom: 2em;
+}
+
+.content-article {
+  text-align: justify;
 }
 
 .navigation .btn {
