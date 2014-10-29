@@ -6,7 +6,7 @@
   "devDependencies": {
     "highlight.js": "^8.2.0",
     "jade": "^1.7.0",
-    "metalsmith": "^0.11.0",
+    "metalsmith": "^1.0.1",
     "metalsmith-autoprefixer": "^0.1.2",
     "metalsmith-build-date": "^0.1.0",
     "metalsmith-collections": "^0.6.0",
@@ -16,9 +16,9 @@
     "metalsmith-markdown": "^0.2.1",
     "metalsmith-paginate": "^0.3.0",
     "metalsmith-permalinks": "^0.4.0",
-    "metalsmith-redirect": "^1.0.0",
+    "metalsmith-redirect": "^1.0.1",
     "metalsmith-snippet": "^1.0.1",
-    "metalsmith-templates": "^0.5.2",
+    "metalsmith-templates": "^0.6.0",
     "moment": "^2.6.0",
     "serve": "^1.4.0",
     "write-good": "^0.7.0"
