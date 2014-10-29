@@ -42,7 +42,6 @@ html.no-js(lang='en')
           | #{new Date().getFullYear()}&nbsp;&copy;&nbsp;
           a(href=owner.uri)= owner.name
 
-
     if integrations.analytics
       script.
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -53,3 +52,17 @@ html.no-js(lang='en')
         ga('create', '#{integrations.analytics}', 'auto');
         ga('require', 'displayfeatures');
         ga('send', 'pageview');
+
+    script(src='//cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.3/moment.min.js')
+
+    //- Render time elements using relative time.
+    script.
+      (function (els) {
+        for (var i = 0; i < els.length; i++) {
+          var el   = els[i];
+          var date = el.getAttribute('datetime');
+
+          el.setAttribute('title', el.textContent);
+          el.textContent = moment(date).fromNow();
+        }
+      })(document.getElementsByClassName('timestamp'));

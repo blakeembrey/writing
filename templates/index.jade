@@ -5,7 +5,7 @@ block content
     article.content
       header.content-header
         small.header-metadata
-          span.timestamp= moment(file.date).format('MMMM D, YYYY')
+          time.timestamp(datetime=file.date)= moment(file.date).format('MMMM D, YYYY')
         h2.content-title
           a(href='/' + file.path)= file.title
       section.content-article!= file.snippet
