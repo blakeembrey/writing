@@ -25,7 +25,7 @@
   },
   "scripts": {
     "test": "write-good src/articles/**/*.md",
-    "serve": "serve build",
+    "serve": "serve build -p ${PORT:-3000}",
     "build": "node build.js",
     "deploy": "npm run build && cd build && git init . && git add . && git commit -m \"Deploy\"; git push \"git@github.com:blakeembrey/blakeembrey.com.git\" master:gh-pages --force && rm -rf .git"
   },
