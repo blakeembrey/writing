@@ -18,15 +18,20 @@ block header
 
 block content
   article.content-article!= contents
-  if integrations.twitter
-    div.content-share
-      a.twitter-follow-button(href='https://twitter.com/' + integrations.twitter, data-show-count="false")
-        | Follow @#{integrations.twitter}
-      a.twitter-share-button(href='https://twitter.com/share', data-url=fullUri, data-text=title, data-via=integrations.twitter)
-        | Tweet
 
-    script.
-      !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+  div.content-share.cf
+    if integrations.coinbase
+      div.tip-button
+        div.cb-tip-button(data-content-location=fullUri, data-href='//www.coinbase.com/tip_buttons/show_tip' data-to-user-id=integrations.coinbase)
+
+    if integrations.facebook
+      div.social-button
+        div.fb-share-button(data-href=fullUri, data-layout="button_count")
+
+    if integrations.twitter
+      div.social-button
+        a.twitter-share-button(href='https://twitter.com/share', data-url=fullUri, data-text=title, data-via=integrations.twitter)
+          | Tweet
 
   if integrations.disqus
     div#disqus_thread
@@ -38,3 +43,23 @@ block content
         dsq.src = '//#{integrations.disqus}.disqus.com/embed.js';
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
       })();
+
+  if integrations.coinbase
+    script.
+      !function(d,s,id) {var js,cjs=d.getElementsByTagName(s)[0],e=d.getElementById(id);if(e){return;}js=d.createElement(s);js.id=id;js.src="https://www.coinbase.com/assets/tips.js";cjs.parentNode.insertBefore(js,cjs);}(document, 'script', 'coinbase-tips');
+
+  if integrations.twitter
+    script.
+      !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+
+  if integrations.facebook
+    div#fb-root
+
+    script.
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));

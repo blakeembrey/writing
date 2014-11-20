@@ -11,10 +11,10 @@ block content
       section.content-article!= file.snippet
   nav.navigation.cf
     if paginate.previous
-      a.btn.navigation-next(href='/' + paginate.previous.path)
+      a.btn.pull-right(href='/' + paginate.previous.path)
         | Newer&nbsp;&nbsp;
         i.icon-right-dir
     if paginate.next
-      a.btn.navigation-prev(href='/' + paginate.next.path)
+      a.btn.pull-left(href='/' + paginate.next.path)
         i.icon-left-dir
         | &nbsp;&nbsp;Older

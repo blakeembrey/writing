@@ -314,14 +314,6 @@ table tr:hover td {
   margin-bottom: 1em;
 }
 
-.content-share {
-  text-align: center;
-}
-
-.content-share > * {
-  margin: 0 0.3em;
-}
-
 .navigation,
 .content-article,
 .content-share,
@@ -337,14 +329,6 @@ table tr:hover td {
   margin-bottom: 0;
 }
 
-.navigation-prev {
-  float: left;
-}
-
-.navigation-next {
-  float: right;
-}
-
 .footer {
   position: relative;
   border-top: 1px dashed #aaa;
@@ -355,16 +339,6 @@ table tr:hover td {
   top: -1em;
   left: 50%;
   margin-left: -1em;
-}
-
-.cf:before,
-.cf:after {
-  content: " ";
-  display: table;
-}
-
-.cf:after {
-  clear: both;
 }
 
 .header-github {
@@ -432,5 +406,50 @@ table tr:hover td {
 
   #disqus_thread {
     display: none;
+  }
+}
+
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+/* Share button pain */
+.content-share > .social-button > iframe,
+.fb_iframe_widget > span {
+  vertical-align: top !important;
+}
+
+.tip-button,
+.social-button {
+  height: 20px;
+  margin: 0 0.3em 0.3em;
+}
+
+.tip-button {
+  float: left;
+  width: 100%;
+}
+
+.social-button {
+  float: right;
+}
+
+@media (min-width: 44em) {
+  .tip-button {
+    width: auto;
   }
 }
