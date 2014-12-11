@@ -58,29 +58,29 @@ Nothing exciting so far. If you build the blog by executing `node build.js`, you
 
 The next step would be to add markdown processing into our build script. This will allow us to turn the all our markdown into HTML documents. To do this, we'll install the [metalsmith-markdown](https://github.com/segmentio/metalsmith-markdown) (using `npm install metalsmith-markdown --save`). If we also want syntax highlighting of code, we could install `highlight.js` (using `npm install highlight.js --save`).
 
-<pre>
-<code>var metalsmith = require('metalsmith');
-<span class="line-added">var markdown   = require('metalsmith-markdown');</span>
-<span class="line-added">var highlight  = require('highlight.js');</span>
+```javascript.diff
+ var metalsmith = require('metalsmith');
++var markdown   = require('metalsmith-markdown');
++var highlight  = require('highlight.js');
 
-metalsmith(__dirname)
-  .source('src')
-<span class="line-added">  .use(markdown({</span>
-<span class="line-added">    gfm: true,</span>
-<span class="line-added">    tables: true,</span>
-<span class="line-added">    highlight: function (code, lang) {</span>
-<span class="line-added">      if (!lang) {</span>
-<span class="line-added">        return code;</span>
-<span class="line-added">      }</span>
-<span class="line-added">    </span>
-<span class="line-added">      try {</span>
-<span class="line-added">        return highlight.highlight(lang, code).value;</span>
-<span class="line-added">      } catch (e) {</span>
-<span class="line-added">        return code;</span>
-<span class="line-added">      }</span>
-<span class="line-added">  }))</span>
-  .destination('build')</code>
-</pre>
+ metalsmith(__dirname)
+   .source('src')
++  .use(markdown({
++    gfm: true,
++    tables: true,
++    highlight: function (code, lang) {
++      if (!lang) {
++        return code;
++      }
++
++      try {
++        return highlight.highlight(lang, code).value;
++      } catch (e) {
++        return code;
++      }
++  }))
+   .destination('build')
+```
 
 Running your build script (`node build.js`) will not result in your markdown file becoming HTML. If you add a code block fenced by three backticks, you'll also get to see syntax highlighting automatically applied (in the HTML, still need to add the CSS).
 
@@ -103,20 +103,20 @@ html(lang='en')
 
 With the template created, you need to include the plugin. And since I'm using jade, I'll need to install `jade` using `npm install jade --save` (for Handlebars use `npm install handlebars --save` and change the engine below). Let's update our `build.js` with the code below.
 
-<pre>
-<code>var metalsmith = require('metalsmith');
-var markdown   = require('metalsmith-markdown');
-var highlight  = require('highlight.js');
-<span class="line-added">var templates  = require('metalsmith-templates');</span>
+```javascript.diff
+ var metalsmith = require('metalsmith');
+ var markdown   = require('metalsmith-markdown');
+ var highlight  = require('highlight.js');
++var templates  = require('metalsmith-templates');
 
-metalsmith(__dirname)
-<span class="line-omitted">  ...</span>
-<span class="line-added">  .use(templates({</span>
-<span class="line-added">    engine: 'jade',</span>
-<span class="line-added">    directory: 'templates'</span>
-<span class="line-added">  }))</span>
-  .destination('build')</code>
-</pre>
+ metalsmith(__dirname)
+@@ ... @@
++  .use(templates({
++    engine: 'jade',
++    directory: 'templates'
++  }))
+   .destination('build')
+```
 
 Running `node build.js` again will give you a complete HTML file in place of our markdown file. However, if you're using a different template file you will need to update the markdown metadata. In the template file you have access to the variables such as `contents`, `date` and `title` without having to define them. This is because the metadata is coming from our inline definition and `contents` is our files content. All plugins can interact, manipulate and add to this data.
 
@@ -124,42 +124,42 @@ Running `node build.js` again will give you a complete HTML file in place of our
 
 You can add permalinks to your blog by using [metalsmith-permalinks](https://github.com/segmentio/metalsmith-permalinks) (`npm install metalsmith-permalinks --save`). Although you have the option for setting a pattern to rewrite URLs, I opted to use it without any options set. This is so it'll just fix up all my paths to look cleaner anyway, and add the fancy `path` property to the files metadata.
 
-<pre>
-<code><span class="line-omitted">...</span>
-var highlight  = require('highlight.js');
-var templates  = require('metalsmith-templates');
-<span class="line-added">var permalinks = require('metalsmith-permalinks');</span>
+```javascript.diff
+@@ ... @@
+ var highlight  = require('highlight.js');
+ var templates  = require('metalsmith-templates');
++var permalinks = require('metalsmith-permalinks');
 
-metalsmith(__dirname)
-<span class="line-omitted">  ...</span>
-<span class="line-added">  .use(permalinks())</span>
-  .use(templates({
-    engine: 'jade',
-    directory: 'templates'
-  }))
-  .destination('build')</code>
-</pre>
+ metalsmith(__dirname)
+@@ ... @@
++  .use(permalinks())
+   .use(templates({
+     engine: 'jade',
+     directory: 'templates'
+   }))
+   .destination('build')
+```
 
 ## Collections
 
 Perfect, so far we've got nice fancy URLs and blog posts rendering. Next we'll want to group all the articles together into a collection for rendering on the homepage. This also links the posts between each other so we can do things like "next" and "previous" links. As you've probably realised, you can install a plugin for this purpose - [metalsmith-collections](https://github.com/segmentio/metalsmith-collections) using `npm install metalsmith-collections --save`. Once installed, add it to the `build.js`.
 
-<pre>
-<code><span class="line-omitted">...</span>
-var permalinks  = require('metalsmith-permalinks');
-<span class="line-added">var collections = require('metalsmith-collections');</span>
+```javascript.diff
+@@ ... @@
+ var permalinks  = require('metalsmith-permalinks');
++var collections = require('metalsmith-collections');
 
-metalsmith(__dirname)
-  .source('src')
-<span class="line-added">  .use(collections({</span>
-<span class="line-added">    articles: {</span>
-<span class="line-added">      pattern: 'articles/**/*.md',</span>
-<span class="line-added">      sortBy: 'date',</span>
-<span class="line-added">      reverse: true</span>
-<span class="line-added">    }</span>
-<span class="line-added">  }))</span>
-<span class="line-omitted">  ...</span></code>
-</pre>
+ metalsmith(__dirname)
+   .source('src')
++  .use(collections({
++    articles: {
++      pattern: 'articles/**/*.md',
++      sortBy: 'date',
++      reverse: true
++    }
++  }))
+@@ ... @@
+```
 
 The snippet above will match all markdown files in the `articles` directory, then sort them in chronological order with the most recent one at the beginning - just like a blog. The collection itself is stored as global Metalsmith metadata under `collections.articles`. Just make sure you add the collections plugin before our templates and markdown plugins since they always run in order.
 
@@ -197,34 +197,34 @@ With that complete, you can run the build again (`node build`) and stare in awe 
 
 You may have noticed that it'd be handy to add some generic metadata or modules to reuse in templates. I hear you, so you can install [metalsmith-define](https://github.com/aymericbeaumet/metalsmith-define) (`npm install metalsmith-define`) for this. With that installed, you can now define global metadata anywhere in the metalsmith middleware stack.
 
-<pre>
-<code><span class="line-omitted">...</span>
-var collections = require('metalsmith-collections');
-<span class="line-added">var define      = require('metalsmith-define');</span>
+```javascript.diff
+@@ ... @@
+ var collections = require('metalsmith-collections');
++var define      = require('metalsmith-define');
 
-metalsmith(__dirname)
-  .source('src')
-<span class="line-added">  .use(define({</span>
-<span class="line-added">    blog: {</span>
-<span class="line-added">      uri: 'http://blakeembrey.com',</span>
-<span class="line-added">      title: 'Blake Embrey',</span>
-<span class="line-added">      description: 'Hello world.'</span>
-<span class="line-added">    },</span>
-<span class="line-added">    owner: {</span>
-<span class="line-added">      uri: 'http://blakeembrey.me',</span>
-<span class="line-added">      name: 'Blake Embrey'</span>
-<span class="line-added">    },</span>
-<span class="line-added">    moment: require('moment')</span>
-<span class="line-added">  }))</span>
-  .use(collections({
-    articles: {
-      pattern: 'articles/**/*.md',
-      sortBy: 'date',
-      reverse: true
-    }
-  }))
-<span class="line-omitted">  ...</span></code>
-</pre>
+ metalsmith(__dirname)
+   .source('src')
++  .use(define({
++    blog: {
++      uri: 'http://blakeembrey.com',
++      title: 'Blake Embrey',
++      description: 'Hello world.'
++    },
++    owner: {
++      uri: 'http://blakeembrey.me',
++      name: 'Blake Embrey'
++    },
++    moment: require('moment')
++  }))
+   .use(collections({
+     articles: {
+       pattern: 'articles/**/*.md',
+       sortBy: 'date',
+       reverse: true
+     }
+   }))
+@@ ... @@
+```
 
 With the above, I have defined some information about the blog and the owner. I also added [moment](http://momentjs.com/) (`npm install moment --save`) because it'll be handy for formatting our dates. I might quickly go back to our article and homepages templates now and wrap our date in `moment(date).format('MMMM D, YYYY')` for prettier dates. In Handlebars, you can create a `formatDate` helper and use moment that way.
 
@@ -232,54 +232,54 @@ With the above, I have defined some information about the blog and the owner. I 
 
 Wow, we're nearly done already. Let's add one thing every good blog deserves, pagination of articles. To get started, install [metalsmith-collections-paginate](https://github.com/blakeembrey/metalsmith-collections-paginate) because it works directly with the collections and templates plugins. We can now delete `index.md` from the `src` directory as the plugin will generate it for us.
 
-<pre>
-<code><span class="line-omitted">...</span>
-var define      = require('metalsmith-define');
-<span class="line-added">var paginate    = require('metalsmith-collections-paginate');</span>
+```javascript.diff
+@@ ... @@
+ var define      = require('metalsmith-define');
++var paginate    = require('metalsmith-collections-paginate');
 
-<span class="line-omitted">  ...</span>
-  .use(collections({
-    articles: {
-      pattern: 'articles/**/*.md',
-      sortBy: 'date',
-      reverse: true
-    }
-  }))
-<span class="line-added">  .use(paginate({</span>
-<span class="line-added">    articles: {</span>
-<span class="line-added">      perPage: 5,</span>
-<span class="line-added">      first: 'index.html',</span>
-<span class="line-added">      template: 'index.jade'</span>
-<span class="line-added">    }</span>
-<span class="line-added">  }))</span>
-<span class="line-omitted">  ...</span></code>
-</pre>
+@@ ... @@
+   .use(collections({
+     articles: {
+       pattern: 'articles/**/*.md',
+       sortBy: 'date',
+       reverse: true
+     }
+   }))
++  .use(paginate({
++    articles: {
++      perPage: 5,
++      first: 'index.html',
++      template: 'index.jade'
++    }
++  }))
+@@ ... @@
+```
 
 The options are set by using the same name as the corresponding collection in the previous steps. We can set a limit of files per page, the first page location and the template for rendering the files. With this defined, you need to make some tweaks and improvements to the `index.jade` template.
 
-<pre>
-<code>html(lang='en')
-  head
-    meta(charset='utf-8')
-    meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
-    meta(name='viewport', content='width=device-width')
-    title= 'Home'
-  body
-<span class="line-removed">    each article in collections.articles</span>
-<span class="line-added">    each article in paginate.files</span>
-      article.content-article
-        header
-          span.timestamp= moment(article.date).format('MMMM D, YYYY')
-          h2
-            a(href='/' + article.path)= article.title
-<span class="line-added">  nav</span>
-<span class="line-added">    if paginate.previous</span>
-<span class="line-added">      a.btn(href='/' + paginate.previous.path)</span>
-<span class="line-added">        | Newer</span>
-<span class="line-added">    if paginate.next</span>
-<span class="line-added">      a.btn(href='/' + paginate.next.path)</span>
-<span class="line-added">        | Older</span></code>
-</pre>
+```jade.diff
+ html(lang='en')
+   head
+     meta(charset='utf-8')
+     meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
+     meta(name='viewport', content='width=device-width')
+     title= 'Home'
+   body
+-    each article in collections.articles
++    each article in paginate.files
+       article.content-article
+         header
+           span.timestamp= moment(article.date).format('MMMM D, YYYY')
+           h2
+             a(href='/' + article.path)= article.title
++  nav
++    if paginate.previous
++      a.btn(href='/' + paginate.previous.path)
++        | Newer
++    if paginate.next
++      a.btn(href='/' + paginate.next.path)
++        | Older
+```
 
 Notice that the loop is changed to iterate over `paginate.files` instead. Also "next" and "previous" buttons are added to the homepage. For the plugin to work properly, it needs to be included after the collections plugin, and before the permalinks and templates plugins. This works because we need access to the collections metadata in the plugin, but need the generated files to have a path and content created using templates.
 
@@ -287,20 +287,20 @@ Notice that the loop is changed to iterate over `paginate.files` instead. Also "
 
 Another thing that all good blogs seem to have are content snippets. For this, you'll install [metalsmith-snippet](https://github.com/blakeembrey/metalsmith-snippet) which allows you to access a short snippet of the HTML files in templates. Let's include the plugin in the `build.js` file.
 
-<pre>
-<code><span class="line-omitted">...</span>
-var paginate    = require('metalsmith-collections-paginate');
-<span class="line-added">var snippet     = require('metalsmith-snippet');</span>
+```javascript.diff
+@@ ... @@
+ var paginate    = require('metalsmith-collections-paginate');
++var snippet     = require('metalsmith-snippet');
 
-<span class="line-omitted">  ...</span>
-<span class="line-added">  .use(snippet())</span>
-  .use(permalinks())
-  .use(templates({
-    engine: 'jade',
-    directory: 'templates'
-  }))
-<span class="line-omitted">  ...</span></code>
-</pre>
+@@ ... @@
++  .use(snippet())
+   .use(permalinks())
+   .use(templates({
+     engine: 'jade',
+     directory: 'templates'
+   }))
+@@ ... @@
+```
 
 This will automatically generate a snippet for all the articles based on a number of characters. Make sure it comes after the markdown parsing is done though. With this enabled, we can add `article.snippet` to the homepage template and print out article summaries.
 
@@ -367,20 +367,20 @@ blakeembrey.com
 
 Next, I created a simple deploy script and added it to my `package.json`.
 
-<pre>
-<code>{
-  "name": "example-blog",
-  "version": "0.0.0",
-  "private": true,
-  "description": "Example blog.",
-<span class="line-added">  "scripts": {</span>
-<span class="line-added">    "build": "node build.js",</span>
-<span class="line-added">    "deploy": "npm run build && cd build && git init . && git add . && git commit -m \"Deploy\"; git push \"git@github.com:blakeembrey/blakeembrey.com.git\" master:gh-pages --force && rm -rf .git"</span>
-<span class="line-added">  },</span>
-  "author": "Blake Embrey",
-  "license": "MIT"
-}</code>
-</pre>
+```json.diff
+ {
+   "name": "example-blog",
+   "version": "0.0.0",
+   "private": true,
+   "description": "Example blog.",
++  "scripts": {
++    "build": "node build.js",
++    "deploy": "npm run build && cd build && git init . && git add . && git commit -m \"Deploy\"; git push \"git@github.com:blakeembrey/blakeembrey.com.git\" master:gh-pages --force && rm -rf .git"
++  },
+   "author": "Blake Embrey",
+   "license": "MIT"
+ }
+```
 
 For the build script above to work for you, you'll need to change the repository (`blakeembrey/blakeembrey.com`) to your Github repository.
 

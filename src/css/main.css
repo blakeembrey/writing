@@ -212,15 +212,19 @@ pre .lang-javascript .hljs-function {
   color: #8959a8;
 }
 
-/* Diff Blog Posts */
+/* Diff Support */
 pre .line-added {
-  background-color: #beffbe;
+  background-color: #eaffea;
 }
 
 pre .line-removed {
-  background-color: #f8cbcb;
+  background-color: #ffecec;
 }
-/* End Diff Blog Posts */
+
+pre .line-metadata {
+  color: rgba(0, 0, 0, 0.3);
+}
+/* End Diff Support */
 
 table {
   display: block;
