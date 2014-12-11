@@ -58,11 +58,15 @@ html.no-js(lang='en')
     //- Render time elements using relative time.
     script.
       (function (els) {
+        if (!window.moment) {
+          return;
+        }
+
         for (var i = 0; i < els.length; i++) {
           var el   = els[i];
           var date = el.getAttribute('datetime');
 
           el.setAttribute('title', el.textContent);
-          el.textContent = moment(date).fromNow();
+          el.textContent = window.moment(date).fromNow();
         }
       })(document.getElementsByClassName('timestamp'));
