@@ -213,16 +213,16 @@ pre .lang-javascript .hljs-function {
 }
 
 /* Diff Support */
-pre .line-added {
-  background-color: #eaffea;
+pre .diff-addition {
+  background-color: #dfd;
 }
 
-pre .line-removed {
-  background-color: #ffecec;
+pre .diff-deletion {
+  background-color: #fdd;
 }
 
-pre .line-metadata {
-  color: rgba(0, 0, 0, 0.3);
+pre .diff-chunk {
+  color: #aaa;
 }
 /* End Diff Support */
 
