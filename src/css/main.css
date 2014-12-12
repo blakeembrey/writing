@@ -378,7 +378,7 @@ table tr:hover td {
   margin-left: -1em;
 }
 
-.header-github {
+.banner-github {
   display: block;
   position: absolute;
   top: 2.5em;
@@ -398,12 +398,12 @@ table tr:hover td {
   transform-origin: 50% 50%;
 }
 
-.header-github:hover {
+.banner-github:hover {
   background-color: #e5e8eb;
 }
 
 @media (max-width: 37.5em) {
-  .header-github {
+  .banner-github {
     display: none;
   }
 }
@@ -425,7 +425,7 @@ table tr:hover td {
   }
 
   .footer,
-  .header-github,
+  .banner-github,
   .back-to-home {
     display: none;
   }
