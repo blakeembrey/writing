@@ -347,10 +347,11 @@ table tr:hover td {
 }
 
 .article .header {
-  text-align: left;
+  text-align: center;
 }
 
 .content-header {
+  text-align: center;
   margin-bottom: 1em;
 }
 
