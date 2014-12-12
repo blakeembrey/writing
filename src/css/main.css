@@ -404,6 +404,7 @@ table tr:hover td {
 }
 
 .banner-github:hover {
+  color: #000;
   background-color: #e5e8eb;
 }
 
