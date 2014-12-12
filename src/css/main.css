@@ -148,69 +148,102 @@ pre > code {
   background-color: transparent;
 }
 
-pre .hljs-title,
-pre .hljs-comment {
-  color: #8e908c;
+/* Highlight.js Theme */
+.hljs-header,
+.hljs-comment,
+.hljs-javadoc {
+  color: #969896;
 }
 
-pre .hljs-variable,
-pre .hljs-attribute,
-pre .hljs-tag,
-pre .hljs-regexp,
-pre .lang-ruby .hljs-constant,
-pre .lang-xml .hljs-tag .hljs-title,
-pre .lang-xml .hljs-pi,
-pre .lang-xml .hljs-doctype,
-pre .lang-html .hljs-doctype,
-pre .lang-css .hljs-id,
-pre .lang-css .hljs-class,
-pre .lang-css .hljs-pseudo {
-  color: #c82829;
+.hljs-keyword,
+.hljs-winutils,
+.hljs-subst,
+.hljs-request,
+.hljs-status {
+  color: #a71d5d;
 }
 
-pre .hljs-number,
-pre .hljs-preprocessor,
-pre .hljs-built_in,
-pre .hljs-literal,
-pre .hljs-params,
-pre .hljs-constant {
-  color: #f5871f;
+.hljs-number,
+.hljs-hexcolor,
+.hljs-constant {
+  color: #0086b3;
 }
 
-pre .hljs-class,
-pre .lang-ruby .hljs-class .hljs-title,
-pre .lang-css .hljs-rules .hljs-attribute {
-  color: #eab700;
+.hljs-string,
+.hljs-tag .hljs-value,
+.hljs-phpdoc,
+.hljs-dartdoc,
+.hljs-formula {
+  color: #df5000;
 }
 
-pre .hljs-string,
-pre .hljs-value,
-pre .hljs-inheritance,
-pre .hljs-header,
-pre .lang-ruby .hljs-symbol,
-pre .lang-xml .hljs-cdata {
-  color: #718c00;
+.hljs-title,
+.hljs-id,
+.hljs-preprocessor {
+  color: #900;
 }
 
-pre .lang-css .hljs-hexcolor {
-  color: #3e999f;
+.hljs-class .hljs-title,
+.hljs-type,
+.hljs-literal,
+.hljs-command {
+  color: #458;
+  font-weight: bold;
 }
 
-pre .hljs-function,
-pre .lang-python .hljs-decorator,
-pre .lang-python .hljs-title,
-pre .lang-ruby .hljs-function .hljs-title,
-pre .lang-ruby .hljs-title .hljs-keyword,
-pre .lang-perl .hljs-sub,
-pre .lang-javascript .hljs-title,
-pre .lang-coffeescript .hljs-title {
-  color: #4271ae;
+.hljs-tag,
+.hljs-tag .hljs-title,
+.hljs-rules .hljs-property {
+  color: #000080;
 }
 
-pre .lang-keyword,
-pre .lang-javascript .hljs-function {
-  color: #8959a8;
+.hljs-attribute,
+.hljs-variable,
+.hljs-body {
+  color: #008080;
 }
+
+.hljs-regexp {
+  color: #009926;
+}
+
+.hljs-symbol,
+.hljs-symbol .hljs-string,
+.hljs-special,
+.hljs-prompt {
+  color: #990073;
+}
+
+.hljs-built_in {
+  color: #0086b3;
+}
+
+.hljs-preprocessor,
+.hljs-pragma,
+.hljs-pi,
+.hljs-doctype,
+.hljs-shebang,
+.hljs-cdata {
+  color: #999;
+  font-weight: bold;
+}
+
+.hljs-deletion {
+  background: #fdd;
+}
+
+.hljs-addition {
+  background: #dfd;
+}
+
+.hljs-change {
+  background: #0086b3;
+}
+
+.hljs-chunk {
+  color: #aaa;
+}
+/* End Highlight.js Theme */
 
 /* Diff Support */
 pre .diff-addition {
