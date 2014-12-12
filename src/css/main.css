@@ -34,7 +34,6 @@ ol,
 ul,
 pre,
 img,
-.btn,
 table,
 blockquote {
   margin: 0 0 1.5em;
@@ -47,7 +46,7 @@ ul {
 a,
 .btn {
   text-decoration: none;
-  transition-property: color, background-color;
+  transition-property: color, border-color, background-color;
   transition-duration: 0.2s;
 }
 
@@ -62,14 +61,18 @@ a:hover {
 .btn {
   display: inline-block;
   padding: 0.3em 0.8em;
-  color: #fff;
-  background-color: #aaa;
-  border-radius: 3px;
+  color: #f20;
+  background-color: transparent;
+  border-radius: 99em;
+  border: 1px solid;
 }
 
 .btn:hover {
-  color: #fff;
-  background-color: #111;
+  color: #dd1e00;
+}
+
+.btn-small {
+  font-size: 0.75em;
 }
 
 img,
@@ -362,10 +365,6 @@ table tr:hover td {
   text-align: justify;
 }
 
-.navigation .btn {
-  margin-bottom: 0;
-}
-
 .footer {
   position: relative;
   border-top: 1px dashed #aaa;
@@ -419,7 +418,6 @@ table tr:hover td {
   ul,
   pre,
   img,
-  .btn,
   table,
   blockquote {
     margin-bottom: 0.75em;
