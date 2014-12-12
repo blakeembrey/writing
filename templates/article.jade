@@ -15,6 +15,13 @@ block header
     small.header-metadata
       time.timestamp(datetime=date)= moment(date).format('MMMM D, YYYY')
     h1.header-title= title
+    div.header-more
+      if github
+        a.btn.btn-small.btn-github(href='https://github.com/' + github)
+          | View on GitHub
+      if npm
+        a.btn.btn-small.btn-npm(href='http://npmjs.org/package/' + npm)
+          | View on npm
 
 block content
   article.content-article!= contents

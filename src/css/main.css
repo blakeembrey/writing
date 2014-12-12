@@ -339,6 +339,14 @@ table tr:hover td {
   color: #bbb;
 }
 
+.header-more .btn {
+  margin-top: 1em; /* Push away from the title */
+}
+
+.header-more .btn + .btn {
+  margin-left: 0.8em;
+}
+
 .header,
 .footer {
   padding-top: 1.5em;
