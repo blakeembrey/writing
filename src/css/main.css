@@ -54,10 +54,6 @@ a {
   color: #f20;
 }
 
-a:hover {
-  color: #111;
-}
-
 .btn {
   display: inline-block;
   padding: 0.3em 0.8em;
@@ -67,8 +63,9 @@ a:hover {
   border: 1px solid;
 }
 
+a:hover,
 .btn:hover {
-  color: #dd1e00;
+  color: #bb0000;
 }
 
 .btn-small {
