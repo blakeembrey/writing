@@ -323,7 +323,7 @@ table tr:hover td {
 
 .header-title,
 .content-title {
-  margin: 0;
+  margin: 0 0 0.8em;
   line-height: 1.2;
 }
 
@@ -333,15 +333,13 @@ table tr:hover td {
 }
 
 .header-metadata {
+  display: block;
+  margin-bottom: 1.5em;
   color: #bbb;
 }
 
 .header-more .btn {
-  margin-top: 1em; /* Push away from the title */
-}
-
-.header-more .btn + .btn {
-  margin-left: 0.8em;
+  margin: 0 0.5em 0.5em;
 }
 
 .header,
