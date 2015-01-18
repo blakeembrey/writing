@@ -48,10 +48,21 @@ a,
   text-decoration: none;
   transition-property: color, border-color, background-color;
   transition-duration: 0.2s;
+  transition-timing-function: ease-in;
 }
 
 a {
   color: #f20;
+  border-bottom: 1px dotted transparent;
+}
+
+a:hover {
+  color: #000;
+}
+
+.content-article a:hover {
+  color: #f20;
+  border-bottom-color: #999;
 }
 
 .btn {
@@ -60,12 +71,13 @@ a {
   color: #f20;
   background-color: transparent;
   border-radius: 99em;
-  border: 1px solid;
+  border: 2px solid #f20;
 }
 
-a:hover,
 .btn:hover {
-  color: #bb0000;
+  color: #fff;
+  border-color: #f20;
+  background-color: #f20;
 }
 
 .btn-small {
@@ -317,8 +329,11 @@ table tr:hover td {
   color: #f20;
 }
 
+.wrapper-border,
+.header-more,
+.header-metadata,
 .home.back-to-home {
-  margin-top: 1.5em;
+  margin-bottom: 1.5em;
 }
 
 .header-title,
@@ -334,28 +349,21 @@ table tr:hover td {
 
 .header-metadata {
   display: block;
-  margin-bottom: 1.5em;
   color: #bbb;
 }
 
 .header-more .btn {
-  margin: 0 0.5em 0.5em;
+  margin: 0.5em;
 }
 
 .header,
 .footer {
+  text-align: center;
+}
+
+.footer {
   padding-top: 1.5em;
   padding-bottom: 1.5em;
-  text-align: center;
-}
-
-.article .header {
-  text-align: center;
-}
-
-.content-header {
-  text-align: center;
-  margin-bottom: 1em;
 }
 
 .navigation,
@@ -437,11 +445,6 @@ table tr:hover td {
   .container {
     padding-left: 0;
     padding-right: 0;
-  }
-
-  .header {
-    padding-top: 0;
-    padding-bottom: 1em;
   }
 
   #disqus_thread {
