@@ -3,6 +3,8 @@ title: Enabling Generators in Mocha
 date: 2014-02-03 12:30
 author: Blake Embrey
 template: article.jade
+npm: co-mocha
+github: blakeembrey/co-mocha
 ---
 
 **Update:** It's on [npm](http://npmjs.org/package/co-mocha). Just `npm install co-mocha` and `--require co-mocha` in your mocha script to test using generators.
