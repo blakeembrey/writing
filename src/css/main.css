@@ -296,7 +296,7 @@ table tr:hover td {
 
 .container {
   margin: 0 auto;
-  padding: 0 1.5em;
+  padding: 0 0.5em;
   max-width: 40em;
 }
 
