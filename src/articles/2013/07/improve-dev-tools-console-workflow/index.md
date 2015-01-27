@@ -51,4 +51,4 @@ Conveniently, Chrome also provides an `inspect` method which I feel is almost th
 
 Somewhat less used, but Chrome also provides a `keys` function - which maps to `Object.keys` - and a `values` function, which is the polar opposite of keys.
 
-And if at some point you just feel like a chump using your mouse and clicking to clear the console, it'll probably be welcome news that there is even a `clear` function that can do it for you. And remember, you can always persist the console over page reloads by right clicking and selecting "Preserve Log upon Navigation".
+And if at some point you just feel like a chump using your mouse and clicking to clear the console, it'll be welcome news that there is even a `clear` function that can do it for you (and `Ctrl + L` keyboard shortcut!). And remember, you can always persist the console over page reloads by right clicking and selecting "Preserve Log upon Navigation".
