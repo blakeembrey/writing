@@ -10,6 +10,7 @@ var redirect     = require('metalsmith-redirect');
 var autoprefixer = require('metalsmith-autoprefixer');
 var snippet      = require('metalsmith-snippet');
 var paginate     = require('metalsmith-collections-paginate');
+var css          = require('metalsmith-clean-css');
 
 metalsmith(__dirname)
   .source('src')
@@ -23,6 +24,7 @@ metalsmith(__dirname)
   .use(snippet())
   .use(permalinks())
   .use(autoprefixer())
+  .use(css(require('./config/css')))
   .use(templates(require('./config/templates')))
   .destination('build')
   .build(function (err) {
