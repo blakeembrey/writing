@@ -1,6 +1,6 @@
 {
   "name": "blakeembrey.com",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Personal blog of Blake Embrey",
   "private": true,
   "devDependencies": {
