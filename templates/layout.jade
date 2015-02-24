@@ -14,13 +14,10 @@ html.no-js(lang='en')
       link(rel='author', href='https://google.com/+BlakeEmbrey')
       link(rel='alternate', href='/feed.xml', type='application/rss+xml', title=blog.description)
       link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic|Source+Code+Pro')
-      link(rel='stylesheet', href='/css/normalize.css')
+      link(rel='stylesheet', href='/vendor/normalize/normalize.css')
       link(rel='stylesheet', href='/css/main.css')
-      link(rel='stylesheet', href='/css/fontello.css')
-      script.
-        (function(d){d.className=d.className.replace(/\bno-js\b/,'js');})(document.documentElement);
-      //if lt IE 9
-        script(src='//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js')
+      link(rel='stylesheet', href='/vendor/fontello/css/fontello.css')
+      link(rel='stylesheet', href='/vendor/rrssb/rrssb.css')
   body(class=bodyclass)
     div.wrapper.cf
       div.wrapper-border
@@ -53,7 +50,7 @@ html.no-js(lang='en')
         ga('require', 'displayfeatures');
         ga('send', 'pageview');
 
-    script(src='//cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.3/moment.min.js')
+    script(src='/vendor/moment.js/moment.min.js')
 
     //- Render time elements using relative time.
     script.
@@ -70,3 +67,6 @@ html.no-js(lang='en')
           el.textContent = window.moment(date).fromNow();
         }
       })(document.getElementsByClassName('timestamp'));
+
+    script(src='/vendor/jquery/jquery.min.js')
+    script(src='/vendor/rrssb/rrssb.min.js')

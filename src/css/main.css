@@ -469,30 +469,3 @@ table tr:hover td {
 .pull-right {
   float: right;
 }
-
-/* Share button pain */
-.content-share > .social-button > iframe,
-.fb_iframe_widget > span {
-  vertical-align: top !important;
-}
-
-.tip-button,
-.social-button {
-  height: 20px;
-  margin: 0 0.3em 0.3em;
-}
-
-.tip-button {
-  float: left;
-  width: 100%;
-}
-
-.social-button {
-  float: right;
-}
-
-@media (min-width: 44em) {
-  .tip-button {
-    width: auto;
-  }
-}
