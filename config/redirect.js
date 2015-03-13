@@ -1,8 +1,3 @@
-/**
- * Map of old redirects to the new paths.
- *
- * @type {Object}
- */
 module.exports = {
   '/articles/angular-js-number-validation-bug/': '/articles/2014/05/angular-js-number-validation-bug/',
   '/articles/introducing-node-retest/': '/articles/2014/02/introducing-node-retest/',
@@ -29,4 +24,4 @@ module.exports = {
   '/articles/improve-dev-tools-console-workflow/': '/articles/2013/07/improve-dev-tools-console-workflow/',
   '/page/5/': '/articles/page/5/',
   '/articles/wii-jailbreak-3-0-4-2/': '/articles/2011/04/wii-jailbreak-3-0-4-2/'
-};
+}

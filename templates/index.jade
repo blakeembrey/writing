@@ -1,7 +1,7 @@
 extends layout
 
 block content
-  each file in paginate.files
+  each file in pagination.files
     article.content
       header.header
         small.header-metadata
@@ -10,11 +10,11 @@ block content
           a(href='/' + file.path)= file.title
       section.content-article!= file.snippet
   nav.navigation.cf
-    if paginate.previous
-      a.btn.pull-right(href='/' + paginate.previous.path)
+    if pagination.previous
+      a.btn.pull-right(href='/' + pagination.previous.path)
         | Newer&nbsp;&nbsp;
         i.icon-right-dir
-    if paginate.next
-      a.btn.pull-left(href='/' + paginate.next.path)
+    if pagination.next
+      a.btn.pull-left(href='/' + pagination.next.path)
         i.icon-left-dir
         | &nbsp;&nbsp;Older

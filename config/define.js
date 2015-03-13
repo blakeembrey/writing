@@ -13,4 +13,4 @@ module.exports = {
     name: 'Blake Embrey'
   },
   moment: require('moment')
-};
+}

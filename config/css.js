@@ -3,4 +3,4 @@ module.exports = {
   cleanCSS: {
     rebase: true
   }
-};
+}

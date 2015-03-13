@@ -1,7 +1,5 @@
 # Blake Embrey
 
-[![Gittip][gittip-image]][gittip-url]
-
 This is the personal blog of Blake Embrey, but feel free to fork and reuse the design and implementation for your own blog. The blog is statically generated using Metalsmith and hosted using Github pages.
 
 ## Usage
@@ -27,6 +25,3 @@ npm run deploy
 ## License
 
 MIT
-
-[gittip-image]: https://img.shields.io/gittip/blakeembrey.svg?style=flat
-[gittip-url]: https://www.gittip.com/blakeembrey
