@@ -4,14 +4,14 @@
   "description": "Personal blog of Blake Embrey",
   "private": true,
   "devDependencies": {
-    "highlighter": "0.0.2",
+    "highlighter": "0.0.3",
     "jade": "^1.7.0",
     "metalsmith": "^1.0.1",
-    "metalsmith-autoprefixer": "^0.1.2",
+    "metalsmith-autoprefixer": "^1.0.2",
     "metalsmith-build-date": "^0.1.0",
     "metalsmith-clean-css": "^2.0.0",
-    "metalsmith-collections": "^0.6.0",
-    "metalsmith-collections-paginate": "^1.0.1",
+    "metalsmith-collections": "^0.7.0",
+    "metalsmith-collections-paginate": "^2.0.1",
     "metalsmith-define": "^1.0.0",
     "metalsmith-drafts": "0.0.1",
     "metalsmith-markdown": "^0.2.1",
@@ -20,10 +20,10 @@
     "metalsmith-permalinks": "^0.4.0",
     "metalsmith-redirect": "^1.0.1",
     "metalsmith-snippet": "^1.0.1",
-    "metalsmith-templates": "^0.6.0",
+    "metalsmith-templates": "^0.7.0",
     "moment": "^2.6.0",
     "serve": "^1.4.0",
-    "write-good": "^0.7.0"
+    "write-good": "^0.9.1"
   },
   "scripts": {
     "test": "write-good src/articles/**/*.md",
