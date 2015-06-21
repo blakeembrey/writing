@@ -89,7 +89,7 @@ You'll need to accept the accessibility dialog (open system preferences and enab
 
 ## Conclusion
 
-FaceTime is kind of nice for video chatting. It disables automatically when you're in a different window (I regularly use up to 6 windows during a work day for different tasks) and the interface is very simple to use. The video quality is great and, when the call drops temporarily it will automatically join the call again (with the video still enabled - looking at you Skype).
+FaceTime is really nice for video chatting. It disables automatically when you're in a different window (I regularly use up to 6 windows during a work day for different tasks) and the interface is very simple to use. The video quality is great and, when the call drops temporarily it will automatically join the call again (with the video still enabled - looking at you Skype). On top of that, it has a low CPU footprint, especially compared with Skype.
 
 However, there's a couple of major issues with it. First off, it makes the rest of the computer quieter which makes it difficult to work or anything else while on the call. For example, we can't really watch a movie together either. The second is a feature request. I would love the "floating" window feature from Skype.
 
