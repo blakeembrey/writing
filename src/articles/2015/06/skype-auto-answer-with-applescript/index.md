@@ -5,7 +5,7 @@ author: Blake Embrey
 template: article.jade
 ---
 
-After discovering the ability to [auto answer FaceTime], I tried my hand at adapting the script for Skype. I waited a couple of days until my girlfriend had some downtime and patience to call me over and over while I tried to debug the elements on my screen. Eventually I figured out how to select the window, and then the correct button. I did try, unsuccessfully, for a long time to select the button based on the label. If anyone knows how to do this, please leave a comment!
+After discovering the ability to [auto answer FaceTime](/articles/2015/06/facetime-auto-answer-applescript/), I tried my hand at adapting the script for Skype. I waited a couple of days until my girlfriend had some downtime and patience to call me over and over while I tried to debug the elements on my screen. Eventually I figured out how to select the window, and then the correct button. I did try, unsuccessfully, for a long time to select the button based on the label. If anyone knows how to do this, please leave a comment!
 
 Continuing on, set up is much the same with only the basic code changed. Let's start again by opening up "Script Editor" and copying this snippet into the editor:
 
