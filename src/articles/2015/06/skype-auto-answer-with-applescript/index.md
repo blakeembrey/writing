@@ -10,6 +10,8 @@ After discovering the ability to [auto answer FaceTime](/articles/2015/06/faceti
 Continuing on, set up is much the same with only the basic code changed. Let's start again by opening up "Script Editor" and copying this snippet into the editor:
 
 ```applescript
+set contacts to {"Keyue Bao"}
+
 repeat
   repeat while application "Skype" is running
     tell application "System Events"
@@ -19,7 +21,7 @@ repeat
         if videoCallWindow exists then
           set callerId to value of static text 1 of videoCallWindow
 
-          if callerId = "Keyue Bao" then
+          if contacts contains callerId then
             click button 2 of videoCallWindow
           end if
         end if

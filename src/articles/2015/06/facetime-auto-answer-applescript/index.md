@@ -30,6 +30,8 @@ At this point, we gave up and Keyue needed to sleep. I decided to continue resea
 Let's start by opening the "Script Editor" application. Copy and paste the following code into the editor, changing the caller id check to your desired caller. This the caller that is shown next to the profile image and accept button during ringing. For me, Keyue Bao is a contact so I can use her name. If they aren't a contact, you'll need to type the specific email or phone number here.
 
 ```applescript
+set contacts to {"Keyue Bao"}
+
 repeat
   repeat while application "FaceTime" is running
     tell application "System Events"
@@ -39,7 +41,7 @@ repeat
         if acceptButton exists then
           set callerId to value of static text 2 of window 1
 
-          if callerId = "Keyue Bao" then
+          if contacts contains callerId then
             click acceptButton
           end if
         end if
