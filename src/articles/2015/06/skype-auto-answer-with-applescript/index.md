@@ -69,4 +69,4 @@ Tada! You might need to accept the accessibility dialog that pops up, but the sc
 
 Done!
 
-P.S. If you ever want to unload the script, just execute `launchctl unload -w com.blakeembrey.facetime-auto-answer.plist` - same as you did load.
+P.S. If you ever want to unload the script, just execute `launchctl unload -w com.blakeembrey.skype-auto-answer.plist`, same as you did to load.
