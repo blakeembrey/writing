@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Reactive Functions Example</title>
+  </head>
+  <body>
+      <input id="a"> + <input id="b"> = <span id="out"></span>
+
+      <script src="rf.js"></script>
+
+      <script>
+        var a = rf.prop(0)
+        var b = rf.prop(0)
+
+        var aInputEl = document.getElementById('a')
+        var bInputEl = document.getElementById('b')
+        var outEl = document.getElementById('out')
+
+        aInputEl.onkeyup = function () {
+          a(+aInputEl.value)
+        }
+
+        bInputEl.onkeyup = function () {
+          b(+bInputEl.value)
+        }
+
+        rf.run(function () {
+          outEl.textContent = a() + b()
+        })
+      </script>
+  </body>
+</html>
