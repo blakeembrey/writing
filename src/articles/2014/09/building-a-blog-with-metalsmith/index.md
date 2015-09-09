@@ -73,7 +73,7 @@ The next step would be to add markdown processing into our build script. This wi
    .destination('build')
 ```
 
-Running your build script (`node build.js`) will not result in your markdown file becoming HTML. If you add a code block fenced by three backticks, you'll also get to see syntax highlighting automatically applied (in the HTML, still need to add the CSS).
+Running your build script (`node build.js`) will now result in your markdown file becoming HTML. If you add a code block fenced by three backticks, you'll also get to see syntax highlighting automatically applied (in HTML, still need to add the CSS - consider starting with a theme from the [highlight.js demo](https://highlightjs.org/static/demo/)).
 
 ## Templates
 
