@@ -56,28 +56,19 @@ Nothing exciting so far. If you build the blog by executing `node build.js`, you
 
 ## Processing Markdown
 
-The next step would be to add markdown processing into our build script. This will allow us to turn the all our markdown into HTML documents. To do this, we'll install the [metalsmith-markdown](https://github.com/segmentio/metalsmith-markdown) (using `npm install metalsmith-markdown --save`). If we also want syntax highlighting of code, we could install `highlight.js` (using `npm install highlight.js --save`).
+The next step would be to add markdown processing into our build script. This will allow us to turn the all our markdown into HTML documents. To do this, we'll install the [metalsmith-markdown](https://github.com/segmentio/metalsmith-markdown) (using `npm install metalsmith-markdown --save`). If we also want syntax highlighting of code snippets, we can use `highlight.js` (or `highlighter` which offers a simple abstraction for markdown - `npm install highlighter --save`).
 
 ```javascript.diff
- var metalsmith = require('metalsmith');
-+var markdown   = require('metalsmith-markdown');
-+var highlight  = require('highlight.js');
+ var metalsmith  = require('metalsmith');
++var markdown    = require('metalsmith-markdown');
++var highlighter = require('highlighter');
 
  metalsmith(__dirname)
    .source('src')
 +  .use(markdown({
 +    gfm: true,
 +    tables: true,
-+    highlight: function (code, lang) {
-+      if (!lang) {
-+        return code;
-+      }
-+
-+      try {
-+        return highlight.highlight(lang, code).value;
-+      } catch (e) {
-+        return code;
-+      }
++    highlight: highlighter()
 +  }))
    .destination('build')
 ```
