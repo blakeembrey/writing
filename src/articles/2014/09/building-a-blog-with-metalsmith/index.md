@@ -221,12 +221,12 @@ With the above, I have defined some information about the blog and the owner. I 
 
 ## Pagination
 
-Wow, we're nearly done already. Let's add one thing every good blog deserves, pagination of articles. To get started, install [metalsmith-collections-paginate](https://github.com/blakeembrey/metalsmith-collections-paginate) because it works directly with the collections and templates plugins. We can now delete `index.md` from the `src` directory as the plugin will generate it for us.
+Wow, we're nearly done already! Let's add the one thing every good blog deserves, pagination. To get started, install [metalsmith-pagination](https://github.com/blakeembrey/metalsmith-pagination) (`npm install metalsmith-pagination`), it works with any array structure and integrates with templates. We can now delete `index.md` from the `src` directory as the plugin will generate it for us (using `first: 'index.html`).
 
 ```javascript.diff
 @@ ... @@
  var define      = require('metalsmith-define');
-+var paginate    = require('metalsmith-collections-paginate');
++var pagination  = require('metalsmith-pagination');
 
 @@ ... @@
    .use(collections({
@@ -236,17 +236,18 @@ Wow, we're nearly done already. Let's add one thing every good blog deserves, pa
        reverse: true
      }
    }))
-+  .use(paginate({
-+    articles: {
++  .use(pagination({
++    'collections.articles': {
 +      perPage: 5,
 +      first: 'index.html',
++      path: 'page/:num/index.html',
 +      template: 'index.jade'
 +    }
 +  }))
 @@ ... @@
 ```
 
-The options are set by using the same name as the corresponding collection in the previous steps. We can set a limit of files per page, the first page location and the template for rendering the files. With this defined, you need to make some tweaks and improvements to the `index.jade` template.
+We can set a limit of files per page, the path to all pages, an alternative first page location, and the template for rendering the files. With this defined, you'll need to make some tweaks and improvements to the `index.jade` template.
 
 ```jade.diff
  html(lang='en')
@@ -257,22 +258,22 @@ The options are set by using the same name as the corresponding collection in th
      title= 'Home'
    body
 -    each article in collections.articles
-+    each article in paginate.files
++    each article in pagination.files
        article.content-article
          header
            span.timestamp= moment(article.date).format('MMMM D, YYYY')
            h2
              a(href='/' + article.path)= article.title
 +  nav
-+    if paginate.previous
-+      a.btn(href='/' + paginate.previous.path)
++    if pagination.previous
++      a.btn(href='/' + pagination.previous.path)
 +        | Newer
-+    if paginate.next
-+      a.btn(href='/' + paginate.next.path)
++    if pagination.next
++      a.btn(href='/' + pagination.next.path)
 +        | Older
 ```
 
-Notice that the loop is changed to iterate over `paginate.files` instead. Also "next" and "previous" buttons are added to the homepage. For the plugin to work properly, it needs to be included after the collections plugin, and before the permalinks and templates plugins. This works because we need access to the collections metadata in the plugin, but need the generated files to have a path and content created using templates.
+Notice that the loop has changed to iterate over `pagination.files` instead. Also "next" and "previous" buttons have been added to the homepage. For the plugin to work properly, it needs to be included after the collections plugin, but before the permalinks and templates plugins. This works because we need access to the collections metadata in the plugin, but need the generated files to have a path and content created using templates.
 
 ## Article Snippets
 
