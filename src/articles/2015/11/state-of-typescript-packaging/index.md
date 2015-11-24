@@ -3,6 +3,8 @@ title: The State of TypeScript Packages
 date: 2015-11-22 16:00
 author: Blake Embrey
 template: article.jade
+github: typings/typings
+npm: typings
 ---
 
 As a module author and developer, I love TypeScript. It allows me to write, publish and consume 100% type-safe JavaScript. Features like autocompletion, type validation and ES6 features are now part of my typical workflow. However, one step in this development lifecycle has always been broken for me. I've [published](https://github.com/blakeembrey/popsicle) [half](https://github.com/TypeStrong/tsconfig) [a](https://github.com/blakeembrey/free-style) [dozen](https://github.com/TypeStrong/ts-node) modules on NPM, but no one has ever been able to consume the type definitions from them. Why's that?
