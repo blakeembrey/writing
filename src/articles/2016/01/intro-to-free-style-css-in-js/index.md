@@ -29,6 +29,8 @@ The other interesting methods are `registerRule` and `registerKeyframes`. Both w
 
 All this hashing results in the fact that all styles are automatically unique. Registered styles and keyframes have a hash to identify them and the chance of a conflicting style is now left to the computer to resolve, not you. The other pitfalls of CSS are automatically solved as the result of JavaScript, as the hash can only be known and exposed by the implementor while constants and isolation are now solved (you can even use NPM libraries for style manipulation now).
 
+**Update:** One useful fact that may not be immediately obvious. By using hashes as the class name, it means output is _always_ consistent across front-end and back-end (E.g. in isomorphic applications).
+
 ## Free Style Output Targets
 
 Now that you understand how Free Style works, the output targets should make a lot more sense. By default, Free Style exposes a feature-rich implementation ready for third-parties to build on top. To use it today, you must create instances of `FreeStyle` (using `create()`), merge any other instances and use `getStyles` to get the CSS output. There's an `inject()` method, which will take the result of `getStyles` and wrap it in `<style />` in the `<head />`.
