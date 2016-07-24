@@ -2,7 +2,7 @@
 title: Partial Application in JavaScript
 date: 2014-01-25 23:00
 author: Blake Embrey
-template: article.jade
+layout: article.pug
 ---
 
 Partial application is the act of pre-filling arguments of a function and returning a new function of smaller arity. The returned function can be called with additional parameters and in JavaScript, the `this` context can also be changed when called. Using a partially applied function is extremely common in functional programming with JavaScript as it allows us to compose some really nifty utilities and avoid repeating ourselves in code.

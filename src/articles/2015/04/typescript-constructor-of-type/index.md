@@ -2,7 +2,7 @@
 title: Reference the Constructor of a Type in TypeScript (Generically)
 date: 2015-04-28 00:00
 author: Blake Embrey
-template: article.jade
+layout: article.pug
 ---
 
 Although not initially intuitive, I run into this issue while documenting the [`register`](http://martyjs.org/api/registry/index.html#register) function in Marty.js. I didn't realise a solution, so I reached out to a friend who provided me with this beauty.

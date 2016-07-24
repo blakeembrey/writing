@@ -2,7 +2,7 @@
 title: Wrapping JavaScript Functions
 date: 2014-01-13 23:00
 author: Blake Embrey
-template: article.jade
+layout: article.pug
 ---
 
 In the modern age of web applications and development, it seems we are constantly adding side effects to every part of our applications - everything from analytics to event triggering. Unfortunately in a lot of cases, we tend to cram this functionality into function with the useful stuff. As programmers, this causes numerous issues down the line - especially when it comes to refactoring and code comprehensibility.

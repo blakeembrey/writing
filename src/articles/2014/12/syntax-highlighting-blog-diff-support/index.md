@@ -2,7 +2,7 @@
 title: Syntax Highlighted Diffs For Everyone
 date: 2014-12-26 00:30
 author: Blake Embrey
-template: article.jade
+layout: article.pug
 npm: highlighter
 github: blakeembrey/highlighter
 ---

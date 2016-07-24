@@ -2,7 +2,7 @@
 title: Introducing Retest
 date: 2014-02-11 23:30
 author: Blake Embrey
-template: article.jade
+layout: article.pug
 ---
 
 If you've looked into testing your API in node before, you've probably run across [supertest](https://github.com/visionmedia/supertest) by the prolific TJ Holowaychuk. So have I and it's truly a fantastic library for testing APIs. However, I found it to be lacking a couple of features I sorely needed. And to my surprise, I struggled to find another request testing module in the node ecosystem.

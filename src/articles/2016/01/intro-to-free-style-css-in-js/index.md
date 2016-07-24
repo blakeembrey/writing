@@ -2,7 +2,7 @@
 title: Introduction to Free Style (and CSS-in-JS)
 date: 2016-01-17 14:45
 author: Blake Embrey
-template: article.jade
+layout: article.pug
 github: blakeembrey/free-style
 npm: free-style
 ---

@@ -6,17 +6,17 @@ rss(version='2.0',
     xmlns:atom='http://www.w3.org/2005/Atom')
   channel
     title= blog.title
-    atom:link(href=blog.uri + '/feed.xml', rel='self', type='application/rss+xml')
-    link= blog.uri
+    atom:link(href=blog.url + '/feed.xml', rel='self', type='application/rss+xml')
+    link= blog.url
     description= blog.description
-    pubDate= moment(date).format('ddd, DD MMM YYYY HH:mm:ss ZZ')
+    lastBuildDate= moment(date).format('ddd, DD MMM YYYY HH:mm:ss ZZ')
     language en
     for article in collections.articles
-      - var permalink = blog.uri + '/' + article.path
+      - var permalink = blog.url + '/' + article.path
       item
         title= article.title
         link= permalink
         pubDate= moment(article.date).format('ddd, DD MMM YYYY HH:mm:ss ZZ')
         guid(isPermaLink='true')= permalink
         author= article.author
-        description= article.snippet
+        description= article.contents

@@ -2,20 +2,21 @@ extends layout
 
 block append vars
   - var bodyclass = 'article'
-  - var fullUri = blog.uri + '/' + path
+  - var fullUrl = blog.url + '/' + path
 
 block prepend title
   | #{title + " • "}
 
-block prepend header
-  a.home.icon-home.back-to-home(href='/', title=blog.title)
+block append head
+  link(rel='canonical', href=fullUrl)
 
-block header
+block append header
   header.header.container
-    small.header-metadata
-      time.timestamp(datetime=date)= moment(date).format('MMMM D, YYYY')
-    h1.header-title= title
-    div.header-more
+    h1.article-title
+      a(href='/' + path)= title
+    small.article-date
+      time(datetime=date)= moment(date).format('D MMMM YYYY')
+    div.article-more
       if github
         a.btn.btn-small.btn-github(href='https://github.com/' + github)
           | View on GitHub
@@ -24,12 +25,12 @@ block header
           | Install with npm
 
 block content
-  article.content-article!= contents
+  article.content.article!= contents
 
-  div.content-share.cf
+  div.share.cf
     ul.rrssb-buttons.cf
       li.rrssb-email
-        a(href='mailto:?subject=' + escape(title) + '&body=' + escape(fullUri))
+        a(href='mailto:?subject=' + escape(title) + '&body=' + escape(fullUrl))
           span.rrssb-icon
             svg(xmlns='http://www.w3.org/2000/svg', xmlns:xlink='http://www.w3.org/1999/xlink', version='1.1', x='0px', y='0px', width='28px', height='28px', viewBox='0 0 28 28', enable-background='new 0 0 28 28', xml:space='preserve')
               g
@@ -46,7 +47,7 @@ block content
           span.rrssb-text facebook
 
       li.rrssb-linkedin
-        a(href='http://www.linkedin.com/shareArticle?mini=true&url=' + encodeURIComponent(fullUri) + '&title=' + encodeURIComponent(title), class='popup')
+        a(href='http://www.linkedin.com/shareArticle?mini=true&url=' + encodeURIComponent(fullUrl) + '&title=' + encodeURIComponent(title), class='popup')
           span.rrssb-icon
             svg#Layer_1(version='1.1', xmlns='http://www.w3.org/2000/svg', xmlns:xlink='http://www.w3.org/1999/xlink', x='0px', y='0px', width='28px', height='28px', viewbox='0 0 28 28', enable-background='new 0 0 28 28', xml:space='preserve')
               path(d='M25.424,15.887v8.447h-4.896v-7.882c0-1.979-0.709-3.331-2.48-3.331c-1.354,0-2.158,0.911-2.514,1.803\
@@ -57,7 +58,7 @@ block content
           span.rrssb-text linkedin
 
       li.rrssb-twitter
-        a.popup(href='http://twitter.com/home?status=' + encodeURIComponent(title + ' ' + fullUri), class='popup')
+        a.popup(href='http://twitter.com/home?status=' + encodeURIComponent(title + ' ' + fullUrl), class='popup')
           span.rrssb-icon
             svg#Layer_1(version='1.1', xmlns='http://www.w3.org/2000/svg', xmlns:xlink='http://www.w3.org/1999/xlink', x='0px', y='0px', width='28px', height='28px', viewbox='0 0 28 28', enable-background='new 0 0 28 28', xml:space='preserve')
               path(d='M24.253,8.756C24.689,17.08,18.297,24.182,9.97,24.62c-3.122,0.162-6.219-0.646-8.861-2.32\
@@ -69,7 +70,7 @@ block content
           span.rrssb-text twitter
 
       li.rrssb-reddit
-        a(href='http://www.reddit.com/submit?url=' + encodeURIComponent(fullUri), class='popup')
+        a(href='http://www.reddit.com/submit?url=' + encodeURIComponent(fullUrl), class='popup')
           span.rrssb-icon
             svg(xmlns='http://www.w3.org/2000/svg', xmlns:xlink='http://www.w3.org/1999/xlink', version='1.1', x='0px', y='0px', width='28px', height='28px', viewbox='0 0 28 28', enable-background='new 0 0 28 28', xml:space='preserve')
               g
@@ -80,7 +81,7 @@ block content
           span.rrssb-text reddit
 
       li.rrssb-googleplus
-        a.popup(href='https://plus.google.com/share?url=' + encodeURIComponent(fullUri), class='popup')
+        a.popup(href='https://plus.google.com/share?url=' + encodeURIComponent(fullUrl), class='popup')
           span.rrssb-icon
             svg#Layer_1(version='1.1', xmlns='http://www.w3.org/2000/svg', xmlns:xlink='http://www.w3.org/1999/xlink', x='0px', y='0px', width='28px', height='28px', viewbox='0 0 28 28', enable-background='new 0 0 28 28', xml:space='preserve')
               g
@@ -100,19 +101,8 @@ block content
           span.rrssb-text google+
 
       li.rrssb-pocket
-        a(href='https://getpocket.com/save?url=' + encodeURIComponent(fullUri), class='popup')
+        a(href='https://getpocket.com/save?url=' + encodeURIComponent(fullUrl), class='popup')
             span.rrssb-icon
               svg(width='32px', height='28px', viewbox='0 0 32 28', version='1.1', xmlns='http://www.w3.org/2000/svg', xmlns:xlink='http://www.w3.org/1999/xlink', xmlns:sketch='http://www.bohemiancoding.com/sketch/ns')
                 path(d='M28.7817528,0.00172488695 C30.8117487,0.00431221738 31.9749312,1.12074529 31.9644402,3.10781507 C31.942147,6.67703739 32.1336065,10.2669583 31.8057648,13.8090137 C30.7147076,25.5813672 17.2181194,31.8996281 7.20714461,25.3808491 C2.71833574,22.4571656 0.196577202,18.3122624 0.0549495772,12.9357897 C-0.0342233715,9.5774348 0.00642900214,6.21519891 0.0300336062,2.85555035 C0.0405245414,1.1129833 1.21157517,0.0146615391 3.01995012,0.00819321302 C7.34746087,-0.00603710433 11.6775944,0.00431221738 16.0064164,0.00172488695 C20.2644248,0.00172488695 24.5237444,-0.00215610869 28.7817528,0.00172488695 L28.7817528,0.00172488695 Z M8.64885184,7.85611511 C7.38773662,7.99113854 6.66148108,8.42606978 6.29310958,9.33228474 C5.90114134,10.2969233 6.17774769,11.1421181 6.89875951,11.8276216 C9.35282156,14.161969 11.8108164,16.4924215 14.2976518,18.7943114 C15.3844131,19.7966007 16.5354102,19.7836177 17.6116843,18.7813283 C20.0185529,16.5495467 22.4070683,14.2982907 24.7824746,12.0327533 C25.9845979,10.8850542 26.1012707,9.56468083 25.1469132,8.60653379 C24.1361858,7.59255976 22.8449191,7.6743528 21.5890476,8.85191291 C19.9936451,10.3488554 18.3680912,11.8172352 16.8395462,13.3777945 C16.1342655,14.093159 15.7200114,14.0048744 15.0566806,13.3440386 C13.4599671,11.7484252 11.8081945,10.2060421 10.1262706,8.70001155 C9.65564653,8.27936164 9.00411403,8.05345704 8.64885184,7.85611511 L8.64885184,7.85611511 L8.64885184,7.85611511 Z')
             span.rrssb-text pocket
-
-  if integrations.disqus
-    div#disqus_thread
-
-    script.
-      //- Disqus code snippet
-      (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//#{integrations.disqus}.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-      })();

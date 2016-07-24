@@ -2,7 +2,7 @@
 title: Building a Blog with Metalsmith
 date: 2014-10-04 13:15
 author: Blake Embrey
-template: article.jade
+layout: article.pug
 ---
 
 [Metalsmith](http://www.metalsmith.io/) is a new addition to static site generator space, only released at the beginning of this year. It's written in JavaScript and provides an extremely simple plugin system for composing files using middleware. The fact that everything is a plugin makes it incredibly easy to understand what is happening under the hood and extend it when you need to add new functionality.
@@ -197,12 +197,12 @@ You may have noticed that it'd be handy to add some generic metadata or modules 
    .source('src')
 +  .use(define({
 +    blog: {
-+      uri: 'http://blakeembrey.com',
++      url: 'http://blakeembrey.com',
 +      title: 'Blake Embrey',
 +      description: 'Hello world.'
 +    },
 +    owner: {
-+      uri: 'http://blakeembrey.me',
++      url: 'http://blakeembrey.me',
 +      name: 'Blake Embrey'
 +    },
 +    moment: require('moment')
@@ -309,13 +309,13 @@ rss(version='2.0',
     xmlns:atom='http://www.w3.org/2005/Atom')
   channel
     title= blog.title
-    atom:link(href=blog.uri + '/feed.xml', rel='self', type='application/rss+xml')
-    link= blog.uri
+    atom:link(href=blog.url + '/feed.xml', rel='self', type='application/rss+xml')
+    link= blog.url
     description= blog.description
     pubDate= moment(date).format('ddd, DD MMM YYYY HH:mm:ss ZZ')
     language en
     for article in collections.articles
-      - var permalink = blog.uri + '/' + article.path
+      - var permalink = blog.url + '/' + article.path
       item
         title= article.title
         link= permalink

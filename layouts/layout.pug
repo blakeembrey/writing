@@ -1,0 +1,54 @@
+doctype html
+
+block vars
+  - var bodyclass = 'index'
+
+html.no-js(lang='en')
+  head
+    block head
+      meta(charset='utf-8')
+      meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
+      meta(name='viewport', content='width=device-width')
+      meta(name='description', content=blog.description)
+      title
+        block title
+          = blog.title
+      link(rel='author', href='https://google.com/+BlakeEmbrey')
+      link(rel='alternate', href='/feed.xml', type='application/rss+xml', title=blog.description)
+      link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Roboto:500italic,500,300,300italic|Roboto+Mono:300,300italic,500,500italic')
+      link(rel='stylesheet', href='/' + fingerprint['vendor/normalize/normalize.css'])
+      link(rel='stylesheet', href='/' + fingerprint['css/main.css'])
+      link(rel='stylesheet', href='/' + fingerprint['vendor/fontello/css/blog-embedded.css'])
+      link(rel='stylesheet', href='/' + fingerprint['vendor/rrssb/rrssb.css'])
+  body(class=bodyclass)
+    div.wrapper.cf
+      div.wrapper-border
+
+      block header
+        a.icon-home.back-to-home(href='/', title=blog.title)
+
+      main.container(role='main')
+        block content
+
+      a.banner-github(href='https://github.com/blakeembrey/blakeembrey.com') Star on Github
+
+    footer.footer(role='contentinfo')
+      a.icon-home.back-to-home(href='/', title=blog.title)
+      block footer
+        p.content.container
+          | #{new Date().getFullYear()}&nbsp;&copy;&nbsp;
+          a(href=owner.url)= owner.name
+
+    if googleAnalytics
+      script.
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', '#{googleAnalytics}', 'auto');
+        ga('require', 'displayfeatures');
+        ga('send', 'pageview');
+
+    script(src='/' + fingerprint['vendor/jquery/jquery.min.js'])
+    script(src='/' + fingerprint['vendor/rrssb/rrssb.min.js'])

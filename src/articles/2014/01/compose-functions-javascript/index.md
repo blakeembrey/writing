@@ -2,7 +2,7 @@
 title: Composing Functions in JavaScript
 date: 2014-01-19 00:00
 author: Blake Embrey
-template: article.jade
+layout: article.pug
 ---
 
 Composing multiple functions to create more complex ones is a common utility in any programming language. And the ability to construct functions in a way that is easily composable is a true talent, but it really shines with code maintenance and reuse. It's not uncommon to find huge applications composed of many, much smaller functions. Inspired by this pattern of extremely modular functions, I've been slowly migrating my programming style to allow for more composable and reusable functions.

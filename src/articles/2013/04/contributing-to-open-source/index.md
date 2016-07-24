@@ -2,7 +2,7 @@
 title: Contributing to Open Source
 date: 2013-04-03 20:35
 author: Blake Embrey
-template: article.jade
+layout: article.pug
 ---
 
 > “Software is like sex; it's better when it's free.” - Linus Torvalds

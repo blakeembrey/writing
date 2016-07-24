@@ -2,7 +2,7 @@
 title: Improving Your JavaScript Console Skills
 date: 2013-07-05 10:00
 author: Blake Embrey
-template: article.jade
+layout: article.pug
 ---
 
 *This article is meant as an introduction to some of the features of the JavaScript console. It is not all encompassing, but I will try to cover all the features I find myself using and others that I could not live without. All the features mentioned will be tailored to the Chrome Dev Tools, but I will try to mention any differences with other modern browsers.*

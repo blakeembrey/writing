@@ -2,7 +2,7 @@
 title: FaceTime Auto Answer
 date: 2015-06-20 02:00
 author: Blake Embrey
-template: article.jade
+layout: article.pug
 ---
 
 Some pretext...

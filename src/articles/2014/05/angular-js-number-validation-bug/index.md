@@ -2,7 +2,7 @@
 title: Avoid type="number" in AngularJS
 date: 2014-05-09 20:00
 author: Blake Embrey
-template: article.jade
+layout: article.pug
 ---
 
 The other day I got hit by a peculiar bug in Angular. Using `type="number"` on an input element wouldn't do any number validation. On top of this, when I entered an invalid number the only validation failing was `required`.

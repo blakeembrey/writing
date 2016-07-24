@@ -2,7 +2,7 @@
 title: Introduction to Browserify
 date: 2013-09-12 22:00
 author: Blake Embrey
-template: article.jade
+layout: article.pug
 ---
 
 > require('modules') in the browser.

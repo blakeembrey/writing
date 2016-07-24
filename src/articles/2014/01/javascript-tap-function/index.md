@@ -2,7 +2,7 @@
 title: The Tap Utility in JavaScript
 date: 2014-01-04 20:30
 author: Blake Embrey
-template: article.jade
+layout: article.pug
 ---
 
 There are numerous functional JavaScript libraries out in the public, many of which include a [utility called tap](http://underscorejs.org/#tap). This simplistic utility serves a single purpose, to call a function with a value and return the value back to us. However, the usefulness of this utility is rarely understood and can even be confusing when looking at examples.

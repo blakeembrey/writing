@@ -2,7 +2,7 @@
 title: My Sublime Text Preferences Explained
 date: 2013-08-11 22:20
 author: Blake Embrey
-template: article.jade
+layout: article.pug
 ---
 
 Prompted by the many preference file posts recently, I have finally gotten around to posting my config with a few inline comments.

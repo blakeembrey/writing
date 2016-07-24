@@ -2,7 +2,7 @@
 title: The JavaScript Bind Function
 date: 2013-12-31 01:00
 author: Blake Embrey
-template: article.jade
+layout: article.pug
 ---
 
 The JavaScript `bind` function is a common-place utility when working with many different frameworks and libraries. It's purpose is to bind the `this` value to a static object and is useful when passing functions around as callbacks, where maintaining the correct `this` value is required. A common convention to circumvent this utility is the `var that = this`, but this isn't very feasible everywhere.

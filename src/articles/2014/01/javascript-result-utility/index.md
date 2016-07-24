@@ -2,7 +2,7 @@
 title: JavaScript Result Utility
 date: 2014-01-09 17:00
 author: Blake Embrey
-template: article.jade
+layout: article.pug
 ---
 
 In JavaScript, an objects property can hold any type of data, from strings to functions and even nested objects. Since an object can hold any type of potential data, some libraries implement a [result utility](http://underscorejs.org/#result) to check whether the property is function and instead return the functions return.

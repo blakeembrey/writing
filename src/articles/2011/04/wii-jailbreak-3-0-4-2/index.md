@@ -2,7 +2,7 @@
 title: Jailbreak Wii (Softmod) 3.0 – 4.2
 date: 2011-04-12 12:00
 author: Blake Embrey
-template: article.jade
+layout: article.pug
 ---
 
 ![Homebrew Channel](channel.png)

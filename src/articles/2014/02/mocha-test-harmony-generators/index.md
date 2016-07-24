@@ -2,7 +2,7 @@
 title: Enabling Generators in Mocha
 date: 2014-02-03 12:30
 author: Blake Embrey
-template: article.jade
+layout: article.pug
 npm: co-mocha
 github: blakeembrey/co-mocha
 ---

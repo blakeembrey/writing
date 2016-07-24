@@ -2,7 +2,7 @@
 title: The State of TypeScript Packaging
 date: 2015-11-22 16:00
 author: Blake Embrey
-template: article.jade
+layout: article.pug
 github: typings/typings
 npm: typings
 ---

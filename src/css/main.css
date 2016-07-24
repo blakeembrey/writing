@@ -12,10 +12,15 @@ body {
 
 html {
   color: #333;
-  font-size: 125%;
-  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
-  line-height: 1.5;
+  font-size: 18px;
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  line-height: 1.6;
   background-color: #edf0f2; /* Footer colour for when page is too short */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
 }
 
 .wrapper {
@@ -46,28 +51,15 @@ ul {
 a,
 .btn {
   text-decoration: none;
-  transition-property: color, border-color, background-color;
-  transition-duration: 0.2s;
-  transition-timing-function: ease-in;
 }
 
 a {
   color: #f20;
-  border-bottom: 1px dotted transparent;
-}
-
-a:hover {
-  color: #000;
-}
-
-.content-article a:hover {
-  color: #f20;
-  border-bottom-color: #999;
 }
 
 .btn {
   display: inline-block;
-  padding: 0.3em 0.8em;
+  padding: 0.35em 1em;
   color: #f20;
   background-color: transparent;
   border-radius: 99em;
@@ -100,7 +92,6 @@ canvas {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  vertical-align: middle;
 }
 
 mark {
@@ -115,10 +106,6 @@ blockquote {
   border-left: 6px solid #f20;
 }
 
-.content-article blockquote {
-  margin-left: -6px;
-}
-
 hr {
   display: block;
   margin: 1.5em 0;
@@ -128,7 +115,8 @@ hr {
 
 pre,
 code {
-  font-family: "Source Code Pro", monospace;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 300;
   border-radius: 3px;
   color: #111;
   border: 1px solid #ccc;
@@ -200,7 +188,7 @@ pre > code {
 .hljs-literal,
 .hljs-command {
   color: #458;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .hljs-tag,
@@ -237,7 +225,7 @@ pre > code {
 .hljs-shebang,
 .hljs-cdata {
   color: #999;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .hljs-deletion {
@@ -327,32 +315,37 @@ table tr:hover td {
 
 .back-to-home:hover {
   color: #f20;
+  border-color: #bbb;
 }
 
 .wrapper-border,
-.header-more,
-.header-metadata,
-.home.back-to-home {
+.article-more,
+.article-date,
+.back-to-home {
   margin-bottom: 1.5em;
 }
 
-.header-title,
-.content-title {
-  margin: 0 0 0.8em;
+.article-title {
+  font-weight: 300;
+  margin: 0 0 0.7em;
   line-height: 1.2;
 }
 
-.header-title,
-.header-title a {
+.article-title,
+.article-title a {
   color: #111;
 }
 
-.header-metadata {
+.article-title a:hover {
+  color: #f20;
+}
+
+.article-date {
   display: block;
   color: #bbb;
 }
 
-.header-more .btn {
+.article-more .btn {
   margin: 0.5em;
 }
 
@@ -366,15 +359,34 @@ table tr:hover td {
   padding-bottom: 1.5em;
 }
 
-.navigation,
-.content-article,
-.content-share,
-#disqus_thread {
+.article,
+.share {
   margin-bottom: 2em;
 }
 
-.content-article {
+.article {
   text-align: justify;
+}
+
+.content a:hover {
+  border-bottom: 1px solid;
+}
+
+.content strong {
+  font-weight: 500;
+}
+
+.summary {
+  margin: 4em 0;
+}
+
+.summary-article {
+  margin: 2em 0;
+}
+
+.summary-title {
+  font-size: 1.4em;
+  margin: 0;
 }
 
 .footer {
@@ -399,7 +411,7 @@ table tr:hover td {
   text-align: center;
   background-color: #edf0f2;
   font-size: 0.9em;
-  font-weight: bold;
+  font-weight: 500;
   text-transform: uppercase;
   color: #111;
   text-decoration: none;
@@ -438,6 +450,9 @@ table tr:hover td {
 
   .footer,
   .banner-github,
+  .article-more,
+  .wrapper-border,
+  .share,
   .back-to-home {
     display: none;
   }
@@ -445,10 +460,6 @@ table tr:hover td {
   .container {
     padding-left: 0;
     padding-right: 0;
-  }
-
-  #disqus_thread {
-    display: none;
   }
 }
 

@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  main.summary
+    each article in collections.articles
+      article.summary-article
+        h2.summary-title.article-title
+          a(href='/' + article.path)= article.title
+        small.summary-date.article-date
+          time(datetime=date)= moment(article.date).format('D MMMM YYYY')

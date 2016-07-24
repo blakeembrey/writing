@@ -2,7 +2,7 @@
 title: Change Desktop Background with Shell and GeekTool
 date: 2011-10-30 12:00
 author: Blake Embrey
-template: article.jade
+layout: article.pug
 ---
 
 Make an AppleScript and run it using the "Shell" geeklet provided in GeekTool. First, we’ll make the 'AppleScript'. So, open the AppleScript Editor app to get started. Copy and paste this code:

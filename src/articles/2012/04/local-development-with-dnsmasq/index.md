@@ -2,7 +2,7 @@
 title: Simplify Local Development with Dnsmasq
 date: 2012-04-24 07:28
 author: Blake Embrey
-template: article.jade
+layout: article.pug
 ---
 
 Ever wanted to be able to set up your local domains instantly and never have to worry about your `/etc/hosts` again? Me too! A bit of looking around and I discovered a wealth of information about a small *DNS Forwarder* called DNSMASQ.

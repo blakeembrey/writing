@@ -2,7 +2,7 @@
 title: Forcing Function Arity in JavaScript
 date: 2014-01-22 23:30
 author: Blake Embrey
-template: article.jade
+layout: article.pug
 ---
 
 Function arity in something in JavaScript that is usually overlooked. For the most part, that's perfectly understandable, it's just a number. Unfortunately, this number can be integral to many other functions working correctly. But first, what number am I talking about?

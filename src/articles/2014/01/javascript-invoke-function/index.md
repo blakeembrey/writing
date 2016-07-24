@@ -2,7 +2,7 @@
 title: A JavaScript Invoke Function
 date: 2014-01-04 21:00
 author: Blake Embrey
-template: article.jade
+layout: article.pug
 ---
 
 **Update:** Now available on [github](https://github.com/blakeembrey/invoke) and [npm](https://www.npmjs.org/package/util-invoke).

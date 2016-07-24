@@ -2,7 +2,7 @@
 title: Warning - Something's Not Right Here
 date: 2011-09-30 12:00
 author: Blake Embrey
-template: article.jade
+layout: article.pug
 ---
 
 ![Chrome is broken :/](warning.png)
