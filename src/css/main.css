@@ -296,7 +296,7 @@ table tr:hover td {
 
 .container {
   margin: 0 auto;
-  padding: 0 0.5em;
+  padding: 0 1em;
   max-width: 40em;
 }
 
@@ -376,12 +376,8 @@ table tr:hover td {
   font-weight: 500;
 }
 
-.summary {
-  margin: 4em 0;
-}
-
 .summary-article {
-  margin: 2em 0;
+  margin: 1.5em 0;
 }
 
 .summary-title {
