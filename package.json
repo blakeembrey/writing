@@ -4,7 +4,7 @@
   "description": "Personal blog of Blake Embrey",
   "private": true,
   "devDependencies": {
-    "highlighter": "0.0.3",
+    "highlighter": "0.1.0",
     "metalsmith": "^2.1.0",
     "metalsmith-autoprefixer": "^1.0.2",
     "metalsmith-build-date": "^0.2.0",
@@ -19,7 +19,7 @@
     "metalsmith-redirect": "^2.1.0",
     "metalsmith-templates": "^0.7.0",
     "moment": "^2.6.0",
-    "onchange": "^2.5.0",
+    "onchange": "^3.0.2",
     "pug": "^2.0.0-beta4",
     "serve": "^1.4.0",
     "write-good": "^0.9.1"
