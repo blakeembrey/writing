@@ -21,7 +21,7 @@
     "moment": "^2.6.0",
     "onchange": "^3.0.2",
     "pug": "^2.0.0-beta4",
-    "serve": "^2.0.0",
+    "serve": "^3.0.0",
     "write-good": "^0.10.0"
   },
   "scripts": {
