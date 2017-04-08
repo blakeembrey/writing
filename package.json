@@ -22,7 +22,7 @@
     "onchange": "^3.0.2",
     "pug": "^2.0.0-beta4",
     "serve": "^5.0.0",
-    "write-good": "^0.10.0"
+    "write-good": "^0.11.0"
   },
   "scripts": {
     "test": "write-good \"src/articles/**/*.md\"",
