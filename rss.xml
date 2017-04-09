@@ -3,8 +3,8 @@
     <channel>
         <title>Blake Embrey</title>
         <link>http://blakeembrey.com</link>
-        <description>Just some words.</description>
-        <lastBuildDate>Sun, 09 Apr 2017 21:24:02 GMT</lastBuildDate>
+        <description>A personally curated collection of words hosted in cyberspace for an indeterminate duration.</description>
+        <lastBuildDate>Sun, 09 Apr 2017 21:38:24 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <copyright>Copyright 2017 Blake Embrey</copyright>
