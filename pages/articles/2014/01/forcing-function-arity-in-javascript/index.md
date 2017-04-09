@@ -3,6 +3,8 @@ title: Forcing Function Arity in JavaScript
 date: 2014-01-22 23:30
 author: Blake Embrey
 layout: article
+npm: util-arity
+github: blakeembrey/arity
 ---
 
 Function arity in something in JavaScript that is usually overlooked. For the most part, that's perfectly understandable, it's just a number. Unfortunately, this number can be integral to many other functions working correctly. But first, what number am I talking about?

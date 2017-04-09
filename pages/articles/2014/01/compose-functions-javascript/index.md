@@ -10,7 +10,7 @@ Composing multiple functions to create more complex ones is a common utility in 
 To compose functions together, we will need to accept a list of functions for it to be made up from. Let's call the functions `a`, `b` and `c`. Now that we have the list of functions, we need to call each of them with the result of the next function. In JavaScript, we would do this with `a(b(c(x)))` - with `x` being the starting value. However, it would be much more useful to have something a little more reusable than this.
 
 ```javascript
-var compose = function () {
+function compose () {
   var fns = arguments;
 
   return function (result) {
@@ -36,7 +36,7 @@ number('72.5'); //=> 73
 Another utility I've seen about in some functional libraries is called [sequence](https://github.com/raganwald/allong.es#functional-composition). It's very similar to `compose`, except the arguments are executed in reverse. For example:
 
 ```javascript
-var sequence = function () {
+function sequence () {
   var fns = arguments;
 
   return function (result) {
@@ -52,9 +52,9 @@ var sequence = function () {
 However, we should make a note of the almost identical function signature to `compose`. Usually, seeing something like this should trigger a warning in your head to find some way to reuse previous functionality, instead of replicating it. In this example, we can reuse the `compose` function to write the `sequence` implementation.
 
 ```javascript
-var __slice = Array.prototype.slice;
+var slice = Array.prototype.slice;
 
 var sequence = function () {
-  return compose.apply(this, __slice.call(arguments).reverse());
+  return compose.apply(this, slice.call(arguments).reverse());
 };
 ```

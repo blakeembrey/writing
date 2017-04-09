@@ -10,7 +10,7 @@ A variadic function is a type of function which accepts a variable number of arg
 The ability to get all the functions trailing arguments natively would be a great inclusion to the language, and in fact [it's already in the works with ES6](http://ariya.ofilabs.com/2013/03/es6-and-rest-parameter.html). For now though, we could be stuck typing this out manually. Or we can write ourselves a [little utility function](https://github.com/blakeembrey/variadic) to speed up our workflow.
 
 ```javascript
-var __slice = Array.prototype.slice;
+var slice = Array.prototype.slice;
 
 /**
  * Generate a function that accepts a variable number of arguments as the last
@@ -19,15 +19,15 @@ var __slice = Array.prototype.slice;
  * @param  {Function} fn
  * @return {Function}
  */
-var variadic = function (fn) {
+function variadic (fn) {
   var count = Math.max(fn.length - 1, 0);
 
   return function () {
-    var args = __slice.call(arguments, 0, count);
+    var args = slice.call(arguments, 0, count);
 
     // Enforce the array length, in case we don't have enough array padding.
     args.length = count;
-    args.push(__slice.call(arguments, count));
+    args.push(slice.call(arguments, count));
 
     return fn.apply(this, args);
   };
