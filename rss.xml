@@ -4,10 +4,17 @@
         <title>Blake Embrey</title>
         <link>http://blakeembrey.com</link>
         <description>A personally curated collection of words hosted in cyberspace for an indeterminate duration.</description>
-        <lastBuildDate>Sun, 09 Apr 2017 21:46:01 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 09 Apr 2017 22:19:13 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <copyright>Copyright 2017 Blake Embrey</copyright>
+        <item>
+            <title><![CDATA[My Week in Review (2017-04-09)]]></title>
+            <link>http://blakeembrey.com/self/2017-04-09-review/</link>
+            <guid>http://blakeembrey.com/self/2017-04-09-review/</guid>
+            <pubDate>Sun, 09 Apr 2017 22:00:00 GMT</pubDate>
+            <author>hello@blakeembrey.com (Blake Embrey)</author>
+        </item>
         <item>
             <title><![CDATA[Introduction to Free Style (and CSS-in-JS)]]></title>
             <link>http://blakeembrey.com/articles/2016/01/intro-to-free-style-css-in-js/</link>
