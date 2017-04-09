@@ -3,6 +3,8 @@ title: A Variadic Utility in JavaScript
 date: 2013-12-29 23:00
 author: Blake Embrey
 layout: article
+npm: variadic
+github: blakeembrey/variadic
 ---
 
 A variadic function is a type of function which accepts a variable number of arguments. In JavaScript, every function can be variadic and it's commonplace to see snippets of code using `Array.prototype.slice.call(arguments, 1)` to get a unlimited number of trailing arguments back as an array. You can also find many instances where you would even slice all the arguments, for the sake of manipulation and array concatenation.
