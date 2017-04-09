@@ -247,7 +247,7 @@ const Page = wrap(
               <a className={linkStyle} href="http://blakeembrey.me">About</a>
             </li>
             <li>
-              <Link className={linkStyle} to={prefixLink('/rss.xml')}>RSS</Link>
+              <a className={linkStyle} href={prefixLink('/rss.xml')}>RSS</a>
             </li>
           </ul>
 

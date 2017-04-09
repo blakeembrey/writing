@@ -60,7 +60,7 @@ greetBlake('Hello'); //=> "Hello Blake"
 
 ## Bonus Implementation using Variadic
 
-In my last post, I introduced the concept of a [variadic function](./javascript-variadic-function). As this article demonstrates, `bind` is a perfect example of a variadic function, so let's reimplement `bind` with the variadic function.
+In my last post, I introduced the concept of a [variadic function](../javascript-variadic-function). As this article demonstrates, `bind` is a perfect example of a variadic function, so let's reimplement `bind` with the variadic function.
 
 ```javascript
 var bind = variadic(function (fn, context, args) {
