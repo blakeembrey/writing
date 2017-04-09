@@ -1,6 +1,6 @@
 # Blake Embrey
 
-This is the personal blog of Blake Embrey, but feel free to fork and reuse the design and implementation for your own blog. The blog is statically generated using Metalsmith and hosted using Github pages.
+This is the open source and personal blog of Blake Embrey.
 
 ## Usage
 
