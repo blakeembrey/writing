@@ -1,9 +1,9 @@
-const moment = require('moment')
+const moment = require('moment');
 
-exports.filterArticles = function (pages) {
+exports.filterArticles = function(pages) {
   const articles = pages
-    .filter((page) => page.path !== '/404.html' && page.file.extname === '.md')
-    .sort((a, b) => moment(b.data.date).unix() - moment(a.data.date).unix())
+    .filter(page => page.path !== '/404.html' && page.file.extname === '.md')
+    .sort((a, b) => moment(b.data.date).unix() - moment(a.data.date).unix());
 
-  return articles
-}
+  return articles;
+};

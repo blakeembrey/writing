@@ -3,7 +3,7 @@
   "description": "Personal blog of Blake Embrey",
   "private": true,
   "scripts": {
-    "pretty": "prettier --single-quote --write \"{pages,loaders,wrappers}/**/*.{js,jsx}\"",
+    "pretty": "prettier --single-quote --write \"{pages,loaders,wrappers,utils}/**/*.{js,jsx}\" \"gatsby-{node,browser}.js\" html.js",
     "clean": "rimraf public",
     "build": "npm run clean && gatsby build",
     "deploy": "npm run clean && NODE_ENV=production gatsby build --prefix-links && gh-pages -d public",
@@ -22,6 +22,7 @@
   "dependencies": {
     "classnames": "^2.2.5",
     "react-free-style": "^4.0.0",
+    "react-ga": "^2.1.2",
     "react-helmet": "^5.0.2"
   },
   "devDependencies": {

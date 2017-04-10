@@ -6,5 +6,6 @@ exports.config = {
   twitter: 'https://twitter.com/blakeembrey',
   authorName: 'Blake Embrey',
   authorEmail: 'hello@blakeembrey.com',
-  authorUrl: 'http://blakeembrey.me'
-}
+  authorUrl: 'http://blakeembrey.me',
+  gaCode: 'UA-22855713-2'
+};

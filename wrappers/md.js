@@ -24,12 +24,6 @@ const infoStyle = Style.registerStyle({
 
 module.exports = wrap(
   class extends React.Component {
-    propTypes() {
-      return {
-        router: React.PropTypes.object
-      };
-    }
-
     render() {
       const post = this.props.route.page.data;
       const date = moment(post.date);
