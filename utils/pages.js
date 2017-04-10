@@ -1,5 +1,9 @@
+const moment = require('moment')
+
 exports.filterArticles = function (pages) {
-  return pages
+  const articles = pages
     .filter((page) => page.path !== '/404.html' && page.file.extname === '.md')
-    .sort((a, b) => Date.parse(b.data.date) - Date.parse(a.data.date))
+    .sort((a, b) => moment(b.data.date).unix() - moment(a.data.date).unix())
+
+  return articles
 }

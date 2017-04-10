@@ -1,4 +1,5 @@
 const Feed = require('feed')
+const moment = require('moment')
 const { writeFile } = require('fs')
 const { join } = require('path')
 const { resolve } = require('url')
@@ -37,7 +38,7 @@ exports.postBuild = function (pages, cb) {
         link: config.authorUrl
       }],
       contributor: page.data.contributor || [],
-      date: new Date(page.data.date),
+      date: moment(page.data.date).toDate(),
       image: page.data.image
     })
   })
