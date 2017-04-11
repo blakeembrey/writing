@@ -22,7 +22,7 @@
   "dependencies": {
     "classnames": "^2.2.5",
     "react-free-style": "^4.0.0",
-    "react-ga": "^2.1.2",
+    "react-ga": "^2.2.0",
     "react-helmet": "^5.0.2"
   },
   "devDependencies": {
