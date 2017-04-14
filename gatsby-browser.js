@@ -1,12 +1,14 @@
 import { pages } from 'config';
+import { pageTitle } from './utils/pages';
 
 exports.onRouteUpdate = function(state) {
-  if (window.ga) {
-    const page = pages.filter(page => page.path === state.pathname);
+  // Only log new pages when `ga` is defined.
+  if (window.ga && state.action === 'PUSH') {
+    const page = pages.filter(page => page.path === state.pathname)[0];
 
     window.ga('send', 'pageview', {
       location: location.pathname,
-      title: (page && page.data && page.data.title) || state.pathname,
+      title: page ? pageTitle(page) : state.pathname,
       page: state.pathname
     });
   }

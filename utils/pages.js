@@ -1,4 +1,11 @@
 const moment = require('moment');
+const { config } = require('./config');
+
+exports.pageTitle = function(page) {
+  return page.data.title
+    ? `${page.data.title} • ${config.siteName}`
+    : config.siteName;
+};
 
 exports.filterArticles = function(pages) {
   const articles = pages

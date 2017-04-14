@@ -3,6 +3,7 @@ import moment from 'moment';
 import Helmet from 'react-helmet';
 import { create, wrap } from 'react-free-style';
 import { config } from '../utils/config';
+import { pageTitle } from '../utils/pages';
 
 const Style = create();
 const infoColor = '#777';
@@ -25,12 +26,13 @@ const infoStyle = Style.registerStyle({
 module.exports = wrap(
   class extends React.Component {
     render() {
+      const { page } = this.props.route;
       const post = this.props.route.page.data;
       const date = moment(post.date);
 
       return (
         <div>
-          <Helmet title={`${post.title} • ${config.siteName}`} />
+          <Helmet title={pageTitle(page)} />
           <h1>{post.title}</h1>
           <ul className={infoStyle}>
             <li>

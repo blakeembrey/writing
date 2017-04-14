@@ -15,27 +15,26 @@ const subStyle = IndexStyle.registerStyle({
 module.exports = wrap(
   class extends React.Component {
     render() {
-      const pages = filterArticles(this.props.route.pages).reduce(
-        (pages, page) => {
-          const date = moment(page.data.date);
-          const parts = page.path.substr(1).split('/');
+      const pages = filterArticles(
+        this.props.route.pages
+      ).reduce((pages, page) => {
+        const date = moment(page.data.date);
+        const parts = page.path.substr(1).split('/');
 
-          pages.push(
-            <p key={page.path}>
-              <Link to={prefixLink(page.path)}>{page.data.title}</Link>
-              <span className={subStyle}>
-                <time dateTime={date.toISOString()}>
-                  {' '}{date.format('MMM YYYY')}
-                </time>
-                {parts.length > 1 ? ` / ${parts[0]}` : undefined}
-              </span>
-            </p>
-          );
+        pages.push(
+          <p key={page.path}>
+            <Link to={prefixLink(page.path)}>{page.data.title}</Link>
+            <span className={subStyle}>
+              <time dateTime={date.toISOString()}>
+                {' '}{date.format('MMM YYYY')}
+              </time>
+              {parts.length > 1 ? ` / ${parts[0]}` : undefined}
+            </span>
+          </p>
+        );
 
-          return pages;
-        },
-        []
-      );
+        return pages;
+      }, []);
 
       return <div>{pages}</div>;
     }
