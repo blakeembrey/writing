@@ -4,10 +4,17 @@
         <title>Blake Embrey</title>
         <link>http://blakeembrey.com</link>
         <description>A personally curated collection of words hosted in cyberspace for an indeterminate duration.</description>
-        <lastBuildDate>Fri, 14 Apr 2017 19:42:44 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 16 Apr 2017 23:49:01 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <copyright>Copyright 2017 Blake Embrey</copyright>
+        <item>
+            <title><![CDATA[My Week in Review (2017-04-16)]]></title>
+            <link>http://blakeembrey.com/self/2017-04-16-review/</link>
+            <guid>http://blakeembrey.com/self/2017-04-16-review/</guid>
+            <pubDate>Sun, 16 Apr 2017 23:00:00 GMT</pubDate>
+            <author>hello@blakeembrey.com (Blake Embrey)</author>
+        </item>
         <item>
             <title><![CDATA[My Week in Review (2017-04-09)]]></title>
             <link>http://blakeembrey.com/self/2017-04-09-review/</link>
