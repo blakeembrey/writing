@@ -1,5 +1,6 @@
 import React from 'react';
-import moment from 'moment';
+import parse from 'date-fns/parse';
+import format from 'date-fns/format';
 import Helmet from 'react-helmet';
 import { create, wrap } from 'react-free-style';
 import { config } from '../utils/config';
@@ -28,20 +29,23 @@ module.exports = wrap(
     render() {
       const { page } = this.props.route;
       const post = this.props.route.page.data;
-      const date = moment(post.date);
+      const date = parse(post.date);
 
       return (
         <div>
           <Helmet title={pageTitle(page)} />
           <h1>{post.title}</h1>
           <ul className={infoStyle}>
-            <li>
-              Written
-              {' '}
-              <time dateTime={date.toISOString()}>
-                {date.format('MMMM YYYY')}
-              </time>
-            </li>
+            {post.date ?
+              <li>
+                Written
+                {' '}
+                <time dateTime={date.toISOString()}>
+                  {format(date, 'MMMM YYYY')}
+                </time>
+              </li> :
+              undefined
+            }
             {post.github
               ? <li>
                   <a href={`https://github.com/${post.github}`}>

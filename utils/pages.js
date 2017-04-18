@@ -1,4 +1,4 @@
-const moment = require('moment');
+const parse = require('date-fns/parse');
 const { config } = require('./config');
 
 exports.pageTitle = function(page) {
@@ -10,7 +10,7 @@ exports.pageTitle = function(page) {
 exports.filterArticles = function(pages) {
   const articles = pages
     .filter(page => page.path !== '/404.html' && page.file.extname === '.md')
-    .sort((a, b) => moment(b.data.date).unix() - moment(a.data.date).unix());
+    .sort((a, b) => parse(b.data.date).getTime() - parse(a.data.date).getTime());
 
   return articles;
 };

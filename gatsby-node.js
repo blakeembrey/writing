@@ -1,5 +1,5 @@
 const Feed = require('feed');
-const moment = require('moment');
+const parse = require('date-fns/parse');
 const { writeFile } = require('fs');
 const { join } = require('path');
 const { resolve } = require('url');
@@ -40,7 +40,7 @@ exports.postBuild = function(pages, cb) {
         }
       ],
       contributor: page.data.contributor || [],
-      date: moment(page.data.date).toDate(),
+      date: parse(page.data.date),
       image: page.data.image
     });
   });

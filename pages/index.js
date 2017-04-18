@@ -1,5 +1,6 @@
 import React from 'react';
-import moment from 'moment';
+import parse from 'date-fns/parse';
+import format from 'date-fns/format';
 import { Link } from 'react-router';
 import { prefixLink } from 'gatsby-helpers';
 import { create, wrap } from 'react-free-style';
@@ -18,7 +19,7 @@ module.exports = wrap(
       const pages = filterArticles(
         this.props.route.pages
       ).reduce((pages, page) => {
-        const date = moment(page.data.date);
+        const date = parse(page.data.date);
         const parts = page.path.substr(1).split('/');
 
         pages.push(
@@ -26,7 +27,7 @@ module.exports = wrap(
             <Link to={prefixLink(page.path)}>{page.data.title}</Link>
             <span className={subStyle}>
               <time dateTime={date.toISOString()}>
-                {' '}{date.format('MMM YYYY')}
+                {' '}{format(date, 'MMM YYYY')}
               </time>
               {parts.length > 1 ? ` / ${parts[0]}` : undefined}
             </span>

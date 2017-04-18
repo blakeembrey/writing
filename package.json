@@ -21,6 +21,7 @@
   "license": "MIT",
   "dependencies": {
     "classnames": "^2.2.5",
+    "date-fns": "^1.28.3",
     "react-free-style": "^4.0.0",
     "react-ga": "^2.1.2",
     "react-helmet": "^5.0.2"
@@ -37,9 +38,6 @@
     "markdown-it-deflist": "^2.0.1",
     "markdown-it-footnote": "^3.0.1",
     "markdown-it-sub": "^1.0.0",
-    "moment": "^2.6.0",
-    "postcss": "^5.2.16",
-    "postcss-js": "^0.3.0",
     "prettier": "^1.0.0",
     "rimraf": "^2.6.1"
   }
