@@ -12,7 +12,10 @@ export default class extends React.Component {
     const style = ReactFreeStyle.rewind();
 
     return (
-      <html lang="en">
+      <html
+        lang="en"
+        prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#"
+      >
         <head>
           <meta charSet="utf-8" />
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
