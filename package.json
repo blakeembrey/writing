@@ -6,7 +6,7 @@
     "pretty": "prettier --single-quote --write \"{pages,loaders,wrappers,utils}/**/*.{js,jsx}\" \"gatsby-{node,browser}.js\" html.js",
     "clean": "rimraf public",
     "build": "npm run clean && gatsby build",
-    "deploy": "npm run clean && NODE_ENV=production gatsby build --prefix-links && gh-pages -d public",
+    "deploy": "npm run clean && gatsby build --prefix-links && gh-pages -d public",
     "dev": "gatsby develop"
   },
   "repository": {

@@ -45,7 +45,9 @@ export default class extends React.Component {
                 }}
               />
             : undefined}
-          <script src={prefixLink(`/bundle.js?t=${BUILD_TIME}`)} />
+          {process.env.NODE_ENV === 'production'
+            ? undefined
+            : <script src={prefixLink(`/bundle.js?t=${BUILD_TIME}`)} />}
         </body>
       </html>
     );
