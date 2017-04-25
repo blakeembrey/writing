@@ -4,7 +4,7 @@
         <title>Blake Embrey</title>
         <link>http://blakeembrey.com</link>
         <description>A personally curated collection of words hosted in cyberspace for some indeterminate duration.</description>
-        <lastBuildDate>Mon, 24 Apr 2017 20:04:11 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 25 Apr 2017 19:40:25 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <copyright>Copyright 2017 Blake Embrey</copyright>
@@ -196,6 +196,13 @@
             <link>http://blakeembrey.com/articles/2011/04/wii-jailbreak-3-0-4-2/</link>
             <guid>http://blakeembrey.com/articles/2011/04/wii-jailbreak-3-0-4-2/</guid>
             <pubDate>Tue, 12 Apr 2011 19:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Git]]></title>
+            <link>http://blakeembrey.com/software/git/</link>
+            <guid>http://blakeembrey.com/software/git/</guid>
+            <pubDate>Invalid Date</pubDate>
+            <author>hello@blakeembrey.com (Blake Embrey)</author>
         </item>
     </channel>
 </rss>
