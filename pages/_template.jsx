@@ -241,7 +241,7 @@ const Page = wrap(
         <div className={containerStyle}>
           <ul className={headerStyle}>
             <li>
-              <Link className={linkStyle} to={prefixLink('/')}>Blog</Link>
+              <Link className={linkStyle} to={prefixLink('/')}>Writing</Link>
             </li>
             <li>
               <a className={linkStyle} href="http://blakeembrey.me">About</a>

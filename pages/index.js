@@ -18,26 +18,23 @@ module.exports = wrap(
     render() {
       const pages = filterArticles(
         this.props.route.pages
-      ).reduce((pages, page) => {
-        const date = parse(page.data.date);
-        const parts = page.path.substr(1).split('/');
+      ).sort((a, b) => {
+        return a.path < b.path ? 1 : -1
+      }).reduce((pages, page) => {
+        const parts = page.path.replace(/^\/|\/$/g, '').split('/');
+
+        console.log(page.path)
 
         pages.push(
-          <p key={page.path}>
-            <Link to={prefixLink(page.path)}>{page.data.title}</Link>
-            <span className={subStyle}>
-              <time dateTime={date.toISOString()}>
-                {' '}{format(date, 'MMM YYYY')}
-              </time>
-              {parts.length > 1 ? ` / ${parts[0]}` : undefined}
-            </span>
-          </p>
+          <li key={page.path}>
+            <Link to={prefixLink(page.path)}>{parts.join(' / ')}</Link>
+          </li>
         );
 
         return pages;
       }, []);
 
-      return <div>{pages}</div>;
+      return <ul>{pages}</ul>;
     }
   },
   IndexStyle
