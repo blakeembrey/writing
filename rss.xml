@@ -4,205 +4,212 @@
         <title>Blake Embrey</title>
         <link>http://blakeembrey.com</link>
         <description>A personally curated collection of words hosted in cyberspace for some indeterminate duration.</description>
-        <lastBuildDate>Mon, 01 May 2017 16:35:08 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 07 May 2017 23:10:55 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <copyright>Copyright 2017 Blake Embrey</copyright>
         <item>
+            <title><![CDATA[My Week in Review (2017-05-07)]]></title>
+            <link>http://blakeembrey.com/self/2017-05-07-review/</link>
+            <guid>http://blakeembrey.com/self/2017-05-07-review/</guid>
+            <pubDate>Sun, 07 May 2017 22:30:00 GMT</pubDate>
+            <author>hello@blakeembrey.com (Blake Embrey)</author>
+        </item>
+        <item>
             <title><![CDATA[My Week in Review (2017-05-01)]]></title>
             <link>http://blakeembrey.com/self/2017-05-01-review/</link>
             <guid>http://blakeembrey.com/self/2017-05-01-review/</guid>
-            <pubDate>Mon, 01 May 2017 16:30:00 GMT</pubDate>
+            <pubDate>Mon, 01 May 2017 13:30:00 GMT</pubDate>
             <author>hello@blakeembrey.com (Blake Embrey)</author>
         </item>
         <item>
             <title><![CDATA[My Week in Review (2017-04-24)]]></title>
             <link>http://blakeembrey.com/self/2017-04-24-review/</link>
             <guid>http://blakeembrey.com/self/2017-04-24-review/</guid>
-            <pubDate>Mon, 24 Apr 2017 19:00:00 GMT</pubDate>
+            <pubDate>Mon, 24 Apr 2017 16:00:00 GMT</pubDate>
             <author>hello@blakeembrey.com (Blake Embrey)</author>
         </item>
         <item>
             <title><![CDATA[My Week in Review (2017-04-16)]]></title>
             <link>http://blakeembrey.com/self/2017-04-16-review/</link>
             <guid>http://blakeembrey.com/self/2017-04-16-review/</guid>
-            <pubDate>Sun, 16 Apr 2017 23:00:00 GMT</pubDate>
+            <pubDate>Sun, 16 Apr 2017 20:00:00 GMT</pubDate>
             <author>hello@blakeembrey.com (Blake Embrey)</author>
         </item>
         <item>
             <title><![CDATA[My Week in Review (2017-04-09)]]></title>
             <link>http://blakeembrey.com/self/2017-04-09-review/</link>
             <guid>http://blakeembrey.com/self/2017-04-09-review/</guid>
-            <pubDate>Sun, 09 Apr 2017 22:00:00 GMT</pubDate>
+            <pubDate>Sun, 09 Apr 2017 19:00:00 GMT</pubDate>
             <author>hello@blakeembrey.com (Blake Embrey)</author>
         </item>
         <item>
             <title><![CDATA[Introduction to Free Style (and CSS-in-JS)]]></title>
             <link>http://blakeembrey.com/articles/2016/01/intro-to-free-style-css-in-js/</link>
             <guid>http://blakeembrey.com/articles/2016/01/intro-to-free-style-css-in-js/</guid>
-            <pubDate>Sun, 17 Jan 2016 22:45:00 GMT</pubDate>
+            <pubDate>Sun, 17 Jan 2016 19:45:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[The State of TypeScript Packaging]]></title>
             <link>http://blakeembrey.com/articles/2015/11/state-of-typescript-packaging/</link>
             <guid>http://blakeembrey.com/articles/2015/11/state-of-typescript-packaging/</guid>
-            <pubDate>Mon, 23 Nov 2015 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 22 Nov 2015 21:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Skype Auto Answer with AppleScript]]></title>
             <link>http://blakeembrey.com/articles/2015/06/skype-auto-answer-with-applescript/</link>
             <guid>http://blakeembrey.com/articles/2015/06/skype-auto-answer-with-applescript/</guid>
-            <pubDate>Mon, 22 Jun 2015 09:00:00 GMT</pubDate>
+            <pubDate>Mon, 22 Jun 2015 06:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[FaceTime Auto Answer]]></title>
             <link>http://blakeembrey.com/articles/2015/06/facetime-auto-answer-applescript/</link>
             <guid>http://blakeembrey.com/articles/2015/06/facetime-auto-answer-applescript/</guid>
-            <pubDate>Sat, 20 Jun 2015 09:00:00 GMT</pubDate>
+            <pubDate>Sat, 20 Jun 2015 06:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Reference the Constructor of a Type in TypeScript (Generically)]]></title>
             <link>http://blakeembrey.com/articles/2015/04/typescript-constructor-of-type/</link>
             <guid>http://blakeembrey.com/articles/2015/04/typescript-constructor-of-type/</guid>
-            <pubDate>Tue, 28 Apr 2015 07:00:00 GMT</pubDate>
+            <pubDate>Tue, 28 Apr 2015 04:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Syntax Highlighted Diffs For Everyone]]></title>
             <link>http://blakeembrey.com/articles/2014/12/syntax-highlighting-blog-diff-support/</link>
             <guid>http://blakeembrey.com/articles/2014/12/syntax-highlighting-blog-diff-support/</guid>
-            <pubDate>Fri, 26 Dec 2014 08:30:00 GMT</pubDate>
+            <pubDate>Fri, 26 Dec 2014 05:30:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Building a Blog with Metalsmith]]></title>
             <link>http://blakeembrey.com/articles/2014/09/building-a-blog-with-metalsmith/</link>
             <guid>http://blakeembrey.com/articles/2014/09/building-a-blog-with-metalsmith/</guid>
-            <pubDate>Sat, 04 Oct 2014 20:15:00 GMT</pubDate>
+            <pubDate>Sat, 04 Oct 2014 17:15:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Avoid type="number" in AngularJS]]></title>
             <link>http://blakeembrey.com/articles/2014/05/angular-js-number-validation-bug/</link>
             <guid>http://blakeembrey.com/articles/2014/05/angular-js-number-validation-bug/</guid>
-            <pubDate>Sat, 10 May 2014 03:00:00 GMT</pubDate>
+            <pubDate>Sat, 10 May 2014 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Introducing Retest]]></title>
             <link>http://blakeembrey.com/articles/2014/02/introducing-node-retest/</link>
             <guid>http://blakeembrey.com/articles/2014/02/introducing-node-retest/</guid>
-            <pubDate>Wed, 12 Feb 2014 07:30:00 GMT</pubDate>
+            <pubDate>Wed, 12 Feb 2014 04:30:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Enabling Generators in Mocha]]></title>
             <link>http://blakeembrey.com/articles/2014/02/mocha-test-harmony-generators/</link>
             <guid>http://blakeembrey.com/articles/2014/02/mocha-test-harmony-generators/</guid>
-            <pubDate>Mon, 03 Feb 2014 20:30:00 GMT</pubDate>
+            <pubDate>Mon, 03 Feb 2014 17:30:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Partial Application in JavaScript]]></title>
             <link>http://blakeembrey.com/articles/2014/01/partial-application-in-javascript/</link>
             <guid>http://blakeembrey.com/articles/2014/01/partial-application-in-javascript/</guid>
-            <pubDate>Sun, 26 Jan 2014 07:00:00 GMT</pubDate>
+            <pubDate>Sun, 26 Jan 2014 04:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Forcing Function Arity in JavaScript]]></title>
             <link>http://blakeembrey.com/articles/2014/01/forcing-function-arity-in-javascript/</link>
             <guid>http://blakeembrey.com/articles/2014/01/forcing-function-arity-in-javascript/</guid>
-            <pubDate>Thu, 23 Jan 2014 07:30:00 GMT</pubDate>
+            <pubDate>Thu, 23 Jan 2014 04:30:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Composing Functions in JavaScript]]></title>
             <link>http://blakeembrey.com/articles/2014/01/compose-functions-javascript/</link>
             <guid>http://blakeembrey.com/articles/2014/01/compose-functions-javascript/</guid>
-            <pubDate>Sun, 19 Jan 2014 08:00:00 GMT</pubDate>
+            <pubDate>Sun, 19 Jan 2014 05:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Wrapping JavaScript Functions]]></title>
             <link>http://blakeembrey.com/articles/2014/01/wrapping-javascript-functions/</link>
             <guid>http://blakeembrey.com/articles/2014/01/wrapping-javascript-functions/</guid>
-            <pubDate>Tue, 14 Jan 2014 07:00:00 GMT</pubDate>
+            <pubDate>Tue, 14 Jan 2014 04:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[JavaScript Result Utility]]></title>
             <link>http://blakeembrey.com/articles/2014/01/javascript-result-utility/</link>
             <guid>http://blakeembrey.com/articles/2014/01/javascript-result-utility/</guid>
-            <pubDate>Fri, 10 Jan 2014 01:00:00 GMT</pubDate>
+            <pubDate>Thu, 09 Jan 2014 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[A JavaScript Invoke Function]]></title>
             <link>http://blakeembrey.com/articles/2014/01/javascript-invoke-function/</link>
             <guid>http://blakeembrey.com/articles/2014/01/javascript-invoke-function/</guid>
-            <pubDate>Sun, 05 Jan 2014 05:00:00 GMT</pubDate>
+            <pubDate>Sun, 05 Jan 2014 02:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[The Tap Utility in JavaScript]]></title>
             <link>http://blakeembrey.com/articles/2014/01/javascript-tap-function/</link>
             <guid>http://blakeembrey.com/articles/2014/01/javascript-tap-function/</guid>
-            <pubDate>Sun, 05 Jan 2014 04:30:00 GMT</pubDate>
+            <pubDate>Sun, 05 Jan 2014 01:30:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[The JavaScript Bind Function]]></title>
             <link>http://blakeembrey.com/articles/2013/12/javascript-bind-function/</link>
             <guid>http://blakeembrey.com/articles/2013/12/javascript-bind-function/</guid>
-            <pubDate>Tue, 31 Dec 2013 09:00:00 GMT</pubDate>
+            <pubDate>Tue, 31 Dec 2013 06:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[A Variadic Utility in JavaScript]]></title>
             <link>http://blakeembrey.com/articles/2013/12/javascript-variadic-function/</link>
             <guid>http://blakeembrey.com/articles/2013/12/javascript-variadic-function/</guid>
-            <pubDate>Mon, 30 Dec 2013 07:00:00 GMT</pubDate>
+            <pubDate>Mon, 30 Dec 2013 04:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Introduction to Browserify]]></title>
             <link>http://blakeembrey.com/articles/2013/09/introduction-to-browserify/</link>
             <guid>http://blakeembrey.com/articles/2013/09/introduction-to-browserify/</guid>
-            <pubDate>Fri, 13 Sep 2013 05:00:00 GMT</pubDate>
+            <pubDate>Fri, 13 Sep 2013 02:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[My Sublime Text Preferences Explained]]></title>
             <link>http://blakeembrey.com/articles/2013/08/sublime-text-preferences/</link>
             <guid>http://blakeembrey.com/articles/2013/08/sublime-text-preferences/</guid>
-            <pubDate>Mon, 12 Aug 2013 05:20:00 GMT</pubDate>
+            <pubDate>Mon, 12 Aug 2013 02:20:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Writing a Github Pages Deploy Script]]></title>
             <link>http://blakeembrey.com/articles/2013/08/writing-github-pages-deploy-script/</link>
             <guid>http://blakeembrey.com/articles/2013/08/writing-github-pages-deploy-script/</guid>
-            <pubDate>Mon, 05 Aug 2013 03:40:00 GMT</pubDate>
+            <pubDate>Mon, 05 Aug 2013 00:40:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Improving Your JavaScript Console Skills]]></title>
             <link>http://blakeembrey.com/articles/2013/07/improve-dev-tools-console-workflow/</link>
             <guid>http://blakeembrey.com/articles/2013/07/improve-dev-tools-console-workflow/</guid>
-            <pubDate>Fri, 05 Jul 2013 17:00:00 GMT</pubDate>
+            <pubDate>Fri, 05 Jul 2013 14:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Contributing to Open Source]]></title>
             <link>http://blakeembrey.com/articles/2013/04/contributing-to-open-source/</link>
             <guid>http://blakeembrey.com/articles/2013/04/contributing-to-open-source/</guid>
-            <pubDate>Thu, 04 Apr 2013 03:35:00 GMT</pubDate>
+            <pubDate>Thu, 04 Apr 2013 00:35:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Simplify Local Development with Dnsmasq]]></title>
             <link>http://blakeembrey.com/articles/2012/04/local-development-with-dnsmasq/</link>
             <guid>http://blakeembrey.com/articles/2012/04/local-development-with-dnsmasq/</guid>
-            <pubDate>Tue, 24 Apr 2012 14:28:00 GMT</pubDate>
+            <pubDate>Tue, 24 Apr 2012 11:28:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Change Desktop Background with Shell and GeekTool]]></title>
             <link>http://blakeembrey.com/articles/2011/10/geektool-change-desktop-background/</link>
             <guid>http://blakeembrey.com/articles/2011/10/geektool-change-desktop-background/</guid>
-            <pubDate>Sun, 30 Oct 2011 19:00:00 GMT</pubDate>
+            <pubDate>Sun, 30 Oct 2011 16:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Warning - Something's Not Right Here]]></title>
             <link>http://blakeembrey.com/articles/2011/09/warning-somethings-not-right/</link>
             <guid>http://blakeembrey.com/articles/2011/09/warning-somethings-not-right/</guid>
-            <pubDate>Fri, 30 Sep 2011 19:00:00 GMT</pubDate>
+            <pubDate>Fri, 30 Sep 2011 16:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Jailbreak Wii (Softmod) 3.0 – 4.2]]></title>
             <link>http://blakeembrey.com/articles/2011/04/wii-jailbreak-3-0-4-2/</link>
             <guid>http://blakeembrey.com/articles/2011/04/wii-jailbreak-3-0-4-2/</guid>
-            <pubDate>Tue, 12 Apr 2011 19:00:00 GMT</pubDate>
+            <pubDate>Tue, 12 Apr 2011 16:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Git]]></title>
