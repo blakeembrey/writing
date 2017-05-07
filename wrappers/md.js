@@ -61,7 +61,7 @@ module.exports = wrap(
                   Written
                   {' '}
                   <time dateTime={date.toISOString()}>
-                    {format(date, 'MMMM YYYY')}
+                    {format(date, 'D MMMM YYYY')}
                   </time>
                 </li>
               : undefined}
