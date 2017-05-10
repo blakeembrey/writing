@@ -16,23 +16,21 @@ const subStyle = IndexStyle.registerStyle({
 module.exports = wrap(
   class extends React.Component {
     render() {
-      const pages = filterArticles(
-        this.props.route.pages
-      ).sort((a, b) => {
-        return a.path < b.path ? 1 : -1
-      }).reduce((pages, page) => {
-        const parts = page.path.replace(/^\/|\/$/g, '').split('/');
+      const pages = filterArticles(this.props.route.pages)
+        .sort((a, b) => {
+          return a.path < b.path ? 1 : -1;
+        })
+        .reduce((pages, page) => {
+          const parts = page.path.replace(/^\/|\/$/g, '').split('/');
 
-        console.log(page.path)
+          pages.push(
+            <li key={page.path}>
+              <Link to={prefixLink(page.path)}>{parts.join(' / ')}</Link>
+            </li>
+          );
 
-        pages.push(
-          <li key={page.path}>
-            <Link to={prefixLink(page.path)}>{parts.join(' / ')}</Link>
-          </li>
-        );
-
-        return pages;
-      }, []);
+          return pages;
+        }, []);
 
       return <ul>{pages}</ul>;
     }

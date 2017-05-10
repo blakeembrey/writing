@@ -1,12 +1,14 @@
 const Feed = require('feed');
 const parse = require('date-fns/parse');
-const { writeFile } = require('fs');
+const unthenify = require('unthenify');
+const { writeFile, readFile } = require('mz/fs');
 const { join } = require('path');
 const { resolve } = require('url');
+const { md } = require('./utils/render');
 const { filterArticles } = require('./utils/pages');
 const { config } = require('./utils/config');
 
-exports.postBuild = function(pages, cb) {
+exports.postBuild = unthenify(function(pages) {
   const now = new Date();
 
   const feed = new Feed({
@@ -24,26 +26,37 @@ exports.postBuild = function(pages, cb) {
     }
   });
 
-  filterArticles(pages).forEach(page => {
+  const files = filterArticles(pages).slice(0, 15).reduce((p, page) => {
     const url = resolve(config.siteUrl, page.path);
 
-    feed.addItem({
-      title: page.data.title,
-      id: url,
-      link: url,
-      description: page.data.body,
-      author: page.data.author || [
-        {
-          name: config.authorName,
-          email: config.authorEmail,
-          link: config.authorUrl
-        }
-      ],
-      contributor: page.data.contributor || [],
-      date: parse(page.data.date),
-      image: page.data.image
-    });
-  });
+    return p.then(() => {
+      return readFile(
+        join(__dirname, 'pages', page.requirePath),
+        'utf8'
+      ).then(contents => {
+        const data = md(contents);
 
-  return writeFile(join(__dirname, 'public/rss.xml'), feed.rss2(), cb);
-};
+        feed.addItem({
+          title: page.data.title,
+          id: page.path,
+          link: url,
+          content: data.body,
+          author: page.data.author || [
+            {
+              name: config.authorName,
+              email: config.authorEmail,
+              link: config.authorUrl
+            }
+          ],
+          contributor: page.data.contributor || [],
+          date: parse(page.data.date),
+          image: page.data.image
+        });
+      });
+    });
+  }, Promise.resolve());
+
+  return files.then(() => {
+    return writeFile(join(__dirname, 'public/rss.xml'), feed.rss2());
+  });
+});
