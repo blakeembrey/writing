@@ -4,10 +4,98 @@
         <title>Blake Embrey</title>
         <link>http://blakeembrey.com</link>
         <description>A personally curated collection of words hosted in cyberspace for some indeterminate duration.</description>
-        <lastBuildDate>Wed, 10 May 2017 15:23:31 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 16 May 2017 14:57:51 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <copyright>Copyright 2017 Blake Embrey</copyright>
+        <item>
+            <title><![CDATA[My Week in Review (2017-05-16)]]></title>
+            <link>http://blakeembrey.com/self/2017-05-16-review/</link>
+            <guid>http://blakeembrey.com/self/2017-05-16-review/</guid>
+            <pubDate>Tue, 16 May 2017 14:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>What Happened?</h2>
+<ul>
+<li>Read 45 articles</li>
+<li>Working out of Balanced NYC for <a href="http://www.recess-labs.com/">Recess Labs</a></li>
+<li>Visited <a href="https://www.instagram.com/p/BT9AniCDZOh/">Brooklyn Bridge Park</a></li>
+<li>Set up and released <a href="https://github.com/serviejs">ServieJS</a> organisation</li>
+</ul>
+<h2>Internet</h2>
+<ul>
+<li>Videos
+<ul>
+<li><a href="https://www.youtube.com/watch?v=3ESoTBIDbpk">Live Office Hours with Adora Cheung and Avichal Garg</a></li>
+<li><a href="https://www.youtube.com/watch?v=ZDM33CMJvp8">How to Invent the Future I</a> - these videos were among my favourite so far</li>
+<li><a href="https://www.youtube.com/watch?v=DIR6Rmhm3To">How to Invent the Future II</a></li>
+</ul>
+</li>
+<li>Interesting
+<ul>
+<li><a href="http://waitbutwhy.com/2015/12/the-tail-end.html">The Tail End</a></li>
+<li><a href="http://jamesclear.com/the-1-percent-rule">The 1 Percent Rule: Why a Few People Get Most of the Rewards</a></li>
+<li><a href="https://www.theatlantic.com/magazine/archive/2017/05/how-to-trick-people-into-saving-money/521421/">How to Trick People Into Saving Money</a></li>
+<li><a href="http://www.atlasobscura.com/articles/thorium-toothpaste-alsos-world-war-wwii-manhattan-project">The Mysterious Case of the Radioactive Toothpaste</a></li>
+<li><a href="https://www.nytimes.com/2017/05/05/opinion/sunday/are-these-birds-too-sexy-to-survive.html">Are These Birds Too Sexy to Survive?</a></li>
+<li><a href="http://www.forbes.com/sites/startswithabang/2017/05/09/the-scientific-truth-about-planet-nine-so-far/">The Scientific Truth About Planet Nine, So Far</a></li>
+<li><a href="https://www.newscientist.com/article/mg23431240-600-how-number-words-may-have-changed-us-from-zeroes-to-heroes/">How number words may have changed us from zeroes to heroes</a></li>
+<li><a href="http://www.glamour.com/story/how-one-woman-confronted-the-issue-of-racial-bias-online-dating-sites">How the Color of Your Skin Affects Who You Date Online</a></li>
+<li><a href="http://www.glixel.com/interviews/civilization-creator-sid-meier-i-didnt-really-expect-to-be-a-game-designer-w480988">‘Civilization’ Creator Sid Meier: “I Didn’t Expect to be a Game Designer”</a></li>
+<li><a href="https://hbr.org/2017/02/8-ways-to-read-a-lot-more-books-this-year">8 Ways to Read (a Lot) More Books This Year</a></li>
+<li><a href="http://blog.pamelafox.org/2017/05/my-morning-practice.html">My Morning Practice</a></li>
+</ul>
+</li>
+<li>Nikita Voloboev - discovered his work after I saw <a href="https://github.com/nikitavoloboev/knowledge-map">knowledge-map</a>, very inspirational work
+<ul>
+<li><a href="https://medium.com/@NikitaVoloboev/mind-map-everything-d27670f70739#.p7w44kr44">mind map everything</a></li>
+<li><a href="https://medium.com/@NikitaVoloboev/knowledge-bootstrapping-36c97e0dee19#.udmp9eotg">Knowledge Bootstrapping</a></li>
+<li><a href="https://medium.com/@NikitaVoloboev/what-it-means-to-live-a-conscious-life-c96f6517077#.x3mzy1kcl">What it means to live a conscious life?</a></li>
+<li><a href="https://medium.com/@NikitaVoloboev/the-root-of-it-all-9b6ab6a77e1d#.yt6ici5rf">The root of it all</a></li>
+<li><a href="https://medium.com/@NikitaVoloboev/the-best-kind-of-web-3c9131a1fd99#.npi0ohf46">The best kind of Web</a></li>
+<li><a href="https://medium.com/@NikitaVoloboev/just-keep-expressing-yourself-306870791ae4#.3ilcote4m">just keep expressing yourself</a></li>
+<li><a href="https://medium.com/@NikitaVoloboev/everything-connects-to-everything-else-c6a2d96a809d#.nn8gvwavn">everything connects to everything else</a></li>
+<li><a href="https://medium.com/@NikitaVoloboev/project-based-learning-e511641869ca#.z6wr7ncu5">Project based learning</a></li>
+<li><a href="https://medium.com/@NikitaVoloboev/day-evaluations-5706f31c9c5e#.m4lw1eo32">day evaluations</a></li>
+<li><a href="https://medium.com/@NikitaVoloboev/news-d6bcaaf40121#.mtj9gqvyu">news</a></li>
+<li><a href="https://medium.com/@NikitaVoloboev/fantastical-natural-input-text-expansions-3ea8cf7ccac3#.pv5937ncr">Fantastical natural input + Text expansions</a></li>
+<li><a href="https://medium.com/@NikitaVoloboev/little-trick-i-use-to-navigate-source-code-better-bc958ccd821#.7y4y3jhqz">Little trick I use to navigate source code better</a></li>
+</ul>
+</li>
+<li>Self-improvement
+<ul>
+<li><a href="http://www.sparkjournal.net/journal/2014/12/day-one-and-the-journaling-habit">Day One and the Journaling Habit</a></li>
+</ul>
+</li>
+<li>Technical
+<ul>
+<li><a href="https://brandur.org/heroku-values">My Heroku Values</a></li>
+<li><a href="https://meta.stackexchange.com/questions/66377/what-is-the-xy-problem">What is the XY problem?</a> - This was linked in a TypeScript issue, never knew there was a name for it!</li>
+<li><a href="https://www.troyhunt.com/dont-tell-people-to-turn-off-windows-update-just-dont/">Don’t tell people to turn off Windows Update, just don’t</a></li>
+<li><a href="https://arstechnica.com/security/2017/05/macron-campaign-team-used-honeypot-accounts-to-fake-out-fancy-bear/">Macron campaign team used honeypot accounts to fake out Fancy Bear</a></li>
+<li><a href="https://hackernoon.com/analyzing-a-counter-intelligence-cyber-operation-how-macron-just-changed-cyber-security-forever-22553abb038b?gi=ca56c38dda8d">Analyzing a counter intelligence cyber operation: How Macron just changed cyber security forever</a></li>
+<li><a href="https://securityledger.com/2017/04/estonia-10-years-later-lessons-learned-from-the-worlds-first-internet-war/">Estonia 10 Years Later: Lessons learned from the World’s First Internet War</a></li>
+<li><a href="https://blog.0day.rocks/abusing-gmail-to-get-previously-unlisted-e-mail-addresses-41544b62b2?gi=19b7c9978ff1">Abusing Gmail to get previously unlisted e-mail addresses</a></li>
+<li><a href="http://news.mit.edu/2017/dina-katabi-csail-team-develop-wireless-system-to-detect-walking-speeds-0501">Detecting walking speed with wireless signals</a></li>
+<li><a href="https://dzone.com/articles/tlsssl-terminology-and-basics">TLS/SSL Explained: TLS/SSL Terminology and Basics</a></li>
+<li><a href="https://www.f-secure.com/weblog/archives/00002383.html">Flame is Lame</a></li>
+<li><a href="https://blog.travis-ci.com/2017-05-08-security-advisory">The Travis CI Blog: Security Advisory: Secured Environment Variables</a></li>
+<li><a href="http://www.brendangregg.com/blog/2017-05-09/cpu-utilization-is-wrong.html">CPU Utilization is Wrong</a></li>
+<li><a href="http://rhaas.blogspot.com/2017/04/who-contributes-to-postgresql.html">Who Contributes to PostgreSQL Development?</a></li>
+<li><a href="https://medium.com/goiabada/when-postgres-is-not-enough-237b723be442">When Postgres is not enough</a></li>
+<li><a href="https://dzone.com/articles/10-tips-on-how-to-be-a-great-programmer">10 Tips on How to Be a Great Programmer </a></li>
+<li><a href="https://dzone.com/articles/oauth-20-beginners-guide">OAuth 2.0 Beginner’s Guide</a></li>
+<li><a href="https://www.schneier.com/blog/archives/2017/05/why_is_the_tsa_.html">Why Is the TSA Scanning Paper?</a></li>
+</ul>
+</li>
+</ul>
+<h2>Reading</h2>
+<ul>
+<li><a href="https://www.goodreads.com/book/show/175325.I_Will_Fear_No_Evil">I Will Fear No Evil</a></li>
+<li>Finished <a href="https://www.goodreads.com/book/show/28257707-the-subtle-art-of-not-giving-a-f-ck">The Subtle Art of Not Giving a F*ck</a> today</li>
+<li>New audiobook: <a href="https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow">Thinking Fast and Slow</a></li>
+</ul>
+]]></content:encoded>
+            <author>hello@blakeembrey.com (Blake Embrey)</author>
+        </item>
         <item>
             <title><![CDATA[My Week in Review (2017-05-07)]]></title>
             <link>http://blakeembrey.com/self/2017-05-07-review/</link>
@@ -1148,38 +1236,6 @@ retest(app).post(<span class="hljs-string">'/'</span>, {
 });
 </code></pre>
 <p>It’s important to note that generators are only available in node 0.11 and needs to be enabled using the <code>--harmony-generators</code> flag.</p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Enabling Generators in Mocha]]></title>
-            <link>http://blakeembrey.com/articles/2014/02/mocha-test-harmony-generators/</link>
-            <guid>http://blakeembrey.com/articles/2014/02/mocha-test-harmony-generators/</guid>
-            <pubDate>Mon, 03 Feb 2014 17:30:00 GMT</pubDate>
-            <content:encoded><![CDATA[<p><strong>Update:</strong> It’s on <a href="http://npmjs.org/package/co-mocha">npm</a>. Just <code>npm install co-mocha</code> and <code>--require co-mocha</code> in your mocha script to test using generators.</p>
-<p>For the last week, I’ve been working on a new project that uses node 0.11 and generators. Aside from the numerous benefits with generators in the application, I also integrated generators into my test suite. By using <a href="http://visionmedia.github.io/mocha/">mocha</a> and <a href="https://github.com/visionmedia/co">co</a>, you can also enable support for generator functions in your test suite.</p>
-<pre><code class="language-javascript"><span class="hljs-keyword">var</span> co       = <span class="hljs-built_in">require</span>(<span class="hljs-string">'co'</span>);
-<span class="hljs-keyword">var</span> mocha    = <span class="hljs-built_in">require</span>(<span class="hljs-string">'mocha'</span>);
-<span class="hljs-keyword">var</span> Runnable = mocha.Runnable;
-<span class="hljs-keyword">var</span> run      = Runnable.prototype.run;
-
-<span class="hljs-comment">/**
- * Override the Mocha function runner and enable generator support with co.
- *
- * @param {Function} fn
- */</span>
-Runnable.prototype.run = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">fn</span>) </span>{
-  <span class="hljs-keyword">if</span> (<span class="hljs-keyword">this</span>.fn.constructor.name === <span class="hljs-string">'GeneratorFunction'</span>) {
-    <span class="hljs-keyword">this</span>.fn   = co(<span class="hljs-keyword">this</span>.fn);
-    <span class="hljs-keyword">this</span>.sync = !(<span class="hljs-keyword">this</span>.async = <span class="hljs-literal">true</span>);
-  }
-
-  <span class="hljs-keyword">return</span> run.call(<span class="hljs-keyword">this</span>, fn);
-};
-</code></pre>
-<p>Save the snippet of code above into a JavaScript file and pass the filename to <code>mocha.opts</code>.</p>
-<pre><code>mocha --harmony-generators --require test/support/co-mocha
-</code></pre>
-<p>Writing tests using generators has made testing even more enjoyable, so I decided to release the <a href="https://github.com/blakeembrey/co-mocha">code on Github</a> with some accompanying tests and test coverage.</p>
 ]]></content:encoded>
         </item>
     </channel>
