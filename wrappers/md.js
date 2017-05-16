@@ -85,11 +85,13 @@ module.exports = wrap(
           <p>
             <strong>Questions?</strong>
             {' '}
-            Ask me on
+            Find me on
             {' '}
-            <a href={config.twitter}>Twitter</a>
+            <a href="https://twitter.com/blakeembrey">Twitter</a>,
             {' '}
-            or in
+            <a href="https://toot.cafe/@blakeembrey">Mastodon</a>
+            {' '}
+            or
             {' '}
             <a href={config.siteRepo}>my repo</a>
             .

@@ -3,7 +3,6 @@ exports.config = {
   siteDescription: 'A personally curated collection of words hosted in cyberspace for some indeterminate duration.',
   siteRepo: 'https://github.com/blakeembrey/writing',
   siteUrl: 'http://blakeembrey.com',
-  twitter: 'https://twitter.com/blakeembrey',
   authorName: 'Blake Embrey',
   authorEmail: 'hello@blakeembrey.com',
   authorUrl: 'http://blakeembrey.me',
