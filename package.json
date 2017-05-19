@@ -22,7 +22,7 @@
   "dependencies": {
     "cheerio": "^0.22.0",
     "classnames": "^2.2.5",
-    "date-fns": "^1.28.3",
+    "date-fns": "^1.28.5",
     "react-free-style": "^4.0.0",
     "react-ga": "^2.1.2",
     "react-helmet": "^5.0.2"
