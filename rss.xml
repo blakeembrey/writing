@@ -4,10 +4,95 @@
         <title>Blake Embrey</title>
         <link>http://blakeembrey.com</link>
         <description>A personally curated collection of words hosted in cyberspace for some indeterminate duration.</description>
-        <lastBuildDate>Mon, 22 May 2017 17:45:12 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 30 May 2017 19:31:03 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <copyright>Copyright 2017 Blake Embrey</copyright>
+        <item>
+            <title><![CDATA[My Week in Review (2017-05-30)]]></title>
+            <link>http://blakeembrey.com/self/2017-05-30-review/</link>
+            <guid>http://blakeembrey.com/self/2017-05-30-review/</guid>
+            <pubDate>Tue, 30 May 2017 19:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>What Happened?</h2>
+<ul>
+<li>Read around 43 articles</li>
+<li>Started work on a new software project</li>
+<li>Finished <a href="https://trakt.tv/shows/arrow/seasons/5">Arrow</a> and <a href="https://trakt.tv/shows/the-flash-2014/seasons/3">Flash</a> and <a href="https://trakt.tv/shows/supergirl/seasons/2">Supergirl</a></li>
+</ul>
+<h2>Internet</h2>
+<ul>
+<li>Video
+<ul>
+<li><a href="https://www.youtube.com/watch?v=KlekeNwOGHw">How to Think About PR - CS183F</a></li>
+<li><a href="https://www.youtube.com/watch?v=IFe9wiDfb0E">Welcome to Life: the singularity, ruined by lawyers</a></li>
+<li><a href="https://www.youtube.com/watch?v=OcPqk-O-fD4">Danger: Humans</a></li>
+<li><a href="https://www.youtube.com/watch?v=RIuf1V1FhpY">Oversight: Thank you for volunteering, citizen.</a></li>
+</ul>
+</li>
+<li>Useful
+<ul>
+<li><a href="https://www.theatlantic.com/magazine/archive/2017/01/how-to-sleep/508781/">How to Sleep</a></li>
+<li><a href="https://www.technologyreview.com/s/607938/google-now-tracks-your-credit-card-purchases-and-connects-them-to-its-online-profile-of-you/">Google now tracks your credit card purchases and connects them to its online profile of you</a></li>
+<li><a href="https://www.youneedabudget.com/personal-budgeting-definitions-come-and-get-em/">Personal Budgeting Definitions—Come And Get ‘Em!</a></li>
+<li><a href="http://www.businessinsider.com/financial-planner-explains-how-to-set-yourself-up-to-retire-at-50-2017-5">A financial planner explains how to set yourself up to retire at 50, in 7 steps</a></li>
+<li><a href="https://qz.com/968101/how-elon-musk-learns-faster-and-better-than-everyone-else/">How Elon Musk learns faster and better than everyone else</a></li>
+</ul>
+</li>
+<li>Interesting
+<ul>
+<li><a href="http://www.lowtechmagazine.com/2017/05/could-we-run-modern-society-on-human-power-alone.html">Could We Run Modern Society on Human Power Alone?</a></li>
+<li><a href="https://www.justinobeirne.com/a-year-of-google-maps-and-apple-maps/">A Year of Google Maps &amp; Apple Maps</a></li>
+<li><a href="https://medium.com/@balajis/thoughts-on-tokens-436109aabcbe">Thoughts on Tokens</a></li>
+<li><a href="http://wealthyaccountant.com/2017/05/26/losing-touch-with-reality/">Losing Touch with Reality</a></li>
+<li><a href="https://krebsonsecurity.com/2017/05/private-eye-allegedly-used-leaky-goverment-tool-in-bid-to-find-tax-data-on-trump/">Private Eye Allegedly Used Leaky Goverment Tool in Bid to Find Tax Data on Trump</a></li>
+<li><a href="https://aeon.co/ideas/one-extraordinary-scientist-and-the-story-of-space">Space exploration is still the brightest hope-bringer we have</a></li>
+<li><a href="https://motherboard.vice.com/en_us/article/hackers-unlock-samsung-galaxy-s8-with-fake-iris">Hackers Unlock Samsung Galaxy S8 With Fake Iris</a></li>
+<li><a href="https://krebsonsecurity.com/2017/05/trumps-dumps-making-dumps-great-again/">Trump’s Dumps: ‘Making Dumps Great Again’</a></li>
+<li><a href="http://estebankolsky.com/2017/05/knowledge-summary-the-next-decade-in-digital-transformation/">Knowledge Summary: The Next Decade in Digital Transformation</a></li>
+<li><a href="http://estebankolsky.com/2010/03/the-problem-with-knowledge/">The Problem with Knowledge</a></li>
+<li><a href="http://estebankolsky.com/2017/05/article-memory-is-the-barrier-between-computers-and-humans/">Article: Memory is the Barrier Between Computers and Humans</a></li>
+<li><a href="https://priceonomics.com/which-companies-have-the-highest-revenue-per/">Which Companies Have the Highest Revenue Per Employee?</a></li>
+<li><a href="https://en.wikipedia.org/wiki/DIKW_pyramid">DIKW pyramid</a></li>
+</ul>
+</li>
+<li>Opinion
+<ul>
+<li><a href="http://www.politico.com/story/2017/05/15/donald-trump-fake-news-238379">How Trump gets his fake news</a></li>
+<li><a href="https://www.technologyreview.com/s/607966/the-uk-pleads-with-congress-to-change-an-outdated-privacy-law-to-help-fight-terrorism/">The U.K. Pleads with Congress to change an outdated privacy law to help fight terrorism</a></li>
+<li><a href="http://www.theatlantic.com/science/archive/2016/07/the-turtle-shell-first-evolved-for-digging-not-defence/491087/">Why Turtles Evolved Shells: It Wasn’t for Protection</a></li>
+<li><a href="http://sethgodin.typepad.com/seths_blog/2017/05/predicting-or-inventing.html">Seth’s Blog: Predicting or inventing…</a></li>
+<li><a href="http://mashable.com/2017/05/27/hidden-meaning-rose-emoji-dsa/">The movement behind the rose emoji that you probably don’t know about</a></li>
+<li><a href="https://daringfireball.net/2017/05/safari_vs_chrome_on_the_mac">Daring Fireball: Safari vs. Chrome on the Mac</a></li>
+<li><a href="https://daringfireball.net/linked/2017/05/24/annals-of-anal">Daring Fireball: From the Annals of Anal</a></li>
+<li><a href="https://daringfireball.net/linked/2017/05/29/russian-amp-phishing">Daring Fireball: Russian Hackers Are Using Google’s Own Infrastructure to Hack Gmail Users</a></li>
+<li><a href="https://daringfireball.net/linked/2017/05/29/homer-at-the-bat">Daring Fireball: Cooperstown Celebrates 25th Anniversary of ‘Homer at the Bat’</a></li>
+<li><a href="http://sethgodin.typepad.com/seths_blog/2017/05/in-search-of-familiarity.html">Seth’s Blog: In search of familiarity</a></li>
+<li><a href="https://www.privateinternetaccess.com/blog/2017/05/google-now-also-tracks-and-collects-your-offline-credit-card-purchases/">Google now tracks and collects your OFFLINE credit card purchases</a></li>
+</ul>
+</li>
+<li>Software
+<ul>
+<li><a href="https://blog.agilebits.com/2017/05/18/introducing-travel-mode-protect-your-data-when-crossing-borders/">Introducing Travel Mode: Protect your data when crossing borders</a></li>
+<li><a href="https://stackoverflow.blog/2017/05/23/stack-overflow-helping-one-million-developers-exit-vim/">Stack Overflow: Helping One Million Developers Exit Vim</a></li>
+<li><a href="https://medium.com/seek-blog/a-unified-styling-language-d0c208de2660">A Unified Styling Language</a></li>
+<li><a href="http://felixge.de/2017/05/05/postgresql-operations-that-you-cant-explain.html">PostgreSQL operations that you can’t EXPLAIN</a></li>
+<li><a href="https://swizec.com/blog/immutable-data/swizec/7613">Do you really need immutable data?</a></li>
+<li><a href="https://neo4j.com/blog/graphql-neo4j-graph-database-integration/">GraphQL Meets Graph Database: A GraphQL + Neo4j Integration</a></li>
+<li><a href="https://8thlight.com/blog/becca-nelson/2017/05/22/two-design-patterns-youre-probably-already-using.html">Two Design Patterns You’re Probably Already Using</a></li>
+<li><a href="https://8thlight.com/blog/uncle-bob/2012/02/01/Service-Oriented-Agony.html">Service Oriented Agony</a></li>
+<li><a href="https://8thlight.com/blog/uncle-bob/2012/05/15/NODB.html">NO DB</a></li>
+<li><a href="https://blogs.msdn.microsoft.com/bharry/2017/05/24/the-largest-git-repo-on-the-planet/">The largest Git repo on the planet</a></li>
+</ul>
+</li>
+</ul>
+<h2>Reading</h2>
+<ul>
+<li><a href="https://www.goodreads.com/book/show/29579.Foundation">Foundation</a></li>
+<li><a href="https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow">Thinking Fast and Slow</a> (audiobook)</li>
+</ul>
+]]></content:encoded>
+            <author>hello@blakeembrey.com (Blake Embrey)</author>
+        </item>
         <item>
             <title><![CDATA[My Week in Review (2017-05-22)]]></title>
             <link>http://blakeembrey.com/self/2017-05-22-review/</link>
@@ -1149,102 +1234,6 @@ script.
 <p>I also implemented a couple of bonus things in this blog during development - <a href="https://github.com/esundahl/metalsmith-autoprefixer">metalsmith-autoprefixer</a> for adding browser prefixes to my CSS and <a href="https://github.com/aymericbeaumet/metalsmith-redirect">metalsmith-redirect</a> for maintaining backwards compatibility with my old URLs. Check out the <a href="http://www.metalsmith.io/">Metalsmith homepage</a> to discover more great plugins.</p>
 <h2>Live!</h2>
 <p>And we’re done, let’s get this blog live. All we need to do now is execute <code>npm run deploy</code>, which will run the build and deploy scripts and push to Github. All code and content for this blog and article is <a href="https://github.com/blakeembrey/blakeembrey.com">open source</a>, so feel free to browse for more ideas.</p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Avoid type="number" in AngularJS]]></title>
-            <link>http://blakeembrey.com/articles/2014/05/angular-js-number-validation-bug/</link>
-            <guid>http://blakeembrey.com/articles/2014/05/angular-js-number-validation-bug/</guid>
-            <pubDate>Sat, 10 May 2014 00:00:00 GMT</pubDate>
-            <content:encoded><![CDATA[<p>The other day I got hit by a peculiar bug in Angular. Using <code>type=&quot;number&quot;</code> on an input element wouldn’t do any number validation. On top of this, when I entered an invalid number the only validation failing was <code>required</code>.</p>
-<p>After a little research, it turned out to be a <a href="http://www.w3.org/TR/html5/forms.html#number-state-%28type=number%29">“feature”</a> of blocking access to the <code>value</code> attribute when it’s an invalid number. Not all browsers follow the complete spec, so I found this was working in Firefox. Back in Chrome however, it was failing. You can even test this in the <a href="https://docs.angularjs.org/api/ng/input/input%5Bnumber%5D">AngularJS documentation</a> by typing an invalid number in the demo and looking at the error message.</p>
-<h2>Custom Type Directive</h2>
-<pre><code class="language-javascript"><span class="hljs-keyword">var</span> app = angular.module(<span class="hljs-string">'myApp'</span>, []);
-
-<span class="hljs-comment">/**
- * Provide custom type validation for input elements. Certain type attributes
- * don't work consistenty cross-browser, so this is a required workaround.
- * Looking at you, webkit and `type="number"`.
- *
- * ```html
- * &lt;input
- *   ng-model=""
- *   app-type=""&gt;
- * ```
- */</span>
-app.directive(<span class="hljs-string">'appType'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
-  <span class="hljs-keyword">return</span> {
-    <span class="hljs-attr">require</span>: <span class="hljs-string">'ngModel'</span>,
-    <span class="hljs-attr">link</span>: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">scope, elem, attrs, ctrl</span>) </span>{
-      <span class="hljs-comment">// Custom number validation logic.</span>
-      <span class="hljs-keyword">if</span> (attrs.appType === <span class="hljs-string">'number'</span>) {
-        <span class="hljs-keyword">return</span> ctrl.$parsers.push(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">value</span>) </span>{
-          <span class="hljs-keyword">var</span> valid = value == <span class="hljs-literal">null</span> || <span class="hljs-built_in">isFinite</span>(value);
-
-          ctrl.$setValidity(<span class="hljs-string">'number'</span>, valid);
-
-          <span class="hljs-keyword">return</span> valid &amp;&amp; value != <span class="hljs-literal">null</span> ? <span class="hljs-built_in">Number</span>(value) : <span class="hljs-literal">undefined</span>;
-        });
-      }
-    }
-  };
-});
-</code></pre>
-<p>The code above adds a new custom directive that requires <code>ngModel</code>. Requiring <code>ngModel</code> provides us with the <a href="http://docs.angularjs.org/api/ng.directive:ngModel.NgModelController">ngModelController</a>. Using the controller we can access some useful methods, including model input parsing and validity - which makes up the bulk of our validation logic.</p>
-<p>When the type is <code>number</code>, we push a custom parser onto the stack. Our parser goes on the end and will run after any other parsers, allowing us to keep the <code>required</code> directive in tact. The validity itself checks if the value is empty (<code>null</code> or <code>undefined</code>) or that it’s a valid JavaScript number. Valid “JavaScript number” is important to note, since this will allow the most comprehensive check including integers, floats, negative and positive notation, but also other notations such as <code>0x1e5</code> and <code>1e5</code>.</p>
-<p>Validity gets set next and based on the result we’ll coerce the value into a number. By doing number coercion, the model will correctly receive the number instead of the string representation. We want to avoid coercing empty values (<code>null</code> and <code>undefined</code>) however, which will come out as <code>0</code> and <code>NaN</code> respectfully.</p>
-<h2>Recreating min and max directives</h2>
-<pre><code class="language-javascript"><span class="hljs-keyword">var</span> app = angular.module(<span class="hljs-string">'myApp'</span>, []);
-
-<span class="hljs-comment">/**
- * Provide minimum number validation for any input.
- *
- * ```html
- * &lt;input
- *   ng-model=""
- *   app-min=""&gt;
- * ```
- */</span>
-app.directive(<span class="hljs-string">'appMin'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
-  <span class="hljs-keyword">return</span> {
-    <span class="hljs-attr">require</span>: <span class="hljs-string">'ngModel'</span>,
-    <span class="hljs-attr">link</span>: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">scope, elem, attrs, ctrl</span>) </span>{
-      <span class="hljs-keyword">return</span> ctrl.$parsers.push(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">value</span>) </span>{
-        <span class="hljs-keyword">var</span> valid = value == <span class="hljs-literal">null</span> || <span class="hljs-built_in">Number</span>(value) &gt;= <span class="hljs-built_in">Number</span>(attrs.appMin);
-
-        ctrl.$setValidity(<span class="hljs-string">'min'</span>, valid);
-
-        <span class="hljs-keyword">return</span> valid ? value : <span class="hljs-literal">undefined</span>;
-      });
-    }
-  };
-});
-</code></pre>
-<p>Recreating the <code>min</code> directive is trivial and we can easily make it work for any input. The above validation does the <code>null</code> check again, which will make an empty input element valid. This is important since we don’t want to provide unnecessary validation and bundle the <code>required</code> directives job into ours.</p>
-<p>Next it’s just a process of coercing both the value and attribute into numbers and comparing the values. If either are <code>NaN</code>, validation will fail. This provides some form of ensuring we have numbers only, but won’t do any number coerce to the model. Finally, we return either the value or <code>undefined</code> if validation failed.</p>
-<h2>Unit Testing</h2>
-<p>Unit testing the functionality was straightforward enough, so I won’t provide all the code used. A couple of things worth mentioning though is how to compile the templates for testing and set the values for validation.</p>
-<pre><code class="language-javascript">it(<span class="hljs-string">'...'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
-  inject(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">$compile, $rootScope</span>) </span>{
-    <span class="hljs-keyword">var</span> $scope = $rootScope.$<span class="hljs-keyword">new</span>();
-
-    $scope.model = {};
-
-    <span class="hljs-keyword">var</span> $element = $compile(
-      <span class="hljs-string">'&lt;form name="form"&gt;'</span> +
-      <span class="hljs-string">'  &lt;input name="num" ng-model="model.value" app-type="number"&gt;'</span> +
-      <span class="hljs-string">'&lt;/form&gt;'</span>
-    )($scope);
-
-    <span class="hljs-comment">// Set the value to what you want to test.</span>
-    $scope.form.num.$setViewValue(<span class="hljs-string">'10'</span>);
-
-    <span class="hljs-comment">// Check the model is what you expect and check validation.</span>
-    $scope.model.value.should.equal(<span class="hljs-number">10</span>);
-    $scope.form.num.$invalid.should.be.false;
-  });
-});
-</code></pre>
 ]]></content:encoded>
         </item>
     </channel>
