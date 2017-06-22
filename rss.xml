@@ -4,10 +4,183 @@
         <title>Blake Embrey</title>
         <link>http://blakeembrey.com</link>
         <description>A personally curated collection of words hosted in cyberspace for some indeterminate duration.</description>
-        <lastBuildDate>Mon, 05 Jun 2017 22:39:53 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 22 Jun 2017 15:07:07 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <copyright>Copyright 2017 Blake Embrey</copyright>
+        <item>
+            <title><![CDATA[My Week in Review (2017-06-22)]]></title>
+            <link>http://blakeembrey.com/self/2017-06-22-review/</link>
+            <guid>http://blakeembrey.com/self/2017-06-22-review/</guid>
+            <pubDate>Thu, 22 Jun 2017 15:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>What Happened?</h2>
+<ul>
+<li>I’m four days late with this review…</li>
+<li>Visited San Francisco for <a href="https://sustainoss.org/">SustainOSS</a></li>
+<li><a href="https://foursquare.com/v/lower-east-side-tenement-museum/4ab2c893f964a520566c20e3">Tenement Museum</a> on Sunday</li>
+<li><a href="https://foursquare.com/v/smorgasburg-williamsburg/4dd7c0afd1647fcf3e518ff3">Smorgasburg</a> on Saturday</li>
+<li><a href="http://dearevanhansen.com/">Dear Evan Hansen</a> on broadway on Friday</li>
+<li><a href="http://www.imdb.com/title/tt5311514/">Your Name.</a> in cinema on Thursday</li>
+<li>Visited <a href="https://foursquare.com/v/foursquare-hq/4ef0e7cf7beb5932d5bdeb4e">Foursquare HQ</a> on Thursday</li>
+<li>Checked out <a href="https://foursquare.com/v/brooklyn-desks/53f140f1498e9505bd482792">Brooklyn Desks</a> on Wednesday</li>
+</ul>
+<h2>Internet</h2>
+<ul>
+<li>Video</li>
+<li>Useful
+<ul>
+<li><a href="http://bradfrost.com/blog/link/the-road-to-burnout-is-paved-with-context-switching/">The Road to Burnout is Paved With Context Switching</a></li>
+<li><a href="https://krebsonsecurity.com/2017/06/inside-a-porn-pimping-spam-botnet/">Inside a Porn-Pimping Spam Botnet</a></li>
+<li><a href="http://blog.strom.com/wp/?p=5971">Behind the scenes at creating Stuxnet</a></li>
+<li><a href="https://open.buffer.com/inclusive-language-tech/">An Incomplete Guide to Inclusive Language for Startups and Tech</a></li>
+<li><a href="https://www.pastemagazine.com/articles/2017/06/cultural-appropriation-food-justice.html">We’re Having the Wrong Conversation About Food and Cultural Appropriation</a></li>
+<li><a href="https://www.technologyreview.com/s/608105/fake-news-is-unbelievably-cheap/">Fake news is everywhere. Why? Because it’s unbelievably cheap</a></li>
+<li><a href="https://blog.bradfieldcs.com/you-are-not-google-84912cf44afb">You Are Not Google</a></li>
+</ul>
+</li>
+<li>Interesting
+<ul>
+<li><a href="https://foreignpolicy.com/2017/06/15/kazakhstan-spent-5-billion-on-a-death-star-and-it-doesnt-even-shoot-lasers/">Kazakhstan Spent $5 Billion on a Death Star and It Doesn’t Even Shoot Lasers</a></li>
+<li><a href="https://danluu.com/keyboard-v-mouse/">Is the keyboard faster than the mouse?</a></li>
+<li><a href="https://www.technologyreview.com/s/608056/how-social-media-users-decoded-a-simulated-message-from-extraterrestrials/">Could you decode a message from an alien civilisation?</a></li>
+<li><a href="https://phys.org/news/2017-06-evidence-stars-born-pairs.html">New evidence that all stars are born in pairs</a></li>
+<li><a href="https://www.technologyreview.com/s/608099/to-help-rural-kids-do-their-homework-a-virginia-county-is-using-secret-wireless-spectrum/">To help rural kids do their homework, a Virginia county is using secret wireless spectrum</a></li>
+<li><a href="https://www.technologyreview.com/s/608087/the-quest-for-a-functional-new-interface-for-the-smartphone/">Review: a good-looking but hard-to-use button for controlling your iPhone</a></li>
+<li><a href="https://www.technologyreview.com/s/608116/data-mining-100-million-instagram-photos-reveals-global-clothing-patterns/">AI reveals global clothing preferences by data-mining Instagram photos</a></li>
+<li><a href="https://www.technologyreview.com/s/608114/clean-energy-prices-are-about-to-become-cheaper-than-coal/">Plummeting clean energy prices are about to beat out coal around the world</a></li>
+<li><a href="http://wealthyaccountant.com/2017/06/19/10-million-isnt-what-it-used-to-be/">$10 Million Isn’t What it Used to Be</a></li>
+<li><a href="https://medium.com/startup-grind/i-got-rejected-by-apple-music-so-i-redesigned-it-b7e2e4dc64bf">I Got Rejected by Apple Music… So I Redesigned It</a></li>
+<li><a href="http://www.atlasobscura.com/articles/cyoa-choose-your-own-adventure-maps">These Maps Reveal the Hidden Structures of ‘Choose Your Own Adventure’ Books</a></li>
+<li><a href="https://daringfireball.net/2017/06/medium_dickbars">Medium and the Scourge of Persistent Sharing Dickbars</a></li>
+<li><a href="https://www.scientificamerican.com/article/eyewitness-memory-is-a-lot-more-reliable-than-you-think/">Eyewitness Memory Is a Lot More Reliable Than You Think</a></li>
+<li><a href="http://sethgodin.typepad.com/seths_blog/2017/06/make-two-lists.html">Seth’s Blog: Make two lists</a></li>
+<li><a href="http://sethgodin.typepad.com/seths_blog/2017/06/a-professional-stumbler.html">Seth’s Blog: A professional stumbler</a></li>
+<li><a href="http://sethgodin.typepad.com/seths_blog/2017/06/mental-load-and-the-worry-cache.html">Seth’s Blog: Mental load and the worry cache</a></li>
+<li><a href="http://sethgodin.typepad.com/seths_blog/2017/06/gorilla-marketing.html">Seth’s Blog: Gorilla marketing</a></li>
+<li><a href="http://sethgodin.typepad.com/seths_blog/2017/06/what-99-looks-like.html">Seth’s Blog: What 99% looks like</a></li>
+<li><a href="http://sethgodin.typepad.com/seths_blog/2017/06/living-in-dissatisfaction.html">Seth’s Blog: Living in dissatisfaction</a></li>
+<li><a href="http://sethgodin.typepad.com/seths_blog/2017/06/but-what-if-it-works.html">Seth’s Blog: “But what if it works?”</a></li>
+<li><a href="http://thedailywtf.com/articles/classic-wtf-the-accidental-hire">Classic WTF: The Accidental Hire</a></li>
+</ul>
+</li>
+<li>Opinion
+<ul>
+<li><a href="https://daringfireball.net/linked/2017/06/19/ikea-arkit">Daring Fireball: Ikea Details Plans for Furniture Placement App Powered by Apple’s ARKit</a></li>
+<li><a href="https://daringfireball.net/linked/2017/06/19/ellis-reach-navigation">Daring Fireball: Why Reach Navigation Should Replace the Navbar in iOS Design</a></li>
+<li><a href="https://daringfireball.net/linked/2017/06/15/wistron-ceo-blabbermouth">Daring Fireball: Wistron CEO Blabs About Waterproofing and ‘Wireless Charging’ for New iPhone</a></li>
+<li><a href="https://daringfireball.net/linked/2017/06/15/spaces-vs-tabs">Daring Fireball: Stack Overflow Survey: Developers Who Use Spaces Make More Money Than Those Who Use Tabs</a></li>
+<li><a href="https://daringfireball.net/linked/2017/06/15/markoff-forstall">Daring Fireball: John Markoff to Interview Scott Forstall Next Week</a></li>
+<li><a href="https://daringfireball.net/linked/2017/06/15/merchant-fadell-on-tape">Daring Fireball: Brian Merchant Has Tony Fadell on Tape</a></li>
+<li><a href="https://daringfireball.net/linked/2017/06/15/inductive-is-not-wireless">Daring Fireball: Inductive Charging Is Not ‘Wireless’</a></li>
+<li><a href="https://daringfireball.net/2017/06/the_knives_come_out_for_schiller">Daring Fireball: The Knives Come Out for Phil Schiller in Brian Merchant’s ‘The One Device: The Secret History of the iPhone’</a></li>
+<li><a href="https://daringfireball.net/linked/2017/06/12/uber-emil-michael">Daring Fireball: Emil Michael, Second-in-Command at Uber, Leaves Company</a></li>
+<li><a href="https://daringfireball.net/2017/06/the_2017_ipad_pros">Daring Fireball: The 2017 iPad Pros</a></li>
+<li><a href="https://daringfireball.net/linked/2017/06/12/sinofsky-wwdc-2017">Daring Fireball: Steven Sinofsky’s WWDC 2017 Trip Report</a></li>
+<li><a href="https://swizec.com/blog/first-day-new-2017-macbook-pro/swizec/7643">First day with a new 2017 MacBook Pro</a></li>
+</ul>
+</li>
+<li>News
+<ul>
+<li><a href="https://www.technologyreview.com/s/608131/apple-isnt-as-late-to-automated-driving-as-you-might-think/">Apple isn’t as late to automated driving as you might think</a></li>
+<li><a href="https://www.technologyreview.com/s/608093/apple-finally-admits-it-is-pursuing-technology-for-self-driving-cars/">Apple has finally admitted it’s working on technology for self-driving cars</a></li>
+<li><a href="https://www.technologyreview.com/s/608118/wait-why-does-trump-want-to-change-americas-air-traffic-control-system/">Wait, why does Trump want to change America’s air traffic control system?</a></li>
+<li><a href="https://www.privateinternetaccess.com/blog/2017/06/finnish-court-cracks-down-hard-on-copyright-trolls-in-new-ruling/">Finnish Market Court cracks down hard on copyright trolls in new ruling</a></li>
+<li><a href="https://www.washingtonpost.com/politics/trump-furious-and-frustrated-will-join-allies-in-attacking-comey-testimony/2017/06/06/171e6d00-4acf-11e7-9669-250d0b15f83b_story.html">Trump, furious and frustrated, gears up to punch back at Comey testimony</a></li>
+</ul>
+</li>
+<li>Software
+<ul>
+<li><a href="https://medium.freecodecamp.com/things-i-wish-someone-had-told-me-when-i-was-learning-how-to-code-565fc9dcb329#.y5wbd3pj6">Things I Wish Someone Had Told Me When I Was Learning How to Code</a></li>
+<li><a href="https://backchannel.org/blog/friendfeed-schemaless-mysql">How FriendFeed uses MySQL to store schema-less data</a></li>
+<li><a href="https://headmelted.com/what-i-learned-building-code-that-builds-visual-studio-code-b520b1d83d0f">What I learned building code that builds (Visual Studio) Code</a></li>
+<li><a href="https://www.smashingmagazine.com/2017/06/transition-hybrid-apps-react-native/">Hybrid Apps And React Native: A Time To Transition?</a></li>
+<li><a href="http://mds.is/still-floating-labels/">Are Float Labels Really That Problematic After All?</a></li>
+<li><a href="https://blog.heroku.com/node-habits-2017">Habits of a Happy Node Hacker 2017</a></li>
+<li><a href="https://blog.acolyer.org/2017/06/09/node-fz-fuzzing-the-server-side-event-driven-architecture/">Node.fz: fuzzing the server-side event-driven architecture</a></li>
+<li><a href="https://medium.com/@mikeal/docs-docs-docs-1e06d17fa06f">Docs, Docs, Docs!</a></li>
+<li><a href="https://medium.com/basecs/stacks-and-overflows-dbcf7854dc67">Stacks and Overflows</a></li>
+<li><a href="https://spin.atomicobject.com/2017/06/07/react-state-vs-redux-state/">React State vs. Redux State: When and Why?</a></li>
+<li><a href="https://www.privateinternetaccess.com/blog/2017/06/amazon-granted-patent-restrict-open-internet-store-public-wifi-hotspots/">Amazon granted patent to restrict the open internet at in-store public WiFi hotspots</a></li>
+</ul>
+</li>
+</ul>
+<h2>Reading</h2>
+<ul>
+<li><a href="https://www.goodreads.com/book/show/15839976-red-rising">Red Rising</a></li>
+<li><a href="https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow">Thinking Fast and Slow</a> (as audiobook)</li>
+</ul>
+]]></content:encoded>
+            <author>hello@blakeembrey.com (Blake Embrey)</author>
+        </item>
+        <item>
+            <title><![CDATA[My Week in Review (2017-06-12)]]></title>
+            <link>http://blakeembrey.com/self/2017-06-12-review/</link>
+            <guid>http://blakeembrey.com/self/2017-06-12-review/</guid>
+            <pubDate>Mon, 12 Jun 2017 15:30:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>What Happened?</h2>
+<ul>
+<li>Watched <a href="https://www.miss-saigon.com/">Miss Saigon</a></li>
+<li>Went to the filming of <a href="https://www.youtube.com/playlist?list=PLiZxWe0ejyv_Chl_GV1ht34hzAVlg2aLv">The Late Show with Stephen Colbert</a></li>
+<li>Two episodes of <a href="https://trakt.tv/shows/the-man-in-the-high-castle/seasons/2">Man in the High Castle</a></li>
+<li>22 articles/videos/webpages</li>
+</ul>
+<h2>Internet</h2>
+<ul>
+<li>Video
+<ul>
+<li><a href="https://www.youtube.com/watch?v=hn1VxaMEjRU">‘Are we the Baddies?’ Mitchell and Webb Funny Nazi Scetch</a></li>
+<li><a href="https://www.youtube.com/watch?v=aFQFB5YpDZE">Jon Stewart on Crossfire</a></li>
+<li><a href="https://www.youtube.com/watch?v=fyVz5vgqBhE">Brexit II: Last Week Tonight with John Oliver (HBO)</a></li>
+</ul>
+</li>
+<li>Useful
+<ul>
+<li><a href="https://danluu.com/startup-options/">Options vs. Cash</a></li>
+<li><a href="https://www.linkedin.com/pulse/why-arent-people-taking-initiative-jean-hsu">Why aren’t people taking initiative?</a></li>
+</ul>
+</li>
+<li>Interesting
+<ul>
+<li><a href="https://aeon.co/ideas/for-centuries-european-aristocrats-proudly-claimed-foreign-ancestry">For centuries European aristocrats proudly claimed foreign ancestry</a></li>
+<li><a href="https://m.signalvnoise.com/trickle-down-workaholism-in-startups-a90ceac76426?gi=26a19005e338">Trickle-down workaholism in startups</a></li>
+<li><a href="https://blog.cronitor.io/the-aws-spend-of-a-saas-side-business-30bd5dbd91b">The AWS spend of a SaaS side-business</a></li>
+<li><a href="https://medium.com/@johnnylin/how-to-make-80-000-per-month-on-the-apple-app-store-bdb943862e88">How to Make $80,000 Per Month on the Apple App Store</a></li>
+</ul>
+</li>
+<li>Opinion
+<ul>
+<li><a href="https://daringfireball.net/linked/2017/06/08/second-coming-of-ipad">Daring Fireball: The Second Coming of iPad</a></li>
+<li><a href="https://www.macrumors.com/2017/06/05/ios-11-beta-1-tidbits/">iOS 11 Tidbits: Customizable Control Center, One-Handed Keyboard, Type to Siri and More</a></li>
+<li><a href="https://daringfireball.net/linked/2017/06/10/core-ml">Daring Fireball: Apple Introduces Core ML</a></li>
+</ul>
+</li>
+<li>News
+<ul>
+<li><a href="https://www.intelligence.senate.gov/sites/default/files/documents/os-jcomey-060817.pdf">Statement for the Record - Senate Select Committee on Intelligence</a></li>
+<li><a href="http://blog.npmjs.org/post/161325296275/statement-on-npmcdncom-and-npmjscom">Statement on npm‑cdn.com and npm‑js.com</a></li>
+<li><a href="http://www.politico.com/magazine/story/2017/06/05/trump-nato-speech-national-security-team-215227">Trump National Security Team Blindsided by NATO Speech</a></li>
+<li><a href="https://www.theatlantic.com/international/archive/2017/05/trump-nato-germany/528429/">Trump’s Trip Was a Catastrophe for U.S.-Europe Relations</a></li>
+<li><a href="https://www.axios.com/trumps-russia-response-was-not-under-control-2438934967.html">Trump’s Russia response was not under control</a></li>
+</ul>
+</li>
+<li>Software
+<ul>
+<li><a href="https://medium.com/@giovannidamiola/making-the-internet-archives-full-text-search-faster-30fb11574ea9">Making the Internet Archive’s full text search faster</a></li>
+<li><a href="https://medium.com/@homakov/securelogin-forget-about-passwords-c1bf7b47f698">SecureLogin — Forget About Passwords</a></li>
+<li><a href="https://dev.to/vaidehijoshi/a-gentle-introduction-to-graph-theory">A Gentle Introduction To Graph Theory</a></li>
+<li><a href="https://dev.to/vaidehijoshi/to-queue-or-not-to-queue">To Queue Or Not To Queue</a></li>
+<li><a href="https://dev.to/vaidehijoshi/bits-bytes-building-with-binary">Bits, Bytes, Building With Binary</a></li>
+</ul>
+</li>
+</ul>
+<h2>Reading</h2>
+<ul>
+<li>Finished <a href="https://www.goodreads.com/book/show/29579.Foundation">Foundation</a></li>
+<li><a href="https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow">Thinking Fast and Slow</a> (as audiobook)</li>
+</ul>
+]]></content:encoded>
+            <author>hello@blakeembrey.com (Blake Embrey)</author>
+        </item>
         <item>
             <title><![CDATA[My Week in Review (2017-06-05)]]></title>
             <link>http://blakeembrey.com/self/2017-06-05-review/</link>
@@ -879,119 +1052,6 @@
 <p>FaceTime is really nice for video chatting. It disables automatically when you’re in a different window (I regularly use up to 6 windows during a work day for different tasks) and the interface is very simple to use. The video quality is great and, when the call drops temporarily it will automatically join the call again (with the video still enabled - looking at you Skype!). On top of that, it has a low CPU footprint, especially compared with Skype.</p>
 <p>However, there’s a couple of major issues with it. First off, it makes the rest of the computer quieter which makes it difficult to work or do anything else while on the call. For example, we can’t really watch a movie together (audio is dimmed). The second is a feature request. I would love the “floating” window feature from Skype.</p>
 <p>And we’re done. I’m going to tweak the same script to auto answer Skype next. Hopefully this comes built in with future versions of video chat clients. It’s such a basic feature that it’s exclusion makes me ponder the disconnect between the teams creating the software and reality.</p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Reference the Constructor of a Type in TypeScript (Generically)]]></title>
-            <link>http://blakeembrey.com/articles/2015/04/typescript-constructor-of-type/</link>
-            <guid>http://blakeembrey.com/articles/2015/04/typescript-constructor-of-type/</guid>
-            <pubDate>Tue, 28 Apr 2015 04:00:00 GMT</pubDate>
-            <content:encoded><![CDATA[<p>Although not initially intuitive, I run into this issue while documenting the <a href="http://martyjs.org/api/registry/index.html#register"><code>register</code></a> function in Marty.js. I didn’t realise a solution, so I reached out to a friend who provided me with this beauty.</p>
-<pre><code class="language-ts">function register&lt;T&gt;(clazz: { new (...args: any[]): T }): T;
-</code></pre>
-<p>And it works brilliantly! But what’s this even doing? I’ve just created a generic function that accepts a constructor function of any type and returns that type. No need to do type coercion. It turned out perfectly for this situation, where I can register a <code>Store</code>, <code>Queries</code>, <code>ActionCreators</code> and more!</p>
-<p>You can also write this with a slightly different syntax such as <code>new (...args: any[]) =&gt; T</code>. There’s no real difference here.</p>
-<p>Although it doesn’t apply here, we can also look how we might accept more specific types of constructors.</p>
-<pre><code class="language-ts">// Using `typeof`...
-
-class X {
-  method (): void {}
-}
-
-function create (C: typeof X) {
-  return new C()
-}
-
-create(X)
-
-// Using an inline parameter...
-
-interface Y {
-  method(): void
-}
-
-function create2 (C: new (...args: any[]) =&gt; Y) {
-  return new C()
-}
-
-class Z implements Y {
-  method(): void {}
-}
-
-create2(Z)
-</code></pre>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Syntax Highlighted Diffs For Everyone]]></title>
-            <link>http://blakeembrey.com/articles/2014/12/syntax-highlighting-blog-diff-support/</link>
-            <guid>http://blakeembrey.com/articles/2014/12/syntax-highlighting-blog-diff-support/</guid>
-            <pubDate>Fri, 26 Dec 2014 05:30:00 GMT</pubDate>
-            <content:encoded><![CDATA[<p>This is a recount, of sorts, on how I added syntax highlighting to diffs on my blog and turned it into a module for anyone to use. The module is made for syntax highlighting Markdown files straight out of the box (supporting <a href="https://github.com/chjj/marked">marked</a> style highlight callbacks). Check out GitHub and npm for the final result.</p>
-<p>Two weeks ago, <a href="https://github.com/blog/1932-syntax-highlighted-diffs">GitHub announced</a> a new feature - syntax highlighting of diffs. A couple of months earlier, I wrote a detailed <a href="/articles/2014/09/building-a-blog-with-metalsmith/">introduction to Metalsmith</a> where I used diffs to show the readers what changed at each step. Before I published it I discovered that the diff highlighting by <a href="https://highlightjs.org/">Highlight.js</a> left the addition and deletion marks inline, which degraded the reading experience. Determined to push live, I forged through and <a href="https://github.com/blakeembrey/blakeembrey.com/commit/206bbb0e047bfe24f92d25d847986ebed6548e06#diff-15ac5cd3ab657e091ee4aa5456e97ddeR68">manually highlighted each line</a> myself.</p>
-<p>Fixing that monstrosity sat on my backlog for months. Finally, I gathered enough time and mental bandwidth to go back and figure out a better solution. It took three complete rewrites over the course of a conference (and then some) to come up with the current solution. This article is more about the thought process over the week than it is about implementing this yourself. That part should be easy for you, just install from npm.</p>
-<h2>First Attempt</h2>
-<p>The first attempt was simple. I googled around and discovered very little information on the topic, so I implemented the only way I saw mentioned. I syntax highlighted the code first, then I run over the generated markup and matched for diff-like syntax (<a href="https://github.com/blakeembrey/blakeembrey.com/blob/dfcedefc853cc01ba33539c9b9b2576b1c23aceb/config/markdown.js">code here</a>) and wrap those lines in <code>&lt;span&gt;</code>s based on the type of change.</p>
-<p>I knew it wouldn’t work everywhere, but it allowed me to refactor the original article and remove all the horrible markup. Plus it was simple, I was done within the hour. I opted to use the existing language tag in Markdown to indicate that it was also a diff, since I couldn’t come up with a cleaner solution (E.g. <code>&lt;language&gt;.diff</code>). But I still wanted a something smarter, something that would work everywhere. This solution had faults when the diff markup messed with the syntax highlighting. So I continued.</p>
-<h2>Second Attempt</h2>
-<p>The next attempt was more complex. I figured I could match each line type (addition/deletion/metadata/null) and group them together. Then, I would highlight the addition and deletions separately (with null changes filling the spaces). With the two syntax highlighting results, I could go over the code line by line and pick from either the addition or deletion result based on the line type. However, <a href="https://github.com/blakeembrey/blakeembrey.com/blob/1d0a377e9cdea332045bb6f6074fe29848920746/config/markdown.js">this code</a> was brittle. What if a <code>&lt;span&gt;</code> ran over multiple lines?</p>
-<h3>Attempt 2.5</h3>
-<p>I kept at this solution for a while longer and I added a regex to match open and closing <code>&lt;span&gt;</code>s. Then, I pushed each open <code>&lt;span&gt;</code> onto an array and popped it off with each closing <code>&lt;/span&gt;</code>. If there were any left in each section, I’d close them with a <code>&lt;/span&gt;</code> and open them again in the next section. This was brilliant and clever, I thought, and I needed to publish it. In fact, it wasn’t until I was refactoring this into a module that I realised what a deep grave I was digging myself.</p>
-<h2>Final Attempt</h2>
-<p>My third and final attempt started where the last one left off. I knew the grouping was the correct approach, but the highlighter needed a better approach. I recalled that I was only using the <code>value</code> property of the returned syntax highlighting object, so I thought it was about time to read some documentation. Lo and behold, I discovered the <a href="http://highlightjs.readthedocs.org/en/latest/api.html#highlight-name-value-ignore-illegals-continuation">third and fourth arguments</a> of Highlight.js.</p>
-<p>The third argument was interesting, I could try to ignore illegal characters in the code. I though this might work when the syntax highlighter started in an invalid position. The holy grail, however, was the fourth argument. It would accept a continuation stack, which meant I could probably leave the syntax highlighting incomplete and start it again later. I hoped that this would also close the <code>&lt;/span&gt;</code>s for me, and it did!</p>
-<p>I used the previous grouping solution and iterated over each group keeping track of the previously highlighted stack (both addition or deletion). It worked out perfectly and I wrapped each highlighted group in a <code>&lt;span&gt;</code> with its diff type as the class (E.g. <code>&lt;span class=&quot;diff-addition&quot;&gt;</code>). I attempted to use the <code>ignore_illegals</code> argument, but it failed in a JSON example (starting at a property of an object) so I had to disable it again.</p>
-<p>The <a href="https://github.com/blakeembrey/highlighter">result of my labour</a> can be viewed below. Diff syntax highlighting in all its glory - the exact same block of code GitHub uses in <a href="https://github.com/blog/1932-syntax-highlighted-diffs">their example</a>!</p>
-<pre><code class="language-cs.diff"><span class="diff-chunk">@@ -164,29 +164,34 @@</span>
-<span class="diff-null">        [Fact]
-        <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">AddRangeBalanceTest</span>(<span class="hljs-params"></span>)
-        </span>{</span>
-<span class="diff-addition">            <span class="hljs-keyword">int</span> randSeed = (<span class="hljs-keyword">int</span>)DateTime.Now.Ticks;
-            Console.WriteLine(<span class="hljs-string">"Random seed: {0}"</span>, randSeed);
-            <span class="hljs-keyword">var</span> random = <span class="hljs-keyword">new</span> Random(randSeed);
-
-            <span class="hljs-keyword">int</span> expectedTotalSize = <span class="hljs-number">0</span>;
-</span>
-<span class="diff-null">            <span class="hljs-keyword">var</span> list = ImmutableList&lt;<span class="hljs-keyword">int</span>&gt;.Empty;
-</span>
-<span class="diff-deletion">            <span class="hljs-comment">// Add batches of 32, 128 times, giving 4096 items</span>
-            <span class="hljs-keyword">int</span> batchSize = <span class="hljs-number">32</span>;</span>
-<span class="diff-addition">            <span class="hljs-comment">// Add some small batches, verifying balance after each</span></span>
-<span class="diff-null">            <span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> i = <span class="hljs-number">0</span>; i &lt; <span class="hljs-number">128</span>; i++)
-            {</span>
-<span class="diff-deletion">                list = list.AddRange(Enumerable.Range(batchSize * i + <span class="hljs-number">1</span>, batchSize));
-                list.Root.VerifyBalanced();</span>
-<span class="diff-addition">                <span class="hljs-keyword">int</span> batchSize = random.Next(<span class="hljs-number">32</span>);
-                Console.WriteLine(<span class="hljs-string">"Adding {0} elements to the list"</span>, batchSize);
-                list = list.AddRange(Enumerable.Range(expectedTotalSize+<span class="hljs-number">1</span>, batchSize));
-                VerifyBalanced(list);
-                expectedTotalSize += batchSize;</span>
-<span class="diff-null">            }
-
-            <span class="hljs-comment">// Add a single large batch to the end</span></span>
-<span class="diff-deletion">            list = list.AddRange(Enumerable.Range(<span class="hljs-number">4097</span>, <span class="hljs-number">61440</span>));
-            Assert.Equal(Enumerable.Range(<span class="hljs-number">1</span>, <span class="hljs-number">65536</span>), list);
-
-            list.Root.VerifyBalanced();
-
-            <span class="hljs-comment">// Ensure that tree height is no more than 1 from optimal</span>
-            <span class="hljs-keyword">var</span> root = list.Root <span class="hljs-keyword">as</span> IBinaryTree&lt;<span class="hljs-keyword">int</span>&gt;;</span>
-<span class="diff-addition">            <span class="hljs-keyword">int</span> largeBatchSize = random.Next(<span class="hljs-number">32768</span>) + <span class="hljs-number">32768</span>;
-            Console.WriteLine(<span class="hljs-string">"Adding {0} elements to the list"</span>, largeBatchSize);
-            list = list.AddRange(Enumerable.Range(expectedTotalSize + <span class="hljs-number">1</span>, largeBatchSize));
-            VerifyBalanced(list);
-            expectedTotalSize += largeBatchSize;</span>
-<span class="diff-null"></span>
-<span class="diff-deletion">            <span class="hljs-keyword">var</span> optimalHeight = Math.Ceiling(Math.Log(root.Count, <span class="hljs-number">2</span>));</span>
-<span class="diff-addition">            Assert.Equal(Enumerable.Range(<span class="hljs-number">1</span>, expectedTotalSize), list);</span>
-<span class="diff-deletion">            Console.WriteLine(<span class="hljs-string">"Tree depth is {0}, optimal is {1}"</span>, root.Height, optimalHeight);
-            Assert.InRange(root.Height, optimalHeight, optimalHeight + <span class="hljs-number">1</span>);</span>
-<span class="diff-addition">            list.Root.VerifyHeightIsWithinTolerance();</span>
-<span class="diff-null">        }
-
-        [Fact]
-</span></code></pre>
-<p>The result was extremely satisfying. I coded and refactored over the course of a few days to discover a brilliant solution built directly into the library for me. Is this the final solution, or will there still more to refactor?</p>
 ]]></content:encoded>
         </item>
     </channel>
