@@ -4,10 +4,65 @@
         <title>Blake Embrey</title>
         <link>http://blakeembrey.com</link>
         <description>A personally curated collection of words hosted in cyberspace for some indeterminate duration.</description>
-        <lastBuildDate>Thu, 22 Jun 2017 15:07:07 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 27 Jun 2017 01:50:03 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <copyright>Copyright 2017 Blake Embrey</copyright>
+        <item>
+            <title><![CDATA[My Week in Review (2017-06-26)]]></title>
+            <link>http://blakeembrey.com/self/2017-06-26-review/</link>
+            <guid>http://blakeembrey.com/self/2017-06-26-review/</guid>
+            <pubDate>Tue, 27 Jun 2017 02:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>Internet</h2>
+<ul>
+<li>Useful
+<ul>
+<li><a href="http://www.mrmoneymustache.com/2017/06/20/next-recession/">Great News: There’s Another Recession Coming</a></li>
+<li><a href="http://www.mrmoneymustache.com/2013/05/07/how-to-prosper-in-an-economic-boom/">How to Prosper in an Economic Boom</a></li>
+</ul>
+</li>
+<li>Interesting
+<ul>
+<li><a href="http://www.boredpanda.com/couple-comics-catanacomics/">Girlfriend Secretly Illustrates Everyday Life With Her Bf, He Uploads Comics Online And They Go Viral</a></li>
+<li><a href="https://mentalfloss.atavist.com/a-california-dream">A California Dream</a></li>
+<li><a href="http://cancer.nautil.us/article/225/getting-googled-by-your-doctor-is-the-new-normal">Getting Googled By Your Doctor Is the New Normal</a></li>
+<li><a href="http://uk.reuters.com/article/us-gambling-usa-dummies-exclusive-idUKKBN19D137">Fake online stores reveal gamblers’ shadow banking system</a></li>
+<li><a href="https://krebsonsecurity.com/2017/03/post-fcc-privacy-rules-should-you-vpn/">Post-FCC Privacy Rules, Should You VPN?</a></li>
+<li><a href="http://www.gq.com/story/san-francisco-is-burning">Who Is Causing All the Fires in San Francisco?</a></li>
+<li><a href="https://www.theinformation.com/silicon-valley-women-tell-of-vcs-unwanted-advances">Silicon Valley Women Tell of VC’s Unwanted Advances</a></li>
+</ul>
+</li>
+<li>Opinion
+<ul>
+<li><a href="https://www.technologyreview.com/s/608171/how-biotech-patents-are-linked-to-us-food-productivity/">Biotech patents reveal the next generation of seeds. Can that predict food productivity?</a></li>
+<li><a href="https://www.technologyreview.com/s/608172/spacex-is-making-commercial-space-launches-look-like-childs-play/">SpaceX is making commercial space launches look like total child’s play</a></li>
+<li><a href="https://www.technologyreview.com/s/608176/why-waymos-partnership-with-avis-makes-sense/">Why Waymo’s partnership with Avis makes sense</a></li>
+<li><a href="https://www.technologyreview.com/s/608156/global-urban-footprint-revealed-in-unprecedented-resolution/">The unique map that reveals the entire planet’s urban footprint</a></li>
+<li><a href="https://daringfireball.net/linked/2017/06/23/gmail-privacy">Daring Fireball: Google Will Stop Reading Your Emails for Gmail Ads</a></li>
+<li><a href="https://labs.ripe.net/Members/mirjam/why-is-the-internet-so-slow">Why is the Internet so Slow?</a></li>
+</ul>
+</li>
+<li>News
+<ul>
+<li><a href="https://www.privateinternetaccess.com/blog/2017/06/australia-wants-able-read-encrypted-messages/">Australia wants to be able to read your encrypted messages</a></li>
+<li><a href="https://www.technologyreview.com/s/608167/worlds-first-cable-free-elevator-zooms-horizontally-and-vertically-using-maglev-tech/">The world’s first elevator cable-free elevator zooms horizontally and vertically using maglev tech</a></li>
+</ul>
+</li>
+<li>Software
+<ul>
+<li><a href="https://segment.com/blog/a-brief-history-of-the-uuid/">A Brief History of the UUID</a></li>
+<li><a href="https://www.nytimes.com/2017/06/22/technology/ransomware-attack-nsa-cyberweapons.html">A Cyberattack ‘the World Isn’t Ready For’</a></li>
+</ul>
+</li>
+</ul>
+<h2>Reading</h2>
+<ul>
+<li>Finished reading <a href="https://www.goodreads.com/book/show/15839976-red-rising">Red Rising</a> and <a href="https://www.goodreads.com/book/show/18966819-golden-son">Golden Son</a></li>
+<li><a href="https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow">Thinking Fast and Slow</a> (as audiobook)</li>
+</ul>
+]]></content:encoded>
+            <author>hello@blakeembrey.com (Blake Embrey)</author>
+        </item>
         <item>
             <title><![CDATA[My Week in Review (2017-06-22)]]></title>
             <link>http://blakeembrey.com/self/2017-06-22-review/</link>
@@ -26,7 +81,6 @@
 </ul>
 <h2>Internet</h2>
 <ul>
-<li>Video</li>
 <li>Useful
 <ul>
 <li><a href="http://bradfrost.com/blog/link/the-road-to-burnout-is-paved-with-context-switching/">The Road to Burnout is Paved With Context Switching</a></li>
@@ -975,83 +1029,6 @@
 <p>Tada! You might need to accept the accessibility dialog that pops up, but the script will now be running. You can verify this by executing <code>launchctl list | grep skype-auto-answer</code>.</p>
 <p>Done!</p>
 <p>P.S. If you ever want to unload the script, just execute <code>launchctl unload -w com.blakeembrey.skype-auto-answer.plist</code>, same as you did to load.</p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[FaceTime Auto Answer]]></title>
-            <link>http://blakeembrey.com/articles/2015/06/facetime-auto-answer-applescript/</link>
-            <guid>http://blakeembrey.com/articles/2015/06/facetime-auto-answer-applescript/</guid>
-            <pubDate>Sat, 20 Jun 2015 06:00:00 GMT</pubDate>
-            <content:encoded><![CDATA[<p>I talk with my girlfriend most days. Sometimes multiple times a day. We’re in a long distance relationship and, at times, completely different time zones. One habit we wanted to pick up was being able to see each other at any time.</p>
-<p>For this to work, we need to be able to auto answer each others calls. One of us could be busy working, but we still wanted to be able to see each other. After days of exploring how to make this happen, I come up with some solutions:</p>
-<ol>
-<li>Create new Skype accounts just for each other and enable auto answer on those accounts.</li>
-<li>Keep a Google Hangouts room alive that we can both join at any time.</li>
-<li>Create our own video chat platform using WebRTC that will fulfil our needs.</li>
-</ol>
-<p>Being the nerd I am, the third option sounded the most fun! From all my research, however, I was amazed no one had implemented a feature so simple into their product. Each of these options have their own drawbacks.</p>
-<ol>
-<li>I need to sign in and out between accounts (an issue for us since we work and live on our computers).</li>
-<li>Google Hangouts prompts after inactivity and kicks the user from the chat.</li>
-<li>Time.</li>
-</ol>
-<p>Eventually, I stumbled upon the magic bullet - FaceTime has an option built in to auto answer (<code>defaults write com.apple.FaceTime AutoAcceptInvitesFrom -array-add hello@blakeembrey.com</code>). It “works”, but it comes with even more issues. For example, when you receive a call there is a black overlay over the video call which makes visibility difficult. On a second test, we discovered that it rings infinitely. Well, so much for that.</p>
-<p>At this point, we gave up and Keyue needed to sleep. I decided to continue research the following day when she was at work (my night time) and discovered some people had written an AppleScript for this years ago. I stayed up until 4am trying to create a new AppleScript, hacking away in a forgiving syntax I had no idea how to use without the use of Google.</p>
-<h2>Implementation</h2>
-<p>Let’s start by opening the “Script Editor” application. Copy and paste the following code into the editor, changing the caller id check to your desired caller. This the caller that is shown next to the profile image and accept button during ringing. For me, Keyue Bao is a contact so I can use her name. If they aren’t a contact, you’ll need to type the specific email or phone number here.</p>
-<pre><code class="language-applescript"><span class="hljs-keyword">set</span> contacts <span class="hljs-keyword">to</span> {<span class="hljs-string">"Keyue Bao"</span>}
-
-<span class="hljs-keyword">repeat</span>
-  <span class="hljs-keyword">repeat</span> <span class="hljs-keyword">while</span> <span class="hljs-built_in">application</span> <span class="hljs-string">"FaceTime"</span> <span class="hljs-keyword">is</span> <span class="hljs-built_in">running</span>
-    <span class="hljs-keyword">tell</span> <span class="hljs-built_in">application</span> <span class="hljs-string">"System Events"</span>
-      <span class="hljs-keyword">tell</span> process <span class="hljs-string">"FaceTime"</span>
-        <span class="hljs-keyword">set</span> acceptButton <span class="hljs-keyword">to</span> <span class="hljs-keyword">a reference</span> <span class="hljs-keyword">to</span> (button <span class="hljs-string">"Accept"</span> <span class="hljs-keyword">of</span> window <span class="hljs-number">1</span>)
-
-        <span class="hljs-keyword">if</span> acceptButton exists <span class="hljs-keyword">then</span>
-          <span class="hljs-keyword">set</span> callerId <span class="hljs-keyword">to</span> value <span class="hljs-keyword">of</span> static <span class="hljs-built_in">text</span> <span class="hljs-number">2</span> <span class="hljs-keyword">of</span> window <span class="hljs-number">1</span>
-
-          <span class="hljs-keyword">if</span> contacts <span class="hljs-keyword">contains</span> callerId <span class="hljs-keyword">then</span>
-            click acceptButton
-          <span class="hljs-keyword">end</span> <span class="hljs-keyword">if</span>
-        <span class="hljs-keyword">end</span> <span class="hljs-keyword">if</span>
-      <span class="hljs-keyword">end</span> <span class="hljs-keyword">tell</span>
-    <span class="hljs-keyword">end</span> <span class="hljs-keyword">tell</span>
-    <span class="hljs-built_in">delay</span> <span class="hljs-number">2</span>
-  <span class="hljs-keyword">end</span> <span class="hljs-keyword">repeat</span>
-  <span class="hljs-built_in">delay</span> <span class="hljs-number">5</span>
-<span class="hljs-keyword">end</span> <span class="hljs-keyword">repeat</span>
-</code></pre>
-<p>The script runs on an infinite loop. There is a delay of 5 seconds when the application is closed and 2 seconds when the application is open. It attempts to select the “answer” button on the screen and, if it exists, it checks the caller id and clicks answer. Pretty simple.</p>
-<p>Next we want to export the script for execution. Navigate to <code>File -&gt; Export</code> and save it somewhere you can remember it. For me, it was as <code>Documents/Scripts/facetime-auto-answer</code>. You need this path for the next step.</p>
-<p>Let’s create a Launchd script to handle execution on computer start up. Navigate to <code>~/Library/LaunchAgents</code> using Terminal (open Terminal and enter <code>cd ~/Library/LaunchAgents</code>). After that, that’s add our file (below) as <code>com.blakeembrey.facetime-auto-answer.plist</code> (just <code>vi com.blakeembrey.facetime-auto-answer.plist</code> and hit <code>i</code> to switch to insert mode).</p>
-<pre><code class="language-xml"><span class="php"><span class="hljs-meta">&lt;?</span>xml version=<span class="hljs-string">"1.0"</span> encoding=<span class="hljs-string">"UTF-8"</span><span class="hljs-meta">?&gt;</span></span>
-<span class="hljs-meta">&lt;!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">plist</span> <span class="hljs-attr">version</span>=<span class="hljs-string">"1.0"</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">dict</span>&gt;</span>
-  <span class="hljs-tag">&lt;<span class="hljs-name">key</span>&gt;</span>Label<span class="hljs-tag">&lt;/<span class="hljs-name">key</span>&gt;</span>
-  <span class="hljs-tag">&lt;<span class="hljs-name">string</span>&gt;</span>com.blakeembrey.FaceTimeAutoAnswer<span class="hljs-tag">&lt;/<span class="hljs-name">string</span>&gt;</span>
-  <span class="hljs-tag">&lt;<span class="hljs-name">key</span>&gt;</span>Program<span class="hljs-tag">&lt;/<span class="hljs-name">key</span>&gt;</span>
-  <span class="hljs-tag">&lt;<span class="hljs-name">string</span>&gt;</span>/usr/bin/osascript<span class="hljs-tag">&lt;/<span class="hljs-name">string</span>&gt;</span>
-  <span class="hljs-tag">&lt;<span class="hljs-name">key</span>&gt;</span>ProgramArguments<span class="hljs-tag">&lt;/<span class="hljs-name">key</span>&gt;</span>
-  <span class="hljs-tag">&lt;<span class="hljs-name">array</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">string</span>&gt;</span>osascript<span class="hljs-tag">&lt;/<span class="hljs-name">string</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">string</span>&gt;</span>/Users/blakeembrey/Scripts/facetime-auto-answer.scpt<span class="hljs-tag">&lt;/<span class="hljs-name">string</span>&gt;</span>
-  <span class="hljs-tag">&lt;/<span class="hljs-name">array</span>&gt;</span>
-  <span class="hljs-tag">&lt;<span class="hljs-name">key</span>&gt;</span>RunAtLoad<span class="hljs-tag">&lt;/<span class="hljs-name">key</span>&gt;</span>
-  <span class="hljs-tag">&lt;<span class="hljs-name">true</span>/&gt;</span>
-  <span class="hljs-tag">&lt;<span class="hljs-name">key</span>&gt;</span>KeepAlive<span class="hljs-tag">&lt;/<span class="hljs-name">key</span>&gt;</span>
-  <span class="hljs-tag">&lt;<span class="hljs-name">true</span>/&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">dict</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">plist</span>&gt;</span>
-</code></pre>
-<p>Make sure you adjust the argument above to the correct path from the export step. Once it’s correct, exit back to the terminal (<code>Esc</code>, <code>:wq</code>, <code>Enter</code>) and make Launchd pick up the new script without rebooting.</p>
-<pre><code>launchctl load -w com.blakeembrey.facetime-auto-answer.plist
-</code></pre>
-<p>You’ll need to accept the accessibility dialog (open system preferences and enable access). We can quickly check that the script is running by entering <code>launchctl list | grep facetime-auto-answer</code>. And we’re done.</p>
-<h2>Conclusion</h2>
-<p>FaceTime is really nice for video chatting. It disables automatically when you’re in a different window (I regularly use up to 6 windows during a work day for different tasks) and the interface is very simple to use. The video quality is great and, when the call drops temporarily it will automatically join the call again (with the video still enabled - looking at you Skype!). On top of that, it has a low CPU footprint, especially compared with Skype.</p>
-<p>However, there’s a couple of major issues with it. First off, it makes the rest of the computer quieter which makes it difficult to work or do anything else while on the call. For example, we can’t really watch a movie together (audio is dimmed). The second is a feature request. I would love the “floating” window feature from Skype.</p>
-<p>And we’re done. I’m going to tweak the same script to auto answer Skype next. Hopefully this comes built in with future versions of video chat clients. It’s such a basic feature that it’s exclusion makes me ponder the disconnect between the teams creating the software and reality.</p>
 ]]></content:encoded>
         </item>
     </channel>
