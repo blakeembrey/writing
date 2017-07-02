@@ -20,7 +20,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "cheerio": "^1.0.0-rc.1",
+    "cheerio": "^1.0.0-rc.2",
     "classnames": "^2.2.5",
     "date-fns": "^1.28.3",
     "react-free-style": "^4.0.0",
