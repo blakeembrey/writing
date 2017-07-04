@@ -4,10 +4,80 @@
         <title>Blake Embrey</title>
         <link>http://blakeembrey.com</link>
         <description>A personally curated collection of words hosted in cyberspace for some indeterminate duration.</description>
-        <lastBuildDate>Tue, 27 Jun 2017 01:50:03 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 04 Jul 2017 19:17:03 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <copyright>Copyright 2017 Blake Embrey</copyright>
+        <item>
+            <title><![CDATA[My Week in Review (2017-07-04)]]></title>
+            <link>http://blakeembrey.com/self/2017-07-04-review/</link>
+            <guid>http://blakeembrey.com/self/2017-07-04-review/</guid>
+            <pubDate>Tue, 04 Jul 2017 19:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>Internet</h2>
+<ul>
+<li>Useful
+<ul>
+<li><a href="http://wealthyaccountant.com/2017/06/26/recommended-reading/">Recommended Reading</a></li>
+<li><a href="https://www.iwillteachyoutoberich.com/blog/welcome-to-the-age-of-abundance/">Welcome to the age of abundance</a></li>
+<li><a href="https://hueniverse.com/converting-full-time-pay-to-hourly-contract-rate-5925295fe52c">Converting Full Time Pay to Hourly Contract Rate</a></li>
+<li><a href="https://www.nytimes.com/2017/06/30/technology/women-entrepreneurs-speak-out-sexual-harassment.html">Silicon Valley Women, in Cultural Shift, Frankly Describe Sexual Harassment</a></li>
+</ul>
+</li>
+<li>Video
+<ul>
+<li><a href="https://www.youtube.com/watch?v=_dSp_f0f9gE">Quick D: The Magic of Will Tsai</a></li>
+</ul>
+</li>
+<li>Interesting
+<ul>
+<li><a href="https://aeon.co/essays/religion-has-no-monopoly-on-transcendent-experience">Religion has no monopoly on transcendent experience</a></li>
+<li><a href="https://www.technologyreview.com/s/608162/dna-testing-reveals-the-chance-of-bad-news-in-your-genes/">One in Five Adults May Have a Problem in Their Genomes</a></li>
+<li><a href="https://blog.ipinfo.io/api-side-project-to-250-million-requests-with-0-marketing-budget-bb0de01c01f6?gi=56e96f1441b7">How I Took an API Side Project to over 250 Million Daily Requests With a $0 Marketing Budget</a></li>
+<li><a href="http://wealthyaccountant.com/2017/06/30/why-you-need-to-go-to-the-office/">Why You Need to Go to the Office</a></li>
+<li><a href="https://medium.com/@amyngyn/not-your-exotic-fantasy-cb551f0d8bf4">Not Your Exotic Fantasy</a></li>
+<li><a href="https://www.nytimes.com/2017/06/29/well/live/what-to-blame-for-your-stomach-bug-not-always-the-last-thing-you-ate.html">What to Blame for Your Stomach Bug? Not Always the Last Thing You Ate</a></li>
+<li><a href="https://krebsonsecurity.com/2017/07/is-it-time-to-can-the-can-spam-act/">Is it Time to Can the CAN-SPAM Act?</a></li>
+<li><a href="https://therealdeal.com/2017/06/25/in-london-millennials-experiment-with-shared-ownership/">In London, millennials experiment with shared ownership</a></li>
+<li><a href="https://stratechery.com/2017/amazons-new-customer/">Amazon’s New Customer</a></li>
+<li><a href="http://wealthyaccountant.com/2017/07/03/the-fastest-way-to-grow-your-net-worth/">The Fastest Way to Grow Your Net Worth</a></li>
+</ul>
+</li>
+<li>Opinion
+<ul>
+<li><a href="https://krebsonsecurity.com/2017/06/got-robocalled-dont-get-mad-get-busy/">Got Robocalled? Don’t Get Mad; Get Busy</a></li>
+<li><a href="https://medium.com/@garyvee/why-1-view-is-everything-3fe415cf3678">Why 1 View is Everything</a></li>
+<li><a href="https://daringfireball.net/linked/2017/06/27/clark-dickbars-dont-work">Daring Fireball: Dickbars Don’t Work</a></li>
+<li><a href="https://daringfireball.net/linked/2017/06/27/bloomberg-apple-hertz">Daring Fireball: Bloomberg Is Really Shitting the Bed Lately</a></li>
+<li><a href="https://daringfireball.net/2017/06/your_vs_my">‘Your’ vs. ‘My’</a></li>
+<li><a href="https://www.washingtonpost.com/opinions/donald-trump-is-not-well/2017/06/30/97759ee0-5d0f-11e7-9b7d-14576dc0f39d_story.html">Donald Trump is not well</a></li>
+<li><a href="https://www.burntfen.com/the-litt-review/enders-game/">The Litt Review: Ender’s Game</a></li>
+<li><a href="https://daringfireball.net/linked/2017/07/03/kuo-iphone-2017-touch-id">Daring Fireball: Ming-Chi Kuo Says No Touch ID on New OLED iPhone</a></li>
+</ul>
+</li>
+<li>News
+<ul>
+<li><a href="https://www.nytimes.com/2017/06/26/nyregion/central-park-jogger-case-honorary-diplomas.html">For Men Cleared in Jogger Case, Belated Pomp and Circumstance</a></li>
+<li><a href="https://www.technologyreview.com/s/608182/google-just-got-hit-with-a-27-billion-antitrust-fine-from-the-eu/">Google just got hit with a $2.7 billion antitrust fine</a></li>
+<li><a href="http://www.thedrive.com/aerial/12050/australian-drug-cartel-used-drone-to-spy-on-police">Australian Drug Cartel Used Drone to Spy on Police</a></li>
+</ul>
+</li>
+<li>Software
+<ul>
+<li><a href="https://medium.com/@bob_parks1/how-not-to-encrypt-a-file-courtesy-of-microsoft-bfadf2b0273d">How Not to Encrypt a File — Courtesy of Microsoft</a></li>
+<li><a href="https://medium.com/@richlitt/ships-log-my-new-to-do-list-manager-6a1d9397a0db">Ships-Log, my new to do list manager</a></li>
+<li><a href="https://www.schneier.com/blog/archives/2017/07/a_man-in-the-mi.html">A Man-in-the-Middle Attack against a Password Reset System</a></li>
+</ul>
+</li>
+</ul>
+<h2>Reading</h2>
+<ul>
+<li>Finished <a href="https://www.goodreads.com/book/show/18966806-morning-star">Morning Star</a> and <a href="https://www.goodreads.com/book/show/13523061-the-defining-decade">The Defining Decade</a></li>
+<li><a href="https://www.goodreads.com/book/show/375802.Ender_s_Game">Ender’s Game</a></li>
+<li><a href="https://www.goodreads.com/book/show/25666050-algorithms-to-live-by">Algorithms to Live By</a> (audiobook)</li>
+</ul>
+]]></content:encoded>
+            <author>hello@blakeembrey.com (Blake Embrey)</author>
+        </item>
         <item>
             <title><![CDATA[My Week in Review (2017-06-26)]]></title>
             <link>http://blakeembrey.com/self/2017-06-26-review/</link>
@@ -969,66 +1039,6 @@
 <li>Typings need simple APIs for IDEs to present developers with warnings and straightforward solutions</li>
 </ul>
 <p><a href="https://github.com/typings/typings">Typings</a> solves all of this and is currently working on fixing the more obscure use-cases. If you find yourself running into an issue or with more questions, please <a href="https://github.com/typings/typings/issues">open an issue</a> in the <code>typings</code> repository.</p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Skype Auto Answer with AppleScript]]></title>
-            <link>http://blakeembrey.com/articles/2015/06/skype-auto-answer-with-applescript/</link>
-            <guid>http://blakeembrey.com/articles/2015/06/skype-auto-answer-with-applescript/</guid>
-            <pubDate>Mon, 22 Jun 2015 06:00:00 GMT</pubDate>
-            <content:encoded><![CDATA[<p>After discovering the ability to <a href="/articles/2015/06/facetime-auto-answer-applescript/">auto answer FaceTime</a>, I tried my hand at adapting the script for Skype. I waited a couple of days until my girlfriend had some downtime and patience to call me over and over while I tried to debug the elements on my screen. Eventually I figured out how to select the window, and then the correct button. I did try, unsuccessfully, for a long time to select the button based on the label. If anyone knows how to do this, please leave a comment!</p>
-<p>Continuing on, set up is much the same with only the basic code changed. Let’s start again by opening up “Script Editor” and copying this snippet into the editor:</p>
-<pre><code class="language-applescript"><span class="hljs-keyword">set</span> contacts <span class="hljs-keyword">to</span> {<span class="hljs-string">"Keyue Bao"</span>}
-
-<span class="hljs-keyword">repeat</span>
-  <span class="hljs-keyword">repeat</span> <span class="hljs-keyword">while</span> <span class="hljs-built_in">application</span> <span class="hljs-string">"Skype"</span> <span class="hljs-keyword">is</span> <span class="hljs-built_in">running</span>
-    <span class="hljs-keyword">tell</span> <span class="hljs-built_in">application</span> <span class="hljs-string">"System Events"</span>
-      <span class="hljs-keyword">tell</span> process <span class="hljs-string">"Skype"</span>
-        <span class="hljs-keyword">set</span> videoCallWindow <span class="hljs-keyword">to</span> <span class="hljs-keyword">a reference</span> <span class="hljs-keyword">to</span> (<span class="hljs-keyword">first</span> window <span class="hljs-keyword">whose</span> <span class="hljs-built_in">name</span> <span class="hljs-keyword">is</span> <span class="hljs-string">"Incoming Video Call"</span>)
-
-        <span class="hljs-keyword">if</span> videoCallWindow exists <span class="hljs-keyword">then</span>
-          <span class="hljs-keyword">set</span> callerId <span class="hljs-keyword">to</span> value <span class="hljs-keyword">of</span> static <span class="hljs-built_in">text</span> <span class="hljs-number">1</span> <span class="hljs-keyword">of</span> videoCallWindow
-
-          <span class="hljs-keyword">if</span> contacts <span class="hljs-keyword">contains</span> callerId <span class="hljs-keyword">then</span>
-            click button <span class="hljs-number">2</span> <span class="hljs-keyword">of</span> videoCallWindow
-          <span class="hljs-keyword">end</span> <span class="hljs-keyword">if</span>
-        <span class="hljs-keyword">end</span> <span class="hljs-keyword">if</span>
-      <span class="hljs-keyword">end</span> <span class="hljs-keyword">tell</span>
-    <span class="hljs-keyword">end</span> <span class="hljs-keyword">tell</span>
-    <span class="hljs-built_in">delay</span> <span class="hljs-number">2</span>
-  <span class="hljs-keyword">end</span> <span class="hljs-keyword">repeat</span>
-  <span class="hljs-built_in">delay</span> <span class="hljs-number">5</span>
-<span class="hljs-keyword">end</span> <span class="hljs-keyword">repeat</span>
-</code></pre>
-<p>So, while Skype is running we try to select the incoming video call window. Of course, this window will only exist when we have a call to answer, so we check that it exists. After that, we grab the caller ID from the text element and check if it matches who we want. Then we click answer. It actually took me a few tried to figure out which index was the answer with video button as it doesn’t follow visual order.</p>
-<p>Before we export, change the caller ID. Then, go to <code>File -&gt; Export</code> and save it somewhere you’ll remember. I exported mine to <code>Documents/Scripts/skype-auto-answer</code>.</p>
-<p>Next step, let’s navigate to <code>cd ~/Library/LaunchAgents</code> in the Terminal and create our file using <code>vi com.blakeembrey.skype-auto-answer.plist</code>. In vim, you’ll need to press <code>i</code> to go into “insert” mode. Copy and paste the code below, but remember to change the script location to where you just exported to.</p>
-<pre><code class="language-xml"><span class="php"><span class="hljs-meta">&lt;?</span>xml version=<span class="hljs-string">"1.0"</span> encoding=<span class="hljs-string">"UTF-8"</span><span class="hljs-meta">?&gt;</span></span>
-<span class="hljs-meta">&lt;!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">plist</span> <span class="hljs-attr">version</span>=<span class="hljs-string">"1.0"</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">dict</span>&gt;</span>
-  <span class="hljs-tag">&lt;<span class="hljs-name">key</span>&gt;</span>Label<span class="hljs-tag">&lt;/<span class="hljs-name">key</span>&gt;</span>
-  <span class="hljs-tag">&lt;<span class="hljs-name">string</span>&gt;</span>com.blakeembrey.skype-auto-answer<span class="hljs-tag">&lt;/<span class="hljs-name">string</span>&gt;</span>
-  <span class="hljs-tag">&lt;<span class="hljs-name">key</span>&gt;</span>Program<span class="hljs-tag">&lt;/<span class="hljs-name">key</span>&gt;</span>
-  <span class="hljs-tag">&lt;<span class="hljs-name">string</span>&gt;</span>/usr/bin/osascript<span class="hljs-tag">&lt;/<span class="hljs-name">string</span>&gt;</span>
-  <span class="hljs-tag">&lt;<span class="hljs-name">key</span>&gt;</span>ProgramArguments<span class="hljs-tag">&lt;/<span class="hljs-name">key</span>&gt;</span>
-  <span class="hljs-tag">&lt;<span class="hljs-name">array</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">string</span>&gt;</span>osascript<span class="hljs-tag">&lt;/<span class="hljs-name">string</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">string</span>&gt;</span>/Users/blakeembrey/Documents/Scripts/skype-auto-answer.scpt<span class="hljs-tag">&lt;/<span class="hljs-name">string</span>&gt;</span>
-  <span class="hljs-tag">&lt;/<span class="hljs-name">array</span>&gt;</span>
-  <span class="hljs-tag">&lt;<span class="hljs-name">key</span>&gt;</span>RunAtLoad<span class="hljs-tag">&lt;/<span class="hljs-name">key</span>&gt;</span>
-  <span class="hljs-tag">&lt;<span class="hljs-name">true</span>/&gt;</span>
-  <span class="hljs-tag">&lt;<span class="hljs-name">key</span>&gt;</span>KeepAlive<span class="hljs-tag">&lt;/<span class="hljs-name">key</span>&gt;</span>
-  <span class="hljs-tag">&lt;<span class="hljs-name">true</span>/&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">dict</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">plist</span>&gt;</span>
-</code></pre>
-<p>And we’re almost done. Let’s exit vim (<code>Esc</code>, <code>:wq</code>, <code>Enter</code>) and get Launchd to pick up our changes.</p>
-<pre><code>launchctl load -w com.blakeembrey.skype-auto-answer.plist
-</code></pre>
-<p>Tada! You might need to accept the accessibility dialog that pops up, but the script will now be running. You can verify this by executing <code>launchctl list | grep skype-auto-answer</code>.</p>
-<p>Done!</p>
-<p>P.S. If you ever want to unload the script, just execute <code>launchctl unload -w com.blakeembrey.skype-auto-answer.plist</code>, same as you did to load.</p>
 ]]></content:encoded>
         </item>
     </channel>
