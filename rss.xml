@@ -4,10 +4,77 @@
         <title>Blake Embrey</title>
         <link>http://blakeembrey.com</link>
         <description>A personally curated collection of words hosted in cyberspace for some indeterminate duration.</description>
-        <lastBuildDate>Tue, 04 Jul 2017 19:17:03 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 10 Jul 2017 15:27:06 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <copyright>Copyright 2017 Blake Embrey</copyright>
+        <item>
+            <title><![CDATA[My Week in Review (2017-07-10)]]></title>
+            <link>http://blakeembrey.com/self/2017-07-10-review/</link>
+            <guid>http://blakeembrey.com/self/2017-07-10-review/</guid>
+            <pubDate>Mon, 10 Jul 2017 14:30:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>Internet</h2>
+<ul>
+<li>Useful
+<ul>
+<li><a href="http://wealthyaccountant.com/2017/07/05/laziness-made-me-rich/">Laziness Made Me Rich</a></li>
+</ul>
+</li>
+<li>Video
+<ul>
+<li><a href="https://www.youtube.com/watch?v=v8b_urti6iQ">Diversity + Inclusion at Early Stage Startups - CS183F</a></li>
+</ul>
+</li>
+<li>Interesting
+<ul>
+<li><a href="https://www.sbnation.com/a/17776-football">What football will look like in the future</a></li>
+<li><a href="https://www.troyhunt.com/password-strength-indicators-help-people-make-dumb-choices/">Password Strength Indicators Help People Make Ill-Informed Choices</a></li>
+</ul>
+</li>
+<li>Opinion
+<ul>
+<li><a href="https://www.blakewatson.com/journal/why-i-left-facebook/">Why I Left Facebook</a></li>
+<li><a href="https://doubleyourfreelancing.com/freelancers-guide-client-retainer-agreements/">The Freelancer’s Guide To Retainers</a></li>
+<li><a href="http://wealthyaccountant.com/2017/07/07/how-actively-managed-funds-legally-lie-about-performance/">How Actively Managed Funds Legally Lie about Performance</a></li>
+<li><a href="https://daringfireball.net/2017/07/speculation_on_new_iphone_pricing">Speculation on the Pricing of and Strategy Behind This Year’s New iPhones</a></li>
+<li><a href="https://www.youneedabudget.com/8-ways-to-feel-wealthy-on-a-budget/">8 Ways to Feel Wealthy On A Budget</a></li>
+<li><a href="http://sethgodin.typepad.com/seths_blog/2017/07/the-rationality-paradox.html">Seth’s Blog: The rationality paradox</a></li>
+<li><a href="http://sethgodin.typepad.com/seths_blog/2017/07/caring-is-free.html">Seth’s Blog: Caring is free</a></li>
+<li><a href="https://daringfireball.net/linked/2017/07/07/dash-dash">Daring Fireball: Apple’s Bad Beta Decision on Em and En Dashes in iOS 11</a></li>
+<li><a href="https://www.youneedabudget.com/debt-free-at-twenty-three/">Debt-Free at Twenty-Three</a></li>
+<li><a href="http://wealthyaccountant.com/2017/07/10/change-nothing/">Change Nothing</a></li>
+</ul>
+</li>
+<li>News
+<ul>
+<li><a href="https://www.technologyreview.com/s/608247/hackers-have-been-targeting-us-nukes/">Hackers have been targeting U.S. nukes</a></li>
+</ul>
+</li>
+<li>Software
+<ul>
+<li><a href="https://www.facebook.com/notes/kent-beck/mastering-programming/1184427814923414/">Mastering Programming</a></li>
+<li><a href="https://www.hanselman.com/blog/URLsAreUI.aspx">URLs are UI</a></li>
+<li><a href="https://remysharp.com/2017/07/08/a-new-space">A new space</a></li>
+<li><a href="https://thedailywtf.com/articles/open-sources">Open Sources</a></li>
+<li><a href="https://redditblog.com/2017/06/30/why-we-chose-typescript/">Why We Chose Typescript</a></li>
+<li><a href="https://medium.com/@giovannidamiola/making-the-internet-archives-full-text-search-faster-30fb11574ea9">Making the Internet Archive’s full text search faster</a></li>
+<li><a href="https://www.smashingmagazine.com/2017/07/wwdc-2017-highlights/">From Apple’s WWDC 2017 Highlights For Web Developers</a></li>
+<li><a href="https://www.johndcook.com/blog/2017/07/05/simple-random-number-generator/">Simple random number generators</a></li>
+<li><a href="https://engineeringblog.yelp.com/2017/06/moving-yelps-core-business-search-to-elasticsearch.html">Moving Yelp’s Core Business Search to Elasticsearch</a></li>
+<li><a href="https://ponyfoo.com/articles/setting-up-2fa-for-nodejs-applications">Setting up 2FA for Node.js Applications</a></li>
+<li><a href="https://vmokshagroup.com/blog/architecting-serverless-notifications-on-aws/">Architecting Serverless Notifications on AWS</a></li>
+<li><a href="https://qbox.io/blog/efficient-search-fetch-large-datasets-elasticsearch-scroll-api">Searching and Fetching Large Datasets in Elasticsearch Efficiently</a></li>
+</ul>
+</li>
+</ul>
+<h2>Reading</h2>
+<ul>
+<li><a href="https://www.goodreads.com/book/show/375802.Ender_s_Game">Ender’s Game</a></li>
+<li><a href="https://www.goodreads.com/book/show/25666050-algorithms-to-live-by">Algorithms to Live By</a> (audiobook)</li>
+</ul>
+]]></content:encoded>
+            <author>hello@blakeembrey.com (Blake Embrey)</author>
+        </item>
         <item>
             <title><![CDATA[My Week in Review (2017-07-04)]]></title>
             <link>http://blakeembrey.com/self/2017-07-04-review/</link>
@@ -982,63 +1049,6 @@
 <p>Currently, there are two other implementations of output targets. The first is <a href="https://github.com/jkroso/easy-style"><code>easy-style</code></a>, a simple wrapper around the complex functionality in Free Style that abstracts away multiple <code>FreeStyle</code> instances. It exposes three core methods - <code>style</code>, <code>rule</code>, <code>keyframe</code> - avoiding the concept of multiple instances, which makes it suitable for most web-apps. There’s also <a href="https://github.com/blakeembrey/react-free-style"><code>react-free-style</code></a>, which extends the core <code>FreeStyle</code> class with the ability to wrap React components and use React’s <code>context</code> for collecting all the styles used in the application. This is an interesting feature with interesting repercussions, such as only styles for the components on screen will be output in CSS (useful for minimizing the transfer size of isomorphic applications).</p>
 <h2>Other CSS-in-JS Solutions</h2>
 <p>A number of other CSS-in-JS solutions also exist, including <a href="https://github.com/FormidableLabs/radium"><code>radium</code></a>, <a href="https://github.com/js-next/react-style"><code>react-style</code></a> and <a href="https://github.com/jsstyles/jss"><code>jss</code></a>. Radium takes an all JavaScript approach, while <code>jss</code> and <code>react-style</code> are more familiar. Where <code>jss</code> and <code>react-style</code> differ to <code>free-style</code> is the approaches they take. Both went for namespacing in CSS by generating unique names instead of hashes. They also both went with <code>StyleSheet</code> instances that you create once, while <code>free-style</code> makes you register each style individually (and for a good reason, it allows linters to detect when a style is no longer used as it’ll appear as dead code). They may also restrict some subset of CSS that you can actually use for different reasons. As far as I can tell, neither go too much further into CSS tooling concepts such as style de-duping and minifying, which <code>free-style</code> gives you for free with hashes.</p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[The State of TypeScript Packaging]]></title>
-            <link>http://blakeembrey.com/articles/2015/11/state-of-typescript-packaging/</link>
-            <guid>http://blakeembrey.com/articles/2015/11/state-of-typescript-packaging/</guid>
-            <pubDate>Sun, 22 Nov 2015 21:00:00 GMT</pubDate>
-            <content:encoded><![CDATA[<p><em>This blog post originally appeared on <a href="http://angularclass.com/the-state-of-typescript-packages/">Angular Class</a>.</em></p>
-<p>As a module author and developer, I love TypeScript. It allows me to write, publish and consume 100% type-safe JavaScript. Features like autocompletion, type validation and ES6 features are now part of my typical workflow. However, one step in this development lifecycle has always been broken for me. I’ve <a href="https://github.com/blakeembrey/popsicle">published</a> <a href="https://github.com/TypeStrong/tsconfig">half</a> <a href="https://github.com/blakeembrey/free-style">a</a> <a href="https://github.com/TypeStrong/ts-node">dozen</a> modules on NPM, but no one has ever been able to consume the type definitions from them. Why’s that?</p>
-<p>Let’s quickly take a step back. TypeScript includes a creative way for providing the type information of plain JavaScript files. These are <code>.d.ts</code> files, also known as “typings”, which allows non-TypeScript packages to have a <code>.d.ts</code> file written and mirror the runtime JavaScript implementation of that package. This decoupling of the runtime and type compiler is truly elegant, as the TypeScript compiler can output <code>.js</code> and <code>.d.ts</code> files together and it works as if it is all TypeScript. This has two amazing effects:</p>
-<ol>
-<li>The greater community can write their own type definitions (<code>.d.ts</code> files) for non-TypeScript packages - which is pretty much every popular library on NPM</li>
-<li>It promotes JavaScript as the first class citizen, something the first “compile-to-JS” languages like CoffeeScript failed to do (it promoted - through general availability - the use of things like <code>coffeescript/register</code> at runtime)</li>
-</ol>
-<p>To help understand how we, as a community, got here and where we’re going next I’m going to give you a quick history lesson.</p>
-<h2>The Past</h2>
-<p>Welcome to the past, the wild west of <code>.d.ts</code> files. A community project called <a href="https://github.com/DefinitelyTyped/DefinitelyTyped">DefinitelyTyped</a>, started by <a href="https://github.com/borisyankov">Boris Yankov</a>, is first committed to <a href="https://github.com/DefinitelyTyped/DefinitelyTyped/commit/647369a322be470d84f8d226e297267a7d1a0796">over three years ago</a>. DefinitelyTyped has evolved 100 times over since the initial inception, but the core premise is to use ambient module declarations that define types for packages in NPM, Bower and the browser.</p>
-<p>What is an <a href="https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/change-case/change-case.d.ts">ambient module declaration</a>?</p>
-<pre><code class="language-ts"><span class="hljs-keyword">declare</span> <span class="hljs-keyword">module</span> "change-case" {
-  <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">dot</span>(<span class="hljs-params">s: <span class="hljs-built_in">string</span></span>): <span class="hljs-title">string</span></span>;
-  <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">dotCase</span>(<span class="hljs-params">s: <span class="hljs-built_in">string</span></span>): <span class="hljs-title">string</span></span>;
-  [...]
-}
-</code></pre>
-<p>Notice that <code>declare module &quot;x&quot;</code> wraps everything. Declaring the module switches the TypeScript compilers understanding of this <code>.d.ts</code> file. It enables you, as a developer, to use <code>import * as case from &quot;change-case&quot;</code> or <code>import case = require('change-case')</code>. This now imports the type information of <code>change-case</code> from this declaration. Sounds brilliant, so what’s the drawback?</p>
-<p>You’re a module author and have a dozen of these NPM dependencies. You downloaded all the ambient modules declarations for your dependencies so you can use TypeScript for what it’s good at, making sure you’re using your dependencies correctly. Maybe you used TSD, or you copied the files from DefinitelyTyped manually. Now you need to publish your library so everyone else can use it. But how do you publish those typings so people who use the library don’t need to do all the work you did downloading the typings?</p>
-<p>The obvious solution might be to check in and publish the <code>typings/</code> directory (created by <code>tsd</code>) with the package. Fantastic, that was pretty simple. Look again though, how do those typings get referenced in your users projects? It would be creating all your dependencies in your users projects, even though they can’t access them. Talk about runtime inconsistency.</p>
-<p>TSD has a concept called <code>tsd link</code>, which references the type definition (<code>typescript.definition</code> in <code>package.json</code>) from the <code>tsd.d.ts</code> file in <code>typings/</code>. That means the TypeScript definition in your module needs to be ambient and can’t just be the output from the TypeScript compiler. This kind of concept resulted in more hacks and tools as <a href="https://github.com/SitePen/dts-generator"><code>dts-generator</code></a>, which takes the TypeScript compiler <code>.d.ts</code> files and wraps them in your modules name so other tools can use them.</p>
-<p>Back to the sub-dependency case though, and you’re still being hung out to dry. You could have used <code>dts-generator</code> to generate a single typings file for the library you just wrote, then published it to NPM with <code>typescript.definition</code> (I know <a href="https://github.com/TypeStrong/tsconfig/blob/61bc0ba5997de50432e92d24942cf9d9821f23df/package.json#L6-L8">I did</a>). Inevitability, when someone actually tries to use this the compiler will start to error because the <a href="https://github.com/TypeStrong/atom-typescript/issues/682">sub-dependency typings are missing</a>. But what if we checked in <code>typings/</code> like I mentioned? And our users had them automatically referenced?</p>
-<p>Better you don’t. But, if you must, <a href="https://github.com/angular/angular/issues/5395">this is what happens</a>. If your users ever want to use the same module or declarations, you’ll run into conflicts. Even when they aren’t actually there at runtime. On top of this, any sub-dependency typings now introduce their own globals and typings that don’t even exist at runtime in my program.</p>
-<p>This can all manifest in a much larger and painful bug. Since everything is an ambient module declaration, there’s no way to confirm that what’s defined in typings is available at runtime. One such example is the ambient typings for <a href="https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/es6-promise/es6-promise.d.ts"><code>es6-promise</code></a>, which defines the global <code>Promise</code> class. Not only will the TypeScript compiler error with duplicate symbols when using ES6, this also implies that <code>Promise</code> is available in my runtime. And that’s simply not true, which leads to code which can and will crash on node 0.10 (like I was for <a href="https://travis-ci.org/blakeembrey/popsicle/jobs/88018081#L316">popsicle</a>). Now, isn’t this all the types of bugs I’m not meant to have anymore with TypeScript?</p>
-<p>Using global interfaces and variables that don’t exist at runtime to relay information to other dependencies is commonplace in DefinitelyTyped and leads to tight coupling of their definitions. This makes it difficult to revert broken behavior, like our global <code>Promise</code> situation. I spent <a href="https://github.com/DefinitelyTyped/tsd/issues/150">more than six months</a> after I started maintaining TSD trying to solve this problem. I eventually gave up on the approach, but not after I had spent weeks trying to make the TypeScript compiler to detect ambient module typings, follow ambient declarations through a custom type dependency tree that relies on using <code>/// &lt;reference&gt;</code> to work and generate a single non-global polluting bundle.</p>
-<h2>The Current</h2>
-<p>Fortunately, most of my time on the TSD rewrite was spent solving and not patching the current system. I had built the new version to use external module declaration from the ground up, and only tried to build in support for ambient modules toward the end. External module declarations are those <code>.d.ts</code> files that TypeScript emits when you use <code>tsc</code> with <code>--declaration</code> enabled, so support is already built right into the compiler. After many weeks of approaching the ambient module problem, I decided it would be faster and cleaner to skip it. This decision resulted in a new tool, called <a href="https://github.com/typings/typings"><code>typings</code></a>, to be released.</p>
-<p>But what’s the difference between an ambient and external module?</p>
-<pre><code class="language-ts"><span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">dot</span>(<span class="hljs-params">s: <span class="hljs-built_in">string</span></span>): <span class="hljs-title">string</span></span>;
-<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">dotCase</span>(<span class="hljs-params">s: <span class="hljs-built_in">string</span></span>): <span class="hljs-title">string</span></span>;
-[...]
-</code></pre>
-<p>Notice that this snippet is pretty similar to the previous one, but there’s no more <code>declare module &quot;change-case&quot;</code> around the block and I’m exporting the functions directly. This is what makes our typings portable, as we can re-use the same type definition anywhere else under a different names and module resolution strategies. For example, when we use Browserify or Webpack aliases, or with the <code>moduleResolution</code> in TypeScript 1.6.</p>
-<p>It’s not enough to just support external module declarations. What does that even mean if the TypeScript compiler can use them? It means that [typings]<a href="https://github.com/typings/typings">typings</a>, an open source CLI, can use a reference to <code>.d.ts</code> files in GitHub or on NPM and have them “just work”, with proper namespaces and no global leaks. If you’re an author now, you might be wondering - how do I use this with my own module adn have things “just work” for my users?</p>
-<p>This is where <code>typings.json</code> comes in. Since I was heavily exposed to all the issues with DefinitelyTyped and TSD, I needed to solve <strong>everything</strong>. And typings comes very close to doing just that. A module author no longer needs to check in <code>typings/</code>, but <code>typings.json</code>. This enables the user to use <code>typings</code> themselves and have things resolve automatically. All of your dependencies become properly namespaced and do not pollute your users typings (you aren’t implicitly introducing bugs to your users anymore, which would be bad). Also, typings installation is entirely decentralized and the typings themselves can be downloaded from almost anywhere - GitHub, NPM, Bower and even over HTTP or the filesystem (yes, you can still check them in, but they aren’t ambient anymore).</p>
-<p>This decentralization solves the biggest pain point I see with maintaining DefinitelyTyped. How does an author of one typings package maintain their file in DefinitelyTyped when they get notifications on thousands of others? How do you make sure typings maintain quality when you have 1000s to review? The solution in typings is you don’t, the community does. If typings are incorrect, I can just write and install my own from wherever I want, something that TSD doesn’t really allow. There’s no merge or review process you need to wait for (<a href="https://github.com/DefinitelyTyped/DefinitelyTyped/pulls">300+ open pull requests</a>!).</p>
-<p>However, decentralization comes with the cost of discoverability. To solve this, a <a href="https://github.com/typings/registry">registry</a> exists that maintains locations of where the best typing can currently be installed from, for any version. If there’s a newer typing, patches, or the old typing author has somehow disappeared, you can replace the entry with your own so people will be directed to your typings from now on. There’s also protections in place as JavaScript packages slowly include their own typings, all to enable authors to continue moving quickly.</p>
-<h2>The Future</h2>
-<p>The future is fast approaching, a place where there’ll be official standards in place. With the release of typings, there is now collaboration in place with the <a href="https://github.com/typings/meta/issues/3">TypeScript team</a> to solve the consumption of typings. With ideas like <a href="https://github.com/Microsoft/TypeScript/pull/4913">package scopes</a> being merged into the TypeScript compiler, typings can and will be compiled into a package scoped <code>.d.ts</code> file. This will enable module authors to bundle their typings before they publish and the consumer will never have to do anything. And this isn’t too far away from today.</p>
-<p>No solution is possible without community support, so please get involved with <a href="https://github.com/typings/typings">typings</a> and ask JavaScript module authors to add completed type definitions to the packages you use. Better yet, open a PR yourself and help them out - they might not even know what TypeScript is.</p>
-<h2>Summary</h2>
-<p>So, in summary, the current landscape looks something like this:</p>
-<ul>
-<li>Ambient modules are not portable</li>
-<li>TypeScript only outputs external modules</li>
-<li>Publishing TypeScript packages is not possible</li>
-<li>Maintaining DefinitelyTyped is hard, for contributions and tooling</li>
-<li>Typings need simple APIs for IDEs to present developers with warnings and straightforward solutions</li>
-</ul>
-<p><a href="https://github.com/typings/typings">Typings</a> solves all of this and is currently working on fixing the more obscure use-cases. If you find yourself running into an issue or with more questions, please <a href="https://github.com/typings/typings/issues">open an issue</a> in the <code>typings</code> repository.</p>
 ]]></content:encoded>
         </item>
     </channel>
