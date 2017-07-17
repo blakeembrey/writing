@@ -4,10 +4,77 @@
         <title>Blake Embrey</title>
         <link>http://blakeembrey.com</link>
         <description>A personally curated collection of words hosted in cyberspace for some indeterminate duration.</description>
-        <lastBuildDate>Mon, 10 Jul 2017 15:27:06 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 17 Jul 2017 14:43:09 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <copyright>Copyright 2017 Blake Embrey</copyright>
+        <item>
+            <title><![CDATA[My Week in Review (2017-07-17)]]></title>
+            <link>http://blakeembrey.com/self/2017-07-17-review/</link>
+            <guid>http://blakeembrey.com/self/2017-07-17-review/</guid>
+            <pubDate>Mon, 17 Jul 2017 15:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>What Happened?</h2>
+<ul>
+<li>Visited <a href="https://foursquare.com/v/nyc-resistor/48957adcf964a5206b511fe3">NYC Resistor</a></li>
+<li>Finished <a href="https://www.goodreads.com/book/show/375802.Ender_s_Game">Ender’s Game</a></li>
+<li>My first <a href="https://foursquare.com/v/novo-reality/59199c8aa22db716fdcd09f7">VR experience</a></li>
+</ul>
+<h2>Internet</h2>
+<ul>
+<li>Useful
+<ul>
+<li><a href="http://rootofgood.com/early-retirement-at-33-an-overview/">Early Retirement at 33: An Overview</a></li>
+</ul>
+</li>
+<li>Video
+<ul>
+<li><a href="https://www.youtube.com/watch?v=alqHBCkSN8I">How to Build and Manage Teams - CS183F</a></li>
+</ul>
+</li>
+<li>Interesting
+<ul>
+<li><a href="http://news.stanford.edu/2017/07/10/stanford-researchers-find-intriguing-clues-obesity-counting-steps-via-smartphones/">Counting steps via smartphones reveals intriguing clues about obesity</a></li>
+<li><a href="https://medium.com/open-collective/we-gathered-100-open-source-sustainers-c24f571447a4">We Gathered 100 Open Source Sustainers — Here’s What We Learned</a></li>
+<li><a href="https://www.iwillteachyoutoberich.com/blog/rant-know-nothing/">How we’re manipulated to rant about stuff we know nothing about</a></li>
+</ul>
+</li>
+<li>Opinion
+<ul>
+<li><a href="https://www.troyhunt.com/life-is-about-to-get-harder-for-websites-without-https/">Life Is About to Get a Whole Lot Harder for Websites Without HTTPS</a></li>
+<li><a href="http://sethgodin.typepad.com/seths_blog/2017/07/a-shared-and-useful-illusion.html">Seth’s Blog: A shared and useful illusion</a></li>
+<li><a href="https://www.youneedabudget.com/maximize-your-wealth-in-4-hours-per-year/">Maximize Your Wealth In 4 Hours Per Year</a></li>
+</ul>
+</li>
+<li>News
+<ul>
+<li><a href="https://www.technologyreview.com/s/608252/first-object-teleported-from-earth-to-orbit/">A single photon is the first object to be teleported from the ground to an orbiting satellite</a></li>
+<li><a href="https://www.technologyreview.com/s/608253/your-best-teammate-might-someday-be-an-algorithm/">Your best teammate might someday be an AI algorithm</a></li>
+<li><a href="https://www.technologyreview.com/s/608260/microsofts-bid-to-connect-rural-america-send-out-internet-in-between-tv-signals/">Microsoft is tapping unused TV spectrum to bring Internet connectivity to rural America</a></li>
+<li><a href="https://www.technologyreview.com/s/608255/if-you-get-your-face-scanned-the-next-time-you-fly-heres-what-you-should-know/">The next time you fly overseas, you may have to scan your face</a></li>
+<li><a href="https://www.technologyreview.com/s/608250/how-apples-ai-secretive-gym-is-shaping-its-activity-tracking-algorithms/">Apple divulges how its secret AI gym is helping it track swimming on the Apple Watch</a></li>
+</ul>
+</li>
+<li>Software
+<ul>
+<li><a href="https://developers.google.com/web/updates/2017/07/upcoming-regexp-features">Upcoming Regular Expression Features</a></li>
+<li><a href="https://letsencrypt.org//2017/07/06/wildcard-certificates-coming-jan-2018.html">Wildcard Certificates Coming January 2018</a></li>
+<li><a href="https://thehackerblog.com/the-io-error-taking-control-of-all-io-domains-with-a-targeted-registration/index.html">The .io Error - Taking Control of All .io Domains With a Targeted Registration</a></li>
+<li><a href="https://randomascii.wordpress.com/2017/07/09/24-core-cpu-and-i-cant-move-my-mouse/">24-core CPU and I can’t move my mouse</a></li>
+<li><a href="https://www.gatsbyjs.org/blog/gatsby-v1/">Announcing Gatsby 1.0.0 🎉🎉🎉</a></li>
+<li><a href="http://engineering.grab.com/how-we-scaled-our-cache-and-got-a-good-nights-sleep">How We Scaled Our Cache and Got a Good Night’s Sleep</a></li>
+<li><a href="https://nodejs.org/en/blog/vulnerability/july-2017-security-releases/">Security updates for all active release lines, July 2017</a></li>
+<li><a href="https://www.infoq.com/news/2017/06/fearless-aws-lambda">Why the JVM is a Good Choice for Serverless Computing: John Chapin Discusses AWS Lambda at QCon NY</a></li>
+</ul>
+</li>
+</ul>
+<h2>Reading</h2>
+<ul>
+<li><a href="https://www.goodreads.com/book/show/16176.The_Red_Queen">The Red Queen: Sex and the Evolution of Human Nature</a></li>
+<li><a href="https://www.goodreads.com/book/show/25666050-algorithms-to-live-by">Algorithms to Live By</a> (audiobook)</li>
+</ul>
+]]></content:encoded>
+            <author>hello@blakeembrey.com (Blake Embrey)</author>
+        </item>
         <item>
             <title><![CDATA[My Week in Review (2017-07-10)]]></title>
             <link>http://blakeembrey.com/self/2017-07-10-review/</link>
@@ -1026,30 +1093,6 @@
 </ul>
 ]]></content:encoded>
             <author>hello@blakeembrey.com (Blake Embrey)</author>
-        </item>
-        <item>
-            <title><![CDATA[Introduction to Free Style (and CSS-in-JS)]]></title>
-            <link>http://blakeembrey.com/articles/2016/01/intro-to-free-style-css-in-js/</link>
-            <guid>http://blakeembrey.com/articles/2016/01/intro-to-free-style-css-in-js/</guid>
-            <pubDate>Sun, 17 Jan 2016 19:45:00 GMT</pubDate>
-            <content:encoded><![CDATA[<p>With the release of Free Style 1.0, I figure it’s about time to write about Free Style - how it works, why you’d want to use it and little introduction to CSS-in-JS. This has been a long time coming, with my first commit to Free Style over a year ago, and the first commit to Free Style in its current form 10 months ago. This is not a blog post designed to sway decisions - as always, you should use your own fair judgement.</p>
-<h2>CSS-in-JS</h2>
-<p>The idea of CSS-in-JS is well covered in <a href="https://speakerdeck.com/vjeux/react-css-in-js">this presentation by React engineer</a>, Christopher Chedeau, and by <a href="https://github.com/MicheleBertoli/css-in-js">many</a> <a href="http://formidable.com/blog/2015/03/01/launching-radium/">others</a>, so I’ll be brief. As React popularized the declarative DOM, it also enabled a generation of CSS-in-JS approaches that attempt to solve the many pitfalls of CSS. These pitfalls are well known and documented, and including “features” such as the global namespace, constant sharing and many approaches to component isolation (BEM, SMACSS). Writing CSS in a way that avoids the pitfalls can be regarded an art.</p>
-<p>CSS-in-JS approaches exist to solve the pollution of the global namespace, constant sharing, component isolation, and bring many other unforeseen benefits. The JS part exists because these solutions utilize JavaScript as the way to provide namespacing, constant sharing and proper isolation. You may have already known, but these are things that have long been solved in programming languages, including JavaScript - with CommonJS, AMD and recently ES6 modules. It stands to reason that, if possible, JavaScript will provide a more sound foundation for writing modular CSS. Tooling for JavaScript is more mature, with the ability to do autocompletion, dead code elimination and linting common-place.</p>
-<h2>How and Why Does Free Style Work?</h2>
-<p>Free Style works with hashes. If there’s one word you should love at the end of this section, it’s hashing. With that said, the essence of <a href="https://github.com/blakeembrey/free-style/blob/master/src/free-style.ts">free-style</a> is less than 500 lines of code (in TypeScript), so I definitely suggest you check it out.</p>
-<p>Free Style is built on top of a core <code>Cache</code> class. This class implements a way to append children using an ID (which is a hash), keeps track of how many times a child was added and removed, and can also attach simple change listeners (for when a child is added or removed). Three classes extend the <code>Cache</code> implementation to replicate the structure of CSS - <code>Rule</code>, <code>Style</code> and <code>FreeStyle</code>. The only other important class is <code>Selector</code>, which implements a <code>Cacheable</code> interface (<code>Cache</code> fulfills the same interface).</p>
-<p>Using these four classes, we can replicate CSS in a way that automatically de-dupes styles. First, we create a <code>FreeStyle</code> instance (it can be imagined as a <code>.css</code> file). This class holds <code>Rule</code> and <code>Style</code> children. When you use <code>registerStyle</code>, it’ll stringifying each object to CSS and hash the contents, while also propagating any rules upward (E.g. when <code>@media</code> nested inside a style). The result is a single style registering (potentially) a number of <code>Style</code> and <code>Rule</code> instances, all of which have their hashes of their own contents. Throughout each instance creation, <code>registerStyle</code> collects a separate hash that is returned as the CSS class name to use. Finally, when the final class name hash is known, the class name is interpolated with all selectors and returned for you to use.</p>
-<p>The result of this means that duplicate hashes are automatically merged. A duplicate hash means a duplicate rule, style or selector. The benefit of separating <code>Rule</code> and <code>Style</code> means that two identical media queries can be merged together (less CSS output) and so can identical styles within each context (E.g. identical styles inside and outside the media query can not be merged, but duplicates both inside or outside can be). The <code>Selector</code> class exists because now that duplicates are merged, multiple selectors can exist for the same <code>Style</code>.</p>
-<p>The other interesting methods are <code>registerRule</code> and <code>registerKeyframes</code>. Both work similar to <code>registerStyle</code>, but are much be simpler. <code>registerRule</code> works by recursively registering rules, which are automatically being hashed based on the rule and their contents. <code>registerKeyframes</code> works by creating rules and styles that get added to a <code>Rule</code> instance and returns a selector of the complete hashed contents (hence keyframes are automatically hashed/namespaced).</p>
-<p>All this hashing results in the fact that all styles are automatically unique. Registered styles and keyframes have a hash to identify them and the chance of a conflicting style is now left to the computer to resolve, not you. The other pitfalls of CSS are automatically solved as the result of JavaScript, as the hash can only be known and exposed by the implementor while constants and isolation are now solved (you can even use NPM libraries for style manipulation now).</p>
-<p><strong>Update:</strong> One useful fact that may not be immediately obvious. By using hashes as the class name, it means output is <em>always</em> consistent across front-end and back-end (E.g. in isomorphic applications).</p>
-<h2>Free Style Output Targets</h2>
-<p>Now that you understand how Free Style works, the output targets should make a lot more sense. By default, Free Style exposes a feature-rich implementation ready for third-parties to build on top. To use it today, you must create instances of <code>FreeStyle</code> (using <code>create()</code>), merge any other instances and use <code>getStyles</code> to get the CSS output. There’s an <code>inject()</code> method, which will take the result of <code>getStyles</code> and wrap it in <code>&lt;style /&gt;</code> in the <code>&lt;head /&gt;</code>.</p>
-<p>Currently, there are two other implementations of output targets. The first is <a href="https://github.com/jkroso/easy-style"><code>easy-style</code></a>, a simple wrapper around the complex functionality in Free Style that abstracts away multiple <code>FreeStyle</code> instances. It exposes three core methods - <code>style</code>, <code>rule</code>, <code>keyframe</code> - avoiding the concept of multiple instances, which makes it suitable for most web-apps. There’s also <a href="https://github.com/blakeembrey/react-free-style"><code>react-free-style</code></a>, which extends the core <code>FreeStyle</code> class with the ability to wrap React components and use React’s <code>context</code> for collecting all the styles used in the application. This is an interesting feature with interesting repercussions, such as only styles for the components on screen will be output in CSS (useful for minimizing the transfer size of isomorphic applications).</p>
-<h2>Other CSS-in-JS Solutions</h2>
-<p>A number of other CSS-in-JS solutions also exist, including <a href="https://github.com/FormidableLabs/radium"><code>radium</code></a>, <a href="https://github.com/js-next/react-style"><code>react-style</code></a> and <a href="https://github.com/jsstyles/jss"><code>jss</code></a>. Radium takes an all JavaScript approach, while <code>jss</code> and <code>react-style</code> are more familiar. Where <code>jss</code> and <code>react-style</code> differ to <code>free-style</code> is the approaches they take. Both went for namespacing in CSS by generating unique names instead of hashes. They also both went with <code>StyleSheet</code> instances that you create once, while <code>free-style</code> makes you register each style individually (and for a good reason, it allows linters to detect when a style is no longer used as it’ll appear as dead code). They may also restrict some subset of CSS that you can actually use for different reasons. As far as I can tell, neither go too much further into CSS tooling concepts such as style de-duping and minifying, which <code>free-style</code> gives you for free with hashes.</p>
-]]></content:encoded>
         </item>
     </channel>
 </rss>
