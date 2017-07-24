@@ -4,15 +4,95 @@
         <title>Blake Embrey</title>
         <link>http://blakeembrey.com</link>
         <description>A personally curated collection of words hosted in cyberspace for some indeterminate duration.</description>
-        <lastBuildDate>Mon, 17 Jul 2017 14:43:09 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 24 Jul 2017 04:07:40 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <copyright>Copyright 2017 Blake Embrey</copyright>
         <item>
+            <title><![CDATA[My Week in Review (2017-07-23)]]></title>
+            <link>http://blakeembrey.com/self/2017-07-23-review/</link>
+            <guid>http://blakeembrey.com/self/2017-07-23-review/</guid>
+            <pubDate>Mon, 24 Jul 2017 04:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>What Happened?</h2>
+<ul>
+<li>Back in San Francisco for 3 weeks</li>
+<li>Visited <a href="https://foursquare.com/v/vr-world-nyc/58dbe613fef5fa1e444da103">VR World</a></li>
+</ul>
+<h2>Internet</h2>
+<ul>
+<li>Useful
+<ul>
+<li><a href="http://herdingcats.typepad.com/my_weblog/2017/07/developing-leadership-skills.html">Developing Leadership Skills</a></li>
+<li><a href="https://modernmythology.net/what-a-study-into-wikipedias-norms-can-teach-us-about-creating-non-hierarchical-social-structures-f9da52b62cc">What a study into Wikipedia’s norms can teach us about creating non-hierarchical social structures</a></li>
+<li><a href="https://m.signalvnoise.com/the-company-isnt-a-family-d24f26c3f3fe">The company isn’t a family</a></li>
+<li><a href="https://www.iwillteachyoutoberich.com/blog/productivity-advice-for-the-weird/">Productivity advice for the weird</a></li>
+</ul>
+</li>
+<li>Video
+<ul>
+<li><a href="https://www.youtube.com/watch?v=8Qc8ipjzatY">Live Office Hours with Kevin Hale and Dalton Caldwell</a></li>
+</ul>
+</li>
+<li>Interesting
+<ul>
+<li><a href="https://swizec.com/blog/start-sidehustle/swizec/7716">How to start a sidehustle</a></li>
+<li><a href="https://blog.trello.com/best-productive-morning-routines">The 5 Productive Morning Routines Of Highly Effective People</a></li>
+<li><a href="http://www.theatlantic.com/business/archive/2016/02/the-invention-of-the-normal-person/463365/">How the Idea of a ‘Normal’ Person Got Invented</a></li>
+<li><a href="https://medium.com/@awchristensen/do-asian-lives-matter-contemplating-disparate-coverage-of-charleena-lyless-and-tommy-le-s-deaths-f29ed982be90">Do Asian Lives Matter? Contemplating Disparate Coverage of Charleena Lyles’s and Tommy Le’s Deaths</a></li>
+<li><a href="https://www.iwillteachyoutoberich.com/guides/ultimate-guide-to-habits/">The Ultimate Guide to Habits – Peak Performance Made Easy</a></li>
+<li><a href="https://www.technologyreview.com/s/608321/this-image-is-why-self-driving-cars-come-loaded-with-many-types-of-sensor/">This image is why self-driving cars need many types of sensors</a></li>
+<li><a href="https://www.schneier.com/blog/archives/2017/07/hacking_a_segwa.html">Hacking a Segway</a></li>
+<li><a href="https://writing.jeanhsu.com/how-do-you-become-a-leader-without-explicit-authority-f0c5001d864b">How do you become a leader without explicit authority?</a></li>
+<li><a href="http://compassionatecoding.com/blog/2016/8/25/tech-has-a-toxic-tone-problemlets-fix-it">Tech has a Toxic Tone Problem — Let’s Fix It!</a></li>
+</ul>
+</li>
+<li>Opinion
+<ul>
+<li><a href="https://www.youneedabudget.com/love-the-one-youre-with/">Love the One You’re With</a></li>
+<li><a href="https://www.indy100.com/article/donald-trump-japanese-pm-wife-her-excellency-madame-akie-abe-speak-english-7850846">The Japanese First Lady might have pretended not to speak English for two hours to avoid chatting with Trump</a></li>
+<li><a href="http://sethgodin.typepad.com/seths_blog/2017/07/all-deals-are-handshake-deals.html">Seth’s Blog: All deals are handshake deals</a></li>
+<li><a href="http://sethgodin.typepad.com/seths_blog/2017/07/how-much-does-a-ton-weigh.html">Seth’s Blog: How much does a ton weigh?</a></li>
+<li><a href="http://sethgodin.typepad.com/seths_blog/2017/07/toward-dumber.html">Seth’s Blog: Toward dumber</a></li>
+<li><a href="https://daringfireball.net/2017/07/you_should_not_force_quit_apps">Public Service Announcement: You Should Not Force Quit Apps on iOS</a></li>
+<li><a href="https://daringfireball.net/linked/2017/07/19/samsung-bixby">Daring Fireball: Samsung Describes Its Male and Female Bixby Assistants With Sexist Descriptions</a></li>
+<li><a href="https://daringfireball.net/linked/2017/07/18/kasparov">Daring Fireball: Garry Kasparov on Trump and Putin</a></li>
+<li><a href="https://daringfireball.net/linked/2017/07/18/transmit-5">Daring Fireball: Transmit 5</a></li>
+<li><a href="https://daringfireball.net/linked/2017/07/18/don-jr">Daring Fireball: Only 45 Percent of Trump Voters Believe Don Jr. Met With the Russians, After Junior Admitted It</a></li>
+</ul>
+</li>
+<li>News
+<ul>
+<li><a href="https://www.washingtonpost.com/news/wonk/wp/2015/11/23/cops-took-more-stuff-from-people-than-burglars-did-last-year/">Law enforcement took more stuff from people than burglars did last year</a></li>
+</ul>
+</li>
+<li>Software
+<ul>
+<li><a href="https://medium.com/@tessr/making-money-530d2bb2b8f7">Making Money</a></li>
+<li><a href="https://medium.com/crypto-currently/lets-build-the-tiniest-blockchain-e70965a248b">Let’s Build the Tiniest Blockchain</a></li>
+<li><a href="https://medium.com/@eranhammer/so-you-decided-to-contribute-to-open-source-93b640cf2ae2">So, you decided to contribute to open source</a></li>
+<li><a href="https://blog.acolyer.org/2017/07/07/do-we-need-specialized-graph-databases-benchmarking-real-time-social-networking-applications/">Do we need specialized graph databases? Benchmarking real-time social networking applications</a></li>
+<li><a href="https://www.youtube.com/watch?v=MVBe6_o4cMI">Teaser – Synthesizing Obama: Learning Lip Sync from Audio</a></li>
+<li><a href="https://syslog.ravelin.com/you-probably-shouldnt-use-dynamodb-89143c1287ca?gi=ddbef8b75b95">You probably shouldn’t use DynamoDB</a></li>
+<li><a href="https://www.backerkit.com/blog/getting-started-with-event-sourcing-in-postgres/">Getting Started with Event Sourcing in Postgres</a></li>
+<li><a href="https://medium.com/@emerson_lackey/postgres-randomized-primary-keys-123cb8fcdeaf">Postgres Randomized Primary Keys</a></li>
+<li><a href="https://www.nextplatform.com/2017/07/17/google-wants-rewire-internet/">How Google Wants To Rewire The Internet</a></li>
+</ul>
+</li>
+</ul>
+<h2>Reading</h2>
+<ul>
+<li><a href="https://www.goodreads.com/book/show/13151129-earth-unaware">Earth Unaware</a></li>
+<li><a href="https://www.goodreads.com/book/show/16176.The_Red_Queen">The Red Queen: Sex and the Evolution of Human Nature</a></li>
+<li><a href="https://www.goodreads.com/book/show/25666050-algorithms-to-live-by">Algorithms to Live By</a> (audiobook)</li>
+</ul>
+]]></content:encoded>
+            <author>hello@blakeembrey.com (Blake Embrey)</author>
+        </item>
+        <item>
             <title><![CDATA[My Week in Review (2017-07-17)]]></title>
             <link>http://blakeembrey.com/self/2017-07-17-review/</link>
             <guid>http://blakeembrey.com/self/2017-07-17-review/</guid>
-            <pubDate>Mon, 17 Jul 2017 15:00:00 GMT</pubDate>
+            <pubDate>Mon, 17 Jul 2017 18:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<h2>What Happened?</h2>
 <ul>
 <li>Visited <a href="https://foursquare.com/v/nyc-resistor/48957adcf964a5206b511fe3">NYC Resistor</a></li>
@@ -79,7 +159,7 @@
             <title><![CDATA[My Week in Review (2017-07-10)]]></title>
             <link>http://blakeembrey.com/self/2017-07-10-review/</link>
             <guid>http://blakeembrey.com/self/2017-07-10-review/</guid>
-            <pubDate>Mon, 10 Jul 2017 14:30:00 GMT</pubDate>
+            <pubDate>Mon, 10 Jul 2017 17:30:00 GMT</pubDate>
             <content:encoded><![CDATA[<h2>Internet</h2>
 <ul>
 <li>Useful
@@ -146,7 +226,7 @@
             <title><![CDATA[My Week in Review (2017-07-04)]]></title>
             <link>http://blakeembrey.com/self/2017-07-04-review/</link>
             <guid>http://blakeembrey.com/self/2017-07-04-review/</guid>
-            <pubDate>Tue, 04 Jul 2017 19:00:00 GMT</pubDate>
+            <pubDate>Tue, 04 Jul 2017 22:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<h2>Internet</h2>
 <ul>
 <li>Useful
@@ -216,7 +296,7 @@
             <title><![CDATA[My Week in Review (2017-06-26)]]></title>
             <link>http://blakeembrey.com/self/2017-06-26-review/</link>
             <guid>http://blakeembrey.com/self/2017-06-26-review/</guid>
-            <pubDate>Tue, 27 Jun 2017 02:00:00 GMT</pubDate>
+            <pubDate>Tue, 27 Jun 2017 05:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<h2>Internet</h2>
 <ul>
 <li>Useful
@@ -271,7 +351,7 @@
             <title><![CDATA[My Week in Review (2017-06-22)]]></title>
             <link>http://blakeembrey.com/self/2017-06-22-review/</link>
             <guid>http://blakeembrey.com/self/2017-06-22-review/</guid>
-            <pubDate>Thu, 22 Jun 2017 15:00:00 GMT</pubDate>
+            <pubDate>Thu, 22 Jun 2017 18:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<h2>What Happened?</h2>
 <ul>
 <li>I’m four days late with this review…</li>
@@ -374,7 +454,7 @@
             <title><![CDATA[My Week in Review (2017-06-12)]]></title>
             <link>http://blakeembrey.com/self/2017-06-12-review/</link>
             <guid>http://blakeembrey.com/self/2017-06-12-review/</guid>
-            <pubDate>Mon, 12 Jun 2017 15:30:00 GMT</pubDate>
+            <pubDate>Mon, 12 Jun 2017 18:30:00 GMT</pubDate>
             <content:encoded><![CDATA[<h2>What Happened?</h2>
 <ul>
 <li>Watched <a href="https://www.miss-saigon.com/">Miss Saigon</a></li>
@@ -443,7 +523,7 @@
             <title><![CDATA[My Week in Review (2017-06-05)]]></title>
             <link>http://blakeembrey.com/self/2017-06-05-review/</link>
             <guid>http://blakeembrey.com/self/2017-06-05-review/</guid>
-            <pubDate>Mon, 05 Jun 2017 22:30:00 GMT</pubDate>
+            <pubDate>Tue, 06 Jun 2017 01:30:00 GMT</pubDate>
             <content:encoded><![CDATA[<h2>What Happened?</h2>
 <ul>
 <li>Only 19 webpages - might mean I’m working more (don’t usually track work-related topics)</li>
@@ -503,7 +583,7 @@
             <title><![CDATA[My Week in Review (2017-05-30)]]></title>
             <link>http://blakeembrey.com/self/2017-05-30-review/</link>
             <guid>http://blakeembrey.com/self/2017-05-30-review/</guid>
-            <pubDate>Tue, 30 May 2017 19:00:00 GMT</pubDate>
+            <pubDate>Tue, 30 May 2017 22:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<h2>What Happened?</h2>
 <ul>
 <li>Read around 43 articles</li>
@@ -588,7 +668,7 @@
             <title><![CDATA[My Week in Review (2017-05-22)]]></title>
             <link>http://blakeembrey.com/self/2017-05-22-review/</link>
             <guid>http://blakeembrey.com/self/2017-05-22-review/</guid>
-            <pubDate>Mon, 22 May 2017 16:00:00 GMT</pubDate>
+            <pubDate>Mon, 22 May 2017 19:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<h2>What Happened?</h2>
 <ul>
 <li>Read around 38 articles</li>
@@ -672,7 +752,7 @@
             <title><![CDATA[My Week in Review (2017-05-16)]]></title>
             <link>http://blakeembrey.com/self/2017-05-16-review/</link>
             <guid>http://blakeembrey.com/self/2017-05-16-review/</guid>
-            <pubDate>Tue, 16 May 2017 14:00:00 GMT</pubDate>
+            <pubDate>Tue, 16 May 2017 17:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<h2>What Happened?</h2>
 <ul>
 <li>Read 45 articles</li>
@@ -760,7 +840,7 @@
             <title><![CDATA[My Week in Review (2017-05-07)]]></title>
             <link>http://blakeembrey.com/self/2017-05-07-review/</link>
             <guid>http://blakeembrey.com/self/2017-05-07-review/</guid>
-            <pubDate>Sun, 07 May 2017 22:30:00 GMT</pubDate>
+            <pubDate>Mon, 08 May 2017 01:30:00 GMT</pubDate>
             <content:encoded><![CDATA[<h2>What Happened?</h2>
 <ul>
 <li>Moved to New York for the next two months, getting into a new routine</li>
@@ -843,7 +923,7 @@
             <title><![CDATA[My Week in Review (2017-05-01)]]></title>
             <link>http://blakeembrey.com/self/2017-05-01-review/</link>
             <guid>http://blakeembrey.com/self/2017-05-01-review/</guid>
-            <pubDate>Mon, 01 May 2017 13:30:00 GMT</pubDate>
+            <pubDate>Mon, 01 May 2017 16:30:00 GMT</pubDate>
             <content:encoded><![CDATA[<h2>What Happened?</h2>
 <ul>
 <li><a href="https://runkeeper.com/user/blakeembrey/activity/973473448">Ran another 25km</a></li>
@@ -899,7 +979,7 @@
             <title><![CDATA[My Week in Review (2017-04-24)]]></title>
             <link>http://blakeembrey.com/self/2017-04-24-review/</link>
             <guid>http://blakeembrey.com/self/2017-04-24-review/</guid>
-            <pubDate>Mon, 24 Apr 2017 16:00:00 GMT</pubDate>
+            <pubDate>Mon, 24 Apr 2017 19:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<p>I didn’t write this review on Sunday because I was busy relaxing and playing Fallout: New Vegas. I still haven’t finished it. I did read and watch more this week compared to previous weeks. I also spent some time trying to research the alternatives in the investing space, let me know what you’re using!</p>
 <h2>What Happened?</h2>
 <ul>
@@ -1019,7 +1099,7 @@
             <title><![CDATA[My Week in Review (2017-04-16)]]></title>
             <link>http://blakeembrey.com/self/2017-04-16-review/</link>
             <guid>http://blakeembrey.com/self/2017-04-16-review/</guid>
-            <pubDate>Sun, 16 Apr 2017 20:00:00 GMT</pubDate>
+            <pubDate>Sun, 16 Apr 2017 23:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<h2>What Happened?</h2>
 <ul>
 <li>More <a href="https://www.startupschool.org">Startup School</a> videos</li>
@@ -1056,40 +1136,6 @@
 <ul>
 <li><a href="https://trakt.tv/shows/the-man-in-the-high-castle/seasons/1">The Man In The High Castle</a> - The show will suck you in until the end</li>
 <li><a href="https://trakt.tv/shows/marvel-s-agents-of-s-h-i-e-l-d/seasons/4/episodes/17">Marvel’s Agents of S.H.I.E.L.D.</a> - I feel like Marvel is doing an amazing job in the TV show space, making some of my favourite recent shows</li>
-</ul>
-]]></content:encoded>
-            <author>hello@blakeembrey.com (Blake Embrey)</author>
-        </item>
-        <item>
-            <title><![CDATA[My Week in Review (2017-04-09)]]></title>
-            <link>http://blakeembrey.com/self/2017-04-09-review/</link>
-            <guid>http://blakeembrey.com/self/2017-04-09-review/</guid>
-            <pubDate>Sun, 09 Apr 2017 19:00:00 GMT</pubDate>
-            <content:encoded><![CDATA[<h2>What Happened?</h2>
-<ul>
-<li>Published <a href="https://github.com/blakeembrey/writing">this blog</a> using Gatsby + React Free Style</li>
-<li><a href="https://mastodon.social/">Mastodon</a> - you can find me at <a href="https://toot.cafe/@blakeembrey">@blakeembrey@toot.cafe</a></li>
-<li>Running <a href="https://mdn.io">mdn.io</a> on AWS Lambda (<a href="https://github.com/lazd/mdn.io/pull/15">see Terraform PR</a>)</li>
-<li><a href="https://www.startupschool.org">Startup School</a> is online</li>
-</ul>
-<h2>Best Content</h2>
-<ul>
-<li><a href="https://www.scuttlebutt.nz/">ssb handbook</a> - Great content with some links to interesting papers</li>
-<li><a href="https://www.troyhunt.com/heres-where-the-apple-accounts-hackers-are-threatening-to-wipe-came-from/">Here’s where the Apple accounts hackers are threatening to wipe came from</a> - Good analysis of recent password leaks</li>
-<li><a href="https://blog.ycombinator.com/hacking-dna-the-story-of-crispr-ken-thompson-and-the-gene-drive/">Hacking DNA: The Story of CRISPR, Ken Thompson, and the Gene Drive</a> - Learn more about CRISPR</li>
-<li><a href="https://stripe.com/blog/rate-limiters">Scaling your API with rate limiters</a> - Interesting read on rate limiting</li>
-<li><a href="https://cloudplatform.googleblog.com/2017/03/how-release-canaries-can-save-your-bacon-CRE-life-lessons.html">How release canaries can save your bacon - CRE life lessons</a> - Introduction to release canaries</li>
-<li><a href="https://motherboard.vice.com/en_us/article/mastodon-is-like-twitter-without-nazis-so-why-are-we-not-using-it">Mastodon Is Like Twitter Without Nazis, So Why Are We Not Using It?</a> - Long introduction to Mastodon, go play!</li>
-<li><a href="https://medium.com/digital-nomad-stories/why-i-traveled-to-47-countries-while-building-a-startup-635558f1fb23">Why I traveled to 47 countries while building a startup</a> - Travel and hacking</li>
-<li><a href="https://www.rockpapershotgun.com/2017/04/03/why-fears-ai-is-still-the-best-in-first-person-shooters/">Why F.E.A.R.’s AI is still the best in first-person shooters</a> - The idea of cooperative AI that goes beyond a standard scripted approach sounds enjoyable</li>
-<li><a href="https://www.nytimes.com/2017/03/10/opinion/sunday/can-sleep-deprivation-cure-depression.html?nytmobile=0">Yes, Your Sleep Schedule Is Making You Sick</a> - Information about sleep schedules</li>
-<li><a href="https://www.wired.com/2017/04/hackers-emptying-atms-drill-15-worth-gear/">Hackers Are Emptying ATMs With a Single Drilled Hole and $15 Worth of Gear</a> - Short read on latest ATM hack</li>
-<li><a href="https://medium.com/@AaronBleyaert/how-to-lose-weight-in-4-easy-steps-1f135f7e1dec">HOW TO LOSE WEIGHT IN 4 EASY STEPS</a> - Enjoyable read</li>
-</ul>
-<h2>Currently Reading</h2>
-<ul>
-<li><a href="https://www.goodreads.com/book/show/22328.Neuromancer">Neuromancer</a></li>
-<li><a href="https://www.goodreads.com/book/show/22543496-elon-musk">Elon Musk: Inventing the Future</a> (audiobook)</li>
 </ul>
 ]]></content:encoded>
             <author>hello@blakeembrey.com (Blake Embrey)</author>
