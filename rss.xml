@@ -4,10 +4,183 @@
         <title>Blake Embrey</title>
         <link>http://blakeembrey.com</link>
         <description>A personally curated collection of words hosted in cyberspace for some indeterminate duration.</description>
-        <lastBuildDate>Mon, 24 Jul 2017 04:07:40 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 09 Aug 2017 17:47:31 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <copyright>Copyright 2017 Blake Embrey</copyright>
+        <item>
+            <title><![CDATA[My Week in Review (2017-08-09)]]></title>
+            <link>http://blakeembrey.com/self/2017-08-09-review/</link>
+            <guid>http://blakeembrey.com/self/2017-08-09-review/</guid>
+            <pubDate>Wed, 09 Aug 2017 18:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>What Happened?</h2>
+<ul>
+<li>Visited <a href="https://foursquare.com/v/victory-point-cafe/55ff1a9f498e73955bffad64">Victory Point Cafe</a> and played some games</li>
+<li>Walked out to <a href="https://foursquare.com/v/inspiration-point/4b52262ef964a520916b27e3">Inspiration Point</a></li>
+<li><a href="https://foursquare.com/v/pizzahacker/52c8aaa411d2c75d43e29ee4">PizzaHacker</a> is the best pizza I’ve ever had</li>
+<li>Discovered <a href="https://foursquare.com/v/workshop-cafe/51e08f37498e1d7e82c50708">Workshop Cafe</a> today and it’s perfect</li>
+</ul>
+<h2>Internet</h2>
+<ul>
+<li>Favourite
+<ul>
+<li><a href="https://medium.com/unsplash-unfiltered/scaling-unsplash-with-a-small-team-fbdd55571906">Scaling Unsplash with a small team 📈👨‍👩‍👧‍👦</a></li>
+<li><a href="https://www.theatlantic.com/magazine/archive/2017/09/has-the-smartphone-destroyed-a-generation/534198/">Have Smartphones Destroyed a Generation?</a></li>
+<li><a href="https://aeon.co/ideas/humans-are-the-only-animals-who-crave-oblivion-through-suicide">Humans are the only animals who crave oblivion through suicide</a></li>
+<li><a href="https://aeon.co/essays/why-religious-identities-are-not-immune-to-robust-criticism">Why religious identities are not immune to robust criticism</a></li>
+<li><a href="https://levels.io/hoodmaps/">Building a startup in public: from first line of code to frontpage of Reddit</a></li>
+<li><a href="https://medium.com/@sh_reya/it-starts-early-my-experience-as-a-female-tech-student-dc0b83c0f73b">It Starts Early: My Experience as a Female Tech Student</a></li>
+</ul>
+</li>
+<li>Useful
+<ul>
+<li><a href="https://blog.ycombinator.com/ycs-2017-summer-reading-list/">YC’s 2017 Summer Reading List</a></li>
+<li><a href="http://www.thesimpledollar.com/costco-vs-amazon-fresh-a-real-world-grocery-shopping-showdown/">Costco vs. Amazon Fresh: A Real-World Grocery Shopping Showdown</a></li>
+</ul>
+</li>
+<li>Interesting
+<ul>
+<li><a href="https://defaultnamehere.tumblr.com/post/163734466355/operation-luigi-how-i-hacked-my-friend-without">Operation Luigi: How I hacked my friend without her noticing</a></li>
+<li><a href="https://www.bloomberg.com/view/articles/2017-08-02/bitcoin-exchange-had-too-many-bitcoins">Bitcoin Exchange Had Too Many Bitcoins</a></li>
+<li><a href="https://www.eff.org/deeplinks/2017/07/how-threats-against-domain-names-used-censor-content">How Threats Against Domain Names Are Used to Censor Content</a></li>
+<li><a href="https://www.technologyreview.com/s/608388/biological-teleporter-could-seed-life-through-galaxy/">J. Craig Venter and Elon Musk discussed faxing genomes through space</a></li>
+</ul>
+</li>
+<li>Opinion
+<ul>
+<li><a href="https://daringfireball.net/linked/2017/08/01/apple-q3-2017">Apple’s Third Quarter Results</a></li>
+<li><a href="https://daringfireball.net/linked/2017/08/01/homepod-os-release">Botched Release of Beta HomePod OS Reveals Details of New 2017 iPhones</a></li>
+<li><a href="http://sethgodin.typepad.com/seths_blog/2017/08/the-management-of-whales.html">Seth’s Blog: The management of whales</a></li>
+<li><a href="https://daringfireball.net/2017/07/apple_china_vpn_apps">On Apple Removing VPN Apps From the App Store in China</a></li>
+<li><a href="https://daringfireball.net/linked/2017/08/02/apple-cochlear-implants">Steven Levy: ‘How Apple Is Putting Voices in Users’ Heads — Literally’</a></li>
+<li><a href="https://medium.com/make-better-software/apple-is-about-to-do-something-their-programmers-definitely-dont-want-fc19f5f4487">Apple is about to do something their programmers definitely don’t want.</a></li>
+<li><a href="http://sethgodin.typepad.com/seths_blog/2017/08/the-peter-possibility.html">Seth’s Blog: The Peter Possibility</a></li>
+<li><a href="http://sethgodin.typepad.com/seths_blog/2017/08/feels-risky.html">Seth’s Blog: Feels risky</a></li>
+<li><a href="http://gizmodo.com/exclusive-heres-the-full-10-page-anti-diversity-screed-1797564320">Exclusive: Here’s The Full 10-Page Anti-Diversity Screed Circulating Internally at Google</a></li>
+</ul>
+</li>
+<li>News
+<ul>
+<li><a href="https://www.technologyreview.com/s/608388/biological-teleporter-could-seed-life-through-galaxy/">A biological fax machine could seed life through the galaxy</a></li>
+<li><a href="https://www.technologyreview.com/the-download/608541/tesla-is-getting-into-the-offshore-wind-energy-game/">Tesla Is Getting Into the Offshore Wind Energy Game</a></li>
+<li><a href="https://www.technologyreview.com/the-download/608542/climate-change-could-bring-killer-humid-heatwaves-to-south-asia/">Climate Change Could Bring Killer Humid Heatwaves to South Asia</a></li>
+<li><a href="https://www.technologyreview.com/the-download/608547/why-a-birth-control-pill-for-men-is-still-not-here/">Why a Birth Control Pill For Men Is Still Not Here</a></li>
+<li><a href="https://www.technologyreview.com/the-download/608512/a-hyperloop-pod-fired-through-a-tube-at-200-mph-for-the-first-time/">A Hyperloop Pod, Fired Through a Tube at 200 MPH for the First Time</a></li>
+</ul>
+</li>
+<li>Software
+<ul>
+<li><a href="https://www.troyhunt.com/kids-pass-just-reminded-us-how-hard-responsible-disclosure-is/">Kids Pass Just Reminded Us How Hard Responsible Disclosure Is</a></li>
+<li><a href="https://engineering.instagram.com/a-year-of-stories-launching-is-the-easy-part-d4251acef662?gi=a7e8787da892">A Year of Stories: Launching Is the Easy Part – Instagram Engineering</a></li>
+<li><a href="https://ayende.com/blog/179010/building-a-query-parser-over-a-weekend-part-i">Building a query parser over a weekend</a></li>
+<li><a href="http://www.eversql.com/faster-pagination-in-mysql-why-order-by-with-limit-and-offset-is-slow/">Faster Pagination in Mysql - Why Order By With Limit and Offset is Slow?</a></li>
+<li><a href="http://americanexpress.io/eliminate-the-database-for-higher-availability/">Eliminate the Database for Higher Availability</a></li>
+<li><a href="https://medium.com/meilleursagents-engineering/story-of-a-successful-migration-to-google-cloud-platform-6bc7fa0798e8">Story of a successful migration to Google Cloud Platform</a></li>
+<li><a href="https://medium.com/high-alpha/graph-databases-living-on-the-edge-f6307a6c5088">Graph Databases: Living on the Edge</a></li>
+<li><a href="https://medium.com/make-better-software/taking-fogbugz-forward-f01f4fed275b">Taking FogBugz Forward</a></li>
+<li><a href="https://medium.freecodecamp.org/scaling-node-js-applications-8492bd8afadc">Scaling Node.js Applications</a></li>
+</ul>
+</li>
+</ul>
+<h2>Reading</h2>
+<ul>
+<li><a href="https://www.goodreads.com/book/show/4924862-i-will-teach-you-to-be-rich">I Will Teach You To Be Rich</a></li>
+<li>Finished <a href="https://www.goodreads.com/book/show/25666050-algorithms-to-live-by">Algorithms to Live By</a></li>
+</ul>
+]]></content:encoded>
+            <author>hello@blakeembrey.com (Blake Embrey)</author>
+        </item>
+        <item>
+            <title><![CDATA[My Week in Review (2017-07-31)]]></title>
+            <link>http://blakeembrey.com/self/2017-07-31-review/</link>
+            <guid>http://blakeembrey.com/self/2017-07-31-review/</guid>
+            <pubDate>Tue, 01 Aug 2017 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>What Happened?</h2>
+<ul>
+<li><a href="https://www.instagram.com/p/BW6fpwdnc1v/">Omakase</a></li>
+<li>Watched Baby Driver (would recommend) and A Cure For Wellness (would not recommend)</li>
+</ul>
+<h2>Internet</h2>
+<ul>
+<li>Favourite
+<ul>
+<li><a href="http://ncase.me/trust/">The Evolution of Trust</a></li>
+<li><a href="http://www.boredpanda.com/street-art-tom-bob-new-york/">There’s A Genius Street Artist Running Loose In New York, And Let’s Hope Nobody Catches Him</a></li>
+<li><a href="https://nolanlawson.com/2017/03/05/what-it-feels-like-to-be-an-open-source-maintainer/">What it feels like to be an open-source maintainer</a></li>
+<li><a href="https://medium.com/the-mission/the-enemy-in-our-feeds-e86511488de">This Is How Your Fear and Outrage Are Being Sold for Profit</a></li>
+</ul>
+</li>
+<li>Useful
+<ul>
+<li><a href="https://medium.com/@haftrm/successful-solo-founders-5c7f60ef6a0e">Successful Solo Founders</a></li>
+<li><a href="http://bradfrost.com/blog/link/i-dont-know-how-to-explain-to-you-that-you-should-care-about-other-people/">I Don’t Know How To Explain To You That You Should Care About Other People</a></li>
+<li><a href="https://csswizardry.com/2013/07/make-it-count/">Make it count</a></li>
+<li><a href="https://www.iwillteachyoutoberich.com/guides/ultimate-guide-to-personal-finance/">The Ultimate Guide to Personal Finance: Money Management Made Simple</a></li>
+</ul>
+</li>
+<li>Video
+<ul>
+<li><a href="https://www.youtube.com/watch?v=WyGq6cjcc3Q">Alex Jones: Last Week Tonight with John Oliver (HBO)</a></li>
+<li><a href="https://www.youtube.com/watch?feature=youtu.be&amp;v=5ZXU84_sGXo">How to Raise Money, and How to Succeed Long-Term - CS183F</a></li>
+<li><a href="https://www.youtube.com/watch?v=paG1-lPtIXA">The Machine - Bert Kreischer: THE MACHINE</a></li>
+<li><a href="https://www.youtube.com/watch?v=CeCUPNVrBCA">Bert Kreischer - the time I went skydiving with Rachael Ray</a></li>
+<li><a href="https://www.youtube.com/watch?v=rvt55Pj0CHk&amp;list=RDobnJyfIBNCY&amp;index=12">Bert Kreischer - Fighting a Bear</a></li>
+<li><a href="https://www.youtube.com/watch?v=iLTjplXiqMg">Bert Kreisher Full Stand Up 2016 ‘THE MACHINE’</a></li>
+<li><a href="https://www.youtube.com/watch?v=zYPPYxuHFfw">BFFs - Take The Objective (Season 3E6)</a></li>
+<li><a href="https://www.youtube.com/watch?v=JuuzmOXL1bc">Illuminati Easter Egg - Battlefield 4 Secret Camo</a></li>
+</ul>
+</li>
+<li>Interesting
+<ul>
+<li><a href="https://www.technologyreview.com/s/608345/social-media-messages-are-becoming-more-complex-and-nobody-knows-why/">People’s IQs have risen over time. Now social message complexity seems to be rising too. But why?</a></li>
+<li><a href="https://www.technologyreview.com/s/608312/this-scientist-is-taking-the-next-step-in-geoengineering/">Get ready for climate scientists to spray particles in the atmosphere to cool the Earth</a></li>
+<li><a href="https://www.technologyreview.com/s/608333/the-tech-world-is-convinced-2021-is-going-to-be-the-best-year-ever/">The tech world is convinced 2021 is going to be the best year ever—what’s the deal?</a></li>
+<li><a href="https://medium.com/@LastZactionHero/ten-years-of-worthless-side-projects-f44aa9edb028">Ten Years of Worthless Side Projects</a></li>
+<li><a href="https://aphyr.com/posts/347-kerbal-space-fuel-fiasco">Kerbal Space Fuel Fiasco</a></li>
+<li><a href="https://aphyr.com/posts/345-kerbal-space-oddities">Kerbal Space Oddities</a></li>
+</ul>
+</li>
+<li>Opinion
+<ul>
+<li><a href="http://wealthyaccountant.com/2017/07/28/optimism-and-the-fountain-of-youth/">Optimism and the Fountain of Youth</a></li>
+<li><a href="http://wealthyaccountant.com/2017/07/24/perennial-seller-part-1/">Perennial Seller, Part 1</a></li>
+<li><a href="http://wealthyaccountant.com/2017/07/26/steal-my-stuff-please-part-2/">Steal My Stuff, Please, Part 2</a></li>
+<li><a href="https://daringfireball.net/linked/2017/07/25/trump-cook-big-beautiful-plants">Trump Says Tim Cook Has Promised to Build Three Manufacturing Plants in U.S.</a></li>
+<li><a href="https://daringfireball.net/linked/2017/07/26/nine-minutes">Nine Minutes of Doubt</a></li>
+<li><a href="https://daringfireball.net/linked/2017/07/26/snell-apple-park">Jason Snell on Apple Park’s Open Work Spaces</a></li>
+<li><a href="https://daringfireball.net/linked/2017/07/26/ive-apple-park">WSJ Profile on Jony Ive and Apple Park</a></li>
+<li><a href="https://www.iwillteachyoutoberich.com/blog/tip-using-sub-savings-accounts-for-unexpected-expenses/">Saving Tip: Using sub-savings accounts for unexpected expenses</a></li>
+<li><a href="https://www.iwillteachyoutoberich.com/blog/automating-money-for-small-business/">Automating your money — especially for entrepreneurs and freelancers</a></li>
+<li><a href="https://www.iwillteachyoutoberich.com/blog/personal-finance-is-not-about-more-willpower/">Managing your personal finances is NOT about more willpower</a></li>
+<li><a href="https://www.iwillteachyoutoberich.com/blog/how-to-save-money/">How to save money</a></li>
+<li><a href="https://www.iwillteachyoutoberich.com/automate-your-personal-finances/">Automating your Personal Finances</a></li>
+<li><a href="https://www.iwillteachyoutoberich.com/blog/step-3-to-getting-rich-make-your-money-earn-for-you/">4 best ways to invest in your 20s</a></li>
+</ul>
+</li>
+<li>News
+<ul>
+<li><a href="https://www.technologyreview.com/s/608332/bitcoin-has-avoided-tearing-itself-apart-for-now/">Bitcoin has avoided tearing itself apart (for now)</a></li>
+</ul>
+</li>
+<li>Software
+<ul>
+<li><a href="https://github.com/blog/2399-managing-large-numbers-of-github-notifications">Managing large numbers of GitHub notifications</a></li>
+<li><a href="https://gist.github.com/bkeepers/9cdea0d520bc40d741362dec6fd0c3bb">labels.md</a></li>
+<li><a href="http://blog.cleancoder.com/uncle-bob/2017/07/24/DriveMeToTorontoHal.html">Drive me to Toronto, Hal.</a></li>
+<li><a href="https://daringfireball.net/2017/07/unordered_lists_in_markdown">Unordered Lists in Markdown</a></li>
+<li><a href="https://in.3wks.com.au/google-not-amazon-make-fantastic-savings-in-a-serverless-world-b6d37710839c?gi=3d1d640ba688">Google not Amazon — Make fantastic savings in a serverless world</a></li>
+</ul>
+</li>
+</ul>
+<h2>Reading</h2>
+<ul>
+<li><a href="https://www.goodreads.com/book/show/4924862-i-will-teach-you-to-be-rich">I Will Teach You To Be Rich</a></li>
+<li><a href="https://www.goodreads.com/book/show/16176.The_Red_Queen">The Red Queen: Sex and the Evolution of Human Nature</a></li>
+<li><a href="https://www.goodreads.com/book/show/25666050-algorithms-to-live-by">Algorithms to Live By</a> (audiobook)</li>
+</ul>
+]]></content:encoded>
+            <author>hello@blakeembrey.com (Blake Embrey)</author>
+        </item>
         <item>
             <title><![CDATA[My Week in Review (2017-07-23)]]></title>
             <link>http://blakeembrey.com/self/2017-07-23-review/</link>
@@ -971,171 +1144,6 @@
 <ul>
 <li><a href="https://www.goodreads.com/book/show/175325.I_Will_Fear_No_Evil">I Will Fear No Evil</a></li>
 <li><a href="https://www.goodreads.com/book/show/22543496-elon-musk">Unshakeable</a> (audiobook)</li>
-</ul>
-]]></content:encoded>
-            <author>hello@blakeembrey.com (Blake Embrey)</author>
-        </item>
-        <item>
-            <title><![CDATA[My Week in Review (2017-04-24)]]></title>
-            <link>http://blakeembrey.com/self/2017-04-24-review/</link>
-            <guid>http://blakeembrey.com/self/2017-04-24-review/</guid>
-            <pubDate>Mon, 24 Apr 2017 19:00:00 GMT</pubDate>
-            <content:encoded><![CDATA[<p>I didn’t write this review on Sunday because I was busy relaxing and playing Fallout: New Vegas. I still haven’t finished it. I did read and watch more this week compared to previous weeks. I also spent some time trying to research the alternatives in the investing space, let me know what you’re using!</p>
-<h2>What Happened?</h2>
-<ul>
-<li><a href="https://runkeeper.com/user/blakeembrey/activity/969551521">Ran 25km</a> until I didn’t want to keep going anymore</li>
-<li>Second week of <a href="https://www.coursera.org/learn/mindshift">Mindshift</a> course</li>
-<li>First week of <a href="https://www.coursera.org/learn/altruism">Effective Altruism</a></li>
-</ul>
-<h2>Internet</h2>
-<p>This week I went through my usual tech news, an unusual amount of video content (watching Last Week Tonight) and spend a long morning consuming <a href="http://www.mrmoneymustache.com/">Mr. Money Mustache</a> since it’s been on my todo list for a long time (and has a lot of great content). I also had no idea about the scale of North Korea’s artillery, and read new articles on the new laws coming in around the world requiring snooping on citizens by corporations. With the Gorillaz new album coming out soon, I also listened to a bit around that.</p>
-<ul>
-<li>Videos
-<ul>
-<li><a href="https://www.youtube.com/watch?v=abtHadERzXU">Live Office Hours with Yuri Sagalov and Sam Altman - CS183F</a></li>
-<li><a href="https://www.youtube.com/watch?v=6IFR3WYSBFM">How to Build a Product I, Michael Seibel, Steve Huffman, Emmett Shear - CS-183F</a></li>
-<li><a href="https://www.youtube.com/watch?v=EDZ6umenrOQ">Gorillaz - Feel Good Inc. (Bass Arrangement)</a></li>
-<li><a href="https://www.youtube.com/watch?v=5qJp6xlKEug">Gorillaz - Saturnz Barz (Spirit House)</a></li>
-<li><a href="https://www.youtube.com/watch?v=zsjZ2r9Ygzw">Encryption: Last Week Tonight with John Oliver (HBO)</a></li>
-<li><a href="https://www.youtube.com/watch?v=1Y1ya-yF35g">Nuclear Weapons: Last Week Tonight with John Oliver (HBO)</a></li>
-<li><a href="https://www.youtube.com/watch?v=wD8AwgO0AQI">Ivanka &amp; Jared: Last Week Tonight with John Oliver (HBO)</a></li>
-<li><a href="http://www.businessinsider.com/neil-degrasse-tyson-most-important-words-video-2017-4">Neil deGrasse Tyson says this new video may contain the ‘most important words’ he’s ever spoken</a></li>
-<li><a href="https://www.youtube.com/">Carl Barron @ Just for Laughs</a></li>
-<li><a href="http://www.electronicbeats.net/the-feed/watch-murdoc-2ds-first-live-video-interview/">Watch Murdoc And 2D’s First Live Video Interview</a></li>
-</ul>
-</li>
-<li>Tech
-<ul>
-<li><a href="https://www.troyhunt.com/mandatory-isp-data-retention-and-the-law-of-unintended-consequences/">Mandatory ISP data retention and the law of unintended consequences</a></li>
-<li><a href="https://www.privateinternetaccess.com/blog/2017/04/what-australia-can-learn-from-europes-failure-with-data-retention/">What Australia can learn from Europe’s failure with Data Retention laws</a></li>
-<li><a href="https://www.privateinternetaccess.com/blog/2017/04/with-laptops-banned-onboard-aircraft-your-data-is-no-longer-yours/">With laptops banned on aircraft, your data is no longer yours if you fly</a></li>
-<li><a href="https://www.youtube.com/watch?v=etax3aEe2dA">Dan Schafer - GraphQL at Facebook at react-europe 2016</a></li>
-<li><a href="https://blog.scottnonnenberg.com/hard-won-lessons-five-years-with-node-js/">Hard-won lessons: Five years with Node.js</a></li>
-<li><a href="https://www.schneier.com/blog/archives/2017/04/surveillance_an_2.html">Surveillance and our Insecure Infrastructure</a></li>
-<li><a href="https://githubengineering.com/open-sourcing-our-delegated-recovery-implementation/">Open sourcing our Delegated Account Recovery implementation</a></li>
-<li><a href="https://daringfireball.net/linked/2017/04/17/cybart-achilles-heel">Apple’s Achilles Heel</a></li>
-<li><a href="https://www.wired.com/2017/04/steve-lacy-iphone-producer/">How Steve Lacy and His iPhone Are Taking Over The Music Biz</a></li>
-<li><a href="https://daringfireball.net/linked/2017/04/18/swift-backslash-key-path">Daring Fireball: Proposed Key Path Syntax for Swift</a></li>
-<li><a href="https://daringfireball.net/linked/2017/04/18/bon-appetit-cover">Daring Fireball: Cover Photo for May Issue of Bon Appétit Shot Using iPhone 7 Plus</a></li>
-<li><a href="https://daringfireball.net/linked/2017/04/18/facebook-instant-articles-bad-deal">Daring Fireball: Shocker: Facebook Instant Articles Are a Bad Deal for Publishers</a></li>
-<li><a href="https://daringfireball.net/linked/2017/04/19/juicero">Daring Fireball: $400 VC-Backed Juice Machine Is Completely Unnecessary</a></li>
-<li><a href="https://daringfireball.net/linked/2017/04/19/marco-pro">Daring Fireball: The New Mac Pro Needs to Be Versatile</a></li>
-<li><a href="https://theoutline.com/post/1399/how-google-ate-celebritynetworth-com">How Google ate CelebrityNetWorth.com</a></li>
-<li><a href="https://www.wsj.com/articles/google-plans-ad-blocking-feature-in-popular-chrome-browser-1492643233">Google Plans Ad-Blocking Feature in Popular Chrome Browser</a></li>
-<li><a href="https://medium.com/@fat/mediums-css-is-actually-pretty-fucking-good-b8e2a6c78b06">Medium’s CSS is actually pretty f***ing good. – fat</a></li>
-<li><a href="https://medium.design/crafting-link-underlines-on-medium-7c03a9274f9">Crafting link underlines on Medium – Designing Medium</a></li>
-<li><a href="https://www.cjr.org/tow_center/facebook-usa-today.php">A Facebook bot purge clobbered USA Today, and no one knows why</a></li>
-<li><a href="http://digiday.com/media/guardian-pulls-facebooks-instant-articles-apple-news/">The Guardian pulls out of Facebook’s Instant Articles and Apple News</a></li>
-</ul>
-</li>
-<li>Finance
-<ul>
-<li><a href="http://www.mrmoneymustache.com/2012/05/29/how-much-do-i-need-for-retirement/">The 4% Rule: The Easy Answer to “How Much Do I Need for Retirement?”</a></li>
-<li><a href="http://www.mrmoneymustache.com/2011/05/18/how-to-make-money-in-the-stock-market/">How to make Money in the Stock Market</a></li>
-<li><a href="http://www.mrmoneymustache.com/2012/10/03/the-practical-benefits-of-outrageous-optimism/">The Practical Benefits of Outrageous Optimism</a></li>
-<li><a href="http://www.mrmoneymustache.com/2011/12/05/muscle-over-motor/">Muscle Over Motor</a></li>
-<li><a href="http://www.mrmoneymustache.com/2013/11/16/republic-wireless-old-phone-new-phone-and-a-tempting-competitor/">Republic Wireless: Old Phone, New Phone, and a Tempting Competitor</a></li>
-<li><a href="http://www.mrmoneymustache.com/2011/10/12/avoiding-ivy-league-preschool-syndrome/">Avoiding Ivy League Preschool Syndrome</a></li>
-<li><a href="http://www.mrmoneymustache.com/2012/03/29/killing-your-1000-grocery-bill/">Killing your $1000 Grocery Bill</a></li>
-<li><a href="http://www.mrmoneymustache.com/2011/04/18/get-rich-with-bikes/">Get Rich With… Bikes</a></li>
-<li><a href="http://www.mrmoneymustache.com/2011/09/28/get-rich-with-moving-to-a-better-place/">Get Rich With: Moving to a Better Place</a></li>
-<li><a href="http://www.mrmoneymustache.com/2011/09/13/domestic-outsourcing-practical-or-wussypants/">Domestic Outsourcing: Practical or Wussypants?</a></li>
-<li><a href="http://www.mrmoneymustache.com/2011/10/06/the-true-cost-of-commuting/">The True Cost of Commuting</a></li>
-<li><a href="http://www.mrmoneymustache.com/credit-cards/">Credit Cards</a></li>
-<li><a href="http://www.mrmoneymustache.com/2012/01/13/the-shockingly-simple-math-behind-early-retirement/">The Shockingly Simple Math Behind Early Retirement</a></li>
-<li><a href="http://www.mrmoneymustache.com/2017/02/01/betterment-cranks-up-features-and-costs-is-it-still-worthwhile/">Betterment Cranks up Features and Costs – is it Still Worthwhile?</a></li>
-<li><a href="http://www.mrmoneymustache.com/2015/09/29/if-youre-not-getting-rich-in-your-20s-youre-doing-it-wrong/">If You’re Not Getting Rich in your 20s, You’re Doing it Wrong</a></li>
-<li><a href="http://www.mrmoneymustache.com/2013/10/01/the-low-information-diet/">The Low Information Diet</a></li>
-<li><a href="http://www.mrmoneymustache.com/2016/02/10/should-you-do-your-own-taxes/">Should You Do Your Own Taxes? (and Why I Don’t)</a></li>
-<li><a href="http://wealthyaccountant.com/2017/04/19/the-dangers-of-a-side-gig/">The Dangers of a Side Gig</a></li>
-<li><a href="https://www.policygenius.com/blog/acorns-betterment-robinhood-investing-app-review/">Acorns vs Betterment vs Robinhood</a></li>
-</ul>
-</li>
-<li>Altruism
-<ul>
-<li><a href="http://effective-altruism.com/ea/45/what_is_effective_altruism/">What is effective altruism?</a></li>
-<li><a href="http://effective-altruism.com/ea/6u/the_drowning_child_and_the_expanding_circle/">The Drowning Child and the Expanding Circle</a></li>
-<li><a href="http://effective-altruism.com/ea/4r/cheerfully/">Cheerfully</a></li>
-</ul>
-</li>
-<li>Other articles
-<ul>
-<li><a href="https://stratechery.com/2017/facebook-and-the-cost-of-monopoly/">Facebook and the Cost of Monopoly</a></li>
-<li><a href="https://medium.com/@blakeross/don-t-outsource-your-thinking-ad825a9b4653">Don’t Outsource Your Thinking – Blake Ross</a></li>
-<li><a href="https://dewanemutunga.com/learning-by-doing/">Learning By Doing: The Key to Higher Learning Gains and Retention</a></li>
-<li><a href="https://www.quora.com/What-do-you-think-about-the-violent-removal-of-a-passenger-on-United-flight-3411">What do you think about the violent removal of a passenger on United flight 3411?</a></li>
-<li><a href="http://www.businessinsider.com/north-koreas-got-an-artillery-armada-2013-3">Don’t Forget The Devastating Capability Of North Korea’s Artillery</a></li>
-<li><a href="http://www.sfgate.com/world/article/North-Korea-nukes-SF-in-birthday-party-video-11083927.php">North Korea nukes SF in birthday party video</a></li>
-<li><a href="http://sethgodin.typepad.com/seths_blog/2017/04/the-bingo-method.html">The bingo method</a></li>
-<li><a href="http://sethgodin.typepad.com/seths_blog/2017/04/compared-to-what.html">Compared to what?</a></li>
-<li><a href="http://gizmodo.com/running-a-marathon-puts-your-body-through-hell-1794380470">How Running a Marathon Puts Your Body Through Hell</a> - I was going to be competing in the upcoming marathon in San Diego, but I’ll end up missing it now due to circumstances. Should I compete in one somewhere else?</li>
-<li><a href="http://blog.pamelafox.org/2017/04/enjoying-bart-ride-non-conceptually.html">Avoiding concept overload on the BART</a></li>
-<li><a href="https://daringfireball.net/linked/2017/04/19/oreilly-fox-news">Daring Fireball: Fox News Fires Bill O’Reilly</a></li>
-<li><a href="https://daringfireball.net/linked/2017/04/19/king-obama-trump">Daring Fireball: Conservatives Hated an Uppity Negro Golfing President</a></li>
-<li><a href="http://www.atlasobscura.com/articles/etruscan-forgeries-met-museum-art">The Forged ‘Ancient’ Statues That Fooled the Met’s Art Experts for Decades</a></li>
-<li><a href="http://econlog.econlib.org/archives/2012/02/what_is_the_mar.html">What Is the Male Marriage Premium?</a></li>
-<li><a href="http://www.bbc.com/travel/story/20170413-the-mysterious-man-who-gave-me-japan">The mysterious man who gave me Japan</a></li>
-<li><a href="https://xkcd.com/1827/">xkcd: Survivorship Bias</a></li>
-<li><a href="http://sethgodin.typepad.com/seths_blog/2017/04/who-are-we-seeking-to-become.html">Seth’s Blog: Who are we seeking to become?</a></li>
-<li><a href="http://blog.pamelafox.org/2017/04/what-is-difference-between-being.html">What is the difference between being ambition and discontent?</a></li>
-</ul>
-</li>
-</ul>
-<h2>Reading</h2>
-<p>I finished listening to the Elon Musk audiobook this week. I’ve almost finished ‘Do Androids Dream of Electric Sheep?’ - it’s a really short read and makes more sense to me than when I watched Blade Runner.</p>
-<ul>
-<li><a href="https://www.goodreads.com/book/show/7082.Do_Androids_Dream_of_Electric_Sheep_">Do Androids Dream of Electric Sheep?</a></li>
-<li><a href="https://www.goodreads.com/book/show/22543496-elon-musk">Unshakeable</a> (audiobook)</li>
-</ul>
-<h2>Watched</h2>
-<ul>
-<li><a href="https://trakt.tv/shows/the-man-in-the-high-castle/seasons/2">The Man In The High Castle</a> - I have started the second season now</li>
-<li><a href="https://trakt.tv/shows/marvel-s-agents-of-s-h-i-e-l-d/seasons/4/episodes/18">Marvel’s Agents of S.H.I.E.L.D.</a> - Another week, another episode</li>
-</ul>
-]]></content:encoded>
-            <author>hello@blakeembrey.com (Blake Embrey)</author>
-        </item>
-        <item>
-            <title><![CDATA[My Week in Review (2017-04-16)]]></title>
-            <link>http://blakeembrey.com/self/2017-04-16-review/</link>
-            <guid>http://blakeembrey.com/self/2017-04-16-review/</guid>
-            <pubDate>Sun, 16 Apr 2017 23:00:00 GMT</pubDate>
-            <content:encoded><![CDATA[<h2>What Happened?</h2>
-<ul>
-<li>More <a href="https://www.startupschool.org">Startup School</a> videos</li>
-<li>First week of the <a href="https://www.coursera.org/learn/mindshift">Mindshift</a> course</li>
-<li><a href="https://runkeeper.com/user/blakeembrey/activity/965498430">Ran 20.5km</a></li>
-</ul>
-<h2>Articles</h2>
-<ul>
-<li><a href="https://www.bloomberg.com/graphics/2017-fast-and-furious/">The Stats of The Furious</a> - Enjoyable visualisation of the Fast and Furious franchise</li>
-<li><a href="https://medium.com/@ebonstorm/im-sick-of-injustice-dressed-as-inconvenience-5221ae1a45d1">I’m Sick of Injustice Dressed as Inconvenience</a> - A response to the responses of the assault on a customer of United</li>
-<li><a href="https://medium.com/@treyharris/united-airlines-made-me-abandon-my-mobility-device-at-the-gate-before-my-honeymoon-8d74eee04038">United Airlines made me ABANDON my mobility device at the gate before my honeymoon</a> - Another horrific tale of United customer service</li>
-<li><a href="https://motherboard.vice.com/en_us/article/australian-authorities-hacked-computers-in-the-us">​Australian Authorities Hacked Computers in the US</a> - The murky waters of international law seems painful to work with, I can’t see any way to guarantee an operation would only target people within a country</li>
-<li><a href="http://lawyersandliquor.com/2017/04/free-furry-of-the-land-when-sovcits-and-furries-collide/">Free Furry of The Land: When SovCits and Furries Collide</a> - Lawyers investigation of a sovereign citizen fued and furries</li>
-<li><a href="https://www.nytimes.com/2017/04/11/magazine/new-technology-is-built-on-a-stack-is-that-the-best-way-to-understand-everything-else-too.html?_r=0">New Technology Is Built on a ‘Stack.’ Is That the Best Way to Understand Everything Else, Too?</a> - I didn’t realise this was a thing</li>
-<li><a href="https://motherboard.vice.com/en_us/article/princetons-ad-blocking-superweapon-may-put-an-end-to-the-ad-blocking-arms-race">Princeton’s Ad-Blocking Superweapon May Put an End to the Ad-Blocking Arms Race</a> - Interesting idea since another article (opting out - below) had a picture of an ad. Would that image get blocked?</li>
-<li><a href="https://motherboard.vice.com/en_us/article/your-governments-hacking-tools-are-not-safe">Your Government’s Hacking Tools Are Not Safe</a> - The need for more open policies on hacking (touches on the golden key issue with FBI vs Apple)</li>
-<li><a href="http://www.latimes.com/projects/la-ed-our-dishonest-president/">Our Dishonest President</a> - Delves on Donald Trump as a president</li>
-<li><a href="https://mondaynote.com/the-ipad-turnaround-is-coming-6d04747b215b">The iPad Turnaround Is Coming</a> - Could the iPad turn-around as a device?</li>
-<li><a href="https://www.aclu.org/blog/free-future/what-individuals-should-do-now-congress-has-obliterated-fccs-privacy-protections">What Individuals Should Do Now That Congress Has Obliterated the FCC’s Privacy Protections</a> - Guidelines for anyone to follow after the FCC privacy protections are gone</li>
-<li><a href="http://gigigriffis.com/how-much-my-digital-nomad-lifestyle-costs-real-budget-numbers-from-nearly-5-years-on-the-road/">How Much My Digital Nomad Lifestyle Costs: Real Budget Numbers from Nearly 5 Years on the Road</a> - Overview of one nomads real budget when travelling</li>
-<li><a href="https://medium.com/jean-hsu/leveling-up-your-code-reviews-ee5943abf68c">Leveling up your code reviews</a> - Advice for doing better code reviews</li>
-<li><a href="http://www.michaelnielsen.org/ddi/how-to-crawl-a-quarter-billion-webpages-in-40-hours/">How to crawl a quarter billion webpages in 40 hours</a> - Writing and scaling a simple crawler on AWS</li>
-<li><a href="https://blog.codinghorror.com/does-more-than-one-monitor-improve-productivity/">Does More Than One Monitor Improve Productivity?</a> - Trying to find a balance using a desktop monitor for myself</li>
-<li><a href="http://blog.kraken.com/post/153209105847/security-advisory-mobile-phones">Security Advisory: Mobile Phones</a> - Another article on the security of mobile phones (if you haven’t already, you should be using 2FA with an application and not SMS)</li>
-<li><a href="https://medium.com/@robleathern/opting-out-the-illusion-12a41551e88c">Opting Out: The Illusion</a> - Attempting to opt-out of tracking for advertising</li>
-<li><a href="https://www.farnamstreetblog.com/2017/03/twenty-four-hour-mind-rosalind-cartwright/">The Science of Sleep: Regulating Emotions and the Twenty-four Hour Mind</a> - Another article on sleep and their effects</li>
-</ul>
-<h2>Reading</h2>
-<ul>
-<li><a href="https://www.goodreads.com/book/show/7082.Do_Androids_Dream_of_Electric_Sheep_">Do Androids Dream of Electric Sheep?</a></li>
-<li><a href="https://www.goodreads.com/book/show/22543496-elon-musk">Elon Musk: Inventing the Future</a> (audiobook)</li>
-</ul>
-<h2>Watched</h2>
-<ul>
-<li><a href="https://trakt.tv/shows/the-man-in-the-high-castle/seasons/1">The Man In The High Castle</a> - The show will suck you in until the end</li>
-<li><a href="https://trakt.tv/shows/marvel-s-agents-of-s-h-i-e-l-d/seasons/4/episodes/17">Marvel’s Agents of S.H.I.E.L.D.</a> - I feel like Marvel is doing an amazing job in the TV show space, making some of my favourite recent shows</li>
 </ul>
 ]]></content:encoded>
             <author>hello@blakeembrey.com (Blake Embrey)</author>
