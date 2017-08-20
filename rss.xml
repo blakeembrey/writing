@@ -4,10 +4,96 @@
         <title>Blake Embrey</title>
         <link>http://blakeembrey.com</link>
         <description>A personally curated collection of words hosted in cyberspace for some indeterminate duration.</description>
-        <lastBuildDate>Wed, 09 Aug 2017 17:47:31 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 20 Aug 2017 20:55:15 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <copyright>Copyright 2017 Blake Embrey</copyright>
+        <item>
+            <title><![CDATA[My Week in Review (2017-08-20)]]></title>
+            <link>http://blakeembrey.com/self/2017-08-20-review/</link>
+            <guid>http://blakeembrey.com/self/2017-08-20-review/</guid>
+            <pubDate>Sun, 20 Aug 2017 21:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>What Happened?</h2>
+<ul>
+<li>Back in San Diego</li>
+<li>Mine and Keyue’s birthdays</li>
+</ul>
+<h2>Internet</h2>
+<ul>
+<li>Favourite
+<ul>
+<li><a href="https://www.citylab.com/environment/2017/08/we-thought-we-would-be-ruled-by-robots/536118/">Why Crows Thrive In the City</a></li>
+<li><a href="https://www.theparisreview.org/blog/2011/12/05/document-the-symbolism-survey/">Document: The Symbolism Survey</a></li>
+<li><a href="https://www.scotthyoung.com/blog/2017/08/19/im-29/">I’m 29</a></li>
+</ul>
+</li>
+<li>Useful
+<ul>
+<li><a href="https://dcurt.is/risk">Risk</a></li>
+<li><a href="http://www.thesimpledollar.com/using-a-journal-to-solve-financial-and-personal-problems/">Using a Journal To Solve Financial and Personal Problems</a></li>
+<li><a href="https://medium.com/@mjackson/hello-depression-c2f09389d3c">Hello, depression.</a></li>
+<li><a href="https://medium.com/@mikeal/community-imbalance-theory-c5f8688ae352">Community Imbalance Theory</a></li>
+<li><a href="http://blog.strom.com/wp/?p=6091">When anonymous web data isn’t anymore</a></li>
+</ul>
+</li>
+<li>Interesting
+<ul>
+<li><a href="https://www.quora.com/What-do-scientists-think-about-the-biological-claims-made-in-the-anti-diversity-document-written-by-a-Google-employee-in-August-2017">Suzanne Sadedin’s answer to What do scientists think about the biological claims made in the anti-diversity document written by a Google employee in August 2017?</a></li>
+<li><a href="https://www.schneier.com/blog/archives/2017/08/confusing_self-.html">Confusing Self-Driving Cars by Altering Road Signs</a></li>
+<li><a href="https://www.economist.com/news/leaders/21726071-it-had-good-run-end-sight-machine-changed-world-death">The death of the internal combustion engine</a></li>
+<li><a href="http://www.thesimpledollar.com/how-to-write-a-great-simple-business-plan-for-a-small-side-business/">How to Write a Great, Simple Business Plan for a Small Side Business</a></li>
+</ul>
+</li>
+<li>Opinion
+<ul>
+<li><a href="http://www.en.utexas.edu/Classes/Bremen/e316k/316kprivate/scans/mccarthy.html">“Settling the Colonel’s Hash”</a></li>
+<li><a href="https://daringfireball.net/linked/2017/08/09/google-robot">‘I’m a Google Manufacturing Robot and I Believe Humans Are Biologically Unfit to Have Jobs in Tech’</a></li>
+<li><a href="https://medium.com/@jackdanger/if-you-want-to-debate-the-googlers-manifesto-and-you-re-also-a-good-person-64d845fbe75e">If you want to debate the Googler’s Manifesto and you’re also a good person</a></li>
+<li><a href="https://medium.com/@yonatanzunger/so-about-this-googlers-manifesto-1e3773ed1788">So, about this Googler’s manifesto.</a></li>
+<li><a href="https://daringfireball.net/linked/2017/08/10/facebook-copycatting">Inside Facebook’s Institutional Policy of Copying Competitors</a></li>
+<li><a href="https://daringfireball.net/2017/08/safari_should_display_favicons_in_its_tabs">Safari Should Display Favicons in Its Tabs</a></li>
+<li><a href="http://sethgodin.typepad.com/seths_blog/2017/08/questions-for-the-underinformed.html">Seth’s Blog: Questions for the underinformed</a></li>
+<li><a href="http://blog.pamelafox.org/2017/08/coding-hobby-for-waste-adverse.html">Coding: A Hobby for the Waste-Adverse</a></li>
+<li><a href="http://blog.pamelafox.org/2017/08/get-your-hands-out-of-those-pockets-if.html">Get Your Hands Out of Those Pockets If You Want to Engage With This World</a></li>
+<li><a href="https://daringfireball.net/linked/2017/08/17/trump-white-supremecists">Trump Gives White Supremacists an Unequivocal Boost</a></li>
+<li><a href="https://daringfireball.net/linked/2017/08/17/marshall-house-is-on-fire">Josh Marshall: ‘The House Is on Fire’</a></li>
+<li><a href="https://daringfireball.net/linked/2017/08/17/cook-charlottesville">Tim Cook’s Email to Employees About Charlottesville</a></li>
+<li><a href="https://daringfireball.net/linked/2017/08/17/cloudflare">Why Cloudflare Terminated Daily Stormer</a></li>
+</ul>
+</li>
+<li>News
+<ul>
+<li><a href="https://www.technologyreview.com/the-download/608622/thanks-to-e-commerce-some-rust-belt-towns-are-booming-again-but-how-long-will-it/">Thanks to E-commerce, Some Rust Belt Towns Are Booming Again—But How Long Will It Last?</a></li>
+<li><a href="https://www.technologyreview.com/the-download/608613/lyft-and-uber-are-already-changing-traditional-car-ownership/">Lyft and Uber are Already Changing Traditional Car Ownership</a></li>
+<li><a href="https://www.technologyreview.com/the-download/608624/teslas-hawaiian-project-highlights-the-biggest-obstacle-to-our-clean-energy/">Tesla’s Hawaiian Project Highlights the Biggest Obstacle to Our Clean Energy Future</a></li>
+<li><a href="http://www.npr.org/2017/08/01/540783715/lawsuit-alleges-fox-news-and-trump-supporter-created-fake-news-story">Lawsuit Alleges Fox News And Trump Supporter Created Fake News Story</a></li>
+<li><a href="https://www.technologyreview.com/s/608598/when-a-face-is-worth-a-billion-dollars/">Inside the company that makes it possible to transfer money and gain access to buildings by scanning</a></li>
+<li><a href="https://www.technologyreview.com/s/608662/how-materials-science-will-determine-the-future-of-human-civilization/">Why Moore’s law is set to destroy the planet and how to stop it</a></li>
+<li><a href="https://www.technologyreview.com/the-download/608672/hacker-whose-tools-were-used-in-dnc-hack-steps-forward/">Hacker Whose Tools Were Used in DNC Hack Steps Forward</a></li>
+<li><a href="https://www.technologyreview.com/the-download/608673/white-supremacists-have-stumbled-into-a-huge-issue-in-genetic-ancestry-testing/">White Supremacists Have Stumbled Into a Huge Issue in Genetic Ancestry Testing</a></li>
+<li><a href="https://www.technologyreview.com/the-download/608681/why-do-we-scratch-an-itch/">Why Do We Scratch an Itch?</a></li>
+</ul>
+</li>
+<li>Software
+<ul>
+<li><a href="https://stripe.com/blog/api-versioning">APIs as infrastructure: future-proofing Stripe with versioning</a></li>
+<li><a href="https://blog.cloudflare.com/the-languages-which-almost-became-css/">The Languages Which Almost Became CSS</a></li>
+<li><a href="https://swizec.com/blog/business-logic-data/swizec/7746">How to think of your business logic as data</a></li>
+<li><a href="https://marco.org/2017/08/10/removed-send-to-watch">Removing “Send to Watch”</a></li>
+<li><a href="https://thenewstack.io/keg-stack-replace-lamp-stack/">Should the ‘KEG’ Stack Replace the LAMP Stack?</a></li>
+<li><a href="https://www.mongodb.com/blog/post/vyopta-shipping-fast-and-reducing-operational-costs-with-mongodb-atlas">Vyopta: Shipping fast and reducing operational costs with MongoDB Atlas</a></li>
+</ul>
+</li>
+</ul>
+<h2>Reading</h2>
+<ul>
+<li><a href="https://www.goodreads.com/book/show/30474.The_Communist_Manifesto">The Communist Manifesto</a></li>
+<li><a href="https://www.goodreads.com/book/show/17255186-the-phoenix-project">The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win</a></li>
+<li>Finished <a href="https://www.goodreads.com/book/show/4924862-i-will-teach-you-to-be-rich">I Will Teach You To Be Rich</a></li>
+</ul>
+]]></content:encoded>
+            <author>hello@blakeembrey.com (Blake Embrey)</author>
+        </item>
         <item>
             <title><![CDATA[My Week in Review (2017-08-09)]]></title>
             <link>http://blakeembrey.com/self/2017-08-09-review/</link>
@@ -1088,62 +1174,6 @@
 <ul>
 <li><a href="https://www.goodreads.com/book/show/175325.I_Will_Fear_No_Evil">I Will Fear No Evil</a></li>
 <li><a href="https://www.goodreads.com/book/show/28257707-the-subtle-art-of-not-giving-a-f-ck">The Subtle Art of Not Giving a F*ck</a> (audiobook)</li>
-</ul>
-]]></content:encoded>
-            <author>hello@blakeembrey.com (Blake Embrey)</author>
-        </item>
-        <item>
-            <title><![CDATA[My Week in Review (2017-05-01)]]></title>
-            <link>http://blakeembrey.com/self/2017-05-01-review/</link>
-            <guid>http://blakeembrey.com/self/2017-05-01-review/</guid>
-            <pubDate>Mon, 01 May 2017 16:30:00 GMT</pubDate>
-            <content:encoded><![CDATA[<h2>What Happened?</h2>
-<ul>
-<li><a href="https://runkeeper.com/user/blakeembrey/activity/973473448">Ran another 25km</a></li>
-<li>Third week of <a href="https://www.coursera.org/learn/mindshift">Mindshift</a> course</li>
-<li>Another week of <a href="https://www.startupschool.org/course">Startup School</a></li>
-</ul>
-<h2>Internet</h2>
-<ul>
-<li>Articles
-<ul>
-<li><a href="https://www.troyhunt.com/reckon-youve-seen-some-stupid-security-things-here-hold-my-beer/">Reckon you’ve seen some stupid security things? Here, hold my beer…</a></li>
-<li><a href="http://paulholmes.ca/2009/11/20/dammit-linkedin-im-a-college-dropout/">Dammit LinkedIn, I’m a college dropout! - Paul Holmes</a></li>
-<li><a href="https://krebsonsecurity.com/2017/04/blind-trust-in-email-could-cost-you-your-home/">Blind Trust in Email Could Cost You Your Home — Krebs on Security</a></li>
-<li><a href="https://jvns.ca/blog/2017/04/27/no-feigning-surprise/">No feigning surprise - Julia Evans</a></li>
-<li><a href="https://www.quora.com/Should-I-fire-a-software-engineer-for-always-working-on-his-side-projects-during-office-hours">Should I fire a software engineer for always working on his side projects during office hours? - Quora</a></li>
-<li><a href="http://www.complex.com/life/2016/06/asian-identities-cultural-appropriation">What the Cultural Appropriation Conversation Leaves Out About Asians</a></li>
-<li><a href="http://www.mrmoneymustache.com/2017/04/25/there-are-no-guarantees/">There Are No Guarantees</a></li>
-<li><a href="https://dev.to/pbeekums/why-i-dont-prepare-for-job-interviews">Why I Don’t Prepare For Job Interviews</a></li>
-<li><a href="http://jacquesmattheij.com/just-say-no">Just Say No · Jacques Mattheij</a></li>
-<li><a href="https://motherboard.vice.com/en_us/article/when-a-dollar200000-tech-salary-just-isnt-worth-it">When a $200,000 Tech Salary Just Isn’t Worth It</a></li>
-<li><a href="http://digiday.com/media/guardian-pulls-facebooks-instant-articles-apple-news/">The Guardian pulls out of Facebook’s Instant Articles and Apple News</a></li>
-<li><a href="https://snyk.io/blog/serverless-security-implications-from-infra-to-owasp/">Snyk - Serverless Security implications—from infra to OWASP</a></li>
-<li><a href="https://medium.com/adstage-engineering/migrating-from-heroku-to-aws-our-story-80084d31025e">Migrating from Heroku to AWS: Our Story – AdStage Engineering</a></li>
-<li><a href="https://www.washingtonpost.com/news/reliable-source/wp/2017/04/30/hasan-minhajs-harshest-burns-at-the-white-house-correspondents-dinner/">Hasan Minhaj’s harshest burns at the White House correspondents’ dinner</a></li>
-<li><a href="https://daringfireball.net/2017/04/uber_identifying_and_tagging_iphones">Daring Fireball: On Uber’s ‘Identifying and Tagging’ of iPhones</a></li>
-<li><a href="https://daringfireball.net/linked/2017/04/27/nichols-trump">Daring Fireball: Are Trump Voters Ruining America for All of Us?</a></li>
-<li><a href="https://daringfireball.net/linked/2017/04/27/whitehouse-climate-change">Daring Fireball: Sheldon Whitehouse on the Politics of Climate Change</a></li>
-<li><a href="https://www.privateinternetaccess.com/blog/2017/04/wikipedia-censored-from-the-internet-in-turkey/">Wikipedia censored from the Internet in Turkey</a></li>
-<li><a href="http://haseebq.com/the-time-i-had-to-crack-my-own-reddit-password/">The Time I Had to Crack My Own Reddit Password | Haseeb Qureshi</a></li>
-<li><a href="https://motherboard.vice.com/en_us/article/the-story-of-nesticle-the-ambitious-emulator-that-redefined-retro-gaming">The Story of NESticle, the Ambitious Emulator That Redefined Retro Gaming</a></li>
-</ul>
-</li>
-<li>Videos
-<ul>
-<li><a href="https://www.ted.com/talks/elon_musk_the_future_we_re_building_and_boring">The future we’re building – and boring</a></li>
-<li><a href="https://www.youtube.com/watch?v=qRt7mFuKwQY">How to Build a Product II, Aaron Levie - Box - CS183F</a></li>
-<li><a href="https://www.youtube.com/watch?v=09GRs0FXdWQ">How to Build a Product III - Jason Lemkin, Solomon Hykes, Tracy Young and Harry Zhang - CS183F</a></li>
-<li><a href="https://www.youtube.com/watch?v=s1Rd4UShDxQ">How to Build a Product IV - Jan Koum - CS183F</a></li>
-<li><a href="https://www.youtube.com/watch?v=wD8AwgO0AQI">Ivanka &amp; Jared: Last Week Tonight with John Oliver (HBO)</a></li>
-<li><a href="https://www.youtube.com/watch?v=LdPyYze2NIA">Gorillaz - The Apprentice</a></li>
-</ul>
-</li>
-</ul>
-<h2>Reading</h2>
-<ul>
-<li><a href="https://www.goodreads.com/book/show/175325.I_Will_Fear_No_Evil">I Will Fear No Evil</a></li>
-<li><a href="https://www.goodreads.com/book/show/22543496-elon-musk">Unshakeable</a> (audiobook)</li>
 </ul>
 ]]></content:encoded>
             <author>hello@blakeembrey.com (Blake Embrey)</author>
