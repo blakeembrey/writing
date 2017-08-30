@@ -30,7 +30,7 @@
   "devDependencies": {
     "feed": "^1.0.2",
     "front-matter": "^2.1.2",
-    "gatsby": "^0.12.39",
+    "gatsby": "^1.9.16",
     "gh-pages": "^1.0.0",
     "highlighter": "^0.1.0",
     "markdown-it": "^8.3.1",
