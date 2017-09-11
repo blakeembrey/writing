@@ -4,10 +4,77 @@
         <title>Blake Embrey</title>
         <link>http://blakeembrey.com</link>
         <description>A personally curated collection of words hosted in cyberspace for some indeterminate duration.</description>
-        <lastBuildDate>Tue, 05 Sep 2017 23:34:54 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 11 Sep 2017 16:19:47 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <copyright>Copyright 2017 Blake Embrey</copyright>
+        <item>
+            <title><![CDATA[My Week in Review (2017-09-11)]]></title>
+            <link>http://blakeembrey.com/self/2017-09-11-review/</link>
+            <guid>http://blakeembrey.com/self/2017-09-11-review/</guid>
+            <pubDate>Mon, 11 Sep 2017 16:30:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>Internet</h2>
+<ul>
+<li>Favourite
+<ul>
+<li><a href="https://medium.com/@ctrlaltjustine/keeping-a-tidy-life-f01bbe2a9b3e">Keeping a tidy life</a></li>
+</ul>
+</li>
+<li>Video
+<ul>
+<li><a href="https://aeon.co/videos/why-the-apparent-flatness-of-space-is-an-enduring-cosmological-mystery">Why the apparent flatness of space is an enduring cosmological mystery</a></li>
+<li><a href="https://aeon.co/videos/in-the-shadows-of-high-rises-shanghais-small-neighbourhoods-struggle-to-survive">In the shadows of high-rises, Shanghai’s small neighbourhoods struggle to survive</a></li>
+</ul>
+</li>
+<li>Useful
+<ul>
+<li><a href="https://krebsonsecurity.com/2017/09/breach-at-equifax-may-impact-143m-americans/">Breach at Equifax May Impact 143M Americans</a></li>
+<li><a href="https://zenhabits.net/focus-training/">How to Train Yourself to Stay Focused</a></li>
+</ul>
+</li>
+<li>Interesting
+<ul>
+<li><a href="https://cacm.acm.org/news/220768-what-the-industrial-revolution-really-tells-us-about-the-future-of-automation-and-work/fulltext">What the Industrial Revolution Really Tells Us About the Future of Automation and Work</a></li>
+<li><a href="https://www.flightradar24.com/blog/delta-goes-big-then-goes-home/">Delta Goes Big, Then Goes Home</a></li>
+<li><a href="https://www.thesimpledollar.com/how-i-get-focused-for-great-professional-and-personal-performance/">How I Get Focused for Great Professional and Personal Performance</a></li>
+</ul>
+</li>
+<li>Opinion
+<ul>
+<li><a href="https://www.iwillteachyoutoberich.com/blog/average-net-worth-by-age/">Average net worth by age (and how to increase it)</a></li>
+<li><a href="https://www.scotthyoung.com/blog/2017/09/06/language-learning-worth/">Is Learning Extra Languages Worth the Hassle?</a></li>
+<li><a href="http://blog.rescuetime.com/2017/09/05/procrastination/">Procrastination: What causes it and how to overcome it</a></li>
+<li><a href="http://blog.rescuetime.com/2017/08/31/weekly-roundup-noisy-office/">Weekly roundup: 3 ways to deal with a noisy office</a></li>
+<li><a href="https://zapier.com/blog/what-is-imposter-syndrome/">Imposter Syndrome: Why You Have It and What You Can Do About It</a></li>
+<li><a href="https://superyesmore.com//the-are-no-productivity-hacks-4a61131fb4b7d960c9537f7e63e8a5e3">The Are No Productivity Hacks</a></li>
+<li><a href="http://calnewport.com/blog/2007/12/03/monday-master-class-dont-plan-your-day-with-a-to-do-list/">Monday Master Class: Don’t Use a Daily To-Do List</a></li>
+<li><a href="http://calnewport.com/blog/2013/12/21/deep-habits-the-importance-of-planning-every-minute-of-your-work-day/">Deep Habits: The Importance of Planning Every Minute of Your Work Day</a></li>
+<li><a href="http://www.makeuseof.com/tag/time-blocking-secret-weapon-better-focus/">Time Blocking — The Secret Weapon For Better Focus</a></li>
+</ul>
+</li>
+<li>News
+<ul>
+<li><a href="https://www.technologyreview.com/s/608800/our-hurricane-risk-models-are-dangerously-out-of-date/">We can no longer assess hurricane and flood risk by looking in a rear-view mirror</a></li>
+<li><a href="https://krebsonsecurity.com/2017/09/equifax-breach-response-turns-dumpster-fire/">Equifax Breach Response Turns Dumpster Fire</a></li>
+<li><a href="https://aeon.co/ideas/why-religion-is-not-going-away-and-science-will-not-destroy-it">Why religion is not going away and science will not destroy it</a></li>
+</ul>
+</li>
+<li>Software
+<ul>
+<li><a href="http://jakeaustwick.me/python-web-scraping-resource/">Python web scraping resource</a></li>
+<li><a href="https://remysharp.com/2017/09/08/dive-into-bitwise-not-and-numbers">Dive into bitwise not and numbers</a></li>
+</ul>
+</li>
+</ul>
+<h2>Reading</h2>
+<ul>
+<li><a href="https://www.goodreads.com/book/show/7954936-what-technology-wants">What Technology Wants</a></li>
+<li><a href="https://www.goodreads.com/book/show/23692271-sapiens">Sapiens: A Brief History of Humankind</a> (audiobook)</li>
+<li>Started <a href="https://www.goodreads.com/book/show/77566.Hyperion">Hyperion</a></li>
+</ul>
+]]></content:encoded>
+            <author>hello@blakeembrey.com (Blake Embrey)</author>
+        </item>
         <item>
             <title><![CDATA[My Week in Review (2017-09-05)]]></title>
             <link>http://blakeembrey.com/self/2017-09-05-review/</link>
@@ -1073,90 +1140,6 @@
 <h2>Reading</h2>
 <ul>
 <li><a href="https://www.goodreads.com/book/show/29579.Foundation">Foundation</a></li>
-<li><a href="https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow">Thinking Fast and Slow</a> (audiobook)</li>
-</ul>
-]]></content:encoded>
-            <author>hello@blakeembrey.com (Blake Embrey)</author>
-        </item>
-        <item>
-            <title><![CDATA[My Week in Review (2017-05-22)]]></title>
-            <link>http://blakeembrey.com/self/2017-05-22-review/</link>
-            <guid>http://blakeembrey.com/self/2017-05-22-review/</guid>
-            <pubDate>Mon, 22 May 2017 19:00:00 GMT</pubDate>
-            <content:encoded><![CDATA[<h2>What Happened?</h2>
-<ul>
-<li>Read around 38 articles</li>
-<li>First official week of <a href="http://www.recess-labs.com/">Recess Labs</a> over</li>
-<li>Made some <a href="https://www.instagram.com/p/BUZTNUsjUZB/">jewellery</a></li>
-<li><a href="https://www.instagram.com/p/BUWlANGjR21/">Sleep No More</a></li>
-<li>Went on a short NYC Subway Tour</li>
-<li>Watched <a href="https://trakt.tv/movies/a-beautiful-mind-2001">A Beautiful Mind</a> (again)</li>
-<li>Watched <a href="https://trakt.tv/search?query=marvel+one-shot">Marvel’s One-Shots</a>, last episode of <a href="https://trakt.tv/shows/marvel-s-agents-of-s-h-i-e-l-d/seasons/4/episodes/22">Agents of S.H.I.E.L.D.</a>, latest <a href="https://trakt.tv/shows/arrow/seasons/5/episodes/21">Arrow</a> and <a href="https://trakt.tv/shows/the-flash-2014/seasons/3/episodes/21">Flash</a>, plus <a href="https://trakt.tv/movies/dave-chappelle-the-age-of-spin-2017">Dave Chappelle</a> and <a href="https://trakt.tv/movies/ali-wong-baby-cobra-2016">Ali Wong</a> (wow, that’s a bit)</li>
-</ul>
-<h2>Internet</h2>
-<ul>
-<li>Video
-<ul>
-<li><a href="https://www.youtube.com/watch?v=sKoYmnTfSu4">Flight of the Conchords Band Meeting 8 Yoko</a></li>
-<li><a href="https://www.youtube.com/watch?v=_6pl5GG8RQ4">How to Find Product Market Fit - CS183F</a></li>
-<li><a href="https://www.ted.com/talks/wendy_troxel_why_school_should_start_later_for_teens">Why school should start later for teens</a></li>
-<li><a href="https://www.youtube.com/watch?v=EMQd-AYb1fs">Calling Bullshit 2.4: Fermi Estimation</a></li>
-<li><a href="http://a16z.com/2016/06/10/ai-deep-learning-machines/">AI, Deep Learning, and Machine Learning: A Primer</a></li>
-</ul>
-</li>
-<li>Opinion
-<ul>
-<li><a href="https://www.nytimes.com/2017/05/15/opinion/trump-classified-data.html">When the World Is Led by a Child</a></li>
-<li><a href="https://www.linkedin.com/pulse/scrum-makes-you-dumb-daniel-jones">Scrum makes you dumb</a></li>
-<li><a href="https://daringfireball.net/linked/2017/05/20/macstories-ios-11-concept">Daring Fireball: MacStories’s iOS 11 iPad Wishes and Concept Video</a> - love concept videos, this one is no exception</li>
-<li><a href="https://daringfireball.net/linked/2017/05/20/open-letter-apple-glucose">Daring Fireball: 10-Year-Old Open Letter Calling for Apple to Make Glucose Monitors</a></li>
-<li><a href="https://daringfireball.net/linked/2017/05/20/gilbertson-amp">Daring Fireball: Scott Gilbertson: ‘Kill Google AMP Before It Kills the Web’</a></li>
-<li><a href="https://daringfireball.net/linked/2017/05/20/global-seed-vault">Daring Fireball: Arctic Stronghold of World’s Seeds Flooded After Permafrost Melts</a></li>
-<li><a href="http://herdingcats.typepad.com/my_weblog/2017/05/quote-of-the-day-4.html">Quote of the Day</a></li>
-<li><a href="https://www.theatlantic.com/politics/archive/2017/05/all-the-kings-men/526980/">The Trump Presidency Falls Apart</a></li>
-</ul>
-</li>
-<li>Interesting
-<ul>
-<li><a href="https://marco.org/2017/05/15/mp3-isnt-dead">“MP3 is dead” missed the real, much better story</a></li>
-<li><a href="https://mic.com/articles/177195/these-three-pictures-make-a-powerful-statement-about-race-and-power-among-women">This photo series makes a powerful statement about race and power among women</a></li>
-<li><a href="https://blog.gyrosco.pe/brian-tramuel-running-around-the-world-74b2fa839cd9?gi=da44b99501e6">Brian Tramuel: Running around the world</a></li>
-<li><a href="https://www.schneier.com/blog/archives/2017/05/nsa_abandons_ab.html">NSA Abandons “About” Searches - Schneier on Security</a></li>
-<li><a href="https://www.privateinternetaccess.com/blog/2017/05/theresa-may-outlines-tory-plan-create-new-censored-internet-controlled-uk-government/">Theresa May outlines Tory plan to create new, censored Internet controlled by UK government</a></li>
-<li><a href="https://www.schneier.com/blog/archives/2017/05/wannacry_ransom.html">WannaCry Ransomware</a></li>
-<li><a href="https://www.privateinternetaccess.com/blog/2017/05/what-do-you-do-when-you-realize-your-government-has-blocked-you-for-wrongthink/">What do you do when your government blocks you for Wrongthink?</a></li>
-<li><a href="https://www.youneedabudget.com/you-dont-have-to-be-a-genius-to-invest-like-a-pro/">You Don’t Have to Be a Genius to Invest Like a Pro</a></li>
-<li><a href="https://www.vox.com/policy-and-politics/2017/5/18/15654958/trump-immigration-arrests">The Trump administration is arresting over 100 immigrants without criminal records a day</a></li>
-<li><a href="https://www.ncsc.gov.uk/blog-post/let-them-paste-passwords">Let them paste passwords</a></li>
-<li><a href="https://wiki.mozilla.org/Context_Graph">Context Graph</a></li>
-<li><a href="https://medium.com/firefox-context-graph/context-graph-its-time-to-bring-context-back-to-the-web-a7542fe45cf3">Context Graph: It’s time to bring context back to the web</a></li>
-<li><a href="https://medium.com/@peterarmstrong/versioned-writing-e8b08920de4f">Versioned Writing – Peter Armstrong</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Buffalo_buffalo_Buffalo_buffalo_buffalo_buffalo_Buffalo_buffalo">Buffalo buffalo Buffalo buffalo buffalo buffalo Buffalo buffalo</a></li>
-</ul>
-</li>
-<li>Useful
-<ul>
-<li><a href="https://praxis.fortelabs.co/how-to-use-evernote-for-your-creative-workflow-f048f0aa3ed1">How to Use Evernote for Your Creative Workflow</a></li>
-<li><a href="https://sivers.org/2do">“Just tell me what to do”: compressing knowledge into directives</a></li>
-<li><a href="https://blog.todoist.com/2015/11/30/ultimate-guide-personal-productivity-methods/">The Ultimate Guide to Personal Productivity Methods</a></li>
-<li><a href="https://qz.com/978273/a-stanford-professors-15-minute-study-hack-improves-test-grades-by-a-third-of-a-grade/">A Stanford researcher’s 15-minute study hack lifts B+ students into the As</a></li>
-<li><a href="https://medium.com/help-scout/how-music-affects-your-productivity-42a6dfa6fdfe">How Music Affects Your Productivity – Help Scout</a></li>
-<li><a href="https://medium.com/startup-grind/a-primer-on-crispr-and-how-to-learn-more-c1b4ca7159f6">Everything You Should Know About CRISPR — And Where to Learn More</a></li>
-<li><a href="https://github.com/jlevy/og-equity-compensation">The Open Guide to Equity Compensation</a></li>
-<li><a href="http://start.jcolemorrison.com/aws-iam-policies-in-a-nutshell/">AWS IAM Policies in a Nutshell</a></li>
-</ul>
-</li>
-<li>Software
-<ul>
-<li><a href="https://jsonfeed.org/2017/05/17/announcing_json_feed">JSON Feed: Announcing JSON Feed</a></li>
-<li><a href="https://www.privacore.com/2017/03/26/how-does-internet-search-work/">How does internet search work?</a></li>
-<li><a href="https://www.whitesmith.co/one-month-with-react-native/">One month with React Native</a></li>
-</ul>
-</li>
-</ul>
-<h2>Reading</h2>
-<ul>
-<li>Stopped reading <a href="https://www.goodreads.com/book/show/175325.I_Will_Fear_No_Evil">I Will Fear No Evil</a></li>
 <li><a href="https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow">Thinking Fast and Slow</a> (audiobook)</li>
 </ul>
 ]]></content:encoded>
