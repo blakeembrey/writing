@@ -29,7 +29,7 @@
   },
   "devDependencies": {
     "feed": "^1.0.2",
-    "front-matter": "^2.1.2",
+    "front-matter": "^2.3.0",
     "gatsby": "^0.12.39",
     "gh-pages": "^1.0.0",
     "highlighter": "^0.1.0",
