@@ -1,9 +1,9 @@
 import Document from "next/document";
-import { Context, MemoryRenderer } from "react-free-style";
+import { Context } from "react-free-style";
+import { renderer } from '../style';
 
 export default class MyDocument extends Document {
   static async getInitialProps(ctx: any) {
-    const renderer = new MemoryRenderer();
     const originalRenderPage = ctx.renderPage;
 
     ctx.renderPage = () =>

@@ -4,7 +4,6 @@ export const siteDescription =
 export const baseUrl =
   process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000";
 export const siteRepo = "https://github.com/blakeembrey/writing";
-export const gaCode = "UA-22855713-2";
 
 export const name = "Blake Embrey";
 export const email = "hello@blakeembrey.com";
