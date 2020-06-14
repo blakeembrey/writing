@@ -5,10 +5,10 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
+    "export": "next export",
     "format": "npm run prettier -- \"{src,posts,public}/**/*.{js,jsx,ts,tsx,json,css,md,yml,yaml}\"",
     "postbuild": "ts-node --files --compiler-options '{\"module\":\"commonjs\"}' src/scripts/feed.ts",
     "start": "next start",
-    "export": "next export",
     "typecheck": "tsc",
     "prettier": "prettier --write"
   },
@@ -28,10 +28,7 @@
     }
   },
   "lint-staged": {
-    "*.{js,jsx,ts,tsx,json,css,md,yml,yaml}": [
-      "npm run prettier",
-      "git add"
-    ]
+    "*.{js,jsx,ts,tsx,json,css,md,yml,yaml}": "npm run prettier"
   },
   "dependencies": {
     "date-fns": "^2.14.0",

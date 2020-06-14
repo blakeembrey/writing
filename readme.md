@@ -1,10 +1,10 @@
 # Blake Embrey
 
-This is my open source knowledgebase. Published [online in blog form](http://blakeembrey.com).
+This is my open source blog published [online](http://blakeembrey.com).
 
 ## Usage
 
-To create a new page, create a `.md` file under [`pages/`](./pages/).
+To create a new post, create a `.md` file under [`posts/`](./posts/).
 
 ## Development
 

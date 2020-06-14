@@ -9,32 +9,25 @@ const Container = styled("div", [
     padding: 20,
     margin: "0 auto",
   },
-  // Normalize.css v6 (objectified using https://github.com/postcss/postcss-js).
+  // Normalize.css v8 (objectified using https://transform.tools/css-to-js).
   {
     $global: true,
-    html: {
-      lineHeight: "1.15",
-      msTextSizeAdjust: "100%",
-      WebkitTextSizeAdjust: "100%",
-    },
-    "article,aside,footer,header,nav,section": { display: "block" },
+    html: { lineHeight: "1.15", WebkitTextSizeAdjust: "100%" },
+    body: { margin: "0" },
+    main: { display: "block" },
     h1: { fontSize: "2em", margin: "0.67em 0" },
-    "figcaption,figure,main": { display: "block" },
-    figure: { margin: "1em 40px" },
     hr: { boxSizing: "content-box", height: "0", overflow: "visible" },
     pre: { fontFamily: "monospace, monospace", fontSize: "1em" },
-    a: {
-      backgroundColor: "transparent",
-      WebkitTextDecorationSkip: "objects",
-    },
+    a: { backgroundColor: "transparent" },
     "abbr[title]": {
       borderBottom: "none",
       textDecoration: ["underline", "underline dotted"],
     },
-    "b,strong": { fontWeight: ["inherit", "bolder"] },
-    "code,kbd,samp": { fontFamily: "monospace, monospace", fontSize: "1em" },
-    dfn: { fontStyle: "italic" },
-    mark: { backgroundColor: "#ff0", color: "#000" },
+    "b,strong": { fontWeight: "bolder" },
+    "code,kbd,samp": {
+      fontFamily: "monospace, monospace",
+      fontSize: "1em",
+    },
     small: { fontSize: "80%" },
     "sub,sup": {
       fontSize: "75%",
@@ -44,14 +37,16 @@ const Container = styled("div", [
     },
     sub: { bottom: "-0.25em" },
     sup: { top: "-0.5em" },
-    "audio,video": { display: "inline-block" },
-    "audio:not([controls])": { display: "none", height: "0" },
     img: { borderStyle: "none" },
-    "svg:not(:root)": { overflow: "hidden" },
-    "button,input,optgroup,select,textarea": { margin: "0" },
+    "button,input,optgroup,select,textarea": {
+      fontFamily: "inherit",
+      fontSize: "100%",
+      lineHeight: "1.15",
+      margin: "0",
+    },
     "button,input": { overflow: "visible" },
     "button,select": { textTransform: "none" },
-    'button,html [type="button"], [type="reset"],[type="submit"]': {
+    'button,[type="button"],[type="reset"],[type="submit"]': {
       WebkitAppearance: "button",
     },
     'button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner': {
@@ -61,6 +56,7 @@ const Container = styled("div", [
     'button:-moz-focusring,[type="button"]:-moz-focusring,[type="reset"]:-moz-focusring,[type="submit"]:-moz-focusring': {
       outline: "1px dotted ButtonText",
     },
+    fieldset: { padding: "0.35em 0.75em 0.625em" },
     legend: {
       boxSizing: "border-box",
       color: "inherit",
@@ -69,7 +65,7 @@ const Container = styled("div", [
       padding: "0",
       whiteSpace: "normal",
     },
-    progress: { display: "inline-block", verticalAlign: "baseline" },
+    progress: { verticalAlign: "baseline" },
     textarea: { overflow: "auto" },
     '[type="checkbox"],[type="radio"]': {
       boxSizing: "border-box",
@@ -79,24 +75,42 @@ const Container = styled("div", [
       height: "auto",
     },
     '[type="search"]': { WebkitAppearance: "textfield", outlineOffset: "-2px" },
-    '[type="search"]::-webkit-search-cancel-button,[type="search"]::-webkit-search-decoration': {
-      WebkitAppearance: "none",
-    },
+    '[type="search"]::-webkit-search-decoration': { WebkitAppearance: "none" },
     "::-webkit-file-upload-button": {
       WebkitAppearance: "button",
       font: "inherit",
     },
-    "details,menu": { display: "block" },
+    details: { display: "block" },
     summary: { display: "list-item" },
-    canvas: { display: "inline-block" },
     template: { display: "none" },
     "[hidden]": { display: "none" },
   },
   {
     $global: true,
-    body: {
-      color: "#111",
-      margin: 0,
+    ":root": {
+      "--brand-color": "#f20",
+      "--background-color": "#eee",
+      "--background-color-shift": "#fff",
+      "--text-color": "#111",
+      "--text-color-shift": "#222",
+      "--text-color-subtle": "#777",
+      "--border-color": "#ccc",
+      "--border-color-shift": "#bbb",
+      "--border-color-subtle": "#fff",
+      "@media (prefers-color-scheme: dark)": {
+        "--background-color": "#111",
+        "--background-color-shift": "#222",
+        "--text-color": "#eee",
+        "--text-color-shift": "#fff",
+        "--text-color-subtle": "#999",
+        "--border-color": "#333",
+        "--border-color-shift": "#444",
+        "--border-color-subtle": "#000",
+      },
+    },
+    html: {
+      color: "var(--text-color)",
+      backgroundColor: "var(--background-color)",
       fontFamily:
         "system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,Helvetica Neue,Arial,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji",
       fontWeight: 300,
@@ -106,7 +120,7 @@ const Container = styled("div", [
 ]);
 
 const BorderTop = styled("div", {
-  borderTop: "4px solid #f20",
+  borderTop: "4px solid var(--brand-color)",
 });
 
 const Header = styled("ul", {
@@ -119,7 +133,7 @@ const HeaderLink = styled("a", {
   color: "inherit",
   textDecoration: "none",
   borderBottom: "2px solid transparent",
-  "&:hover": { borderBottomColor: "#f20" },
+  "&:hover": { borderBottomColor: "var(--brand-color)" },
 });
 
 const Content = styled("div", {
@@ -144,8 +158,10 @@ const Content = styled("div", {
   hr: {
     display: "block",
     margin: "1.5em 0",
-    borderTop: "1px dashed #aaa",
-    borderBottom: "1px dashed #fff",
+    border: "1px dashed var(--border-color)",
+    borderLeftWidth: 0,
+    borderRightWidth: 0,
+    borderBottomColor: "var(--border-color-subtle)",
   },
   p: {
     margin: "0 0 1em 0",
@@ -153,13 +169,13 @@ const Content = styled("div", {
   a: {
     color: "inherit",
     textDecoration: "none",
-    borderBottom: "2px solid #dcdcdc",
-    "&:hover": { borderBottomColor: "#f20" },
+    borderBottom: "2px solid var(--border-color)",
+    "&:hover": { borderBottomColor: "var(--brand-color)" },
   },
   blockquote: {
     margin: "1em 0",
     paddingLeft: "1em",
-    borderLeft: "4px solid #f20",
+    borderLeft: "4px solid var(--brand-color)",
   },
   "img,audio,embed,video,object": {
     height: "auto",
@@ -168,22 +184,23 @@ const Content = styled("div", {
   // Code rendering.
   "code, pre": {
     fontFamily: "monospace",
-    color: "#111",
-    border: "1px solid #ccc",
+    color: "var(--text-color-shift)",
+    border: "1px solid var(--border-color-shift)",
     fontSize: "0.9em",
-    backgroundColor: "#f3f3f3",
+    backgroundColor: "var(--background-color-shift)",
   },
   pre: {
     padding: "0.6em 0.8em",
     overflowX: "auto",
     lineHeight: 1.3,
+    borderRadius: "2px",
   },
   code: {
     display: "inline",
     padding: "0.2em 0.3em",
     wordWrap: "break-word",
     whiteSpace: "pre-line",
-    borderColor: "#ccc",
+    borderColor: "var(--border-color-shift)",
     borderRadius: "2px",
   },
   "pre > code": {
@@ -199,7 +216,7 @@ const Content = styled("div", {
     borderBottomWidth: "2px",
   },
   "a:hover > code": {
-    borderColor: "#f20",
+    borderColor: "var(--brand-color)",
   },
   // Highlight.js theme.
   ".hljs-header,.hljs-comment,.hljs-javadoc": { color: "#969896" },

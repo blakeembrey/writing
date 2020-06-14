@@ -15,10 +15,10 @@ type Props = {
 const Info = styled("ul", {
   margin: "0 0 2em 0",
   padding: 0,
-  color: "#777",
+  color: "var(--text-color-subtle)",
   fontSize: "0.85em",
   "> li > a": {
-    color: "#777",
+    color: "var(--text-color-subtle)",
   },
   "> li": {
     listStyle: "none",

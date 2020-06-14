@@ -10,7 +10,7 @@ import { Layout } from "../components/layout";
 const Article = styled("div", {});
 
 const ArticleMetadata = styled("div", {
-  color: "#777",
+  color: "var(--text-color-subtle)",
   fontSize: "0.8em",
 });
 

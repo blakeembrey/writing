@@ -1,6 +1,6 @@
 import Document from "next/document";
 import { Context } from "react-free-style";
-import { renderer } from '../style';
+import { renderer } from "../style";
 
 export default class MyDocument extends Document {
   static async getInitialProps(ctx: any) {
