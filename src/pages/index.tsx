@@ -28,7 +28,7 @@ const Index: React.FC<Props> = ({ posts }) => {
       <Head>
         <title>Blake Embrey</title>
       </Head>
-      <Layout>
+      <Layout page="index">
         {posts.map((x) => {
           return (
             <Article key={x.title}>

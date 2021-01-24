@@ -1,5 +1,6 @@
 import React, { ReactNode } from "react";
 import { styled } from "react-free-style";
+import Link from "next/link";
 
 const Main = styled("div");
 
@@ -124,8 +125,11 @@ const BorderTop = styled("div", {
 });
 
 const Header = styled("ul", {
+  display: "flex",
+  justifyContent: "space-between",
+  flexWrap: "wrap",
   margin: 0,
-  padding: "2em 0",
+  padding: "1.5em 0",
   fontSize: "1.2em",
 });
 
@@ -134,6 +138,11 @@ const HeaderLink = styled("a", {
   textDecoration: "none",
   borderBottom: "2px solid transparent",
   "&:hover": { borderBottomColor: "var(--brand-color)" },
+  "&.active": { borderBottomColor: "var(--brand-color)" },
+});
+
+const PrimaryHeaderLink = styled(HeaderLink, {
+  fontWeight: "bold",
 });
 
 const Content = styled("div", {
@@ -255,13 +264,27 @@ const Content = styled("div", {
   // "pre .diff-chunk": { color: "#aaa" },
 });
 
-export const Layout = ({ children }: { children: ReactNode }) => {
+export type Props = {
+  page?: "index" | "supporters";
+  children: ReactNode;
+};
+
+export const Layout = ({ page, children }: Props) => {
   return (
     <Main>
       <BorderTop />
       <Container>
         <Header>
-          <HeaderLink href="/">Writing</HeaderLink>
+          <Link href="/" passHref>
+            <PrimaryHeaderLink className={page === "index" ? "active" : ""}>
+              Writing
+            </PrimaryHeaderLink>
+          </Link>
+          <Link href="/supporters/" passHref>
+            <HeaderLink className={page === "supporters" ? "active" : ""}>
+              Supporters
+            </HeaderLink>
+          </Link>
         </Header>
 
         <Content>{children}</Content>
