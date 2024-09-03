@@ -7,7 +7,7 @@
     "build": "next build",
     "export": "next export",
     "format": "npm run prettier -- \"{src,posts,public}/**/*.{js,jsx,ts,tsx,json,css,md,yml,yaml}\"",
-    "postbuild": "ts-node --files src/scripts/feed.ts",
+    "postbuild": "tsx src/scripts/feed.ts",
     "start": "next start",
     "typecheck": "tsc",
     "prettier": "prettier --write"
@@ -31,27 +31,25 @@
     "*.{js,jsx,ts,tsx,json,css,md,yml,yaml}": "npm run prettier"
   },
   "dependencies": {
-    "date-fns": "^2.14.0",
-    "globby": "^11.0.0",
-    "gray-matter": "4.0.2",
-    "react": "^16.13.0",
-    "react-dom": "^16.13.0",
+    "date-fns": "^3.6.0",
+    "globby": "^14.0.2",
+    "gray-matter": "^4.0.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "react-free-style": "^11.1.0",
-    "remark": "^12.0.0",
-    "remark-highlight.js": "^6.0.0",
-    "remark-html": "^11.0.2",
-    "typescript": "^3.9.2"
+    "remark": "^15.0.1",
+    "remark-highlight.js": "^7.0.1",
+    "remark-html": "^16.0.1",
+    "typescript": "^5.5.4"
   },
   "devDependencies": {
-    "@cloudflare/wrangler": "^1.9.2",
-    "@types/jest": "^26.0.20",
-    "@types/node": "^14.0.1",
-    "@types/react": "^17.0.0",
-    "@types/react-dom": "^17.0.0",
-    "fdir": "^5.0.0",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^22.5.2",
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
     "feed": "^4.2.0",
-    "next": "^10.0.5",
-    "prettier": "^2.0.5",
-    "ts-node": "^9.1.1"
+    "next": "^14.2.7",
+    "prettier": "^3.3.3",
+    "tsx": "^4.19.0"
   }
 }

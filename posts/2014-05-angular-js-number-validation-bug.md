@@ -98,7 +98,7 @@ it("...", function () {
     var $element = $compile(
       '<form name="form">' +
         '  <input name="num" ng-model="model.value" app-type="number">' +
-        "</form>"
+        "</form>",
     )($scope);
 
     // Set the value to what you want to test.

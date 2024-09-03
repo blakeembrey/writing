@@ -81,7 +81,7 @@ retest(app).post(
     // was set to `application/x-www-form-urlencoded`, we would expect the
     // response body to equal `test=data`.
     expect(res.body).to.equal('{"test":"data"}');
-  }
+  },
 );
 ```
 

@@ -1,6 +1,6 @@
 import { join } from "path";
 import matter from "gray-matter";
-import globby from "globby";
+import { globby } from "globby";
 import { readFile } from "fs/promises";
 import { PostEntity } from "../types/entities";
 import markdownToHtml from "./md";
@@ -25,6 +25,6 @@ export async function getAllPosts() {
   const paths = await getPostPaths();
   const pages = await Promise.all(paths.map((x) => getPostByPath(x)));
   return pages.sort((a, b) =>
-    (a.data.date || "") < (b.data.date || "") ? 1 : -1
+    (a.data.date || "") < (b.data.date || "") ? 1 : -1,
   );
 }

@@ -38,7 +38,7 @@ var arity = function (length, fn) {
       __slice.call(names, 0, length).join(",") +
       ") {\n" +
       "return fn.apply(this, arguments);\n" +
-      "})"
+      "})",
   );
 };
 ```

@@ -50,13 +50,15 @@ const Container = styled("div", [
     'button,[type="button"],[type="reset"],[type="submit"]': {
       WebkitAppearance: "button",
     },
-    'button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner': {
-      borderStyle: "none",
-      padding: "0",
-    },
-    'button:-moz-focusring,[type="button"]:-moz-focusring,[type="reset"]:-moz-focusring,[type="submit"]:-moz-focusring': {
-      outline: "1px dotted ButtonText",
-    },
+    'button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner':
+      {
+        borderStyle: "none",
+        padding: "0",
+      },
+    'button:-moz-focusring,[type="button"]:-moz-focusring,[type="reset"]:-moz-focusring,[type="submit"]:-moz-focusring':
+      {
+        outline: "1px dotted ButtonText",
+      },
     fieldset: { padding: "0.35em 0.75em 0.625em" },
     legend: {
       boxSizing: "border-box",
@@ -72,9 +74,10 @@ const Container = styled("div", [
       boxSizing: "border-box",
       padding: "0",
     },
-    '[type="number"]::-webkit-inner-spin-button,[type="number"]::-webkit-outer-spin-button': {
-      height: "auto",
-    },
+    '[type="number"]::-webkit-inner-spin-button,[type="number"]::-webkit-outer-spin-button':
+      {
+        height: "auto",
+      },
     '[type="search"]': { WebkitAppearance: "textfield", outlineOffset: "-2px" },
     '[type="search"]::-webkit-search-decoration': { WebkitAppearance: "none" },
     "::-webkit-file-upload-button": {
@@ -133,7 +136,7 @@ const Header = styled("ul", {
   fontSize: "1.2em",
 });
 
-const HeaderLink = styled("a", {
+const HeaderLink = styled(Link, {
   color: "inherit",
   textDecoration: "none",
   borderBottom: "2px solid transparent",
@@ -233,9 +236,10 @@ const Content = styled("div", {
     color: "#a71d5d",
   },
   ".hljs-number,.hljs-hexcolor,.hljs-constant": { color: "#0086b3" },
-  ".hljs-string,.hljs-tag .hljs-value,.hljs-phpdoc,.hljs-dartdoc,.hljs-formula": {
-    color: "#df5000",
-  },
+  ".hljs-string,.hljs-tag .hljs-value,.hljs-phpdoc,.hljs-dartdoc,.hljs-formula":
+    {
+      color: "#df5000",
+    },
   ".hljs-title,.hljs-id,.hljs-preprocessor": { color: "#795da3" },
   ".hljs-class .hljs-title,.hljs-type,.hljs-literal,.hljs-command": {
     color: "#458",
@@ -250,10 +254,11 @@ const Content = styled("div", {
     color: "#990073",
   },
   ".hljs-built_in": { color: "#0086b3" },
-  ".hljs-preprocessor,.hljs-pragma,.hljs-pi,.hljs-doctype,.hljs-shebang,.hljs-cdata": {
-    color: "#999",
-    fontWeight: "bolder",
-  },
+  ".hljs-preprocessor,.hljs-pragma,.hljs-pi,.hljs-doctype,.hljs-shebang,.hljs-cdata":
+    {
+      color: "#999",
+      fontWeight: "bolder",
+    },
   ".hljs-deletion": { background: "#fdd" },
   ".hljs-addition": { background: "#dfd" },
   ".hljs-change": { background: "#0086b3" },
@@ -275,16 +280,12 @@ export const Layout = ({ page, children }: Props) => {
       <BorderTop />
       <Container>
         <Header>
-          <Link href="/" passHref>
-            <PrimaryHeaderLink className={page === "index" ? "active" : ""}>
-              Writing
-            </PrimaryHeaderLink>
-          </Link>
-          <Link href="/supporters/" passHref>
-            <HeaderLink className={page === "supporters" ? "active" : ""}>
-              Supporters
-            </HeaderLink>
-          </Link>
+          <PrimaryHeaderLink
+            href="/"
+            className={page === "index" ? "active" : ""}
+          >
+            Writing
+          </PrimaryHeaderLink>
         </Header>
 
         <Content>{children}</Content>

@@ -34,9 +34,7 @@ const Index: React.FC<Props> = ({ posts }) => {
             <Article key={x.title}>
               <ArticleMetadata>{x.date}</ArticleMetadata>
               <ArticleTitle>
-                <Link href={x.url}>
-                  <a>{x.title}</a>
-                </Link>
+                <Link href={x.url}>{x.title}</Link>
               </ArticleTitle>
             </Article>
           );

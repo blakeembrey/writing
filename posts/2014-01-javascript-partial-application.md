@@ -54,7 +54,7 @@ var partial = variadic(function (fn, args) {
     remaining,
     variadic(function (called) {
       return fn.apply(this, args.concat(called));
-    })
+    }),
   );
 });
 ```

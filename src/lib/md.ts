@@ -1,4 +1,4 @@
-import remark from "remark";
+import { remark } from "remark";
 import html from "remark-html";
 import highlight from "remark-highlight.js";
 
